@@ -1,38 +1,52 @@
-import subprocess
-import json
-import sys
 import argparse
+import json
+import subprocess
+import sys
+
 from tabulate import tabulate
+
 
 def run_trivy(image):
     """Run Trivy scan on the specified Docker image, return results as JSON."""
     try:
+        # Trước:
+        # result = subprocess.run(
+        #     ["trivy", "image", "-f", "json", "-q", image],
+        #     stdout=subprocess.PIPE,
+        #     stderr=subprocess.PIPE,
+        #     text=True,
+        #     check=True,
+        # )
+        # Sau (đúng UP022):
         result = subprocess.run(
             ["trivy", "image", "-f", "json", "-q", image],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
+            capture_output=True,  # thay cho stdout/stderr = PIPE
             text=True,
-            check=True
+            check=True,
         )
         return json.loads(result.stdout)
     except subprocess.CalledProcessError as e:
         print(f"Error while running Trivy: {e.stderr}", file=sys.stderr)
         sys.exit(1)
 
+
 def parse_report(data: dict):
     """Parse Trivy JSON and extract CVE list."""
     results = []
     for result in data.get("Results", []):
         for vuln in result.get("Vulnerabilities", []):
-            results.append([
-                vuln.get("PkgName", ""),
-                vuln.get("VulnerabilityID", ""),
-                vuln.get("Severity", ""),
-                vuln.get("InstalledVersion", ""),
-                vuln.get("FixedVersion", ""),
-                vuln.get("Title", "")[:50]
-            ])
+            results.append(
+                [
+                    vuln.get("PkgName", ""),
+                    vuln.get("VulnerabilityID", ""),
+                    vuln.get("Severity", ""),
+                    vuln.get("InstalledVersion", ""),
+                    vuln.get("FixedVersion", ""),
+                    vuln.get("Title", "")[:50],
+                ]
+            )
     return results
+
 
 def main():
     parser = argparse.ArgumentParser(description="Docker Scanner Wrapper for Trivy")
@@ -51,7 +65,8 @@ def main():
         else:
             headers = ["Package", "CVE ID", "Severity", "Installed", "Fixed", "Title"]
             print(tabulate(report, headers=headers, tablefmt="github"))
-            print(f"\nTotal found: {len(report)} vulnerabilities")  
+            print(f"\nTotal found: {len(report)} vulnerabilities")
+
 
 if __name__ == "__main__":
     main()

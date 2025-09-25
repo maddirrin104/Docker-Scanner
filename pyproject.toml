@@ -1,0 +1,51 @@
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+extend-select = [
+  "E",    # pycodestyle
+  "F",    # pyflakes
+  "I",    # isort (import order)
+  "UP",   # pyupgrade
+  "B",    # flake8-bugbear
+  "C4",   # flake8-comprehensions
+]
+ignore = [
+  "E203",  # tương thích slicing
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["core", "report", "storage", "utils"]
+force-sort-within-sections = true
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+addopts = [
+  "-q",
+  "-ra",
+  "--strict-markers",
+  "--maxfail=1",
+  "--cov=core",
+  "--cov=report",
+  "--cov=storage",
+  "--cov=utils",
+  "--cov-report=term-missing",
+  "--cov-report=xml:coverage.xml",
+]
+markers = [
+  "slow: tests chạy lâu (bị loại trong CI mặc định)",
+  "smoke: test nhanh sanity-check",
+]
+
+[tool.coverage.run]
+branch = true
+source = ["core", "report", "storage", "utils"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
