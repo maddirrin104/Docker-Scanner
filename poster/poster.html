@@ -88,167 +88,81 @@
       <div class="col">
         <div class="card">
           <div class="sec-h"><div class="n">4</div><h3>System Architecture</h3></div>
-          <div class="diagram">
-            <style>
-              .arch-diagram { width:100%; height:auto; }
-              .box { fill:#ffffff; stroke:#e5f1f1; stroke-width:1.5; rx:12; }
-              .box-dash { fill:#ffffff; stroke:#cbd5e1; stroke-width:1.5; rx:12; stroke-dasharray:5 5; }
-              .shadow { filter:url(#ds); }
-              .title { font: 600 12px/1.2 Inter, system-ui, Arial; fill:#0f766e; }
-              .bullet{ font: 11px Inter, system-ui, Arial; fill:#334155; }
-              .arrow { stroke:#0ea5a3; stroke-width:2.2; fill:none; marker-end:url(#arrowhead); }
-              .badge { font: 600 11px Inter, system-ui, Arial; fill:#065f46; }
-            </style>
-
-            <svg class="arch-diagram" viewBox="0 0 980 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kiến trúc đọc dữ liệu trực tiếp on-chain (không dùng Subgraph)">
-              <!-- defs -->
+          <div class="diagram" style="padding: 16px 0;">
+            <svg width="900" height="340" viewBox="0 0 900 340" xmlns="http://www.w3.org/2000/svg">
+              <!-- Người dùng -->
+              <rect x="40" y="30" width="140" height="50" rx="12" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
+              <text x="110" y="60" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">User (CLI)</text>
+              <!-- CLI Wrapper -->
+              <rect x="220" y="30" width="160" height="75" rx="12" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
+              <text x="300" y="60" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">CLI Wrapper</text>
+              <text x="300" y="80" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">scanner.py</text>
+              <!-- Core Module -->
+              <rect x="420" y="30" width="160" height="70" rx="12" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
+              <text x="500" y="60" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">Core Module</text>
+              <text x="500" y="80" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">tools.py (Gọi Trivy)</text>
+              <text x="500" y="80" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">filters.py (Truyền tham số, cấu hình lọc trước khi quét)</text>
+              <!-- Trivy -->
+              <rect x="620" y="30" width="120" height="50" rx="12" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
+              <text x="680" y="60" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">Trivy</text>
+              <text x="680" y="80" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">Scan Engine (Quét lỗ hổng Docker image)</text>
+              <!-- Report Module -->
+              <rect x="220" y="140" width="220" height="70" rx="12" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
+              <text x="330" y="170" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">Report Module</text>
+              <text x="330" y="190" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">json_writter, html_writter, csv_writter</text>
+              <!-- scan-results -->
+              <rect x="500" y="140" width="180" height="70" rx="12" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
+              <text x="590" y="170" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">scan-results/</text>
+              <text x="590" y="190" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">.json, .html, .csv</text>
+              <!-- arrows -->
               <defs>
-                <filter id="ds" x="-20%" y="-20%" width="140%" height="140%">
-                  <feOffset dx="0" dy="2" result="off"/>
-                  <feGaussianBlur in="off" stdDeviation="2" result="blur"/>
-                  <feColorMatrix in="blur" type="matrix"
-                    values="0 0 0 0 0
-                            0 0 0 0 0
-                            0 0 0 0 0
-                            0 0 0 .15 0" result="shadow"/>
-                  <feBlend in="SourceGraphic" in2="shadow" mode="normal"/>
-                </filter>
-                <marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-                  <path d="M 0 0 L 10 5 L 0 10 z" fill="#0ea5a3"/>
+                <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
+                  <polygon points="0 0, 8 4, 0 8" fill="#0ea5a3"/>
                 </marker>
               </defs>
-
-              <!-- ===== Row 1: Giao dịch đi vào chuỗi ===== -->
-              <!-- Wallet -->
-              <g transform="translate(40,40)" class="shadow">
-                <rect class="box" width="240" height="96"/>
-                <text x="12" y="22" class="title">Ví (EOA)</text>
-                <text x="18" y="46" class="bullet">• MetaMask (EIP-1559)</text>
-                <text x="18" y="66" class="bullet">• Ký &amp; gửi giao dịch</text>
-              </g>
-
-              <!-- UI -->
-              <g transform="translate(330,40)" class="shadow">
-                <rect class="box" width="260" height="96"/>
-                <text x="12" y="22" class="title">UI React (Wagmi/Viem)</text>
-                <text x="18" y="46" class="bullet">• Hooks: useOrderbook(), useBalances()</text>
-                <text x="18" y="66" class="bullet">• Deposit / Withdraw / Place / Cancel</text>
-              </g>
-
-              <!-- RPC -->
-              <g transform="translate(630,40)" class="shadow">
-                <rect class="box" width="140" height="96"/>
-                <text x="12" y="22" class="title">RPC / Node</text>
-                <text x="18" y="46" class="bullet">• JSON-RPC</text>
-                <text x="18" y="66" class="bullet">• WebSocket</text>
-              </g>
-
-              <!-- Contracts -->
-              <g transform="translate(800,40)" class="shadow">
-                <rect class="box" width="140" height="96"/>
-                <text x="12" y="22" class="title">Contracts</text>
-                <text x="18" y="46" class="bullet">• OnchainOrderBook</text>
-                <text x="18" y="66" class="bullet">• Vault · OracleRouter</text>
-              </g>
-
-              <!-- Arrows Row 1 -->
-              <path class="arrow" d="M 280 88 L 330 88"/>
-              <path class="arrow" d="M 590 88 L 630 88"/>
-              <path class="arrow" d="M 770 88 L 800 88"/>
-
-              <!-- ===== Row 2: Đọc dữ liệu trực tiếp on-chain (không Subgraph) ===== -->
-              <!-- Events -->
-              <g transform="translate(800,200)" class="shadow">
-                <rect class="box" width="140" height="96"/>
-                <text x="12" y="22" class="title">Events (Logs)</text>
-                <text x="18" y="46" class="bullet">• Deposit, Withdraw</text>
-                <text x="18" y="66" class="bullet">• OrderPlaced, Trade...</text>
-              </g>
-
-              <!-- Direct Log Reader -->
-              <g transform="translate(560,200)" class="shadow">
-                <rect class="box" width="200" height="96"/>
-                <text x="12" y="22" class="title">Direct Log Reader</text>
-                <text x="18" y="46" class="bullet">• WS: eth_subscribe logs</text>
-                <text x="18" y="66" class="bullet">• HTTP: eth_getLogs (catch-up)</text>
-              </g>
-
-              <!-- Client Cache -->
-              <g transform="translate(330,200)" class="shadow">
-                <rect class="box" width="200" height="96"/>
-                <text x="12" y="22" class="title">Client Cache (UI)</text>
-                <text x="18" y="46" class="bullet">• Memory/IndexedDB</text>
-                <text x="18" y="66" class="bullet">• Rebuild sổ lệnh cục bộ</text>
-              </g>
-
-              <!-- View Calls -->
-              <g transform="translate(60,200)" class="shadow">
-                <rect class="box" width="240" height="96"/>
-                <text x="12" y="22" class="title">On-chain View Calls</text>
-                <text x="18" y="46" class="bullet">• eth_call: getBestBid/Ask, getBook</text>
-                <text x="18" y="66" class="bullet">• Phân trang: offset/limit</text>
-              </g>
-
-              <!-- Optional Edge Cache -->
-              <!-- <g transform="translate(330,320)" class="shadow">
-                <rect class="box-dash" width="430" height="64"/>
-                <text x="12" y="22" class="title">Tùy chọn: Edge/Micro Cache</text>
-                <text x="18" y="46" class="bullet">• Node/Next.js + Redis – gom RPC/logs, phục vụ UI</text>
-              </g> -->
-
-              <!-- Arrows Row 2 -->
-              <path class="arrow" d="M 870 136 L 870 200"/>        <!-- Contracts -> Events -->
-              <path class="arrow" d="M 800 248 L 760 248"/>        <!-- Events -> Log Reader -->
-              <path class="arrow" d="M 560 248 L 530 248"/>        <!-- Log Reader -> Client Cache -->
-              <path class="arrow" d="M 300 248 L 330 248"/>        <!-- View Calls -> Client Cache -->
-              <!-- UI <-> View Calls (up-left return) -->
-              <path class="arrow" d="M 460 136 L 460 200"/>        <!-- UI -> View Calls (down) -->
-              <!-- UI render from Client Cache -->
-              <path class="arrow" d="M 430 200 L 430 136"/>        <!-- Client Cache -> UI (up) -->
+              <line x1="180" y1="55" x2="220" y2="55" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+              <line x1="380" y1="55" x2="420" y2="55" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+              <line x1="580" y1="55" x2="620" y2="55" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+              <line x1="500" y1="100" x2="500" y2="140" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+              <line x1="440" y1="100" x2="440" y2="140" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+              <line x1="440" y1="175" x2="500" y2="175" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
             </svg>
-
-            <!-- Chú giải quy trình -->
             <div class="small" style="margin-top:8px; line-height:1.5; color:#065f46;">
-              <b>Luồng dữ liệu:</b>
-              ① Contracts emit <i>events</i> → ② UI dùng <b>Direct Log Reader</b> (WS + getLogs) để đồng bộ →
-              ③ UI duy trì <b>Client Cache</b> (memory/IndexedDB) dựng lại sổ lệnh →
-              ④ UI gọi <b>eth_call</b> các hàm <i>view</i> (getBestBid/Ask, getBook(offset,limit), getOrder)
-              để xác thực/hoàn thiện dữ liệu trước khi render.
+              <b>Luồng xử lý:</b>
+              Người dùng nhập lệnh qua CLI Wrapper (<b>scanner.py</b>) → Core Module gọi Trivy để quét → Kết quả được phân tích và chuyển sang Report Module để xuất ra các định dạng (.json, .html, .csv) → Lưu vào thư mục <b>scan-results/</b>.
             </div>
           </div>
-
-          <!-- <ul style="margin-top:8px">
-            <li><b>Nạp:</b> approve → Vault.credit()</li>
-            <li><b>Đặt lệnh:</b> ghi sổ → phát event</li>
-            <li><b>Khớp:</b> theo mức giá/bước nhảy</li>
-          </ul> -->
         </div>
 
         <div class="card">
           <div class="sec-h"><div class="n">5</div><h3>Result</h3></div>
 
           <div class="screens">
-            <!-- Nhóm trên: 2 ảnh homepage trong khung bo tròn -->
+            <!-- Hàng trên -->
             <div class="screens-top">
               <a class="shot" href="./pages/home.html" target="_blank" aria-label="Homepage 1">
-                <img src="../src/assets/homepage.png" alt="Homepage - màn 1">
-                <div class="cap">Homepage #1</div>
+                <img src="../assets/test-results/test_nginx_terminal.png" alt="Image nginx:latest on-terminal report">
+                <div class="cap">Quét image nginx:latest với báo cáo trên terminal</div>
               </a>
               <a class="shot" href="./pages/home.html" target="_blank" aria-label="Homepage 2">
-                <img src="../src/assets/homepage2.png" alt="Homepage - màn 2">
-                <div class="cap">Homepage #2</div>
+                <img src="../assets/test-results/test_nginx_html.png" alt="Image nginx:latest html report">
+                <div class="cap">Quét image nginx:latest với báo cáo trên file html</div>
+              </a>
+              <a class="shot" href="./pages/home.html" target="_blank" aria-label="Homepage 2">
+                <img src="../assets/test-results/test_nginx_json.png" alt="Image nginx:latest json report">
+                <div class="cap">Quét image nginx:latest với báo cáo trên file json</div>
               </a>
             </div>
 
-            <!-- Hàng dưới: OrderBook + Market -->
+            <!-- Hàng dưới -->
             <div class="screens-bottom">
-              <a class="shot" href="./pages/orderbook.html" target="_blank" aria-label="OrderBook">
-                <img src="../src/assets/orderbook.png" alt="OrderBook">
-                <div class="cap">OrderBook</div>
+              <a class="shot" href="./pages/home.html" target="_blank" aria-label="Homepage 2">
+                <img src="../assets/test-results/test_nginx_csv.png" alt="Image nginx:latest csv report">
+                <div class="cap">Quét image nginx:latest với báo cáo trên file csv</div>
               </a>
-              <a class="shot" href="./pages/market.html" target="_blank" aria-label="Market">
-                <img src="../src/assets/market.png" alt="Market">
-                <div class="cap">Market</div>
+              <a class="shot" href="./pages/home.html" target="_blank" aria-label="Homepage 2">
+                <img src="../assets/test-results/test_mid_nginx_html.png" alt="Image nginx:latest html report (medium vulnerabilities)">
+                <div class="cap">Quét image nginx:latest với báo cáo trên file html (lọc những lỗ hổng mức độ MEDIUM)</div>
               </a>
             </div>
           </div>
@@ -259,16 +173,11 @@
         <div class="card">
           <div class="sec-h"><div class="n">6</div><h3>Conclusion</h3></div>
           <ul>
-            <!-- <li>Hoàn thiện pipeline hợp đồng → events → indexer → UI, vận hành được trên local & testnet.</li>
-            <li>Mô hình sổ lệnh on-chain minh bạch, dễ kiểm toán, phù hợp mở rộng tính năng.</li> -->
-            <li><b>Đã làm được:</b> Giao diện đã hiển thị <b>sổ lệnh</b> (bids/asks, độ sâu theo cấp) và bảng <b>Market</b> theo cặp; dữ liệu đang đọc trực tiếp on-chain/seed. Chưa mở chức năng giao dịch (nạp/rút, đặt/hủy, khớp).</li>
+            <li><b>Đã làm được:</b> Một công cụ quét <b>Docker image</b> với các tính năng cơ bản: <b>Phân tích</b> các package có lỗ hổng, <b>xuất ra báo cáo</b> dễ nhìn với đầy đủ các thông tin căn bản ở <b>nhiều định dạng</b> (terminal, html, json, csv), <b>tích hợp lọc</b> các lổ hổng theo mức độ và minh họa màu sắc cụ thể, trực quan.</li>
 
-            <li><b>Giới hạn hiện tại:</b> Chưa có <b>Vault</b> (nạp/rút), chưa có đặt/hủy/khớp lệnh, chưa dùng <b>Subgraph</b> nên realtime và truy vấn độ sâu còn hạn chế.</li>
+            <li><b>Hạn chế hiện tại:</b> Chưa phát triển tính năng <b>lưu trữ lịch sử quét</b>, còn hạn chế trong việc <b>theo dõi quá trình hoàn thiện của image</b>, thao tác chính trên giao diện dòng lệnh, kém thân thiện với một số người dùng mới.</li>
 
-            <li><b>Lộ trình:</b> (1) Xây <b>Subgraph</b> (Pair/Order/Level/Balance; đồng bộ events) → (2) Hoàn thiện <b>Vault</b> & luồng nạp/rút → (3) Bật <b>đặt/hủy</b> & <b>khớp partial/full</b> trên OrderBook → (4) Bảo mật CEI/ReentrancyGuard/AccessControl & bộ test → (5) Tối ưu gas/UX và triển khai testnet.</li>
-
-
-            <!-- <li>Hướng phát triển: tối ưu gas, thêm loại lệnh (stop/IOC), L2/rollup, WebSocket realtime, quản trị rủi ro & phí maker/taker.</li> -->
+            <li><b>Hướng phát triển:</b> Tiếp tục hoàn thiện tính năng <b>lưu trữ</b> lịch sử quét và <b>>so sánh</b> các kết quả quét (của 2 phiên bản khác nhau của image hoặc của 2 lần quét khác nhau với cùng 1 image), <b>hỗ trợ theo dõi an ninh</b> của image theo thời gian. <b>Xây dựng một GUI</b> dễ sử dụng (có thể mở rộng thành một website), người dùng chỉ cần nhập image muốn quét lên giao diện và theo dõi kết quả trực tiếp trên trình duyệt mà không cần thao tác dòng lệnh.</li>
           </ul>
         </div>
       </div>

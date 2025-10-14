@@ -1,7 +1,4 @@
 import argparse
-import json
-import subprocess
-import sys
 import os
 
 from tabulate import tabulate
