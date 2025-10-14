@@ -93,14 +93,14 @@ tbody tr:hover{
 /* CRITICAL */
 td.sev-CRITICAL .badge,
 td[data-severity="CRITICAL"] .badge {
-  background:#dc2626;
+  background:#530367;
   color:#fff;
 }
 
 /* HIGH */
 td.sev-HIGH .badge,
 td[data-severity="HIGH"] .badge {
-  background:#f97316;
+  background:#f40d0d;
   color:#fff;
 }
 
