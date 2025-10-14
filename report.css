@@ -1,0 +1,147 @@
+/* report.css - styles for Docker vulnerability report */
+:root{
+  --bg:#f6f7f9;
+  --card:#ffffff;
+  --muted:#64748b;
+  --accent:#0ea5e9;
+  --radius:10px;
+  --table-border:#e6eef6;
+  --text:#0f172a;
+}
+
+/* Page */
+html,body{
+  height:100%;
+  margin:0;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:var(--bg);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  padding:28px;
+  box-sizing:border-box;
+}
+
+/* Title */
+h2{
+  margin:0 0 16px 0;
+  font-size:40px;
+  text-align: center;
+  letter-spacing:0.2px;
+  color:#0b1220;
+}
+
+/* Table container */
+table{
+  width:100%;
+  border-collapse:collapse;
+  background:var(--card);
+  box-shadow: 0 6px 20px rgba(2,6,23,0.06);
+  border-radius:var(--radius);
+  overflow:hidden;
+  table-layout:fixed;
+}
+
+/* Header */
+thead th{
+  text-align:left;
+  padding:12px 14px;
+  background:#07223f;
+  color:#ffffff;
+  font-weight:700;
+  font-size:30px;
+  border-bottom:1px solid rgba(255,255,255,0.04);
+}
+
+/* Body cells */
+tbody td{
+  padding:12px 14px;
+  font-size:25px;
+  color:var(--text);
+  border-bottom:1px solid var(--table-border);
+  vertical-align:middle;
+  word-wrap:break-word;
+}
+
+/* Make title column allow wrapping but limit width */
+tbody td:nth-child(6){
+  max-width:560px;
+  white-space:normal;
+}
+
+/* Hover row */
+tbody tr:hover{
+  background: linear-gradient(90deg, rgba(2,6,23,0.02), rgba(2,6,23,0.01));
+}
+
+/* Severity badges (fallback style if you add classes or data-severity) */
+.badge {
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+  font-weight:700;
+  font-size:12px;
+  letter-spacing:0.2px;
+}
+
+/* Color mapping — works if you either:
+   - add a class on TD like class="sev-MEDIUM" OR
+   - set an attribute data-severity="MEDIUM" on the TD
+   or use the optional JS below to auto-add attributes from cell text.
+*/
+
+/* CRITICAL */
+td.sev-CRITICAL .badge,
+td[data-severity="CRITICAL"] .badge {
+  background:#dc2626;
+  color:#fff;
+}
+
+/* HIGH */
+td.sev-HIGH .badge,
+td[data-severity="HIGH"] .badge {
+  background:#f97316;
+  color:#fff;
+}
+
+/* MEDIUM */
+td.sev-MEDIUM .badge,
+td[data-severity="MEDIUM"] .badge {
+  background:#eab308;
+  color:#07122a;
+}
+
+/* LOW */
+td.sev-LOW .badge,
+td[data-severity="LOW"] .badge {
+  background:#06b6d4;
+  color:#042a2a;
+}
+
+/* UNKNOWN / default */
+td.sev-UNKNOWN .badge,
+td[data-severity="UNKNOWN"] .badge {
+  background:#94a3b8;
+  color:#042a2a;
+}
+
+/* If severity cell itself should appear colored (instead of nested .badge),
+   you can leverage these rules too */
+td.sev-CRITICAL, td[data-severity="CRITICAL"] { background: linear-gradient(90deg, rgba(220,38,38,0.06), rgba(220,38,38,0.02)); }
+td.sev-HIGH,     td[data-severity="HIGH"]     { background: linear-gradient(90deg, rgba(249,115,22,0.06), rgba(249,115,22,0.02)); }
+td.sev-MEDIUM,   td[data-severity="MEDIUM"]   { background: linear-gradient(90deg, rgba(234,179,8,0.06),  rgba(234,179,8,0.02)); }
+td.sev-LOW,      td[data-severity="LOW"]      { background: linear-gradient(90deg, rgba(6,182,212,0.04), rgba(6,182,212,0.02)); }
+td.sev-UNKNOWN,  td[data-severity="UNKNOWN"]  { background: linear-gradient(90deg, rgba(148,163,184,0.04), rgba(148,163,184,0.02)); }
+
+/* Footer / meta text */
+p{
+  margin-top:12px;
+  color:var(--muted);
+  font-size:25px;
+}
+
+/* Responsive small screens */
+@media (max-width:800px){
+  thead th, tbody td { padding:10px; font-size:13px; }
+  tbody td:nth-child(6){ max-width:300px; }
+}

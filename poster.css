@@ -1,0 +1,171 @@
+  :root{
+    /* Đổi sang kích thước chuẩn A4 (portrait) theo mm để in ra đúng tờ giấy */
+    --poster-w: 210mm;   /* A4 width  */
+    --poster-h: 297mm;   /* A4 height */
+    --bg: #f4f6f7;
+    --paper: #ffffff;
+    --ink: #1f2937;
+    --muted: #6b7280;
+    --brand: #0ea5a3;
+    --brand-dark:#087e7c;
+    --lime:#83c341;
+    --accent:#ffd166;
+    --ring:#d1e9e9;
+    --radius:14px;
+    --gap:14px;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;background:var(--bg);margin:0}
+  body{display:flex;align-items:center;justify-content:center;padding:20px;color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial}
+
+  /* Canvas A4 */
+  .poster{
+    width:var(--poster-w);
+    height:var(--poster-h);
+    background:var(--paper);
+    border-radius: 10px;
+    box-shadow:0 20px 50px rgba(2,20,34,.15);
+    overflow:hidden;
+    position:relative;
+  }
+
+  /* ===== phần còn lại giữ nguyên từ bản trước ===== */
+  .header{background:linear-gradient(90deg,#e9fbfb 0%,#f7fffb 100%);border-bottom:4px solid var(--brand);padding:18px 22px 14px;position:relative}
+  .header .logo{
+    position:absolute;
+    left:10px;
+    top:18px;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    border:3px var(--ring);
+    display:grid;
+    place-items:center;
+    font-weight:700;
+    color:var(--brand-dark);
+    letter-spacing:.5px
+  }
+  .header .logo img{
+    width:90px;
+    height:90px;
+    object-fit: cover;
+    border-radius:50%
+  }
+  .title{padding-left:86px}
+  .title h1{margin:0;line-height:1.08;font-family:Montserrat,Inter,system-ui;font-size:28px;text-transform:uppercase;color:#113a5e;letter-spacing:.6px}
+  .title h2{margin:6px 0 0;font-size:12.5px;font-weight:600;color:#113a5e}
+  .meta{margin-top:6px;padding-left:86px;color:var(--muted);font-size:11.5px}
+
+  .grid{
+    display:grid;
+    grid-template-columns:0.35fr 0.65fr;
+    gap:var(--gap);
+    padding: 8px 8px 2px 8px;
+  }
+  .card{
+    background:#fff;
+    border:1.5px solid #eef4f5;
+    border-radius:var(--radius);
+    padding:12px 12px 10px;
+    position:relative;
+    margin-bottom: 10px;
+  }
+  .sec-h{display:flex;align-items:center;gap:8px;margin:-2px 0 8px}
+  .sec-h .n{width:26px;height:26px;border-radius:9px;background:linear-gradient(180deg,#cbf0ef,#9fe1df);color:#075e5b;font-weight:800;display:grid;place-items:center;font-size:14px;border:1px solid #bfe9e7}
+  .sec-h h3{margin:0;font-weight:800;letter-spacing:.2px;color:#0f766e;text-transform:uppercase;font-size:13.5px}
+  .muted{color:var(--muted)} .small{font-size:11.5px}
+  .card p{margin:6px 0 7px;font-size:12.25px} ul{margin:6px 0 4px 18px;padding:0;font-size:12.25px} li{margin:3px 0}
+
+  .bars{display:flex;gap:8px;align-items:flex-end;height:110px;margin:8px 4px 2px}
+  .bar{width:26px;border-radius:6px 6px 2px 2px;background:#d1fae5;border:1px solid #bbedd7;position:relative}
+  .bar::after{content:attr(data-v);position:absolute;bottom:100%;left:50%;transform:translate(-50%,-6px);font-size:10px;color:#065f46;font-weight:700}
+  .bar .fill{width:100%;background:#34d399;height:100%;border-radius:6px 6px 2px 2px;box-shadow:inset 0 0 0 1px #22c38a}
+  .bar .fill.alt{background:#60a5fa;box-shadow:inset 0 0 0 1px #3b82f6}
+
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+  .chip{font-size:11px;padding:5px 8px;border-radius:999px;border:1px solid #d9f0f0;background:#f3fbfb;color:#065f5b;font-weight:600}
+
+  .diagram{background:linear-gradient(180deg,#f8fffe,#ffffff);border:1.5px dashed #cde9e7;border-radius:12px;padding:10px;margin-top:6px}
+  .flow{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;align-items:center;font-size:11.25px}
+  .box{background:#ffffff;border:1.5px solid #e5f1f1;border-radius:10px;padding:8px;box-shadow:0 2px 0 rgba(6,95,91,.05)}
+  .box h4{margin:0 0 4px;font-size:11.5px;color:#0f766e}
+  .arrow{text-align:center;font-size:16px;color:#0ea5a3;font-weight:700}
+
+  .ref{ flex:1; background:#f7fdfd; border:1.5px solid #d7efef; border-radius:12px; padding:6px; } 
+  .ref h4{margin:0 0 6px;color:#0f766e;font-size:12.5px} 
+  .ref li{font-size:11.5px}
+
+  /* ===== Screens layout (thay cho .homepage / .screens / .shot cũ) ===== */
+.screens{
+  display: grid;
+  gap: var(--gap);
+  margin-top: 6px;
+}
+
+/* Nhóm trên (2 khung homepage trong 1 container bo tròn) */
+.screens-top{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: calc(var(--gap) + 8px);
+  /* xoá khung/bo tròn/nền/padding */
+  border: none;
+  border-radius: 0;
+  background: none;
+  padding: 0;
+}
+
+/* Hàng dưới (OrderBook + Market) */
+.screens-bottom{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: calc(var(--gap) + 8px);
+}
+
+/* Mỗi khung ảnh/link */
+.shot{
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 3;                /* khung giống hình mẫu */
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  background: #f8fafc;
+  overflow: hidden;
+  text-decoration: none;
+  transition: box-shadow .18s ease, transform .18s ease;
+}
+
+/* Nếu khung chứa ảnh – nó sẽ fit đủ khung */
+.shot > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Nhãn ở góc dưới trái */
+.shot .cap{
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  padding: 2px 4px;
+
+  font-weight: 600;
+  font-size: 8px;        /* đổi 6–10px tuỳ ý */
+  line-height: 1;
+  font-family: Inter, system-ui, Arial, sans-serif;
+
+  color: #0f172a;
+  background: rgba(255,255,255,.92);
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+}
+
+
+/* Hiệu ứng hover nhẹ */
+.shot:hover{
+  box-shadow: 0 10px 24px rgba(14,165,163,.15);
+  transform: translateY(-1px);
+}
+
+/* Responsive (khổ hẹp) */
+@media print{ @page{ size: A4 portrait; margin:0 } body{background:#fff;padding:0} .poster{box-shadow:none;border:none;margin:0 auto} }

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>DockerScanner</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./poster.css" />
+</head>
+<body>
+  <div class="poster">
+    <!-- ====== giữ nguyên nội dung của bạn ở đây (header/grid/footer) ====== -->
+    <div class="header">
+      <div class="logo"><img src=logo_fix.png alt="Logo" className="inline h-8 -mt-1 logo" /></div>
+      <div class="title">
+        <h1>D12 - Docker Scanner<br/>Công cụ quét Docker image</h1>
+        <h2>Python, Trivy, Docker API</h2>
+      </div>
+      <div class="meta">Nhóm thực hiện: Võ Minh An, Nguyễn Gia Bảo, Bùi Nguyễn Công Hiếu, Sit Khải Đông </div>
+    </div>
+
+    <div class="grid">
+      <!-- trái -->
+      <div class="col">
+        <div class="card">
+          <div class="sec-h"><div class="n">1</div><h3>Abstract</h3></div>
+          <ul>
+            <li>Việc kiểm tra bảo mật các Docker image là bước quan trọng để đảm bảo an toàn khi triển khai ứng dụng trên môi trường container. Tuy nhiên, thao tác quét lỗ hổng với các công cụ có sẵn thường phức tạp và khó tích hợp vào quy trình DevOps.</li>
+
+            <li>Đề tài xây dựng một công cụ CLI bằng Python, đóng vai trò là một wrapper cho Trivy, giúp người dùng dễ dàng quét và tổng hợp các lỗ hổng bảo mật (CVE) trên Docker image dưới nhiều định dạng. Kết quả được hiển thị rõ ràng dưới dạng bảng, hỗ trợ tổng hợp, lưu trữ và đánh giá trực quan mức độ rủi ro.</li>
+
+            <li>Đơn giản hóa quy trình kiểm tra bảo mật, tăng tính minh bạch và hỗ trợ phát hiện, xử lý lỗ hổng sớm trong quá trình phát triển/phân phối phần mềm.</li>
+          </ul>
+          <!-- <div class="bars">
+            <div class="bar" data-v="2022"><div class="fill" style="height:38%"></div></div>
+            <div class="bar" data-v="2023"><div class="fill alt" style="height:55%"></div></div>
+            <div class="bar" data-v="2024"><div class="fill" style="height:78%"></div></div>
+            <div class="bar" data-v="2025"><div class="fill alt" style="height:92%"></div></div>
+          </div>
+          <div class="small muted">Minh họa nhu cầu đặt lệnh giới hạn.</div> -->
+        </div>
+
+        <div class="card">
+          <div class="sec-h"><div class="n">2</div><h3>Introduction</h3></div>
+          <ul>
+            <li>Kiến trúc: Dùng Trivy làm công cụ xử lý lõi, xây dựng một wrapper bằng Python với các option phù hợp để sử dụng các thư viện có sẵn trong Trivy
+            như Docker API, SQLite, JSON/YAML parsing, table formatting, logging,... nhằm đơn giản hóa thao tác quét lỗ hổng và hiển thị báo cáo.</li>
+            </li>
+            <li>Chức năng cốt lõi: Phân tích một Docker image (từ local hoặc remote 
+            registry) và liệt kê các gói phần mềm được cài đặt bên trong. 
+            Sử dụng một cơ sở dữ liệu lỗ hổng công khai (ví dụ: 
+            NVD) để đối chiếu các phiên bản gói phần mềm và tìm ra các CVE tương ứng. Sau đó xuất báo cáo dưới định dạng tùy chọn (JSON, HTML, CLI,...)</li>
+            <li>Dữ liệu & UI: Trivy tool, Vulnerabilities database (thường tích hợp sẵn trong tool), Python wrapper hỗ trợ thao tác và xuất báo cáo.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="sec-h">
+            <div class="n">3</div>
+            <h3>Methodology</h3>
+          </div>
+          <ul>
+            <li>Sử dụng <b>Trivy</b> làm công cụ quét lỗ hổng bảo mật cho Docker image, đảm bảo kết quả chính xác và cập nhật từ cơ sở dữ liệu CVE công khai.</li>
+            <li>Xây dựng một <b>Python CLI wrapper</b> để tự động hóa việc gọi Trivy, xử lý đầu ra JSON và tổng hợp thông tin lỗ hổng dưới dạng bảng dễ đọc.</li>
+            <li>Quy trình: Người dùng nhập tên Docker image → Wrapper gọi Trivy để quét → Kết quả được phân tích và hiển thị trực quan trên terminal (hoặc định dạng khác có thể tùy chỉnh trong command ở CLI).</li>
+            <li>Đánh giá hiệu quả dựa trên khả năng phát hiện lỗ hổng, mức độ tự động hóa và tính dễ sử dụng của công cụ.</li>
+          </ul>
+        </div>
+
+        <!-- <div class="ref">
+          <h4>Dự án tham khảo</h4>
+          <ul>
+            <li>
+              <a href="https://github.com/hord/hord-orderbook-dex-contracts" target="_blank" style="color: #0063a5;">https://github.com/hord/hord-orderbook-dex-contracts</a>
+            </li>
+            <li>
+              <a href="https://github.com/hord/hord-orderbook-dex-app" target="_blank" style="color: #0063a5;">https://github.com/hord/hord-orderbook-dex-app</a>
+            </li>
+            <li>
+              <a href="https://github.com/cjxe/on-chain-dex" target="_blank" style="color: #0063a5;">https://github.com/cjxe/on-chain-dex</a>
+            </li>
+          </ul>
+
+        </div> -->
+      </div>
+
+      <!-- phải -->
+      <div class="col">
+        <div class="card">
+          <div class="sec-h"><div class="n">4</div><h3>System Architecture</h3></div>
+          <div class="diagram">
+            <style>
+              .arch-diagram { width:100%; height:auto; }
+              .box { fill:#ffffff; stroke:#e5f1f1; stroke-width:1.5; rx:12; }
+              .box-dash { fill:#ffffff; stroke:#cbd5e1; stroke-width:1.5; rx:12; stroke-dasharray:5 5; }
+              .shadow { filter:url(#ds); }
+              .title { font: 600 12px/1.2 Inter, system-ui, Arial; fill:#0f766e; }
+              .bullet{ font: 11px Inter, system-ui, Arial; fill:#334155; }
+              .arrow { stroke:#0ea5a3; stroke-width:2.2; fill:none; marker-end:url(#arrowhead); }
+              .badge { font: 600 11px Inter, system-ui, Arial; fill:#065f46; }
+            </style>
+
+            <svg class="arch-diagram" viewBox="0 0 980 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kiến trúc đọc dữ liệu trực tiếp on-chain (không dùng Subgraph)">
+              <!-- defs -->
+              <defs>
+                <filter id="ds" x="-20%" y="-20%" width="140%" height="140%">
+                  <feOffset dx="0" dy="2" result="off"/>
+                  <feGaussianBlur in="off" stdDeviation="2" result="blur"/>
+                  <feColorMatrix in="blur" type="matrix"
+                    values="0 0 0 0 0
+                            0 0 0 0 0
+                            0 0 0 0 0
+                            0 0 0 .15 0" result="shadow"/>
+                  <feBlend in="SourceGraphic" in2="shadow" mode="normal"/>
+                </filter>
+                <marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+                  <path d="M 0 0 L 10 5 L 0 10 z" fill="#0ea5a3"/>
+                </marker>
+              </defs>
+
+              <!-- ===== Row 1: Giao dịch đi vào chuỗi ===== -->
+              <!-- Wallet -->
+              <g transform="translate(40,40)" class="shadow">
+                <rect class="box" width="240" height="96"/>
+                <text x="12" y="22" class="title">Ví (EOA)</text>
+                <text x="18" y="46" class="bullet">• MetaMask (EIP-1559)</text>
+                <text x="18" y="66" class="bullet">• Ký &amp; gửi giao dịch</text>
+              </g>
+
+              <!-- UI -->
+              <g transform="translate(330,40)" class="shadow">
+                <rect class="box" width="260" height="96"/>
+                <text x="12" y="22" class="title">UI React (Wagmi/Viem)</text>
+                <text x="18" y="46" class="bullet">• Hooks: useOrderbook(), useBalances()</text>
+                <text x="18" y="66" class="bullet">• Deposit / Withdraw / Place / Cancel</text>
+              </g>
+
+              <!-- RPC -->
+              <g transform="translate(630,40)" class="shadow">
+                <rect class="box" width="140" height="96"/>
+                <text x="12" y="22" class="title">RPC / Node</text>
+                <text x="18" y="46" class="bullet">• JSON-RPC</text>
+                <text x="18" y="66" class="bullet">• WebSocket</text>
+              </g>
+
+              <!-- Contracts -->
+              <g transform="translate(800,40)" class="shadow">
+                <rect class="box" width="140" height="96"/>
+                <text x="12" y="22" class="title">Contracts</text>
+                <text x="18" y="46" class="bullet">• OnchainOrderBook</text>
+                <text x="18" y="66" class="bullet">• Vault · OracleRouter</text>
+              </g>
+
+              <!-- Arrows Row 1 -->
+              <path class="arrow" d="M 280 88 L 330 88"/>
+              <path class="arrow" d="M 590 88 L 630 88"/>
+              <path class="arrow" d="M 770 88 L 800 88"/>
+
+              <!-- ===== Row 2: Đọc dữ liệu trực tiếp on-chain (không Subgraph) ===== -->
+              <!-- Events -->
+              <g transform="translate(800,200)" class="shadow">
+                <rect class="box" width="140" height="96"/>
+                <text x="12" y="22" class="title">Events (Logs)</text>
+                <text x="18" y="46" class="bullet">• Deposit, Withdraw</text>
+                <text x="18" y="66" class="bullet">• OrderPlaced, Trade...</text>
+              </g>
+
+              <!-- Direct Log Reader -->
+              <g transform="translate(560,200)" class="shadow">
+                <rect class="box" width="200" height="96"/>
+                <text x="12" y="22" class="title">Direct Log Reader</text>
+                <text x="18" y="46" class="bullet">• WS: eth_subscribe logs</text>
+                <text x="18" y="66" class="bullet">• HTTP: eth_getLogs (catch-up)</text>
+              </g>
+
+              <!-- Client Cache -->
+              <g transform="translate(330,200)" class="shadow">
+                <rect class="box" width="200" height="96"/>
+                <text x="12" y="22" class="title">Client Cache (UI)</text>
+                <text x="18" y="46" class="bullet">• Memory/IndexedDB</text>
+                <text x="18" y="66" class="bullet">• Rebuild sổ lệnh cục bộ</text>
+              </g>
+
+              <!-- View Calls -->
+              <g transform="translate(60,200)" class="shadow">
+                <rect class="box" width="240" height="96"/>
+                <text x="12" y="22" class="title">On-chain View Calls</text>
+                <text x="18" y="46" class="bullet">• eth_call: getBestBid/Ask, getBook</text>
+                <text x="18" y="66" class="bullet">• Phân trang: offset/limit</text>
+              </g>
+
+              <!-- Optional Edge Cache -->
+              <!-- <g transform="translate(330,320)" class="shadow">
+                <rect class="box-dash" width="430" height="64"/>
+                <text x="12" y="22" class="title">Tùy chọn: Edge/Micro Cache</text>
+                <text x="18" y="46" class="bullet">• Node/Next.js + Redis – gom RPC/logs, phục vụ UI</text>
+              </g> -->
+
+              <!-- Arrows Row 2 -->
+              <path class="arrow" d="M 870 136 L 870 200"/>        <!-- Contracts -> Events -->
+              <path class="arrow" d="M 800 248 L 760 248"/>        <!-- Events -> Log Reader -->
+              <path class="arrow" d="M 560 248 L 530 248"/>        <!-- Log Reader -> Client Cache -->
+              <path class="arrow" d="M 300 248 L 330 248"/>        <!-- View Calls -> Client Cache -->
+              <!-- UI <-> View Calls (up-left return) -->
+              <path class="arrow" d="M 460 136 L 460 200"/>        <!-- UI -> View Calls (down) -->
+              <!-- UI render from Client Cache -->
+              <path class="arrow" d="M 430 200 L 430 136"/>        <!-- Client Cache -> UI (up) -->
+            </svg>
+
+            <!-- Chú giải quy trình -->
+            <div class="small" style="margin-top:8px; line-height:1.5; color:#065f46;">
+              <b>Luồng dữ liệu:</b>
+              ① Contracts emit <i>events</i> → ② UI dùng <b>Direct Log Reader</b> (WS + getLogs) để đồng bộ →
+              ③ UI duy trì <b>Client Cache</b> (memory/IndexedDB) dựng lại sổ lệnh →
+              ④ UI gọi <b>eth_call</b> các hàm <i>view</i> (getBestBid/Ask, getBook(offset,limit), getOrder)
+              để xác thực/hoàn thiện dữ liệu trước khi render.
+            </div>
+          </div>
+
+          <!-- <ul style="margin-top:8px">
+            <li><b>Nạp:</b> approve → Vault.credit()</li>
+            <li><b>Đặt lệnh:</b> ghi sổ → phát event</li>
+            <li><b>Khớp:</b> theo mức giá/bước nhảy</li>
+          </ul> -->
+        </div>
+
+        <div class="card">
+          <div class="sec-h"><div class="n">5</div><h3>Result</h3></div>
+
+          <div class="screens">
+            <!-- Nhóm trên: 2 ảnh homepage trong khung bo tròn -->
+            <div class="screens-top">
+              <a class="shot" href="./pages/home.html" target="_blank" aria-label="Homepage 1">
+                <img src="../src/assets/homepage.png" alt="Homepage - màn 1">
+                <div class="cap">Homepage #1</div>
+              </a>
+              <a class="shot" href="./pages/home.html" target="_blank" aria-label="Homepage 2">
+                <img src="../src/assets/homepage2.png" alt="Homepage - màn 2">
+                <div class="cap">Homepage #2</div>
+              </a>
+            </div>
+
+            <!-- Hàng dưới: OrderBook + Market -->
+            <div class="screens-bottom">
+              <a class="shot" href="./pages/orderbook.html" target="_blank" aria-label="OrderBook">
+                <img src="../src/assets/orderbook.png" alt="OrderBook">
+                <div class="cap">OrderBook</div>
+              </a>
+              <a class="shot" href="./pages/market.html" target="_blank" aria-label="Market">
+                <img src="../src/assets/market.png" alt="Market">
+                <div class="cap">Market</div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="card">
+          <div class="sec-h"><div class="n">6</div><h3>Conclusion</h3></div>
+          <ul>
+            <!-- <li>Hoàn thiện pipeline hợp đồng → events → indexer → UI, vận hành được trên local & testnet.</li>
+            <li>Mô hình sổ lệnh on-chain minh bạch, dễ kiểm toán, phù hợp mở rộng tính năng.</li> -->
+            <li><b>Đã làm được:</b> Giao diện đã hiển thị <b>sổ lệnh</b> (bids/asks, độ sâu theo cấp) và bảng <b>Market</b> theo cặp; dữ liệu đang đọc trực tiếp on-chain/seed. Chưa mở chức năng giao dịch (nạp/rút, đặt/hủy, khớp).</li>
+
+            <li><b>Giới hạn hiện tại:</b> Chưa có <b>Vault</b> (nạp/rút), chưa có đặt/hủy/khớp lệnh, chưa dùng <b>Subgraph</b> nên realtime và truy vấn độ sâu còn hạn chế.</li>
+
+            <li><b>Lộ trình:</b> (1) Xây <b>Subgraph</b> (Pair/Order/Level/Balance; đồng bộ events) → (2) Hoàn thiện <b>Vault</b> & luồng nạp/rút → (3) Bật <b>đặt/hủy</b> & <b>khớp partial/full</b> trên OrderBook → (4) Bảo mật CEI/ReentrancyGuard/AccessControl & bộ test → (5) Tối ưu gas/UX và triển khai testnet.</li>
+
+
+            <!-- <li>Hướng phát triển: tối ưu gas, thêm loại lệnh (stop/IOC), L2/rollup, WebSocket realtime, quản trị rủi ro & phí maker/taker.</li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer" style="background-color: #0ea5a3; height: 150px"></div>
+      
+      
+
+    <!-- <div class="footer">
+      <div class="ref">
+        <h4>Dự án tham khảo</h4>
+        <ul>
+          <li> https://github.com/hord/hord-orderbook-dex-contracts </li>
+          <li> https://github.com/hord/hord-orderbook-dex-app </li>
+          <li> https://github.com/cjxe/on-chain-dex </li>
+        </ul>
+      </div> -->
+      <!-- <div class="badges">
+        <div class="stack">
+          <span class="tag">Solidity</span><span class="tag">Hardhat</span>
+          <span class="tag">React</span><span class="tag">Viem</span>
+          <span class="tag">The Graph</span><span class="tag">Chainlink</span>
+        </div>
+        <div class="note">In PDF: A4 · Margins: None · Scale: 100%.</div>
+      </div> -->
+    </div>
+  </div>
+</body>
+</html>
