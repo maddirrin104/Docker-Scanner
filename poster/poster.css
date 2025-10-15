@@ -4,7 +4,7 @@
     --poster-h: 297mm;   /* A4 height */
     --bg: #f4f6f7;
     --paper: #ffffff;
-    --ink: #1f2937;
+    --ink: #152337;
     --muted: #6b7280;
     --brand: #0ea5a3;
     --brand-dark:#087e7c;
@@ -23,13 +23,12 @@
     width:var(--poster-w);
     height:var(--poster-h);
     background:var(--paper);
-    border-radius: 10px;
+    border-radius: 2px;
     box-shadow:0 20px 50px rgba(2,20,34,.15);
     overflow:hidden;
     position:relative;
   }
 
-  /* ===== phần còn lại giữ nguyên từ bản trước ===== */
   .header{background:linear-gradient(90deg,#e9fbfb 0%,#f7fffb 100%);border-bottom:4px solid var(--brand);padding:18px 22px 14px;position:relative}
   .header .logo{
     position:absolute;
@@ -95,77 +94,136 @@
   .ref h4{margin:0 0 6px;color:#0f766e;font-size:12.5px} 
   .ref li{font-size:11.5px}
 
-  /* ===== Screens layout (thay cho .homepage / .screens / .shot cũ) ===== */
-.screens{
-  display: grid;
-  gap: var(--gap);
+/* ===== RESULT (3 ảnh trên + 2 ảnh dưới) ===== */
+/* ===== RESULT SECTION (Refined & Compact) ===== */
+.screens {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   margin-top: 6px;
+  transform: scale(0.9);          /* thu nhỏ toàn bộ */
+  transform-origin: top center;   /* giữ giữa khung */
 }
 
-/* Nhóm trên (2 khung homepage trong 1 container bo tròn) */
-.screens-top{
+/* Giới hạn chiều rộng khung */
+.card .screens {
+  max-width: 95%;                /* rút bớt khung so với card */
+  margin: 0 auto;                /* canh giữa */
+}
+
+.screens-top,
+.screens-bottom {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: calc(var(--gap) + 8px);
-  /* xoá khung/bo tròn/nền/padding */
-  border: none;
-  border-radius: 0;
-  background: none;
-  padding: 0;
+  gap: 8px;
 }
 
-/* Hàng dưới (OrderBook + Market) */
-.screens-bottom{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: calc(var(--gap) + 8px);
+.screens-top {
+  grid-template-columns: repeat(3, 1fr);
 }
 
-/* Mỗi khung ảnh/link */
-.shot{
-  position: relative;
-  display: block;
-  aspect-ratio: 4 / 3;                /* khung giống hình mẫu */
-  border: 2px solid #e5e7eb;
-  border-radius: 12px;
-  background: #f8fafc;
+.screens-bottom {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Hộp ảnh */
+.shot {
+  background: #ffffff;
+  border: 1.2px solid #dbeaea;
+  border-radius: 10px;
   overflow: hidden;
-  text-decoration: none;
-  transition: box-shadow .18s ease, transform .18s ease;
+  box-shadow: 0 2px 6px rgba(14, 165, 163, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Nếu khung chứa ảnh – nó sẽ fit đủ khung */
-.shot > img{
+/* Giảm chiều cao ảnh cho gọn khung */
+.shot img {
   width: 100%;
-  height: 100%;
+  height: 105px;
   object-fit: cover;
   display: block;
 }
 
-/* Nhãn ở góc dưới trái */
-.shot .cap{
-  position: absolute;
-  left: 8px;
-  bottom: 8px;
-  padding: 2px 4px;
-
+/* Caption */
+.shot .cap {
+  background: #f9ffff;
+  border-top: 1.2px solid #d7efef;
+  padding: 3px 5px;
+  font-size: 9.8px;
   font-weight: 600;
-  font-size: 8px;        /* đổi 6–10px tuỳ ý */
-  line-height: 1;
-  font-family: Inter, system-ui, Arial, sans-serif;
-
-  color: #0f172a;
-  background: rgba(255,255,255,.92);
-  border: 1px solid #e2e8f0;
-  border-radius: 6px;
+  text-align: center;
+  color: #065f5b;
+  letter-spacing: 0.2px;
 }
 
-
-/* Hiệu ứng hover nhẹ */
-.shot:hover{
-  box-shadow: 0 10px 24px rgba(14,165,163,.15);
-  transform: translateY(-1px);
+/* Hover effect */
+.shot:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(14, 165, 163, 0.18);
+  border-color: #0ea5a3;
 }
 
 /* Responsive (khổ hẹp) */
 @media print{ @page{ size: A4 portrait; margin:0 } body{background:#fff;padding:0} .poster{box-shadow:none;border:none;margin:0 auto} }
+
+/* ===== System Architecture section fix ===== */
+.diagram {
+  background: #f9ffff;                    /* nền nhẹ hơn để nổi khối */
+  border: 1.8px solid #bfe9e7;
+  border-radius: 14px;
+  padding: 12px 14px;
+  margin-top: 8px;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* SVG co giãn theo khung */
+.diagram svg {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Chữ mô tả luồng xử lý */
+.diagram .small {
+  margin-top: 2px;
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: #065f46;
+  text-align: left;
+  padding: 0 6px;
+}
+
+/* Viền nổi khối nhẹ để tách khỏi phần khác */
+.card .diagram {
+  box-shadow: inset 0 0 0 1px #def5f4;
+}
+
+.card.intro {
+  padding: 9px 10px 8px;             
+  font-size: 11.3px;                 
+}
+
+.card.intro p,
+.card.intro li {
+  font-size: 11px;                  
+  line-height: 1.4;                  
+}
+
+.card.intro .sec-h h3 {
+  font-size: 12.5px;                
+}
+
+.card.intro {
+  transform: scale(0.975);
+  transform-origin: top left;
+}
+
+.poster {
+  border: 2.5px solid #0ea5a3;      
+  box-shadow: 0 12px 30px rgba(2, 20, 34, 0.12);
+  padding: 6px;                     
+  background-clip: content-box;    
+}
+

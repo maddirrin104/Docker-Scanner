@@ -9,14 +9,12 @@
 </head>
 <body>
   <div class="poster">
-    <!-- ====== giữ nguyên nội dung của bạn ở đây (header/grid/footer) ====== -->
     <div class="header">
       <div class="logo"><img src=../assets/logo_fix.png alt="Logo" className="inline h-8 -mt-1 logo" /></div>
       <div class="title">
-        <h1>D12 - Docker Scanner<br/>Công cụ quét Docker image</h1>
-        <h2>Python, Trivy, Docker API</h2>
+        <h1>D12 - Docker Scanner<br/>A Tool for Scanning Docker Images</h1>
       </div>
-      <div class="meta">Nhóm thực hiện: Võ Minh An, Nguyễn Gia Bảo, Bùi Nguyễn Công Hiếu, Sit Khải Đông </div>
+      <div class="meta">Team Members: Vo Minh An, Nguyen Gia Bao, Bui Nguyen Cong Hieu, Sit Khai Dong</div>
     </div>
 
     <div class="grid">
@@ -25,11 +23,9 @@
         <div class="card">
           <div class="sec-h"><div class="n">1</div><h3>Abstract</h3></div>
           <ul>
-            <li>Việc kiểm tra bảo mật các Docker image là bước quan trọng để đảm bảo an toàn khi triển khai ứng dụng trên môi trường container. Tuy nhiên, thao tác quét lỗ hổng với các công cụ có sẵn thường phức tạp và khó tích hợp vào quy trình DevOps.</li>
-
-            <li>Đề tài xây dựng một công cụ CLI bằng Python, đóng vai trò là một wrapper cho Trivy, giúp người dùng dễ dàng quét và tổng hợp các lỗ hổng bảo mật (CVE) trên Docker image dưới nhiều định dạng. Kết quả được hiển thị rõ ràng dưới dạng bảng, hỗ trợ tổng hợp, lưu trữ và đánh giá trực quan mức độ rủi ro.</li>
-
-            <li>Đơn giản hóa quy trình kiểm tra bảo mật, tăng tính minh bạch và hỗ trợ phát hiện, xử lý lỗ hổng sớm trong quá trình phát triển/phân phối phần mềm.</li>
+            <li>Security scanning of Docker images is a crucial step to ensure application safety during deployment. However, existing vulnerability scanning tools are often complex and difficult to integrate into DevOps pipelines.</li>
+            <li>The project aims to build a CLI tool in Python, acting as a wrapper for Trivy, to scan and aggregate vulnerabilities (CVEs) on Docker images with various visual report formats.</li>
+            <li>The tool simplifies the testing process, increases transparency, and helps detect and address vulnerabilities early in the software development lifecycle.</li>
           </ul>
           <!-- <div class="bars">
             <div class="bar" data-v="2022"><div class="fill" style="height:38%"></div></div>
@@ -40,17 +36,12 @@
           <div class="small muted">Minh họa nhu cầu đặt lệnh giới hạn.</div> -->
         </div>
 
-        <div class="card">
+        <div class="card intro">
           <div class="sec-h"><div class="n">2</div><h3>Introduction</h3></div>
           <ul>
-            <li>Kiến trúc: Dùng Trivy làm công cụ xử lý lõi, xây dựng một wrapper bằng Python với các option phù hợp để sử dụng các thư viện có sẵn trong Trivy
-            như Docker API, SQLite, JSON/YAML parsing, table formatting, logging,... nhằm đơn giản hóa thao tác quét lỗ hổng và hiển thị báo cáo.</li>
-            </li>
-            <li>Chức năng cốt lõi: Phân tích một Docker image (từ local hoặc remote 
-            registry) và liệt kê các gói phần mềm được cài đặt bên trong. 
-            Sử dụng một cơ sở dữ liệu lỗ hổng công khai (ví dụ: 
-            NVD) để đối chiếu các phiên bản gói phần mềm và tìm ra các CVE tương ứng. Sau đó xuất báo cáo dưới định dạng tùy chọn (JSON, HTML, CLI,...)</li>
-            <li>Dữ liệu & UI: Trivy tool, Vulnerabilities database (thường tích hợp sẵn trong tool), Python wrapper hỗ trợ thao tác và xuất báo cáo.</li>
+            <li><b>Architecture:</b> Uses Trivy as the core engine, with a Python wrapper leveraging existing libraries (Docker API, SQLite, JSON/YAML parsing, logging, etc.) to perform scans and generate reports.</li>
+            <li><b>Features:</b> Analyzes Docker images (local/remote), lists installed packages, cross-checks CVE databases (e.g., NVD), and exports reports in various formats (JSON, HTML, CLI, etc.).</li>
+            <li><b>Data & UI:</b> Utilizes Trivy’s integrated vulnerability database and the Python wrapper for fast and streamlined data handling and report generation.</li>
           </ul>
         </div>
 
@@ -59,12 +50,12 @@
             <div class="n">3</div>
             <h3>Methodology</h3>
           </div>
-          <ul>
-            <li>Sử dụng <b>Trivy</b> làm công cụ quét lỗ hổng bảo mật cho Docker image, đảm bảo kết quả chính xác và cập nhật từ cơ sở dữ liệu CVE công khai.</li>
-            <li>Xây dựng một <b>Python CLI wrapper</b> để tự động hóa việc gọi Trivy, xử lý đầu ra JSON và tổng hợp thông tin lỗ hổng dưới dạng bảng dễ đọc.</li>
-            <li>Quy trình: Người dùng nhập tên Docker image → Wrapper gọi Trivy để quét → Kết quả được phân tích và hiển thị trực quan trên terminal (hoặc định dạng khác có thể tùy chỉnh trong command ở CLI).</li>
-            <li>Đánh giá hiệu quả dựa trên khả năng phát hiện lỗ hổng, mức độ tự động hóa và tính dễ sử dụng của công cụ.</li>
-          </ul>
+            <ul>
+              <li>Use Trivy to scan Docker images for vulnerabilities based on the latest CVE database.</li>
+              <li>Build a Python CLI wrapper that automatically calls Trivy, processes JSON output, and displays results in a tabular format.</li>
+              <li>Workflow: Input image → Wrapper scans → Analyze results → Export visual report.</li>
+              <li>Evaluate effectiveness through vulnerability detection accuracy, automation capability, and user-friendliness.</li>
+            </ul>
         </div>
 
         <!-- <div class="ref">
@@ -87,49 +78,55 @@
       <!-- phải -->
       <div class="col">
         <div class="card">
-          <div class="sec-h"><div class="n">4</div><h3>System Architecture</h3></div>
+          <div class="sec-h"><div class="n">4</div><h3>Flow Diagram</h3></div>
           <div class="diagram" style="padding: 16px 0;">
             <svg width="900" height="340" viewBox="0 0 900 340" xmlns="http://www.w3.org/2000/svg">
-              <!-- Người dùng -->
-              <rect x="40" y="30" width="140" height="50" rx="12" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
-              <text x="110" y="60" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">User (CLI)</text>
-              <!-- CLI Wrapper -->
-              <rect x="220" y="30" width="160" height="75" rx="12" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
-              <text x="300" y="60" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">CLI Wrapper</text>
-              <text x="300" y="80" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">scanner.py</text>
-              <!-- Core Module -->
-              <rect x="420" y="30" width="160" height="70" rx="12" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
-              <text x="500" y="60" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">Core Module</text>
-              <text x="500" y="80" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">tools.py (Gọi Trivy)</text>
-              <text x="500" y="80" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">filters.py (Truyền tham số, cấu hình lọc trước khi quét)</text>
-              <!-- Trivy -->
-              <rect x="620" y="30" width="120" height="50" rx="12" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
-              <text x="680" y="60" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">Trivy</text>
-              <text x="680" y="80" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">Scan Engine (Quét lỗ hổng Docker image)</text>
-              <!-- Report Module -->
-              <rect x="220" y="140" width="220" height="70" rx="12" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
-              <text x="330" y="170" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">Report Module</text>
-              <text x="330" y="190" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">json_writter, html_writter, csv_writter</text>
-              <!-- scan-results -->
-              <rect x="500" y="140" width="180" height="70" rx="12" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
-              <text x="590" y="170" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">scan-results/</text>
-              <text x="590" y="190" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">.json, .html, .csv</text>
-              <!-- arrows -->
               <defs>
                 <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
                   <polygon points="0 0, 8 4, 0 8" fill="#0ea5a3"/>
                 </marker>
               </defs>
-              <line x1="180" y1="55" x2="220" y2="55" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
-              <line x1="380" y1="55" x2="420" y2="55" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
-              <line x1="580" y1="55" x2="620" y2="55" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
-              <line x1="500" y1="100" x2="500" y2="140" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
-              <line x1="440" y1="100" x2="440" y2="140" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
-              <line x1="440" y1="175" x2="500" y2="175" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+
+              <!-- USER -->
+              <rect x="40" y="40" width="140" height="60" rx="10" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
+              <text x="110" y="75" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">User (CLI)</text>
+
+              <!-- CLI WRAPPER -->
+              <rect x="230" y="30" width="160" height="80" rx="10" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
+              <text x="310" y="65" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">CLI Wrapper</text>
+              <text x="310" y="83" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">scanner.py</text>
+
+              <!-- CORE MODULE -->
+              <rect x="430" y="30" width="180" height="80" rx="10" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
+              <text x="520" y="60" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">Core Module</text>
+              <text x="520" y="78" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">tools.py, filters.py</text>
+
+              <!-- TRIVY -->
+              <rect x="650" y="40" width="150" height="60" rx="10" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
+              <text x="725" y="75" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">Trivy Engine</text>
+
+              <!-- REPORT MODULE -->
+              <rect x="320" y="170" width="220" height="80" rx="10" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
+              <text x="430" y="200" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">Report Module</text>
+              <text x="430" y="218" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">json_writer, html_writer, csv_writer</text>
+
+              <!-- SCAN RESULT -->
+              <rect x="600" y="170" width="190" height="80" rx="10" fill="#fff" stroke="#0ea5a3" stroke-width="2"/>
+              <text x="695" y="200" text-anchor="middle" font-size="16" font-family="Inter" fill="#0ea5a3" font-weight="bold">scan-results/</text>
+              <text x="695" y="218" text-anchor="middle" font-size="12" font-family="Inter" fill="#334155">.json, .html, .csv</text>
+
+              <!-- arrows -->
+              <line x1="180" y1="70" x2="230" y2="70" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+              <line x1="390" y1="70" x2="430" y2="70" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+              <line x1="610" y1="70" x2="650" y2="70" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+
+              <line x1="520" y1="110" x2="520" y2="170" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+              <line x1="540" y1="210" x2="600" y2="210" stroke="#0ea5a3" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+
             </svg>
             <div class="small" style="margin-top:8px; line-height:1.5; color:#065f46;">
-              <b>Luồng xử lý:</b>
-              Người dùng nhập lệnh qua CLI Wrapper (<b>scanner.py</b>) → Core Module gọi Trivy để quét → Kết quả được phân tích và chuyển sang Report Module để xuất ra các định dạng (.json, .html, .csv) → Lưu vào thư mục <b>scan-results/</b>.
+              <b>Processing Flow:</b>
+              User enters a command via the CLI Wrapper (scanner.py) → The Core Module invokes Trivy for scanning → The results are analyzed and passed to the Report Module to generate output in multiple formats (.json, .html, .csv) → Saved in the scan-results/ directory.
             </div>
           </div>
         </div>
@@ -140,46 +137,42 @@
           <div class="screens">
             <!-- Hàng trên -->
             <div class="screens-top">
-              <a class="shot" href="./pages/home.html" target="_blank" aria-label="Homepage 1">
+              <div class="shot">
                 <img src="../assets/test-results/test_nginx_terminal.png" alt="Image nginx:latest on-terminal report">
-                <div class="cap">Quét image nginx:latest với báo cáo trên terminal</div>
-              </a>
-              <a class="shot" href="./pages/home.html" target="_blank" aria-label="Homepage 2">
+                <div class="cap">Scan image nginx:latest — Terminal Report</div>
+              </div>
+              <div class="shot">
                 <img src="../assets/test-results/test_nginx_html.png" alt="Image nginx:latest html report">
-                <div class="cap">Quét image nginx:latest với báo cáo trên file html</div>
-              </a>
-              <a class="shot" href="./pages/home.html" target="_blank" aria-label="Homepage 2">
+                <div class="cap">HTML Report Output</div>
+              </div>
+              <div class="shot">
                 <img src="../assets/test-results/test_nginx_json.png" alt="Image nginx:latest json report">
-                <div class="cap">Quét image nginx:latest với báo cáo trên file json</div>
-              </a>
+                <div class="cap">JSON Report Output</div>
+              </div>
             </div>
 
             <!-- Hàng dưới -->
             <div class="screens-bottom">
-              <a class="shot" href="./pages/home.html" target="_blank" aria-label="Homepage 2">
+              <div class="shot">
                 <img src="../assets/test-results/test_nginx_csv.png" alt="Image nginx:latest csv report">
-                <div class="cap">Quét image nginx:latest với báo cáo trên file csv</div>
-              </a>
-              <a class="shot" href="./pages/home.html" target="_blank" aria-label="Homepage 2">
+                <div class="cap">CSV Report Output</div>
+              </div>
+              <div class="shot">
                 <img src="../assets/test-results/test_mid_nginx_html.png" alt="Image nginx:latest html report (medium vulnerabilities)">
-                <div class="cap">Quét image nginx:latest với báo cáo trên file html (lọc những lỗ hổng mức độ MEDIUM)</div>
-              </a>
+                <div class="cap">Filtered HTML Report</div>
+              </div>
             </div>
           </div>
         </div>
 
-
-
         <div class="card">
           <div class="sec-h"><div class="n">6</div><h3>Conclusion</h3></div>
           <ul>
-            <li><b>Đã làm được:</b> Một công cụ quét <b>Docker image</b> với các tính năng cơ bản: <b>Phân tích</b> các package có lỗ hổng, <b>xuất ra báo cáo</b> dễ nhìn với đầy đủ các thông tin căn bản ở <b>nhiều định dạng</b> (terminal, html, json, csv), <b>tích hợp lọc</b> các lổ hổng theo mức độ và minh họa màu sắc cụ thể, trực quan.</li>
-
-            <li><b>Hạn chế hiện tại:</b> Chưa phát triển tính năng <b>lưu trữ lịch sử quét</b>, còn hạn chế trong việc <b>theo dõi quá trình hoàn thiện của image</b>, thao tác chính trên giao diện dòng lệnh, kém thân thiện với một số người dùng mới.</li>
-
-            <li><b>Hướng phát triển:</b> Tiếp tục hoàn thiện tính năng <b>lưu trữ</b> lịch sử quét và <b>>so sánh</b> các kết quả quét (của 2 phiên bản khác nhau của image hoặc của 2 lần quét khác nhau với cùng 1 image), <b>hỗ trợ theo dõi an ninh</b> của image theo thời gian. <b>Xây dựng một GUI</b> dễ sử dụng (có thể mở rộng thành một website), người dùng chỉ cần nhập image muốn quét lên giao diện và theo dõi kết quả trực tiếp trên trình duyệt mà không cần thao tác dòng lệnh.</li>
+            <li><b>Achievements:</b> Built a Docker image scanning tool with core features: analyzing vulnerable packages, generating reports with key information in multiple format (terminal, HTML, JSON, CSV), and filtering vulnerabilities by severity with clear, color-coded visualization.</li>
+            <li><b>Current Limitations:</b> The tool has not yet implemented scan history storage, lacks capabilities to track image evolution over time, and currently relies mainly on the command-line interface, which can be less friendly for new users.</li>
+            <li><b>Future Development:</b> Enhance history storage and comparison features (between different image versions or scan sessions), enabling security tracking of images over time. Develop a user-friendly GUI (potentially a web-based interface) so users can simply input an image and view scan results directly in their browser without using CLI commands.</li>
           </ul>
-        </div>
+          </div>
       </div>
     </div>
 
