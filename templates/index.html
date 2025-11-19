@@ -1,0 +1,114 @@
+<!-- ...existing code... -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Docker Scanner GUI</title>
+  <!-- Link tới CSS trong thư mục static -->
+  <link rel="stylesheet" href="./../static/index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Docker Scanner</h1>
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <div class="flashes">
+        {% for m in messages %}
+          <div>{{ m }}</div>
+        {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+
+    <form action="{{ url_for('scan') }}" method="post" class="controls">
+      <input class="input" type="text" name="image" placeholder="ubuntu:20.04" required>
+
+      <div class="checkbox-group" role="group" aria-label="Severity filters">
+        <label class="checkbox">
+          <input type="checkbox" name="severity" value="CRITICAL" {% if 'CRITICAL' in (selected_severities or []) %}checked{% endif %}>
+          <span>CRITICAL</span>
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="severity" value="HIGH" {% if 'HIGH' in (selected_severities or []) %}checked{% endif %}>
+          <span>HIGH</span>
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="severity" value="MEDIUM" {% if 'MEDIUM' in (selected_severities or []) %}checked{% endif %}>
+          <span>MEDIUM</span>
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="severity" value="LOW" {% if 'LOW' in (selected_severities or []) %}checked{% endif %}>
+          <span>LOW</span>
+        </label>
+      </div>
+
+      <button class="btn" type="submit">Scan</button>
+      <button class="btn secondary" type="button" onclick="document.querySelector('input[name=image]').value=''">Clear</button>
+
+      <div class="export-wrap">
+        {% if results %}
+          <label style="font-size:13px;color:#6b7280;margin-right:8px">Export:</label>
+          <select class="export-select" onchange="if(this.value) window.location.href=this.value">
+            <option value="">Choose format</option>
+            <option value="{{ url_for('export_report', fmt='json', filename=filename) }}">JSON</option>
+            <option value="{{ url_for('export_report', fmt='html', filename=filename) }}">HTML</option>
+            <option value="{{ url_for('export_report', fmt='csv', filename=filename) }}">CSV</option>
+          </select>
+        {% endif %}
+      </div>
+    </form>
+
+    {% if results %}
+      <div class="card">
+        <h2 style="margin:0 0 8px">Results for <span class="mono">{{ image }}</span></h2>
+
+        <div class="table-wrap">
+          <table class="table" role="table">
+            <thead>
+              <tr>
+                {% for h in headers %}
+                  <th>{{ h }}</th>
+                {% endfor %}
+              </tr>
+            </thead>
+            <tbody>
+              {% for row in results %}
+                <tr>
+                  {% for cell in row %}
+                    {% set header = headers[loop.index0] %}
+                    <td>
+                      {% if header == "Package" %}
+                        <span class="mono">{{ cell }}</span>
+                      {% elif header == "CVE ID" %}
+                        <span class="mono">{{ cell }}</span>
+                      {% elif header == "Severity" %}
+                        {% set sev = (cell or "").lower() %}
+                        {% if sev == "critical" %}
+                          <span class="badge badge-critical">{{ cell }}</span>
+                        {% elif sev == "high" %}
+                          <span class="badge badge-high">{{ cell }}</span>
+                        {% elif sev == "medium" %}
+                          <span class="badge badge-medium">{{ cell }}</span>
+                        {% elif sev == "low" %}
+                          <span class="badge badge-low">{{ cell }}</span>
+                        {% else %}
+                          <span class="badge badge-unknown">{{ cell }}</span>
+                        {% endif %}
+                      {% else %}
+                        {{ cell }}
+                      {% endif %}
+                    </td>
+                  {% endfor %}
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="summary">Total found: <strong>{{ results|length }}</strong> vulnerabilities</div>
+      </div>
+    {% endif %}
+  </div>
+</body>
+</html>
