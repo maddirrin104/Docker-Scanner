@@ -71,11 +71,7 @@
       </div>
     </form>
 
-    {% if results %}
-      <div class="card">
-        <h2 style="margin:0 0 8px">Results for <span class="mono">{{ image }}</span></h2>
-        
-        {% with messages = get_flashed_messages(with_categories=true) %}
+    {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
           {% for category, m in messages %}
             <div class="flashes {{ category }}">
@@ -84,6 +80,14 @@
           {% endfor %}
         {% endif %}
       {% endwith %}
+
+    {% if results %}
+      <div class="card">
+        <h2 style="margin:0 0 8px">Results for 
+          <span class="mono">{{ image }}</span>
+          <span class="mono">Fail_Threshold: {{ fail_threshold }}</span>
+          <span class="mono">Fail_Severity: {{ fail_severity }}</span>
+        </h2>
 
         <div class="table-wrap">
           <table class="table" role="table">
