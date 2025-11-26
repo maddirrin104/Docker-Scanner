@@ -1,0 +1,18 @@
+[
+  [
+    "libc-bin",
+    "CVE-2025-4802",
+    "MEDIUM",
+    "2.31-0ubuntu9.17",
+    "2.31-0ubuntu9.18",
+    "glibc: static setuid binary dlopen may incorrectly"
+  ],
+  [
+    "libc6",
+    "CVE-2025-4802",
+    "MEDIUM",
+    "2.31-0ubuntu9.17",
+    "2.31-0ubuntu9.18",
+    "glibc: static setuid binary dlopen may incorrectly"
+  ]
+]

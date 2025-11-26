@@ -1,13 +1,15 @@
+import json
 import os
 import time
-import json
-from flask import Flask, render_template, request, send_from_directory, redirect, url_for, flash
-from core.tools import run_trivy
+
+from flask import Flask, flash, redirect, render_template, request, send_from_directory, url_for
+
 from core.filters import parse_report
-from report.json_writter import export_json
-from report.html_writter import export_html
+from core.tools import run_trivy
 from report.csv_writter import export_csv
-from tabulate import tabulate
+from report.html_writter import export_html
+from report.json_writter import export_json
+from scanner import count_by_severity, severity_meets_threshold
 
 BASE_DIR = os.path.dirname(__file__)
 OUTPUT_DIR = os.path.join(BASE_DIR, "scan-results")
@@ -17,14 +19,19 @@ app.secret_key = "NT140-DockerScanner"
 
 HEADERS = ["Package", "CVE ID", "Severity", "Installed", "Fixed", "Title"]
 
+
 @app.route("/", methods=["GET"])
 def index():
     return render_template("index.html", results=None, headers=HEADERS)
+
 
 @app.route("/scan", methods=["POST"])
 def scan():
     image = request.form.get("image")
     severities = request.form.getlist("severity")
+    fail_threshold = request.form.get("fail_threshold", 0, type=int)
+    fail_severity = request.form.get("fail_severity", None)
+
     if not image:
         flash("Please provide an image to scan.")
         return redirect(url_for("index"))
@@ -41,7 +48,39 @@ def scan():
     json_path = os.path.join(OUTPUT_DIR, base + ".json")
     export_json(report, json_path)
 
-    return render_template("index.html", results=report, headers=HEADERS, filename=base + ".json", image=image, selected_severities=severities)
+    # Check fail conditions
+    counts = count_by_severity(report)
+    total = len(report)
+    failed = False
+    fail_reason = ""
+
+    if fail_threshold and total > fail_threshold:
+        failed = True
+        fail_reason = f"Total vulnerabilities {total} exceed threshold {fail_threshold}."
+
+    if fail_severity:
+        for sev in ("CRITICAL", "HIGH", "MEDIUM", "LOW", "UNKNOWN"):
+            if severity_meets_threshold(sev, fail_severity) and counts.get(sev, 0) > 0:
+                failed = True
+                fail_reason = (
+                    f"Found {counts.get(sev, 0)} vulnerabilities of severity {sev} or higher."
+                )
+                break
+
+    if failed:
+        flash(f"Scan failed: {fail_reason}", category="error")
+    else:
+        flash("Scan successful: No failure conditions met.", category="success")
+
+    return render_template(
+        "index.html",
+        results=report,
+        headers=HEADERS,
+        filename=base + ".json",
+        image=image,
+        selected_severities=severities,
+    )
+
 
 @app.route("/export/<fmt>/<filename>", methods=["GET"])
 def export_report(fmt, filename):
@@ -51,7 +90,7 @@ def export_report(fmt, filename):
         flash("Report not found.")
         return redirect(url_for("index"))
 
-    with open(json_path, "r", encoding="utf-8") as f:
+    with open(json_path, encoding="utf-8") as f:
         report = json.load(f)
 
     out_name = f"{base}.{fmt}"
@@ -67,6 +106,7 @@ def export_report(fmt, filename):
         return redirect(url_for("index"))
 
     return send_from_directory(OUTPUT_DIR, out_name, as_attachment=True)
+
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8686, debug=True)

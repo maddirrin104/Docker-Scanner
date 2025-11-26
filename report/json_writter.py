@@ -1,4 +1,5 @@
-import json 
+import json
+
 
 def export_json(report, filename):
     with open(filename, "w", encoding="utf-8") as f:

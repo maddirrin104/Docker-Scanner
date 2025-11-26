@@ -1,10 +1,11 @@
-from tabulate import tabulate
 from bs4 import BeautifulSoup
+from tabulate import tabulate
+
 
 def export_html(report, filename):
     headers = ["Package", "CVE ID", "Severity", "Installed", "Fixed", "Title"]
     table = tabulate(report, headers=headers, tablefmt="html")
-     # Parse table bằng BeautifulSoup
+    # Parse table bằng BeautifulSoup
     soup = BeautifulSoup(table, "html.parser")
 
     # Duyệt từng dòng (tr trừ header)
@@ -15,15 +16,15 @@ def export_html(report, filename):
         sev_cell = cells[2]  # Cột thứ 3 là Severity
         sev = sev_cell.text.strip().upper()
         # Gán class và attribute cho CSS dùng
-        sev_cell['data-severity'] = sev
-        sev_cell['class'] = [f'sev-{sev}']
+        sev_cell["data-severity"] = sev
+        sev_cell["class"] = [f"sev-{sev}"]
         # Thêm span badge
-        sev_cell.string = ''  # Xóa text cũ
-        badge = soup.new_tag('span', **{'class': 'badge'})
+        sev_cell.string = ""  # Xóa text cũ
+        badge = soup.new_tag("span", **{"class": "badge"})
         badge.string = sev
         sev_cell.append(badge)
 
-    html =f"""<html>
+    html = f"""<html>
                 <head>
                     <meta charset="utf-8">
                     <title>Vulnerability Report</title>

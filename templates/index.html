@@ -43,6 +43,28 @@
         </label>
       </div>
 
+      <div style="margin-top:12px; padding:12px; background:#f0f4f8; border-radius:8px;">
+        <label style="display:block; margin-bottom:8px; font-weight:600; font-size:13px;">CI Fail Options</label>
+        
+        <label style="display:inline-flex; align-items:center; gap:8px; margin-right:16px;">
+          Fail Threshold:
+          <input type="number" name="fail_threshold" value="{{ fail_threshold or 0 }}" min="0" 
+                 style="width:60px; padding:6px; border:1px solid #ccc; border-radius:4px;">
+          <span style="font-size:12px; color:#666;">(0 = disabled)</span>
+        </label>
+
+        <label style="display:inline-flex; align-items:center; gap:8px;">
+          Fail Severity:
+          <select name="fail_severity" style="padding:6px; border:1px solid #ccc; border-radius:4px;">
+            <option value="">None (disabled)</option>
+            <option value="CRITICAL" {% if fail_severity == 'CRITICAL' %}selected{% endif %}>CRITICAL</option>
+            <option value="HIGH" {% if fail_severity == 'HIGH' %}selected{% endif %}>HIGH</option>
+            <option value="MEDIUM" {% if fail_severity == 'MEDIUM' %}selected{% endif %}>MEDIUM</option>
+            <option value="LOW" {% if fail_severity == 'LOW' %}selected{% endif %}>LOW</option>
+          </select>
+        </label>
+      </div>
+
       <button class="btn" type="submit">Scan</button>
       <button class="btn secondary" type="button" onclick="document.querySelector('input[name=image]').value=''">Clear</button>
 

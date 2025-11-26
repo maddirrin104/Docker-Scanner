@@ -1,6 +1,7 @@
+import json
 import subprocess
 import sys
-import json
+
 
 def run_trivy(image):
     """Run Trivy scan on the specified Docker image, return results as JSON."""
