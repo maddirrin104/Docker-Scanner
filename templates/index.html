@@ -11,16 +11,6 @@
   <div class="container">
     <h1>Docker Scanner</h1>
 
-    {% with messages = get_flashed_messages() %}
-      {% if messages %}
-        <div class="flashes">
-        {% for m in messages %}
-          <div>{{ m }}</div>
-        {% endfor %}
-        </div>
-      {% endif %}
-    {% endwith %}
-
     <form action="{{ url_for('scan') }}" method="post" class="controls">
       <input class="input" type="text" name="image" placeholder="ubuntu:20.04" required>
 
@@ -84,6 +74,16 @@
     {% if results %}
       <div class="card">
         <h2 style="margin:0 0 8px">Results for <span class="mono">{{ image }}</span></h2>
+        
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          {% for category, m in messages %}
+            <div class="flashes {{ category }}">
+              <div>{{ m }}</div>
+            </div>
+          {% endfor %}
+        {% endif %}
+      {% endwith %}
 
         <div class="table-wrap">
           <table class="table" role="table">
