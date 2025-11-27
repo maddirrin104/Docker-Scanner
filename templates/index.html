@@ -1,59 +1,12 @@
-<!-- ...existing code... -->
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Docker Scanner GUI</title>
-  <!-- Link tới CSS trong thư mục static -->
-  <link rel="stylesheet" href="./../static/index.css">
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block title %}Scan - Docker Scanner{% endblock %}
+
+{% block content %}
   <div class="container">
-    <h1>Docker Scanner</h1>
 
     <form action="{{ url_for('scan') }}" method="post" class="controls">
       <input class="input" type="text" name="image" placeholder="ubuntu:20.04" required>
-
-      <div class="checkbox-group" role="group" aria-label="Severity filters">
-        <label class="checkbox">
-          <input type="checkbox" name="severity" value="CRITICAL" {% if 'CRITICAL' in (selected_severities or []) %}checked{% endif %}>
-          <span>CRITICAL</span>
-        </label>
-        <label class="checkbox">
-          <input type="checkbox" name="severity" value="HIGH" {% if 'HIGH' in (selected_severities or []) %}checked{% endif %}>
-          <span>HIGH</span>
-        </label>
-        <label class="checkbox">
-          <input type="checkbox" name="severity" value="MEDIUM" {% if 'MEDIUM' in (selected_severities or []) %}checked{% endif %}>
-          <span>MEDIUM</span>
-        </label>
-        <label class="checkbox">
-          <input type="checkbox" name="severity" value="LOW" {% if 'LOW' in (selected_severities or []) %}checked{% endif %}>
-          <span>LOW</span>
-        </label>
-      </div>
-
-      <div style="margin-top:12px; padding:12px; background:#f0f4f8; border-radius:8px;">
-        <label style="display:block; margin-bottom:8px; font-weight:600; font-size:13px;">CI Fail Options</label>
-        
-        <label style="display:inline-flex; align-items:center; gap:8px; margin-right:16px;">
-          Fail Threshold:
-          <input type="number" name="fail_threshold" value="{{ fail_threshold or 0 }}" min="0" 
-                 style="width:60px; padding:6px; border:1px solid #ccc; border-radius:4px;">
-          <span style="font-size:12px; color:#666;">(0 = disabled)</span>
-        </label>
-
-        <label style="display:inline-flex; align-items:center; gap:8px;">
-          Fail Severity:
-          <select name="fail_severity" style="padding:6px; border:1px solid #ccc; border-radius:4px;">
-            <option value="">None (disabled)</option>
-            <option value="CRITICAL" {% if fail_severity == 'CRITICAL' %}selected{% endif %}>CRITICAL</option>
-            <option value="HIGH" {% if fail_severity == 'HIGH' %}selected{% endif %}>HIGH</option>
-            <option value="MEDIUM" {% if fail_severity == 'MEDIUM' %}selected{% endif %}>MEDIUM</option>
-            <option value="LOW" {% if fail_severity == 'LOW' %}selected{% endif %}>LOW</option>
-          </select>
-        </label>
-      </div>
 
       <button class="btn" type="submit">Scan</button>
       <button class="btn secondary" type="button" onclick="document.querySelector('input[name=image]').value=''">Clear</button>
@@ -71,22 +24,10 @@
       </div>
     </form>
 
-    {% with messages = get_flashed_messages(with_categories=true) %}
-        {% if messages %}
-          {% for category, m in messages %}
-            <div class="flashes {{ category }}">
-              <div>{{ m }}</div>
-            </div>
-          {% endfor %}
-        {% endif %}
-      {% endwith %}
-
     {% if results %}
       <div class="card">
         <h2 style="margin:0 0 8px">Results for 
           <span class="mono">{{ image }}</span>
-          <span class="mono">Fail_Threshold: {{ fail_threshold }}</span>
-          <span class="mono">Fail_Severity: {{ fail_severity }}</span>
         </h2>
 
         <div class="table-wrap">
@@ -136,5 +77,4 @@
       </div>
     {% endif %}
   </div>
-</body>
-</html>
+{% endblock %}

@@ -36,15 +36,8 @@ def index():
 
 @app.route("/scan", methods=["POST"])
 def scan():
-    image = request.form.get("image")
+    image = request.form.get("image", "").strip()
     severities = request.form.getlist("severity")
-    # capture form values and normalize
-    selected_severities = severities
-    try:
-        fail_threshold = int(request.form.get("fail_threshold", 0))
-    except (TypeError, ValueError):
-        fail_threshold = 0
-    fail_severity = request.form.get("fail_severity") or ""
 
     if not image:
         flash("Please provide an image to scan.", category="error")
@@ -53,14 +46,21 @@ def scan():
             "index.html",
             results=None,
             headers=HEADERS,
-            selected_severities=selected_severities,
-            fail_threshold=fail_threshold,
-            fail_severity=fail_severity,
             image=image or "",
         )
 
     # gọi lại chức năng hiện có
-    data = run_trivy(image)
+    try:
+        data = run_trivy(image)
+    except Exception as e:
+        flash(f"Scanner error : {e}", category="error")
+        return render_template(
+            "index.html",
+            results=None,
+            headers=HEADERS,
+            image=image or "",
+        )
+    
     report = parse_report(data, severity_filter=severities if severities else None)
 
     if not report:
@@ -70,51 +70,132 @@ def scan():
             "index.html",
             results=None,
             headers=HEADERS,
-            selected_severities=selected_severities,
-            fail_threshold=fail_threshold,
-            fail_severity=fail_severity,
             image=image,
         )
 
     base = f"{image.replace('/', '_').replace(':', '_')}_{int(time.time())}"
     json_path = os.path.join(OUTPUT_DIR, base + ".json")
     export_json(report, json_path)
+    flash("Scan completed successfully.", category="success")
+    return render_template(
+        "index.html",
+        results=report,
+        headers=HEADERS,
+        image=image,
+    )
+
+@app.route("/advanced-scan", methods=["GET"])
+def advanced_scan():
+    return render_template(
+        "advanced_scan.html",
+        results=None,
+        headers=HEADERS,
+        selected_severities=[],
+        fail_threshold=0,
+        fail_severity="",
+        image=""
+    )
+
+@app.route("/scan-advanced", methods=["POST"])
+def scan_advanced():
+    image = request.form.get("image", "").strip()
+    selected_severities = request.form.getlist("severity")
+    try:
+        fail_threshold = int(request.form.get("fail_threshold", 0))
+    except ValueError:
+        fail_threshold = 0
+    fail_severity = request.form.get("fail_severity", "")
+
+    if not image:
+        flash("Please provide an image to scan.", category="error")
+        return render_template(
+            "advanced_scan.html",
+            results=None,
+            headers=HEADERS,
+            selected_severities=selected_severities,
+            fail_threshold=fail_threshold,
+            fail_severity=fail_severity,
+            image=image
+        )
+
+    try:
+        data = run_trivy(image)
+    except Exception as e:
+        flash(f"Scanner error: {e}", category="error")
+        return render_template(
+            "advanced_scan.html",
+            results=None,
+            headers=HEADERS,
+            selected_severities=selected_severities,
+            fail_threshold=fail_threshold,
+            fail_severity=fail_severity,
+            image=image
+        )
+
+    report = parse_report(data, severity_filter=selected_severities if selected_severities else None)
+
+    if not report:
+        flash("No vulnerabilities found.", category="success")
+        return render_template(
+            "advanced_scan.html",
+            results=None,
+            headers=HEADERS,
+            selected_severities=selected_severities,
+            fail_threshold=fail_threshold,
+            fail_severity=fail_severity,
+            image=image
+        )
+
+    base = f"{image.replace('/', '_').replace(':', '_')}_{int(time.time())}"
+    json_path = os.path.join(OUTPUT_DIR, base + ".json")
+    export_json(report, json_path)
+
     # Check fail conditions
     counts = count_by_severity(report)
     total = len(report)
     failed = False
     fail_reason = ""
 
-    if fail_threshold and total > fail_threshold:
+    if fail_threshold and total >= fail_threshold:
         failed = True
-        fail_reason = f"Total vulnerabilities {total} exceed threshold {fail_threshold}."
-
+        fail_reason = f"Total vulnerabilities ({total}) >= threshold ({fail_threshold})"
+    
     if fail_severity:
-        for sev in ("CRITICAL", "HIGH", "MEDIUM", "LOW", "UNKNOWN"):
-            if severity_meets_threshold(sev, fail_severity) and counts.get(sev, 0) > 0:
+        for sev in ("CRITICAL","HIGH","MEDIUM","LOW"):
+            if severity_meets_threshold(sev, fail_severity) and counts.get(sev,0) > 0:
                 failed = True
-                fail_reason = (
-                    f"Found {counts.get(sev, 0)} vulnerabilities of severity {sev} or higher."
-                )
+                fail_reason = f"Found {counts.get(sev,0)} {sev} >= fail-severity {fail_severity}"
                 break
 
     if failed:
         flash(f"Scan failed: {fail_reason}", category="error")
     else:
-        flash("Scan successful: No failure conditions met.", category="success")
+        flash(f"Scan successful: No failure condition met", category="success")
 
     return render_template(
-        "index.html",
+        "advanced_scan.html",
         results=report,
         headers=HEADERS,
         filename=base + ".json",
         image=image,
         selected_severities=selected_severities,
         fail_threshold=fail_threshold,
-        fail_severity=fail_severity,
-        failed=failed,
+        fail_severity=fail_severity
     )
 
+@app.route("/history", methods=["GET"])
+def history():
+    return render_template("history.html")
+
+
+@app.route("/login", methods=["GET"])
+def login():
+    return render_template("login.html")
+
+
+@app.route("/signup", methods=["GET"])
+def signup():
+    return render_template("signup.html")
 
 @app.route("/export/<fmt>/<filename>", methods=["GET"])
 def export_report(fmt, filename):
@@ -140,7 +221,6 @@ def export_report(fmt, filename):
         return redirect(url_for("index"))
 
     return send_from_directory(OUTPUT_DIR, out_name, as_attachment=True)
-
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=3636, debug=True)

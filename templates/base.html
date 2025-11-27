@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='logo_fix.png') }}">
+  <title>{% block title %}Docker Scanner{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+  <style>
+    /* navbar styles */
+    .navbar {
+      background: linear-gradient(90deg, #2563eb, #1e40af);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .navbar-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: white;
+      font-weight: 700;
+      font-size: 18px;
+      text-decoration: none;
+    }
+    .navbar-brand img {
+      height: 32px;
+      width: 32px;
+    }
+    .navbar-menu {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+    .navbar-menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background 0.2s;
+    }
+    .navbar-menu a:hover {
+      background: rgba(255,255,255,0.1);
+    }
+    .navbar-menu a.active {
+      background: rgba(255,255,255,0.2);
+    }
+    .navbar-auth {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    .navbar-auth a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 6px 12px;
+      border: 1px solid white;
+      border-radius: 4px;
+      transition: all 0.2s;
+    }
+    .navbar-auth a:hover {
+      background: white;
+      color: #2563eb;
+    }
+    .page-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="{{ url_for('index') }}" class="navbar-brand">
+      <img src="{{ url_for('static', filename='logo_fix.png') }}" alt="logo">
+      <span>Docker Scanner</span>
+    </a>
+    <div class="navbar-menu">
+      <a href="{{ url_for('index') }}" {% if request.endpoint == 'index' %}class="active"{% endif %}>Scan</a>
+      <a href="{{ url_for('advanced_scan') }}" {% if request.endpoint == 'advanced_scan' %}class="active"{% endif %}>Advanced Scan</a>
+      <a href="{{ url_for('history') }}" {% if request.endpoint == 'history' %}class="active"{% endif %}>History</a>
+    </div>
+    <div class="navbar-auth">
+      <a href="{{ url_for('login') }}">Log in</a>
+      <a href="{{ url_for('signup') }}">Sign up</a>
+    </div>
+  </nav>
+
+  <!-- Page content -->
+  <div class="page-content">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, m in messages %}
+          <div class="flashes {{ category }}">
+            <div>{{ m }}</div>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>
