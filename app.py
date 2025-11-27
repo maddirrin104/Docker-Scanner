@@ -10,6 +10,10 @@ from report.csv_writter import export_csv
 from report.html_writter import export_html
 from report.json_writter import export_json
 from scanner import count_by_severity, severity_meets_threshold
+from caching_result.cache_manager import CacheManager
+from caching_result.db import init_db
+cache_manager = CacheManager(cache_expire_hours=24)
+init_db()
 
 BASE_DIR = os.path.dirname(__file__)
 OUTPUT_DIR = os.path.join(BASE_DIR, "scan-results")
@@ -48,6 +52,13 @@ def scan():
             headers=HEADERS,
             image=image or "",
         )
+        
+    # Check cache before re-scan
+    cached_report, cache_hit = cache_manager.get_cached_report(image, severity_filter=None, fail_threshold=0, fail_severity="")
+    if cache_hit and cached_report:
+        flash(f"Results from cache (scanned earlier).", category="success")
+        return render_template("index.html", results=cached_report, headers=HEADERS, image=image, from_cache=True)
+
 
     # gọi lại chức năng hiện có
     try:
@@ -76,6 +87,7 @@ def scan():
     base = f"{image.replace('/', '_').replace(':', '_')}_{int(time.time())}"
     json_path = os.path.join(OUTPUT_DIR, base + ".json")
     export_json(report, json_path)
+    cache_manager.save_cache(image, report, json_path, severity_filter=None)
     flash("Scan completed successfully.", category="success")
     return render_template(
         "index.html",
@@ -117,6 +129,26 @@ def scan_advanced():
             fail_severity=fail_severity,
             image=image
         )
+    
+    # Check cache before re-scan
+    cached_report, cache_hit = cache_manager.get_cached_report(
+        image, 
+        severity_filter=selected_severities, 
+        fail_threshold=fail_threshold, 
+        fail_severity=fail_severity
+    )
+    if cache_hit and cached_report:
+        flash(f"Results from cache (scanned earlier).", category="success")
+        return render_template(
+            "advanced_scan.html",
+            results=cached_report,
+            headers=HEADERS,
+            selected_severities=selected_severities,
+            fail_threshold=fail_threshold,
+            fail_severity=fail_severity,
+            image=image,
+            from_cache=True
+        )
 
     try:
         data = run_trivy(image)
@@ -149,6 +181,16 @@ def scan_advanced():
     base = f"{image.replace('/', '_').replace(':', '_')}_{int(time.time())}"
     json_path = os.path.join(OUTPUT_DIR, base + ".json")
     export_json(report, json_path)
+
+    # Save to cache
+    cache_manager.save_cache(
+        image, 
+        report, 
+        json_path, 
+        severity_filter=selected_severities, 
+        fail_threshold=fail_threshold, 
+        fail_severity=fail_severity
+    )
 
     # Check fail conditions
     counts = count_by_severity(report)
