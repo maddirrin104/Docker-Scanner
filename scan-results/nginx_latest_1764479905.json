@@ -1,0 +1,770 @@
+[
+  [
+    "apt",
+    "CVE-2011-3374",
+    "LOW",
+    "3.0.3",
+    "",
+    "It was found that apt-key in apt, all versions, do"
+  ],
+  [
+    "bash",
+    "TEMP-0841856-B18BAF",
+    "LOW",
+    "5.2.37-2+b5",
+    "",
+    "[Privilege escalation possible to other user than "
+  ],
+  [
+    "bsdutils",
+    "CVE-2022-0563",
+    "LOW",
+    "1:2.41-5",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "coreutils",
+    "CVE-2017-18018",
+    "LOW",
+    "9.7-3",
+    "",
+    "coreutils: race condition vulnerability in chown a"
+  ],
+  [
+    "coreutils",
+    "CVE-2025-5278",
+    "LOW",
+    "9.7-3",
+    "",
+    "coreutils: Heap Buffer Under-Read in GNU Coreutils"
+  ],
+  [
+    "curl",
+    "CVE-2025-10966",
+    "LOW",
+    "8.14.1-2+deb13u2",
+    "",
+    "curl: Curl missing SFTP host verification with wol"
+  ],
+  [
+    "libapt-pkg7.0",
+    "CVE-2011-3374",
+    "LOW",
+    "3.0.3",
+    "",
+    "It was found that apt-key in apt, all versions, do"
+  ],
+  [
+    "libblkid1",
+    "CVE-2022-0563",
+    "LOW",
+    "2.41-5",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "libc-bin",
+    "CVE-2010-4756",
+    "LOW",
+    "2.41-12",
+    "",
+    "glibc: glob implementation can cause excessive CPU"
+  ],
+  [
+    "libc-bin",
+    "CVE-2018-20796",
+    "LOW",
+    "2.41-12",
+    "",
+    "glibc: uncontrolled recursion in function check_ds"
+  ],
+  [
+    "libc-bin",
+    "CVE-2019-1010022",
+    "LOW",
+    "2.41-12",
+    "",
+    "glibc: stack guard protection bypass"
+  ],
+  [
+    "libc-bin",
+    "CVE-2019-1010023",
+    "LOW",
+    "2.41-12",
+    "",
+    "glibc: running ldd on malicious ELF leads to code "
+  ],
+  [
+    "libc-bin",
+    "CVE-2019-1010024",
+    "LOW",
+    "2.41-12",
+    "",
+    "glibc: ASLR bypass using cache of thread stack and"
+  ],
+  [
+    "libc-bin",
+    "CVE-2019-1010025",
+    "LOW",
+    "2.41-12",
+    "",
+    "glibc: information disclosure of heap addresses of"
+  ],
+  [
+    "libc-bin",
+    "CVE-2019-9192",
+    "LOW",
+    "2.41-12",
+    "",
+    "glibc: uncontrolled recursion in function check_ds"
+  ],
+  [
+    "libc6",
+    "CVE-2010-4756",
+    "LOW",
+    "2.41-12",
+    "",
+    "glibc: glob implementation can cause excessive CPU"
+  ],
+  [
+    "libc6",
+    "CVE-2018-20796",
+    "LOW",
+    "2.41-12",
+    "",
+    "glibc: uncontrolled recursion in function check_ds"
+  ],
+  [
+    "libc6",
+    "CVE-2019-1010022",
+    "LOW",
+    "2.41-12",
+    "",
+    "glibc: stack guard protection bypass"
+  ],
+  [
+    "libc6",
+    "CVE-2019-1010023",
+    "LOW",
+    "2.41-12",
+    "",
+    "glibc: running ldd on malicious ELF leads to code "
+  ],
+  [
+    "libc6",
+    "CVE-2019-1010024",
+    "LOW",
+    "2.41-12",
+    "",
+    "glibc: ASLR bypass using cache of thread stack and"
+  ],
+  [
+    "libc6",
+    "CVE-2019-1010025",
+    "LOW",
+    "2.41-12",
+    "",
+    "glibc: information disclosure of heap addresses of"
+  ],
+  [
+    "libc6",
+    "CVE-2019-9192",
+    "LOW",
+    "2.41-12",
+    "",
+    "glibc: uncontrolled recursion in function check_ds"
+  ],
+  [
+    "libcurl4t64",
+    "CVE-2025-10966",
+    "LOW",
+    "8.14.1-2+deb13u2",
+    "",
+    "curl: Curl missing SFTP host verification with wol"
+  ],
+  [
+    "libde265-0",
+    "CVE-2024-38949",
+    "MEDIUM",
+    "1.0.15-1+b3",
+    "",
+    "Heap Buffer Overflow vulnerability in Libde265 v1."
+  ],
+  [
+    "libde265-0",
+    "CVE-2024-38950",
+    "MEDIUM",
+    "1.0.15-1+b3",
+    "",
+    "Heap Buffer Overflow vulnerability in Libde265 v1."
+  ],
+  [
+    "libexpat1",
+    "CVE-2025-59375",
+    "MEDIUM",
+    "2.7.1-2",
+    "",
+    "expat: libexpat in Expat allows attackers to trigg"
+  ],
+  [
+    "libexpat1",
+    "CVE-2025-66382",
+    "LOW",
+    "2.7.1-2",
+    "",
+    "libexpat: libexpat: Denial of service via crafted "
+  ],
+  [
+    "libgcrypt20",
+    "CVE-2018-6829",
+    "LOW",
+    "1.11.0-7",
+    "",
+    "libgcrypt: ElGamal implementation doesn't have sem"
+  ],
+  [
+    "libgcrypt20",
+    "CVE-2024-2236",
+    "LOW",
+    "1.11.0-7",
+    "",
+    "libgcrypt: vulnerable to Marvin Attack"
+  ],
+  [
+    "libgnutls30t64",
+    "CVE-2011-3389",
+    "LOW",
+    "3.8.9-3",
+    "",
+    "HTTPS: block-wise chosen-plaintext attack against "
+  ],
+  [
+    "libgnutls30t64",
+    "CVE-2025-9820",
+    "UNKNOWN",
+    "3.8.9-3",
+    "",
+    "[GNUTLS-SA-2025-11-18]"
+  ],
+  [
+    "libgssapi-krb5-2",
+    "CVE-2018-5709",
+    "LOW",
+    "1.21.3-5",
+    "",
+    "krb5: integer overflow in dbentry->n_key_data in k"
+  ],
+  [
+    "libgssapi-krb5-2",
+    "CVE-2024-26458",
+    "LOW",
+    "1.21.3-5",
+    "",
+    "krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c"
+  ],
+  [
+    "libgssapi-krb5-2",
+    "CVE-2024-26461",
+    "LOW",
+    "1.21.3-5",
+    "",
+    "krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5s"
+  ],
+  [
+    "libjbig0",
+    "CVE-2017-9937",
+    "LOW",
+    "2.1-6.1+b2",
+    "",
+    "libtiff: memory malloc failure in tif_jbig.c could"
+  ],
+  [
+    "libk5crypto3",
+    "CVE-2018-5709",
+    "LOW",
+    "1.21.3-5",
+    "",
+    "krb5: integer overflow in dbentry->n_key_data in k"
+  ],
+  [
+    "libk5crypto3",
+    "CVE-2024-26458",
+    "LOW",
+    "1.21.3-5",
+    "",
+    "krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c"
+  ],
+  [
+    "libk5crypto3",
+    "CVE-2024-26461",
+    "LOW",
+    "1.21.3-5",
+    "",
+    "krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5s"
+  ],
+  [
+    "libkrb5-3",
+    "CVE-2018-5709",
+    "LOW",
+    "1.21.3-5",
+    "",
+    "krb5: integer overflow in dbentry->n_key_data in k"
+  ],
+  [
+    "libkrb5-3",
+    "CVE-2024-26458",
+    "LOW",
+    "1.21.3-5",
+    "",
+    "krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c"
+  ],
+  [
+    "libkrb5-3",
+    "CVE-2024-26461",
+    "LOW",
+    "1.21.3-5",
+    "",
+    "krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5s"
+  ],
+  [
+    "libkrb5support0",
+    "CVE-2018-5709",
+    "LOW",
+    "1.21.3-5",
+    "",
+    "krb5: integer overflow in dbentry->n_key_data in k"
+  ],
+  [
+    "libkrb5support0",
+    "CVE-2024-26458",
+    "LOW",
+    "1.21.3-5",
+    "",
+    "krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c"
+  ],
+  [
+    "libkrb5support0",
+    "CVE-2024-26461",
+    "LOW",
+    "1.21.3-5",
+    "",
+    "krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5s"
+  ],
+  [
+    "liblastlog2-2",
+    "CVE-2022-0563",
+    "LOW",
+    "2.41-5",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "libldap2",
+    "CVE-2015-3276",
+    "LOW",
+    "2.6.10+dfsg-1",
+    "",
+    "openldap: incorrect multi-keyword mode cipherstrin"
+  ],
+  [
+    "libldap2",
+    "CVE-2017-14159",
+    "LOW",
+    "2.6.10+dfsg-1",
+    "",
+    "openldap: Privilege escalation via PID file manipu"
+  ],
+  [
+    "libldap2",
+    "CVE-2017-17740",
+    "LOW",
+    "2.6.10+dfsg-1",
+    "",
+    "openldap: contrib/slapd-modules/nops/nops.c attemp"
+  ],
+  [
+    "libldap2",
+    "CVE-2020-15719",
+    "LOW",
+    "2.6.10+dfsg-1",
+    "",
+    "openldap: Certificate validation incorrectly match"
+  ],
+  [
+    "libmount1",
+    "CVE-2022-0563",
+    "LOW",
+    "2.41-5",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "libpng16-16t64",
+    "CVE-2025-64505",
+    "HIGH",
+    "1.6.48-1",
+    "",
+    "LIBPNG is a reference library for use in applicati"
+  ],
+  [
+    "libpng16-16t64",
+    "CVE-2025-64720",
+    "HIGH",
+    "1.6.48-1",
+    "",
+    "libpng: LIBPNG buffer overflow"
+  ],
+  [
+    "libpng16-16t64",
+    "CVE-2025-65018",
+    "HIGH",
+    "1.6.48-1",
+    "",
+    "libpng: LIBPNG heap buffer overflow"
+  ],
+  [
+    "libpng16-16t64",
+    "CVE-2025-64506",
+    "MEDIUM",
+    "1.6.48-1",
+    "",
+    "libpng: LIBPNG heap buffer over-read"
+  ],
+  [
+    "libpng16-16t64",
+    "CVE-2021-4214",
+    "LOW",
+    "1.6.48-1",
+    "",
+    "libpng: hardcoded value leads to heap-overflow"
+  ],
+  [
+    "libsmartcols1",
+    "CVE-2022-0563",
+    "LOW",
+    "2.41-5",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "libsqlite3-0",
+    "CVE-2025-7709",
+    "MEDIUM",
+    "3.46.1-7",
+    "",
+    "An integer overflow exists in the  FTS5 https://sq"
+  ],
+  [
+    "libsqlite3-0",
+    "CVE-2021-45346",
+    "LOW",
+    "3.46.1-7",
+    "",
+    "sqlite: crafted SQL query allows a malicious user "
+  ],
+  [
+    "libsystemd0",
+    "CVE-2013-4392",
+    "LOW",
+    "257.9-1~deb13u1",
+    "",
+    "systemd: TOCTOU race condition when updating file "
+  ],
+  [
+    "libsystemd0",
+    "CVE-2023-31437",
+    "LOW",
+    "257.9-1~deb13u1",
+    "",
+    "An issue was discovered in systemd 253. An attacke"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2023-31438",
+    "LOW",
+    "257.9-1~deb13u1",
+    "",
+    "An issue was discovered in systemd 253. An attacke"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2023-31439",
+    "LOW",
+    "257.9-1~deb13u1",
+    "",
+    "An issue was discovered in systemd 253. An attacke"
+  ],
+  [
+    "libtiff6",
+    "CVE-2017-16232",
+    "LOW",
+    "4.7.0-3+deb13u1",
+    "",
+    "libtiff: Memory leaks in tif_open.c, tif_lzw.c, an"
+  ],
+  [
+    "libtiff6",
+    "CVE-2018-10126",
+    "LOW",
+    "4.7.0-3+deb13u1",
+    "",
+    "libtiff: NULL pointer dereference in the jpeg_fdct"
+  ],
+  [
+    "libtiff6",
+    "CVE-2022-1210",
+    "LOW",
+    "4.7.0-3+deb13u1",
+    "",
+    "tiff: Malicious file leads to a denial of service "
+  ],
+  [
+    "libtiff6",
+    "CVE-2025-8176",
+    "LOW",
+    "4.7.0-3+deb13u1",
+    "",
+    "libtiff: LibTIFF Use-After-Free Vulnerability"
+  ],
+  [
+    "libtiff6",
+    "CVE-2025-8177",
+    "LOW",
+    "4.7.0-3+deb13u1",
+    "",
+    "libtiff: LibTIFF Buffer Overflow"
+  ],
+  [
+    "libtiff6",
+    "CVE-2025-8534",
+    "LOW",
+    "4.7.0-3+deb13u1",
+    "",
+    "libtiff: Libtiff Null Pointer Dereference Vulnerab"
+  ],
+  [
+    "libtinfo6",
+    "CVE-2025-6141",
+    "LOW",
+    "6.5+20250216-2",
+    "",
+    "gnu-ncurses: ncurses Stack Buffer Overflow"
+  ],
+  [
+    "libudev1",
+    "CVE-2013-4392",
+    "LOW",
+    "257.9-1~deb13u1",
+    "",
+    "systemd: TOCTOU race condition when updating file "
+  ],
+  [
+    "libudev1",
+    "CVE-2023-31437",
+    "LOW",
+    "257.9-1~deb13u1",
+    "",
+    "An issue was discovered in systemd 253. An attacke"
+  ],
+  [
+    "libudev1",
+    "CVE-2023-31438",
+    "LOW",
+    "257.9-1~deb13u1",
+    "",
+    "An issue was discovered in systemd 253. An attacke"
+  ],
+  [
+    "libudev1",
+    "CVE-2023-31439",
+    "LOW",
+    "257.9-1~deb13u1",
+    "",
+    "An issue was discovered in systemd 253. An attacke"
+  ],
+  [
+    "libuuid1",
+    "CVE-2022-0563",
+    "LOW",
+    "2.41-5",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "libxml2",
+    "CVE-2025-8732",
+    "LOW",
+    "2.12.7+dfsg+really2.9.14-2.1+deb13u2",
+    "",
+    "libxml2: libxml2: Uncontrolled Recursion Vulnerabi"
+  ],
+  [
+    "libxslt1.1",
+    "CVE-2025-7425",
+    "HIGH",
+    "1.1.35-1.2+deb13u2",
+    "",
+    "libxslt: Heap Use-After-Free in libxslt caused by "
+  ],
+  [
+    "libxslt1.1",
+    "CVE-2025-10911",
+    "MEDIUM",
+    "1.1.35-1.2+deb13u2",
+    "",
+    "libxslt: use-after-free with key data stored cross"
+  ],
+  [
+    "libxslt1.1",
+    "CVE-2015-9019",
+    "LOW",
+    "1.1.35-1.2+deb13u2",
+    "",
+    "libxslt: math.random() in xslt uses unseeded rando"
+  ],
+  [
+    "libxslt1.1",
+    "CVE-2025-11731",
+    "LOW",
+    "1.1.35-1.2+deb13u2",
+    "",
+    "libxslt: Type Confusion in exsltFuncResultCompfunc"
+  ],
+  [
+    "login",
+    "CVE-2022-0563",
+    "LOW",
+    "1:4.16.0-2+really2.41-5",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "login.defs",
+    "CVE-2007-5686",
+    "LOW",
+    "1:4.17.4-2",
+    "",
+    "initscripts in rPath Linux 1 sets insecure permiss"
+  ],
+  [
+    "login.defs",
+    "CVE-2024-56433",
+    "LOW",
+    "1:4.17.4-2",
+    "",
+    "shadow-utils: Default subordinate ID configuration"
+  ],
+  [
+    "login.defs",
+    "TEMP-0628843-DBAD28",
+    "LOW",
+    "1:4.17.4-2",
+    "",
+    "[more related to CVE-2005-4890]"
+  ],
+  [
+    "mount",
+    "CVE-2022-0563",
+    "LOW",
+    "2.41-5",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "ncurses-base",
+    "CVE-2025-6141",
+    "LOW",
+    "6.5+20250216-2",
+    "",
+    "gnu-ncurses: ncurses Stack Buffer Overflow"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2025-6141",
+    "LOW",
+    "6.5+20250216-2",
+    "",
+    "gnu-ncurses: ncurses Stack Buffer Overflow"
+  ],
+  [
+    "nginx",
+    "CVE-2009-4487",
+    "LOW",
+    "1.29.3-1~trixie",
+    "",
+    "nginx: Absent sanitation of escape sequences in we"
+  ],
+  [
+    "nginx",
+    "CVE-2013-0337",
+    "LOW",
+    "1.29.3-1~trixie",
+    "",
+    "The default configuration of nginx, possibly 1.3.1"
+  ],
+  [
+    "passwd",
+    "CVE-2007-5686",
+    "LOW",
+    "1:4.17.4-2",
+    "",
+    "initscripts in rPath Linux 1 sets insecure permiss"
+  ],
+  [
+    "passwd",
+    "CVE-2024-56433",
+    "LOW",
+    "1:4.17.4-2",
+    "",
+    "shadow-utils: Default subordinate ID configuration"
+  ],
+  [
+    "passwd",
+    "TEMP-0628843-DBAD28",
+    "LOW",
+    "1:4.17.4-2",
+    "",
+    "[more related to CVE-2005-4890]"
+  ],
+  [
+    "perl-base",
+    "CVE-2011-4116",
+    "LOW",
+    "5.40.1-6",
+    "",
+    "perl: File:: Temp insecure temporary file handling"
+  ],
+  [
+    "sysvinit-utils",
+    "TEMP-0517018-A83CE6",
+    "LOW",
+    "3.14-4",
+    "",
+    "[sysvinit: no-root option in expert installer expo"
+  ],
+  [
+    "tar",
+    "CVE-2005-2541",
+    "LOW",
+    "1.35+dfsg-3.1",
+    "",
+    "tar: does not properly warn the user when extracti"
+  ],
+  [
+    "tar",
+    "TEMP-0290435-0B57B5",
+    "LOW",
+    "1.35+dfsg-3.1",
+    "",
+    "[tar's rmt command may have undesired side effects"
+  ],
+  [
+    "util-linux",
+    "CVE-2022-0563",
+    "LOW",
+    "2.41-5",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ]
+]

@@ -1,0 +1,418 @@
+[
+  [
+    "binutils",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "binutils",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "binutils",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "binutils",
+    "CVE-2017-13716",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: Memory leak with the C++ symbol demangle"
+  ],
+  [
+    "binutils",
+    "CVE-2025-1152",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld xstrdup.c xstrdup memory"
+  ],
+  [
+    "binutils-common",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "binutils-common",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "binutils-common",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "binutils-common",
+    "CVE-2017-13716",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: Memory leak with the C++ symbol demangle"
+  ],
+  [
+    "binutils-common",
+    "CVE-2025-1152",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld xstrdup.c xstrdup memory"
+  ],
+  [
+    "binutils-x86-64-linux-gnu",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "binutils-x86-64-linux-gnu",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "binutils-x86-64-linux-gnu",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "binutils-x86-64-linux-gnu",
+    "CVE-2017-13716",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: Memory leak with the C++ symbol demangle"
+  ],
+  [
+    "binutils-x86-64-linux-gnu",
+    "CVE-2025-1152",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld xstrdup.c xstrdup memory"
+  ],
+  [
+    "coreutils",
+    "CVE-2016-2781",
+    "LOW",
+    "9.4-3ubuntu6.1",
+    "",
+    "coreutils: Non-privileged session can escape to th"
+  ],
+  [
+    "gpgv",
+    "CVE-2022-3219",
+    "LOW",
+    "2.4.4-2ubuntu17.3",
+    "",
+    "gnupg: denial of service issue (resource consumpti"
+  ],
+  [
+    "libbinutils",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "libbinutils",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "libbinutils",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "libbinutils",
+    "CVE-2017-13716",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: Memory leak with the C++ symbol demangle"
+  ],
+  [
+    "libbinutils",
+    "CVE-2025-1152",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld xstrdup.c xstrdup memory"
+  ],
+  [
+    "libctf-nobfd0",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "libctf-nobfd0",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "libctf-nobfd0",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "libctf-nobfd0",
+    "CVE-2017-13716",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: Memory leak with the C++ symbol demangle"
+  ],
+  [
+    "libctf-nobfd0",
+    "CVE-2025-1152",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld xstrdup.c xstrdup memory"
+  ],
+  [
+    "libctf0",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "libctf0",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "libctf0",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "libctf0",
+    "CVE-2017-13716",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: Memory leak with the C++ symbol demangle"
+  ],
+  [
+    "libctf0",
+    "CVE-2025-1152",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld xstrdup.c xstrdup memory"
+  ],
+  [
+    "libgcrypt20",
+    "CVE-2024-2236",
+    "LOW",
+    "1.10.3-2build1",
+    "",
+    "libgcrypt: vulnerable to Marvin Attack"
+  ],
+  [
+    "libgprofng0",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "libgprofng0",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "libgprofng0",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "libgprofng0",
+    "CVE-2017-13716",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: Memory leak with the C++ symbol demangle"
+  ],
+  [
+    "libgprofng0",
+    "CVE-2025-1152",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld xstrdup.c xstrdup memory"
+  ],
+  [
+    "libpam-modules",
+    "CVE-2025-8941",
+    "MEDIUM",
+    "1.5.3-5ubuntu5.5",
+    "",
+    "linux-pam: Incomplete fix for CVE-2025-6020"
+  ],
+  [
+    "libpam-modules-bin",
+    "CVE-2025-8941",
+    "MEDIUM",
+    "1.5.3-5ubuntu5.5",
+    "",
+    "linux-pam: Incomplete fix for CVE-2025-6020"
+  ],
+  [
+    "libpam-runtime",
+    "CVE-2025-8941",
+    "MEDIUM",
+    "1.5.3-5ubuntu5.5",
+    "",
+    "linux-pam: Incomplete fix for CVE-2025-6020"
+  ],
+  [
+    "libpam0g",
+    "CVE-2025-8941",
+    "MEDIUM",
+    "1.5.3-5ubuntu5.5",
+    "",
+    "linux-pam: Incomplete fix for CVE-2025-6020"
+  ],
+  [
+    "libsframe1",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "libsframe1",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "libsframe1",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "libsframe1",
+    "CVE-2017-13716",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: Memory leak with the C++ symbol demangle"
+  ],
+  [
+    "libsframe1",
+    "CVE-2025-1152",
+    "LOW",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld xstrdup.c xstrdup memory"
+  ],
+  [
+    "libssl3t64",
+    "CVE-2024-41996",
+    "LOW",
+    "3.0.13-0ubuntu3.6",
+    "",
+    "openssl: remote attackers (from the client side) t"
+  ],
+  [
+    "login",
+    "CVE-2024-56433",
+    "LOW",
+    "1:4.13+dfsg1-4ubuntu3.2",
+    "",
+    "shadow-utils: Default subordinate ID configuration"
+  ],
+  [
+    "openssl",
+    "CVE-2024-41996",
+    "LOW",
+    "3.0.13-0ubuntu3.6",
+    "",
+    "openssl: remote attackers (from the client side) t"
+  ],
+  [
+    "passwd",
+    "CVE-2024-56433",
+    "LOW",
+    "1:4.13+dfsg1-4ubuntu3.2",
+    "",
+    "shadow-utils: Default subordinate ID configuration"
+  ],
+  [
+    "tar",
+    "CVE-2025-45582",
+    "MEDIUM",
+    "1.35+dfsg-3build1",
+    "",
+    "tar: Tar path traversal"
+  ]
+]

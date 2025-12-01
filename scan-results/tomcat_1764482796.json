@@ -1,0 +1,234 @@
+[
+  [
+    "binutils",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "binutils",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "binutils",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "binutils-common",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "binutils-common",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "binutils-common",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "binutils-x86-64-linux-gnu",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "binutils-x86-64-linux-gnu",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "binutils-x86-64-linux-gnu",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "libbinutils",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "libbinutils",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "libbinutils",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "libctf-nobfd0",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "libctf-nobfd0",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "libctf-nobfd0",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "libctf0",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "libctf0",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "libctf0",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "libgprofng0",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "libgprofng0",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "libgprofng0",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "libpam-modules",
+    "CVE-2025-8941",
+    "MEDIUM",
+    "1.5.3-5ubuntu5.5",
+    "",
+    "linux-pam: Incomplete fix for CVE-2025-6020"
+  ],
+  [
+    "libpam-modules-bin",
+    "CVE-2025-8941",
+    "MEDIUM",
+    "1.5.3-5ubuntu5.5",
+    "",
+    "linux-pam: Incomplete fix for CVE-2025-6020"
+  ],
+  [
+    "libpam-runtime",
+    "CVE-2025-8941",
+    "MEDIUM",
+    "1.5.3-5ubuntu5.5",
+    "",
+    "linux-pam: Incomplete fix for CVE-2025-6020"
+  ],
+  [
+    "libpam0g",
+    "CVE-2025-8941",
+    "MEDIUM",
+    "1.5.3-5ubuntu5.5",
+    "",
+    "linux-pam: Incomplete fix for CVE-2025-6020"
+  ],
+  [
+    "libsframe1",
+    "CVE-2025-1180",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils ld elf-eh-frame.c _bfd_elf_"
+  ],
+  [
+    "libsframe1",
+    "CVE-2025-11839",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils prdbg.c tg_tag_type return "
+  ],
+  [
+    "libsframe1",
+    "CVE-2025-11840",
+    "MEDIUM",
+    "2.42-4ubuntu2.6",
+    "",
+    "binutils: GNU Binutils out-of-bounds read"
+  ],
+  [
+    "tar",
+    "CVE-2025-45582",
+    "MEDIUM",
+    "1.35+dfsg-3build1",
+    "",
+    "tar: Tar path traversal"
+  ]
+]

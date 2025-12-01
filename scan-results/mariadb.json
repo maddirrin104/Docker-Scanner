@@ -1,0 +1,3074 @@
+[
+  [
+    "bash",
+    "CVE-2019-18276",
+    "LOW",
+    "4.4.18-2ubuntu1.2",
+    "4.4.18-2ubuntu1.3",
+    "bash: when effective UID is not equal to its real "
+  ],
+  [
+    "dirmngr",
+    "CVE-2022-34903",
+    "MEDIUM",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.6",
+    "gpg: Signature spoofing via status line injection"
+  ],
+  [
+    "dirmngr",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "dpkg",
+    "CVE-2022-1664",
+    "MEDIUM",
+    "1.19.0.5ubuntu2.3",
+    "1.19.0.5ubuntu2.4",
+    "Dpkg::Source::Archive in dpkg, the Debian package "
+  ],
+  [
+    "e2fsprogs",
+    "CVE-2022-1304",
+    "MEDIUM",
+    "1.44.1-1ubuntu1.3",
+    "1.44.1-1ubuntu1.4",
+    "e2fsprogs: out-of-bounds read/write via crafted fi"
+  ],
+  [
+    "gnupg",
+    "CVE-2022-34903",
+    "MEDIUM",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.6",
+    "gpg: Signature spoofing via status line injection"
+  ],
+  [
+    "gnupg",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gnupg-l10n",
+    "CVE-2022-34903",
+    "MEDIUM",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.6",
+    "gpg: Signature spoofing via status line injection"
+  ],
+  [
+    "gnupg-l10n",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gnupg-utils",
+    "CVE-2022-34903",
+    "MEDIUM",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.6",
+    "gpg: Signature spoofing via status line injection"
+  ],
+  [
+    "gnupg-utils",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gpg",
+    "CVE-2022-34903",
+    "MEDIUM",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.6",
+    "gpg: Signature spoofing via status line injection"
+  ],
+  [
+    "gpg",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gpg-agent",
+    "CVE-2022-34903",
+    "MEDIUM",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.6",
+    "gpg: Signature spoofing via status line injection"
+  ],
+  [
+    "gpg-agent",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gpg-wks-client",
+    "CVE-2022-34903",
+    "MEDIUM",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.6",
+    "gpg: Signature spoofing via status line injection"
+  ],
+  [
+    "gpg-wks-client",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gpg-wks-server",
+    "CVE-2022-34903",
+    "MEDIUM",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.6",
+    "gpg: Signature spoofing via status line injection"
+  ],
+  [
+    "gpg-wks-server",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gpgconf",
+    "CVE-2022-34903",
+    "MEDIUM",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.6",
+    "gpg: Signature spoofing via status line injection"
+  ],
+  [
+    "gpgconf",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gpgsm",
+    "CVE-2022-34903",
+    "MEDIUM",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.6",
+    "gpg: Signature spoofing via status line injection"
+  ],
+  [
+    "gpgsm",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gpgv",
+    "CVE-2022-34903",
+    "MEDIUM",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.6",
+    "gpg: Signature spoofing via status line injection"
+  ],
+  [
+    "gpgv",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gzip",
+    "CVE-2022-1271",
+    "MEDIUM",
+    "1.6-5ubuntu1",
+    "1.6-5ubuntu1.2",
+    "gzip: arbitrary-file-write vulnerability"
+  ],
+  [
+    "libasn1-8-heimdal",
+    "CVE-2018-16860",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: S4U2Self with unkeyed checksum"
+  ],
+  [
+    "libasn1-8-heimdal",
+    "CVE-2021-44758",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows attackers to cause a N"
+  ],
+  [
+    "libasn1-8-heimdal",
+    "CVE-2022-3116",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "CVE-2022-3116 affecting package samba for versions"
+  ],
+  [
+    "libasn1-8-heimdal",
+    "CVE-2022-3437",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "samba: heap buffer overflow in GSSAPI unwrap_des()"
+  ],
+  [
+    "libasn1-8-heimdal",
+    "CVE-2022-41916",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.2",
+    "Heimdal is an implementation of ASN.1/DER, PKIX, a"
+  ],
+  [
+    "libasn1-8-heimdal",
+    "CVE-2022-42898",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "krb5: integer overflow vulnerabilities in PAC pars"
+  ],
+  [
+    "libasn1-8-heimdal",
+    "CVE-2022-44640",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows remote attackers to ex"
+  ],
+  [
+    "libasn1-8-heimdal",
+    "CVE-2022-45142",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.4",
+    "samba: fix introduced a logic inversion"
+  ],
+  [
+    "libasn1-8-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libasn1-8-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libc-bin",
+    "CVE-2021-3999",
+    "MEDIUM",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Off-by-one buffer overflow/underflow in get"
+  ],
+  [
+    "libc-bin",
+    "CVE-2016-10228",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: iconv program can hang when invoked with th"
+  ],
+  [
+    "libc-bin",
+    "CVE-2019-25013",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: buffer over-read in iconv when processing i"
+  ],
+  [
+    "libc-bin",
+    "CVE-2020-27618",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: iconv when processing invalid multi-byte in"
+  ],
+  [
+    "libc-bin",
+    "CVE-2020-29562",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: assertion failure in iconv when converting "
+  ],
+  [
+    "libc-bin",
+    "CVE-2020-6096",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: signed comparison vulnerability in the ARMv"
+  ],
+  [
+    "libc-bin",
+    "CVE-2021-3326",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Assertion failure in ISO-2022-JP-3 gconv mo"
+  ],
+  [
+    "libc-bin",
+    "CVE-2021-35942",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Arbitrary read in wordexp()"
+  ],
+  [
+    "libc-bin",
+    "CVE-2022-23218",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Stack-based buffer overflow in svcunix_crea"
+  ],
+  [
+    "libc-bin",
+    "CVE-2022-23219",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Stack-based buffer overflow in sunrpc clnt_"
+  ],
+  [
+    "libc6",
+    "CVE-2021-3999",
+    "MEDIUM",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Off-by-one buffer overflow/underflow in get"
+  ],
+  [
+    "libc6",
+    "CVE-2016-10228",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: iconv program can hang when invoked with th"
+  ],
+  [
+    "libc6",
+    "CVE-2019-25013",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: buffer over-read in iconv when processing i"
+  ],
+  [
+    "libc6",
+    "CVE-2020-27618",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: iconv when processing invalid multi-byte in"
+  ],
+  [
+    "libc6",
+    "CVE-2020-29562",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: assertion failure in iconv when converting "
+  ],
+  [
+    "libc6",
+    "CVE-2020-6096",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: signed comparison vulnerability in the ARMv"
+  ],
+  [
+    "libc6",
+    "CVE-2021-3326",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Assertion failure in ISO-2022-JP-3 gconv mo"
+  ],
+  [
+    "libc6",
+    "CVE-2021-35942",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Arbitrary read in wordexp()"
+  ],
+  [
+    "libc6",
+    "CVE-2022-23218",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Stack-based buffer overflow in svcunix_crea"
+  ],
+  [
+    "libc6",
+    "CVE-2022-23219",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Stack-based buffer overflow in sunrpc clnt_"
+  ],
+  [
+    "libcom-err2",
+    "CVE-2022-1304",
+    "MEDIUM",
+    "1.44.1-1ubuntu1.3",
+    "1.44.1-1ubuntu1.4",
+    "e2fsprogs: out-of-bounds read/write via crafted fi"
+  ],
+  [
+    "libdbi-perl",
+    "CVE-2014-10402",
+    "MEDIUM",
+    "1.640-1ubuntu0.2",
+    "1.640-1ubuntu0.3",
+    "perl-dbi: Incomplete fix for CVE-2014-10401"
+  ],
+  [
+    "libdbi-perl",
+    "CVE-2020-14393",
+    "LOW",
+    "1.640-1ubuntu0.2",
+    "1.640-1ubuntu0.3",
+    "perl-dbi: Buffer overflow on an overlong DBD class"
+  ],
+  [
+    "libext2fs2",
+    "CVE-2022-1304",
+    "MEDIUM",
+    "1.44.1-1ubuntu1.3",
+    "1.44.1-1ubuntu1.4",
+    "e2fsprogs: out-of-bounds read/write via crafted fi"
+  ],
+  [
+    "libgcrypt20",
+    "CVE-2021-40528",
+    "MEDIUM",
+    "1.8.1-4ubuntu1.2",
+    "1.8.1-4ubuntu1.3",
+    "libgcrypt: ElGamal implementation allows plaintext"
+  ],
+  [
+    "libgcrypt20",
+    "CVE-2021-33560",
+    "LOW",
+    "1.8.1-4ubuntu1.2",
+    "1.8.1-4ubuntu1.3",
+    "libgcrypt: mishandles ElGamal encryption because i"
+  ],
+  [
+    "libgmp10",
+    "CVE-2021-43618",
+    "LOW",
+    "2:6.1.2+dfsg-2",
+    "2:6.1.2+dfsg-2ubuntu0.1",
+    "gmp: Integer overflow and resultant buffer overflo"
+  ],
+  [
+    "libgnutls30",
+    "CVE-2022-2509",
+    "MEDIUM",
+    "3.5.18-1ubuntu1.4",
+    "3.5.18-1ubuntu1.6",
+    "gnutls: Double free during gnutls_pkcs7_verify"
+  ],
+  [
+    "libgnutls30",
+    "CVE-2021-4209",
+    "LOW",
+    "3.5.18-1ubuntu1.4",
+    "3.5.18-1ubuntu1.6",
+    "GnuTLS: Null pointer dereference in MD_UPDATE"
+  ],
+  [
+    "libgssapi3-heimdal",
+    "CVE-2018-16860",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: S4U2Self with unkeyed checksum"
+  ],
+  [
+    "libgssapi3-heimdal",
+    "CVE-2021-44758",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows attackers to cause a N"
+  ],
+  [
+    "libgssapi3-heimdal",
+    "CVE-2022-3116",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "CVE-2022-3116 affecting package samba for versions"
+  ],
+  [
+    "libgssapi3-heimdal",
+    "CVE-2022-3437",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "samba: heap buffer overflow in GSSAPI unwrap_des()"
+  ],
+  [
+    "libgssapi3-heimdal",
+    "CVE-2022-41916",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.2",
+    "Heimdal is an implementation of ASN.1/DER, PKIX, a"
+  ],
+  [
+    "libgssapi3-heimdal",
+    "CVE-2022-42898",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "krb5: integer overflow vulnerabilities in PAC pars"
+  ],
+  [
+    "libgssapi3-heimdal",
+    "CVE-2022-44640",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows remote attackers to ex"
+  ],
+  [
+    "libgssapi3-heimdal",
+    "CVE-2022-45142",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.4",
+    "samba: fix introduced a logic inversion"
+  ],
+  [
+    "libgssapi3-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libgssapi3-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libhcrypto4-heimdal",
+    "CVE-2018-16860",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: S4U2Self with unkeyed checksum"
+  ],
+  [
+    "libhcrypto4-heimdal",
+    "CVE-2021-44758",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows attackers to cause a N"
+  ],
+  [
+    "libhcrypto4-heimdal",
+    "CVE-2022-3116",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "CVE-2022-3116 affecting package samba for versions"
+  ],
+  [
+    "libhcrypto4-heimdal",
+    "CVE-2022-3437",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "samba: heap buffer overflow in GSSAPI unwrap_des()"
+  ],
+  [
+    "libhcrypto4-heimdal",
+    "CVE-2022-41916",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.2",
+    "Heimdal is an implementation of ASN.1/DER, PKIX, a"
+  ],
+  [
+    "libhcrypto4-heimdal",
+    "CVE-2022-42898",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "krb5: integer overflow vulnerabilities in PAC pars"
+  ],
+  [
+    "libhcrypto4-heimdal",
+    "CVE-2022-44640",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows remote attackers to ex"
+  ],
+  [
+    "libhcrypto4-heimdal",
+    "CVE-2022-45142",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.4",
+    "samba: fix introduced a logic inversion"
+  ],
+  [
+    "libhcrypto4-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libhcrypto4-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libheimbase1-heimdal",
+    "CVE-2018-16860",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: S4U2Self with unkeyed checksum"
+  ],
+  [
+    "libheimbase1-heimdal",
+    "CVE-2021-44758",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows attackers to cause a N"
+  ],
+  [
+    "libheimbase1-heimdal",
+    "CVE-2022-3116",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "CVE-2022-3116 affecting package samba for versions"
+  ],
+  [
+    "libheimbase1-heimdal",
+    "CVE-2022-3437",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "samba: heap buffer overflow in GSSAPI unwrap_des()"
+  ],
+  [
+    "libheimbase1-heimdal",
+    "CVE-2022-41916",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.2",
+    "Heimdal is an implementation of ASN.1/DER, PKIX, a"
+  ],
+  [
+    "libheimbase1-heimdal",
+    "CVE-2022-42898",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "krb5: integer overflow vulnerabilities in PAC pars"
+  ],
+  [
+    "libheimbase1-heimdal",
+    "CVE-2022-44640",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows remote attackers to ex"
+  ],
+  [
+    "libheimbase1-heimdal",
+    "CVE-2022-45142",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.4",
+    "samba: fix introduced a logic inversion"
+  ],
+  [
+    "libheimbase1-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libheimbase1-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libheimntlm0-heimdal",
+    "CVE-2018-16860",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: S4U2Self with unkeyed checksum"
+  ],
+  [
+    "libheimntlm0-heimdal",
+    "CVE-2021-44758",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows attackers to cause a N"
+  ],
+  [
+    "libheimntlm0-heimdal",
+    "CVE-2022-3116",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "CVE-2022-3116 affecting package samba for versions"
+  ],
+  [
+    "libheimntlm0-heimdal",
+    "CVE-2022-3437",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "samba: heap buffer overflow in GSSAPI unwrap_des()"
+  ],
+  [
+    "libheimntlm0-heimdal",
+    "CVE-2022-41916",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.2",
+    "Heimdal is an implementation of ASN.1/DER, PKIX, a"
+  ],
+  [
+    "libheimntlm0-heimdal",
+    "CVE-2022-42898",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "krb5: integer overflow vulnerabilities in PAC pars"
+  ],
+  [
+    "libheimntlm0-heimdal",
+    "CVE-2022-44640",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows remote attackers to ex"
+  ],
+  [
+    "libheimntlm0-heimdal",
+    "CVE-2022-45142",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.4",
+    "samba: fix introduced a logic inversion"
+  ],
+  [
+    "libheimntlm0-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libheimntlm0-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libhogweed4",
+    "CVE-2021-3580",
+    "MEDIUM",
+    "3.4-1ubuntu0.1",
+    "3.4.1-0ubuntu0.18.04.1",
+    "nettle: Remote crash in RSA decryption via manipul"
+  ],
+  [
+    "libhogweed4",
+    "CVE-2018-16869",
+    "LOW",
+    "3.4-1ubuntu0.1",
+    "3.4.1-0ubuntu0.18.04.1",
+    "nettle: Leaky data conversion exposing a manager o"
+  ],
+  [
+    "libhx509-5-heimdal",
+    "CVE-2018-16860",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: S4U2Self with unkeyed checksum"
+  ],
+  [
+    "libhx509-5-heimdal",
+    "CVE-2021-44758",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows attackers to cause a N"
+  ],
+  [
+    "libhx509-5-heimdal",
+    "CVE-2022-3116",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "CVE-2022-3116 affecting package samba for versions"
+  ],
+  [
+    "libhx509-5-heimdal",
+    "CVE-2022-3437",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "samba: heap buffer overflow in GSSAPI unwrap_des()"
+  ],
+  [
+    "libhx509-5-heimdal",
+    "CVE-2022-41916",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.2",
+    "Heimdal is an implementation of ASN.1/DER, PKIX, a"
+  ],
+  [
+    "libhx509-5-heimdal",
+    "CVE-2022-42898",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "krb5: integer overflow vulnerabilities in PAC pars"
+  ],
+  [
+    "libhx509-5-heimdal",
+    "CVE-2022-44640",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows remote attackers to ex"
+  ],
+  [
+    "libhx509-5-heimdal",
+    "CVE-2022-45142",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.4",
+    "samba: fix introduced a logic inversion"
+  ],
+  [
+    "libhx509-5-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libhx509-5-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libkrb5-26-heimdal",
+    "CVE-2018-16860",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: S4U2Self with unkeyed checksum"
+  ],
+  [
+    "libkrb5-26-heimdal",
+    "CVE-2021-44758",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows attackers to cause a N"
+  ],
+  [
+    "libkrb5-26-heimdal",
+    "CVE-2022-3116",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "CVE-2022-3116 affecting package samba for versions"
+  ],
+  [
+    "libkrb5-26-heimdal",
+    "CVE-2022-3437",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "samba: heap buffer overflow in GSSAPI unwrap_des()"
+  ],
+  [
+    "libkrb5-26-heimdal",
+    "CVE-2022-41916",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.2",
+    "Heimdal is an implementation of ASN.1/DER, PKIX, a"
+  ],
+  [
+    "libkrb5-26-heimdal",
+    "CVE-2022-42898",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "krb5: integer overflow vulnerabilities in PAC pars"
+  ],
+  [
+    "libkrb5-26-heimdal",
+    "CVE-2022-44640",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows remote attackers to ex"
+  ],
+  [
+    "libkrb5-26-heimdal",
+    "CVE-2022-45142",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.4",
+    "samba: fix introduced a logic inversion"
+  ],
+  [
+    "libkrb5-26-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libkrb5-26-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libksba8",
+    "CVE-2022-3515",
+    "HIGH",
+    "1.3.5-2",
+    "1.3.5-2ubuntu0.18.04.1",
+    "libksba: integer overflow may lead to remote code "
+  ],
+  [
+    "libksba8",
+    "CVE-2022-47629",
+    "MEDIUM",
+    "1.3.5-2",
+    "1.3.5-2ubuntu0.18.04.2",
+    "libksba: integer overflow to code execution"
+  ],
+  [
+    "libldap-2.4-2",
+    "CVE-2022-29155",
+    "MEDIUM",
+    "2.4.45+dfsg-1ubuntu1.10",
+    "2.4.45+dfsg-1ubuntu1.11",
+    "openldap: OpenLDAP SQL injection"
+  ],
+  [
+    "libldap-common",
+    "CVE-2022-29155",
+    "MEDIUM",
+    "2.4.45+dfsg-1ubuntu1.10",
+    "2.4.45+dfsg-1ubuntu1.11",
+    "openldap: OpenLDAP SQL injection"
+  ],
+  [
+    "liblz4-1",
+    "CVE-2021-3520",
+    "MEDIUM",
+    "0.0~r131-2ubuntu3",
+    "0.0~r131-2ubuntu3.1",
+    "lz4: memory corruption due to an integer overflow "
+  ],
+  [
+    "liblzma5",
+    "CVE-2022-1271",
+    "MEDIUM",
+    "5.2.2-1.3",
+    "5.2.2-1.3ubuntu0.1",
+    "gzip: arbitrary-file-write vulnerability"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2146",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.34-0ubuntu0.18.04.1",
+    "mysql: Server: Options unspecified vulnerability ("
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2154",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.34-0ubuntu0.18.04.1",
+    "mysql: Server: DML unspecified vulnerability (CPU "
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2162",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.34-0ubuntu0.18.04.1",
+    "mysql: Server: Audit Plug-in unspecified vulnerabi"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2166",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.34-0ubuntu0.18.04.1",
+    "mysql: Server: DML unspecified vulnerability (CPU "
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2169",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.34-0ubuntu0.18.04.1",
+    "mysql: Server: Optimizer unspecified vulnerability"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2171",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.34-0ubuntu0.18.04.1",
+    "mysql: Server: Replication unspecified vulnerabili"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2174",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.34-0ubuntu0.18.04.1",
+    "mysql: InnoDB unspecified vulnerability (CPU Apr 2"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2179",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.34-0ubuntu0.18.04.1",
+    "mysql: Server: Group Replication Plugin unspecifie"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2180",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.34-0ubuntu0.18.04.1",
+    "mysql: InnoDB unspecified vulnerability (CPU Apr 2"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2194",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.34-0ubuntu0.18.04.1",
+    "mysql: InnoDB unspecified vulnerability (CPU Apr 2"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2226",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.34-0ubuntu0.18.04.1",
+    "mysql: Server: Information Schema unspecified vuln"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2307",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.34-0ubuntu0.18.04.1",
+    "mysql: Server: Packaging unspecified vulnerability"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2342",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.35-0ubuntu0.18.04.1",
+    "mysql: Server: Optimizer unspecified vulnerability"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2372",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.35-0ubuntu0.18.04.1",
+    "mysql: InnoDB unspecified vulnerability (CPU Jul 2"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2385",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.35-0ubuntu0.18.04.1",
+    "mysql: Server: Replication unspecified vulnerabili"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2389",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.35-0ubuntu0.18.04.1",
+    "mysql: InnoDB unspecified vulnerability (CPU Jul 2"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-2390",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.35-0ubuntu0.18.04.1",
+    "mysql: InnoDB unspecified vulnerability (CPU Jul 2"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-35604",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.36-0ubuntu0.18.04.1",
+    "mysql: InnoDB unspecified vulnerability (CPU Oct 2"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2021-35624",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.36-0ubuntu0.18.04.1",
+    "mysql: Server: Security: Privileges unspecified vu"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21245",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.37-0ubuntu0.18.04.1",
+    "mysql: Server: Security: Privileges unspecified vu"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21270",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.37-0ubuntu0.18.04.1",
+    "mysql: Server: Federated unspecified vulnerability"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21303",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.37-0ubuntu0.18.04.1",
+    "mysql: Server: Stored Procedure unspecified vulner"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21304",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.37-0ubuntu0.18.04.1",
+    "mysql: Server: Parser unspecified vulnerability (C"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21344",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.37-0ubuntu0.18.04.1",
+    "mysql: Server: Replication unspecified vulnerabili"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21367",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.37-0ubuntu0.18.04.1",
+    "mysql: Server: Compiling unspecified vulnerability"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21417",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.38-0ubuntu0.18.04.1",
+    "mysql: InnoDB unspecified vulnerability (CPU Apr 2"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21427",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.38-0ubuntu0.18.04.1",
+    "mysql: Server: FTS unspecified vulnerability (CPU "
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21444",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.38-0ubuntu0.18.04.1",
+    "mysql: Server: DDL unspecified vulnerability (CPU "
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21451",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.38-0ubuntu0.18.04.1",
+    "mysql: InnoDB unspecified vulnerability (CPU Apr 2"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21454",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.38-0ubuntu0.18.04.1",
+    "mysql: Server: Group Replication Plugin unspecifie"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21460",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.38-0ubuntu0.18.04.1",
+    "mysql: Server: Logging unspecified vulnerability ("
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21589",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.40-0ubuntu0.18.04.1",
+    "mysql: Server: Security: Privileges unspecified vu"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21592",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.40-0ubuntu0.18.04.1",
+    "mysql: Server: Security: Encryption unspecified vu"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21595",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.37-0ubuntu0.18.04.1",
+    "mysql: C API unspecified vulnerability (CPU Oct 20"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21608",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.40-0ubuntu0.18.04.1",
+    "mysql: Server: Optimizer unspecified vulnerability"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21617",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.40-0ubuntu0.18.04.1",
+    "mysql: Server: Connection Handling unspecified vul"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2023-21840",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.41-0ubuntu0.18.04.1",
+    "mysql: Server: PS unspecified vulnerability (CPU J"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2023-21912",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.42-0ubuntu0.18.04.1",
+    "mysql: Server: Security: Privileges unspecified vu"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2023-21963",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.41-0ubuntu0.18.04.1",
+    "mysql: Server: Connection Handling unspecified vul"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2023-21980",
+    "MEDIUM",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.42-0ubuntu0.18.04.1",
+    "mysql: Client programs unspecified vulnerability ("
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21515",
+    "LOW",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.39-0ubuntu0.18.04.2",
+    "mysql: Server: Options unspecified vulnerability ("
+  ],
+  [
+    "libncurses5",
+    "CVE-2023-29491",
+    "MEDIUM",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: Local users can trigger security-relevant"
+  ],
+  [
+    "libncurses5",
+    "CVE-2019-17594",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libncurses5",
+    "CVE-2019-17595",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libncurses5",
+    "CVE-2021-39537",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in _nc_captoin"
+  ],
+  [
+    "libncurses5",
+    "CVE-2022-29458",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2023-29491",
+    "MEDIUM",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: Local users can trigger security-relevant"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2019-17594",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2019-17595",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2021-39537",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in _nc_captoin"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2022-29458",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libnettle6",
+    "CVE-2021-3580",
+    "MEDIUM",
+    "3.4-1ubuntu0.1",
+    "3.4.1-0ubuntu0.18.04.1",
+    "nettle: Remote crash in RSA decryption via manipul"
+  ],
+  [
+    "libnettle6",
+    "CVE-2018-16869",
+    "LOW",
+    "3.4-1ubuntu0.1",
+    "3.4.1-0ubuntu0.18.04.1",
+    "nettle: Leaky data conversion exposing a manager o"
+  ],
+  [
+    "libpam-modules",
+    "CVE-2022-28321",
+    "LOW",
+    "1.1.8-3.6ubuntu2.18.04.2",
+    "1.1.8-3.6ubuntu2.18.04.4",
+    "pam: authentication bypass for SSH logins"
+  ],
+  [
+    "libpam-modules-bin",
+    "CVE-2022-28321",
+    "LOW",
+    "1.1.8-3.6ubuntu2.18.04.2",
+    "1.1.8-3.6ubuntu2.18.04.4",
+    "pam: authentication bypass for SSH logins"
+  ],
+  [
+    "libpam-runtime",
+    "CVE-2022-28321",
+    "LOW",
+    "1.1.8-3.6ubuntu2.18.04.2",
+    "1.1.8-3.6ubuntu2.18.04.4",
+    "pam: authentication bypass for SSH logins"
+  ],
+  [
+    "libpam0g",
+    "CVE-2022-28321",
+    "LOW",
+    "1.1.8-3.6ubuntu2.18.04.2",
+    "1.1.8-3.6ubuntu2.18.04.4",
+    "pam: authentication bypass for SSH logins"
+  ],
+  [
+    "libpcre3",
+    "CVE-2019-20838",
+    "LOW",
+    "2:8.39-9",
+    "2:8.39-9ubuntu0.1",
+    "pcre: Buffer over-read in JIT when UTF is disabled"
+  ],
+  [
+    "libpcre3",
+    "CVE-2020-14155",
+    "LOW",
+    "2:8.39-9",
+    "2:8.39-9ubuntu0.1",
+    "pcre: Integer overflow when parsing callout numeri"
+  ],
+  [
+    "libperl5.26",
+    "CVE-2020-16156",
+    "MEDIUM",
+    "5.26.1-6ubuntu0.5",
+    "5.26.1-6ubuntu0.6",
+    "perl-CPAN: Bypass of verification of signatures in"
+  ],
+  [
+    "libperl5.26",
+    "CVE-2023-31484",
+    "MEDIUM",
+    "5.26.1-6ubuntu0.5",
+    "5.26.1-6ubuntu0.7",
+    "perl: CPAN.pm does not verify TLS certificates whe"
+  ],
+  [
+    "libroken18-heimdal",
+    "CVE-2018-16860",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: S4U2Self with unkeyed checksum"
+  ],
+  [
+    "libroken18-heimdal",
+    "CVE-2021-44758",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows attackers to cause a N"
+  ],
+  [
+    "libroken18-heimdal",
+    "CVE-2022-3116",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "CVE-2022-3116 affecting package samba for versions"
+  ],
+  [
+    "libroken18-heimdal",
+    "CVE-2022-3437",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "samba: heap buffer overflow in GSSAPI unwrap_des()"
+  ],
+  [
+    "libroken18-heimdal",
+    "CVE-2022-41916",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.2",
+    "Heimdal is an implementation of ASN.1/DER, PKIX, a"
+  ],
+  [
+    "libroken18-heimdal",
+    "CVE-2022-42898",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "krb5: integer overflow vulnerabilities in PAC pars"
+  ],
+  [
+    "libroken18-heimdal",
+    "CVE-2022-44640",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows remote attackers to ex"
+  ],
+  [
+    "libroken18-heimdal",
+    "CVE-2022-45142",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.4",
+    "samba: fix introduced a logic inversion"
+  ],
+  [
+    "libroken18-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libroken18-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libsasl2-2",
+    "CVE-2022-24407",
+    "HIGH",
+    "2.1.27~101-g0780600+dfsg-3ubuntu2.3",
+    "2.1.27~101-g0780600+dfsg-3ubuntu2.4",
+    "cyrus-sasl: failure to properly escape SQL input a"
+  ],
+  [
+    "libsasl2-modules-db",
+    "CVE-2022-24407",
+    "HIGH",
+    "2.1.27~101-g0780600+dfsg-3ubuntu2.3",
+    "2.1.27~101-g0780600+dfsg-3ubuntu2.4",
+    "cyrus-sasl: failure to properly escape SQL input a"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36084",
+    "LOW",
+    "2.7-1",
+    "2.7-1ubuntu0.1",
+    "libsepol: use-after-free in __cil_verify_classperm"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36085",
+    "LOW",
+    "2.7-1",
+    "2.7-1ubuntu0.1",
+    "libsepol: use-after-free in __cil_verify_classperm"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36086",
+    "LOW",
+    "2.7-1",
+    "2.7-1ubuntu0.1",
+    "libsepol: use-after-free in cil_reset_classpermiss"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36087",
+    "LOW",
+    "2.7-1",
+    "2.7-1ubuntu0.1",
+    "libsepol: heap-based buffer overflow in ebitmap_ma"
+  ],
+  [
+    "libsqlite3-0",
+    "CVE-2020-35525",
+    "MEDIUM",
+    "3.22.0-1ubuntu0.4",
+    "3.22.0-1ubuntu0.6",
+    "sqlite: Null pointer derreference in src/select.c"
+  ],
+  [
+    "libsqlite3-0",
+    "CVE-2022-35737",
+    "MEDIUM",
+    "3.22.0-1ubuntu0.4",
+    "3.22.0-1ubuntu0.7",
+    "sqlite: an array-bounds overflow if billions of by"
+  ],
+  [
+    "libsqlite3-0",
+    "CVE-2021-36690",
+    "LOW",
+    "3.22.0-1ubuntu0.4",
+    "3.22.0-1ubuntu0.5",
+    "A segmentation fault can occur in the sqlite3.exe "
+  ],
+  [
+    "libss2",
+    "CVE-2022-1304",
+    "MEDIUM",
+    "1.44.1-1ubuntu1.3",
+    "1.44.1-1ubuntu1.4",
+    "e2fsprogs: out-of-bounds read/write via crafted fi"
+  ],
+  [
+    "libssl1.0.0",
+    "CVE-2022-0778",
+    "HIGH",
+    "1.0.2n-1ubuntu5.6",
+    "1.0.2n-1ubuntu5.8",
+    "openssl: Infinite loop in BN_mod_sqrt() reachable "
+  ],
+  [
+    "libssl1.0.0",
+    "CVE-2023-0286",
+    "HIGH",
+    "1.0.2n-1ubuntu5.6",
+    "1.0.2n-1ubuntu5.11",
+    "openssl: X.400 address type confusion in X.509 Gen"
+  ],
+  [
+    "libssl1.0.0",
+    "CVE-2021-3712",
+    "MEDIUM",
+    "1.0.2n-1ubuntu5.6",
+    "1.0.2n-1ubuntu5.7",
+    "openssl: Read buffer overruns processing ASN.1 str"
+  ],
+  [
+    "libssl1.0.0",
+    "CVE-2022-1292",
+    "MEDIUM",
+    "1.0.2n-1ubuntu5.6",
+    "1.0.2n-1ubuntu5.9",
+    "openssl: c_rehash script allows command injection"
+  ],
+  [
+    "libssl1.0.0",
+    "CVE-2022-2068",
+    "MEDIUM",
+    "1.0.2n-1ubuntu5.6",
+    "1.0.2n-1ubuntu5.10",
+    "openssl: the c_rehash script allows command inject"
+  ],
+  [
+    "libssl1.0.0",
+    "CVE-2023-0215",
+    "MEDIUM",
+    "1.0.2n-1ubuntu5.6",
+    "1.0.2n-1ubuntu5.11",
+    "openssl: use-after-free following BIO_new_NDEF"
+  ],
+  [
+    "libssl1.0.0",
+    "CVE-2023-2650",
+    "MEDIUM",
+    "1.0.2n-1ubuntu5.6",
+    "1.0.2n-1ubuntu5.13",
+    "openssl: Possible DoS translating ASN.1 object ide"
+  ],
+  [
+    "libssl1.0.0",
+    "CVE-2023-0464",
+    "LOW",
+    "1.0.2n-1ubuntu5.6",
+    "1.0.2n-1ubuntu5.12",
+    "openssl: Denial of service by excessive resource u"
+  ],
+  [
+    "libssl1.0.0",
+    "CVE-2023-0465",
+    "LOW",
+    "1.0.2n-1ubuntu5.6",
+    "1.0.2n-1ubuntu5.12",
+    "openssl: Invalid certificate policies in leaf cert"
+  ],
+  [
+    "libssl1.0.0",
+    "CVE-2023-0466",
+    "LOW",
+    "1.0.2n-1ubuntu5.6",
+    "1.0.2n-1ubuntu5.12",
+    "openssl: Certificate policy check not enabled"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2021-3711",
+    "HIGH",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.13",
+    "openssl: SM2 Decryption Buffer Overflow"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2022-0778",
+    "HIGH",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.15",
+    "openssl: Infinite loop in BN_mod_sqrt() reachable "
+  ],
+  [
+    "libssl1.1",
+    "CVE-2023-0286",
+    "HIGH",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.21",
+    "openssl: X.400 address type confusion in X.509 Gen"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2021-3712",
+    "MEDIUM",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.13",
+    "openssl: Read buffer overruns processing ASN.1 str"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2022-1292",
+    "MEDIUM",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.17",
+    "openssl: c_rehash script allows command injection"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2022-2068",
+    "MEDIUM",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.19",
+    "openssl: the c_rehash script allows command inject"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2022-2097",
+    "MEDIUM",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.20",
+    "openssl: AES OCB fails to encrypt some bytes"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2022-4304",
+    "MEDIUM",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.21",
+    "openssl: timing attack in RSA Decryption implement"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2022-4450",
+    "MEDIUM",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.21",
+    "openssl: double free after calling PEM_read_bio_ex"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2023-0215",
+    "MEDIUM",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.21",
+    "openssl: use-after-free following BIO_new_NDEF"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2023-2650",
+    "MEDIUM",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.23",
+    "openssl: Possible DoS translating ASN.1 object ide"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2023-0464",
+    "LOW",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.22",
+    "openssl: Denial of service by excessive resource u"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2023-0465",
+    "LOW",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.22",
+    "openssl: Invalid certificate policies in leaf cert"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2023-0466",
+    "LOW",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.22",
+    "openssl: Certificate policy check not enabled"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2021-33910",
+    "HIGH",
+    "237-3ubuntu10.46",
+    "237-3ubuntu10.49",
+    "systemd: uncontrolled allocation on the stack in f"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2022-2526",
+    "MEDIUM",
+    "237-3ubuntu10.46",
+    "237-3ubuntu10.54",
+    "systemd-resolved: use-after-free when dealing with"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2022-3821",
+    "MEDIUM",
+    "237-3ubuntu10.46",
+    "237-3ubuntu10.57",
+    "systemd: buffer overrun in format_timespan() funct"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2020-13529",
+    "LOW",
+    "237-3ubuntu10.46",
+    "237-3ubuntu10.49",
+    "systemd: DHCP FORCERENEW authentication not implem"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2023-29491",
+    "MEDIUM",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: Local users can trigger security-relevant"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2019-17594",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2019-17595",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2021-39537",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in _nc_captoin"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2022-29458",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libudev1",
+    "CVE-2021-33910",
+    "HIGH",
+    "237-3ubuntu10.46",
+    "237-3ubuntu10.49",
+    "systemd: uncontrolled allocation on the stack in f"
+  ],
+  [
+    "libudev1",
+    "CVE-2022-2526",
+    "MEDIUM",
+    "237-3ubuntu10.46",
+    "237-3ubuntu10.54",
+    "systemd-resolved: use-after-free when dealing with"
+  ],
+  [
+    "libudev1",
+    "CVE-2022-3821",
+    "MEDIUM",
+    "237-3ubuntu10.46",
+    "237-3ubuntu10.57",
+    "systemd: buffer overrun in format_timespan() funct"
+  ],
+  [
+    "libudev1",
+    "CVE-2020-13529",
+    "LOW",
+    "237-3ubuntu10.46",
+    "237-3ubuntu10.49",
+    "systemd: DHCP FORCERENEW authentication not implem"
+  ],
+  [
+    "libwind0-heimdal",
+    "CVE-2018-16860",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: S4U2Self with unkeyed checksum"
+  ],
+  [
+    "libwind0-heimdal",
+    "CVE-2021-44758",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows attackers to cause a N"
+  ],
+  [
+    "libwind0-heimdal",
+    "CVE-2022-3116",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "CVE-2022-3116 affecting package samba for versions"
+  ],
+  [
+    "libwind0-heimdal",
+    "CVE-2022-3437",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "samba: heap buffer overflow in GSSAPI unwrap_des()"
+  ],
+  [
+    "libwind0-heimdal",
+    "CVE-2022-41916",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.2",
+    "Heimdal is an implementation of ASN.1/DER, PKIX, a"
+  ],
+  [
+    "libwind0-heimdal",
+    "CVE-2022-42898",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "krb5: integer overflow vulnerabilities in PAC pars"
+  ],
+  [
+    "libwind0-heimdal",
+    "CVE-2022-44640",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.3",
+    "Heimdal before 7.7.1 allows remote attackers to ex"
+  ],
+  [
+    "libwind0-heimdal",
+    "CVE-2022-45142",
+    "MEDIUM",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.4",
+    "samba: fix introduced a logic inversion"
+  ],
+  [
+    "libwind0-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libwind0-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "login",
+    "CVE-2018-7169",
+    "LOW",
+    "1:4.5-1ubuntu2",
+    "1:4.5-1ubuntu2.2",
+    "shadow-utils: newgidmap allows unprivileged user t"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2023-29491",
+    "MEDIUM",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: Local users can trigger security-relevant"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2019-17594",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2019-17595",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2021-39537",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in _nc_captoin"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2022-29458",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2023-29491",
+    "MEDIUM",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: Local users can trigger security-relevant"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2019-17594",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2019-17595",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2021-39537",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in _nc_captoin"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2022-29458",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "passwd",
+    "CVE-2018-7169",
+    "LOW",
+    "1:4.5-1ubuntu2",
+    "1:4.5-1ubuntu2.2",
+    "shadow-utils: newgidmap allows unprivileged user t"
+  ],
+  [
+    "perl",
+    "CVE-2020-16156",
+    "MEDIUM",
+    "5.26.1-6ubuntu0.5",
+    "5.26.1-6ubuntu0.6",
+    "perl-CPAN: Bypass of verification of signatures in"
+  ],
+  [
+    "perl",
+    "CVE-2023-31484",
+    "MEDIUM",
+    "5.26.1-6ubuntu0.5",
+    "5.26.1-6ubuntu0.7",
+    "perl: CPAN.pm does not verify TLS certificates whe"
+  ],
+  [
+    "perl-base",
+    "CVE-2020-16156",
+    "MEDIUM",
+    "5.26.1-6ubuntu0.5",
+    "5.26.1-6ubuntu0.6",
+    "perl-CPAN: Bypass of verification of signatures in"
+  ],
+  [
+    "perl-base",
+    "CVE-2023-31484",
+    "MEDIUM",
+    "5.26.1-6ubuntu0.5",
+    "5.26.1-6ubuntu0.7",
+    "perl: CPAN.pm does not verify TLS certificates whe"
+  ],
+  [
+    "perl-modules-5.26",
+    "CVE-2020-16156",
+    "MEDIUM",
+    "5.26.1-6ubuntu0.5",
+    "5.26.1-6ubuntu0.6",
+    "perl-CPAN: Bypass of verification of signatures in"
+  ],
+  [
+    "perl-modules-5.26",
+    "CVE-2023-31484",
+    "MEDIUM",
+    "5.26.1-6ubuntu0.5",
+    "5.26.1-6ubuntu0.7",
+    "perl: CPAN.pm does not verify TLS certificates whe"
+  ],
+  [
+    "rsync",
+    "CVE-2018-25032",
+    "MEDIUM",
+    "3.1.2-2.1ubuntu1.1",
+    "3.1.2-2.1ubuntu1.4",
+    "zlib: A flaw found in zlib when compressing (not d"
+  ],
+  [
+    "rsync",
+    "CVE-2022-29154",
+    "MEDIUM",
+    "3.1.2-2.1ubuntu1.1",
+    "3.1.2-2.1ubuntu1.6",
+    "rsync: remote arbitrary files write inside the dir"
+  ],
+  [
+    "rsync",
+    "CVE-2022-37434",
+    "MEDIUM",
+    "3.1.2-2.1ubuntu1.1",
+    "3.1.2-2.1ubuntu1.5",
+    "zlib: heap-based buffer over-read and overflow in "
+  ],
+  [
+    "tar",
+    "CVE-2022-48303",
+    "MEDIUM",
+    "1.29b-2ubuntu0.2",
+    "1.29b-2ubuntu0.4",
+    "tar: heap buffer overflow at from_header() in list"
+  ],
+  [
+    "tar",
+    "CVE-2021-20193",
+    "LOW",
+    "1.29b-2ubuntu0.2",
+    "1.29b-2ubuntu0.3",
+    "tar: Memory leak in read_header() in list.c"
+  ],
+  [
+    "xz-utils",
+    "CVE-2022-1271",
+    "MEDIUM",
+    "5.2.2-1.3",
+    "5.2.2-1.3ubuntu0.1",
+    "gzip: arbitrary-file-write vulnerability"
+  ],
+  [
+    "zlib1g",
+    "CVE-2018-25032",
+    "MEDIUM",
+    "1:1.2.11.dfsg-0ubuntu2",
+    "1:1.2.11.dfsg-0ubuntu2.1",
+    "zlib: A flaw found in zlib when compressing (not d"
+  ],
+  [
+    "zlib1g",
+    "CVE-2022-37434",
+    "MEDIUM",
+    "1:1.2.11.dfsg-0ubuntu2",
+    "1:1.2.11.dfsg-0ubuntu2.2",
+    "zlib: heap-based buffer over-read and overflow in "
+  ],
+  [
+    "stdlib",
+    "CVE-2022-23806",
+    "CRITICAL",
+    "v1.13.10",
+    "1.16.14, 1.17.7",
+    "golang: crypto/elliptic: IsOnCurve returns true fo"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24538",
+    "CRITICAL",
+    "v1.13.10",
+    "1.19.8, 1.20.3",
+    "golang: html/template: backticks not treated as st"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24540",
+    "CRITICAL",
+    "v1.13.10",
+    "1.19.9, 1.20.4",
+    "golang: html/template: improper handling of JavaSc"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24790",
+    "CRITICAL",
+    "v1.13.10",
+    "1.21.11, 1.22.4",
+    "golang: net/netip: Unexpected behavior from Is met"
+  ],
+  [
+    "stdlib",
+    "CVE-2020-16845",
+    "HIGH",
+    "v1.13.10",
+    "1.13.15, 1.14.7",
+    "golang: ReadUvarint and ReadVarint can read an unl"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-27918",
+    "HIGH",
+    "v1.13.10",
+    "1.15.9, 1.16.1",
+    "golang: encoding/xml: infinite loop when using xml"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-33195",
+    "HIGH",
+    "v1.13.10",
+    "1.15.13, 1.16.5",
+    "golang: net: lookup functions may return invalid h"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-33196",
+    "HIGH",
+    "v1.13.10",
+    "1.15.13, 1.16.5",
+    "golang: archive/zip: malformed archive may cause p"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-33198",
+    "HIGH",
+    "v1.13.10",
+    "1.15.13, 1.16.5",
+    "golang: math/big.Rat: may cause a panic or an unre"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-39293",
+    "HIGH",
+    "v1.13.10",
+    "1.16.8, 1.17.1",
+    "golang: archive/zip: malformed archive may cause p"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-41771",
+    "HIGH",
+    "v1.13.10",
+    "1.16.10, 1.17.3",
+    "golang: debug/macho: invalid dynamic symbol table "
+  ],
+  [
+    "stdlib",
+    "CVE-2021-41772",
+    "HIGH",
+    "v1.13.10",
+    "1.16.10, 1.17.3",
+    "golang: archive/zip: Reader.Open panics on empty s"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-44716",
+    "HIGH",
+    "v1.13.10",
+    "1.16.12, 1.17.5",
+    "golang: net/http: limit growth of header canonical"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-23772",
+    "HIGH",
+    "v1.13.10",
+    "1.16.14, 1.17.7",
+    "golang: math/big: uncontrolled memory consumption "
+  ],
+  [
+    "stdlib",
+    "CVE-2022-24675",
+    "HIGH",
+    "v1.13.10",
+    "1.17.9, 1.18.1",
+    "golang: encoding/pem: fix stack overflow in Decode"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-24921",
+    "HIGH",
+    "v1.13.10",
+    "1.16.15, 1.17.8",
+    "golang: regexp: stack exhaustion via a deeply nest"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-27664",
+    "HIGH",
+    "v1.13.10",
+    "1.18.6, 1.19.1",
+    "golang: net/http: handle server errors after sendi"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-28131",
+    "HIGH",
+    "v1.13.10",
+    "1.17.12, 1.18.4",
+    "golang: encoding/xml: stack exhaustion in Decoder."
+  ],
+  [
+    "stdlib",
+    "CVE-2022-28327",
+    "HIGH",
+    "v1.13.10",
+    "1.17.9, 1.18.1",
+    "golang: crypto/elliptic: panic caused by oversized"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-2879",
+    "HIGH",
+    "v1.13.10",
+    "1.18.7, 1.19.2",
+    "golang: archive/tar: github.com/vbatts/tar-split: "
+  ],
+  [
+    "stdlib",
+    "CVE-2022-2880",
+    "HIGH",
+    "v1.13.10",
+    "1.18.7, 1.19.2",
+    "golang: net/http/httputil: ReverseProxy should not"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-29804",
+    "HIGH",
+    "v1.13.10",
+    "1.17.11, 1.18.3",
+    "ELSA-2022-17957: ol8addon security update (IMPORTA"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30580",
+    "HIGH",
+    "v1.13.10",
+    "1.17.11, 1.18.3",
+    "golang: os/exec: Code injection in Cmd.Start"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30630",
+    "HIGH",
+    "v1.13.10",
+    "1.17.12, 1.18.4",
+    "golang: io/fs: stack exhaustion in Glob"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30631",
+    "HIGH",
+    "v1.13.10",
+    "1.17.12, 1.18.4",
+    "golang: compress/gzip: stack exhaustion in Reader."
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30632",
+    "HIGH",
+    "v1.13.10",
+    "1.17.12, 1.18.4",
+    "golang: path/filepath: stack exhaustion in Glob"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30633",
+    "HIGH",
+    "v1.13.10",
+    "1.17.12, 1.18.4",
+    "golang: encoding/xml: stack exhaustion in Unmarsha"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30634",
+    "HIGH",
+    "v1.13.10",
+    "1.17.11, 1.18.3",
+    "ELSA-2022-17957: ol8addon security update (IMPORTA"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30635",
+    "HIGH",
+    "v1.13.10",
+    "1.17.12, 1.18.4",
+    "golang: encoding/gob: stack exhaustion in Decoder."
+  ],
+  [
+    "stdlib",
+    "CVE-2022-32189",
+    "HIGH",
+    "v1.13.10",
+    "1.17.13, 1.18.5",
+    "golang: math/big: decoding big.Float and big.Rat t"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41715",
+    "HIGH",
+    "v1.13.10",
+    "1.18.7, 1.19.2",
+    "golang: regexp/syntax: limit memory used by parsin"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41716",
+    "HIGH",
+    "v1.13.10",
+    "1.18.8, 1.19.3",
+    "Due to unsanitized NUL values, attackers may be ab"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41720",
+    "HIGH",
+    "v1.13.10",
+    "1.18.9, 1.19.4",
+    "golang: os, net/http: avoid escapes from os.DirFS "
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41722",
+    "HIGH",
+    "v1.13.10",
+    "1.19.6, 1.20.1",
+    "golang: path/filepath: path-filepath filepath.Clea"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41723",
+    "HIGH",
+    "v1.13.10",
+    "1.19.6, 1.20.1",
+    "golang.org/x/net/http2: avoid quadratic complexity"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41724",
+    "HIGH",
+    "v1.13.10",
+    "1.19.6, 1.20.1",
+    "golang: crypto/tls: large handshake records may ca"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41725",
+    "HIGH",
+    "v1.13.10",
+    "1.19.6, 1.20.1",
+    "golang: net/http, mime/multipart: denial of servic"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24534",
+    "HIGH",
+    "v1.13.10",
+    "1.19.8, 1.20.3",
+    "golang: net/http, net/textproto: denial of service"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24536",
+    "HIGH",
+    "v1.13.10",
+    "1.19.8, 1.20.3",
+    "golang: net/http, net/textproto, mime/multipart: d"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24537",
+    "HIGH",
+    "v1.13.10",
+    "1.19.8, 1.20.3",
+    "golang: go/parser: Infinite loop in parsing"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24539",
+    "HIGH",
+    "v1.13.10",
+    "1.19.9, 1.20.4",
+    "golang: html/template: improper sanitization of CS"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-29400",
+    "HIGH",
+    "v1.13.10",
+    "1.19.9, 1.20.4",
+    "golang: html/template: improper handling of empty "
+  ],
+  [
+    "stdlib",
+    "CVE-2023-29403",
+    "HIGH",
+    "v1.13.10",
+    "1.19.10, 1.20.5",
+    "golang: runtime: unexpected behavior of setuid/set"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-39325",
+    "HIGH",
+    "v1.13.10",
+    "1.20.10, 1.21.3",
+    "golang: net/http, x/net/http2: rapid stream resets"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45283",
+    "HIGH",
+    "v1.13.10",
+    "1.20.11, 1.21.4, 1.20.12, 1.21.5",
+    "The filepath package does not recognize paths with"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45287",
+    "HIGH",
+    "v1.13.10",
+    "1.20.0",
+    "golang: crypto/tls: Timing Side Channel attack in "
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45288",
+    "HIGH",
+    "v1.13.10",
+    "1.21.9, 1.22.2",
+    "golang: net/http, x/net/http2: unlimited number of"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-34156",
+    "HIGH",
+    "v1.13.10",
+    "1.22.7, 1.23.1",
+    "encoding/gob: golang: Calling Decoder.Decode on a "
+  ],
+  [
+    "stdlib",
+    "CVE-2025-47907",
+    "HIGH",
+    "v1.13.10",
+    "1.23.12, 1.24.6",
+    "database/sql: Postgres Scan Race Condition"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58183",
+    "HIGH",
+    "v1.13.10",
+    "1.24.8, 1.25.2",
+    "golang: archive/tar: Unbounded allocation when par"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58186",
+    "HIGH",
+    "v1.13.10",
+    "1.24.8, 1.25.2",
+    "Despite HTTP headers having a default limit of 1MB"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58187",
+    "HIGH",
+    "v1.13.10",
+    "1.24.9, 1.25.3",
+    "Due to the design of the name constraint checking "
+  ],
+  [
+    "stdlib",
+    "CVE-2020-14039",
+    "MEDIUM",
+    "v1.13.10",
+    "1.13.13, 1.14.5",
+    "CVE-2020-14039 affecting package golang 1.13.11-"
+  ],
+  [
+    "stdlib",
+    "CVE-2020-15586",
+    "MEDIUM",
+    "v1.13.10",
+    "1.13.13, 1.14.5",
+    "golang: data race in certain net/http servers incl"
+  ],
+  [
+    "stdlib",
+    "CVE-2020-24553",
+    "MEDIUM",
+    "v1.13.10",
+    "1.14.8, 1.15.1",
+    "golang: default Content-Type setting in net/http/c"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-3114",
+    "MEDIUM",
+    "v1.13.10",
+    "1.14.14, 1.15.7",
+    "golang: crypto/elliptic: incorrect operations on t"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-31525",
+    "MEDIUM",
+    "v1.13.10",
+    "1.15.12, 1.16.4",
+    "golang: net/http: panic in ReadRequest and ReadRes"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-33197",
+    "MEDIUM",
+    "v1.13.10",
+    "1.15.13, 1.16.5",
+    "golang: net/http/httputil: ReverseProxy forwards c"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-34558",
+    "MEDIUM",
+    "v1.13.10",
+    "1.15.14, 1.16.6",
+    "golang: crypto/tls: certificate of wrong type is c"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-36221",
+    "MEDIUM",
+    "v1.13.10",
+    "1.15.15, 1.16.7",
+    "golang: net/http/httputil: panic due to racy read "
+  ],
+  [
+    "stdlib",
+    "CVE-2021-44717",
+    "MEDIUM",
+    "v1.13.10",
+    "1.16.12, 1.17.5",
+    "golang: syscall: don't close fd 0 on ForkExec erro"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-1705",
+    "MEDIUM",
+    "v1.13.10",
+    "1.17.12, 1.18.4",
+    "golang: net/http: improper sanitization of Transfe"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-1962",
+    "MEDIUM",
+    "v1.13.10",
+    "1.17.12, 1.18.4",
+    "golang: go/parser: stack exhaustion in all Parse* "
+  ],
+  [
+    "stdlib",
+    "CVE-2022-29526",
+    "MEDIUM",
+    "v1.13.10",
+    "1.17.10, 1.18.2",
+    "golang: syscall: faccessat checks wrong group"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-32148",
+    "MEDIUM",
+    "v1.13.10",
+    "1.17.12, 1.18.4",
+    "golang: net/http/httputil: NewSingleHostReversePro"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41717",
+    "MEDIUM",
+    "v1.13.10",
+    "1.18.9, 1.19.4",
+    "golang: net/http: excessive memory growth in a Go "
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24532",
+    "MEDIUM",
+    "v1.13.10",
+    "1.19.7, 1.20.2",
+    "golang: crypto/internal/nistec: specific unreduced"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-29406",
+    "MEDIUM",
+    "v1.13.10",
+    "1.19.11, 1.20.6",
+    "golang: net/http: insufficient sanitization of Hos"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-29409",
+    "MEDIUM",
+    "v1.13.10",
+    "1.19.12, 1.20.7, 1.21.0-rc.4",
+    "golang: crypto/tls: slow verification of certifica"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-39318",
+    "MEDIUM",
+    "v1.13.10",
+    "1.20.8, 1.21.1",
+    "golang: html/template: improper handling of HTML-l"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-39319",
+    "MEDIUM",
+    "v1.13.10",
+    "1.20.8, 1.21.1",
+    "golang: html/template: improper handling of specia"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-39326",
+    "MEDIUM",
+    "v1.13.10",
+    "1.20.12, 1.21.5",
+    "golang: net/http/internal: Denial of Service (DoS)"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45284",
+    "MEDIUM",
+    "v1.13.10",
+    "1.20.11, 1.21.4",
+    "On Windows, The IsLocal function does not correctl"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45289",
+    "MEDIUM",
+    "v1.13.10",
+    "1.21.8, 1.22.1",
+    "golang: net/http/cookiejar: incorrect forwarding o"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45290",
+    "MEDIUM",
+    "v1.13.10",
+    "1.21.8, 1.22.1",
+    "golang: net/http: golang: mime/multipart: golang: "
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24783",
+    "MEDIUM",
+    "v1.13.10",
+    "1.21.8, 1.22.1",
+    "golang: crypto/x509: Verify panics on certificates"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24784",
+    "MEDIUM",
+    "v1.13.10",
+    "1.21.8, 1.22.1",
+    "golang: net/mail: comments in display names are in"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24785",
+    "MEDIUM",
+    "v1.13.10",
+    "1.21.8, 1.22.1",
+    "golang: html/template: errors returned from Marsha"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24789",
+    "MEDIUM",
+    "v1.13.10",
+    "1.21.11, 1.22.4",
+    "golang: archive/zip: Incorrect handling of certain"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24791",
+    "MEDIUM",
+    "v1.13.10",
+    "1.21.12, 1.22.5",
+    "net/http: Denial of service due to improper 100-co"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-34155",
+    "MEDIUM",
+    "v1.13.10",
+    "1.22.7, 1.23.1",
+    "go/parser: golang: Calling any of the Parse functi"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-34158",
+    "MEDIUM",
+    "v1.13.10",
+    "1.22.7, 1.23.1",
+    "go/build/constraint: golang: Calling Parse on a \"/"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-45336",
+    "MEDIUM",
+    "v1.13.10",
+    "1.22.11, 1.23.5, 1.24.0-rc.2",
+    "golang: net/http: net/http: sensitive headers inco"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-45341",
+    "MEDIUM",
+    "v1.13.10",
+    "1.22.11, 1.23.5, 1.24.0-rc.2",
+    "golang: crypto/x509: crypto/x509: usage of IPv6 zo"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-0913",
+    "MEDIUM",
+    "v1.13.10",
+    "1.23.10, 1.24.4",
+    "Inconsistent handling of O_CREATE|O_EXCL on Unix a"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-22866",
+    "MEDIUM",
+    "v1.13.10",
+    "1.22.12, 1.23.6, 1.24.0-rc.3",
+    "crypto/internal/nistec: golang: Timing sidechannel"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-22871",
+    "MEDIUM",
+    "v1.13.10",
+    "1.23.8, 1.24.2",
+    "net/http: Request smuggling due to acceptance of i"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-4673",
+    "MEDIUM",
+    "v1.13.10",
+    "1.23.10, 1.24.4",
+    "net/http: Sensitive headers not cleared on cross-o"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-47906",
+    "MEDIUM",
+    "v1.13.10",
+    "1.23.12, 1.24.6",
+    "os/exec: Unexpected paths returned from LookPath i"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-47912",
+    "MEDIUM",
+    "v1.13.10",
+    "1.24.8, 1.25.2",
+    "net/url: Insufficient validation of bracketed IPv6"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58185",
+    "MEDIUM",
+    "v1.13.10",
+    "1.24.8, 1.25.2",
+    "encoding/asn1: Parsing DER payload can cause memor"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58188",
+    "MEDIUM",
+    "v1.13.10",
+    "1.24.8, 1.25.2",
+    "crypto/x509: golang: Panic when validating certifi"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58189",
+    "MEDIUM",
+    "v1.13.10",
+    "1.24.8, 1.25.2",
+    "crypto/tls: go crypto/tls ALPN negotiation error c"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-61723",
+    "MEDIUM",
+    "v1.13.10",
+    "1.24.8, 1.25.2",
+    "encoding/pem: Quadratic complexity when parsing so"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-61724",
+    "MEDIUM",
+    "v1.13.10",
+    "1.24.8, 1.25.2",
+    "net/textproto: Excessive CPU consumption in Reader"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-61725",
+    "MEDIUM",
+    "v1.13.10",
+    "1.24.8, 1.25.2",
+    "net/mail: Excessive CPU consumption in ParseAddres"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30629",
+    "LOW",
+    "v1.13.10",
+    "1.17.11, 1.18.3",
+    "golang: crypto/tls: session tickets lack random ti"
+  ]
+]

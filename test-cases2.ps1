@@ -1,0 +1,10 @@
+python scanner.py scan ubuntu:20.04 -o json -f ubuntu.json
+python scanner.py scan python:3.9-slim -o json -f python.json
+python scanner.py scan tomcat -o json -f tomcat.json
+python scanner.py scan mariadb:10.1 -o json -f mariadb.json
+python scanner.py scan mysql:5.6 -o json -f mysql.json
+python scanner.py scan mongo:4.0 -o json -f mongo.json
+python scanner.py scan postgres:9.6 -o json -f postgres.json
+python scanner.py scan redis:7.2 -o json -f redis.json
+python scanner.py scan rabbitmq:3.7 -o json -f rabbitmq.json
+python scanner.py scan node:10 -o json -f node.json

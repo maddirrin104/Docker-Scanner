@@ -1,0 +1,8962 @@
+[
+  [
+    "binutils",
+    "CVE-2017-12448",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: heap use after free in bfd_cache_close f"
+  ],
+  [
+    "binutils",
+    "CVE-2017-12449",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: out of bounds heap read in _bfd_vms_save"
+  ],
+  [
+    "binutils",
+    "CVE-2017-12450",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: out of bounds heap write in alpha_vms_ob"
+  ],
+  [
+    "binutils",
+    "CVE-2017-12451",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: out of bounds stack read in _bfd_xcoff_r"
+  ],
+  [
+    "binutils",
+    "CVE-2017-12452",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: out of bounds heap read in bfd_mach_o_i3"
+  ],
+  [
+    "binutils",
+    "CVE-2017-12453",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: out of bounds heap read in __bfd_vms_slu"
+  ],
+  [
+    "binutils",
+    "CVE-2017-12454",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: Arbitrary memory read in _bfd_vms_slurp_"
+  ],
+  [
+    "binutils",
+    "CVE-2017-12455",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: out of bounds heap read in evax_bfd_prin"
+  ],
+  [
+    "binutils",
+    "CVE-2017-12456",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: out of bounds heap read in read_symbol_s"
+  ],
+  [
+    "binutils",
+    "CVE-2017-12457",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: NULL pointer dereference in bfd_make_sec"
+  ],
+  [
+    "binutils",
+    "CVE-2017-12458",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: out of bounds heap read in nlm_swap_auxi"
+  ],
+  [
+    "binutils",
+    "CVE-2017-12459",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: out of bounds heap write in bfd_mach_o_r"
+  ],
+  [
+    "binutils",
+    "CVE-2017-12799",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: Heap-based 1 byte buffer over-write in e"
+  ],
+  [
+    "binutils",
+    "CVE-2017-13710",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: NULL pointer dereference in the setup_gr"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14333",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: Insuficient input validation in process_"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14729",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: Heap buffer overflow in the *_get_synthe"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14745",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: Integer overflow in the *_get_synthetic_"
+  ],
+  [
+    "binutils",
+    "CVE-2018-6323",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: Integer overflow in elf_object_p functio"
+  ],
+  [
+    "binutils",
+    "CVE-2018-6543",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: integer overflow in load_specific_debug_"
+  ],
+  [
+    "binutils",
+    "CVE-2018-7208",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: Improper bounds check in coffgen.c:coff_"
+  ],
+  [
+    "binutils",
+    "CVE-2018-7643",
+    "HIGH",
+    "2.28-5",
+    "",
+    "binutils: Integer overflow in the display_debug_ra"
+  ],
+  [
+    "binutils",
+    "CVE-2017-12967",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: Stack-based buffer over-read in getsym f"
+  ],
+  [
+    "binutils",
+    "CVE-2017-13757",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: heap-based buffer over-read in elf_i386_"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14529",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: heap-based buffer over-read in bfd_getl1"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14974",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: NULL pointer dereference in the *_get_sy"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9954",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: stack-based buffer over-read in getvalue"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9955",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: heap buffer over-read in get_build_id fu"
+  ],
+  [
+    "binutils",
+    "CVE-2018-10372",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: Heap-base buffer over-read in dwarf.c:pr"
+  ],
+  [
+    "binutils",
+    "CVE-2018-10373",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: NULL pointer dereference in dwarf2.c:con"
+  ],
+  [
+    "binutils",
+    "CVE-2018-10534",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: out of bounds memory write in peXXigen.c"
+  ],
+  [
+    "binutils",
+    "CVE-2018-10535",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: NULL pointer dereference in elf.c"
+  ],
+  [
+    "binutils",
+    "CVE-2018-6759",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: Unchecked strnlen in opncls.c:bfd_get_de"
+  ],
+  [
+    "binutils",
+    "CVE-2018-6872",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: out of bounds read in elf_parse_notes fu"
+  ],
+  [
+    "binutils",
+    "CVE-2018-7568",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: integer overflow via an ELF file with co"
+  ],
+  [
+    "binutils",
+    "CVE-2018-7569",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: integer underflow or overflow via an ELF"
+  ],
+  [
+    "binutils",
+    "CVE-2018-7570",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: NULL pointer dereference the assign_file"
+  ],
+  [
+    "binutils",
+    "CVE-2018-7642",
+    "MEDIUM",
+    "2.28-5",
+    "",
+    "binutils: NULL pointer dereference in swap_std_rel"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14128",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Heap-based buffer over-read in the decod"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14129",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Heap-based buffer over-read in the read_"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14130",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Heap-based buffer over-read in the _bfd_"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14930",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Memory leak in decode_line_info"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14932",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Infinite loop in the decode_line_info"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14933",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Infinite loop in read_formatted_entries"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14934",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Infinite loop in process_debug_info"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14938",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Excessive memory allocation in _bfd_elf_"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14939",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Heap-based buffer over-read in the decod"
+  ],
+  [
+    "binutils",
+    "CVE-2017-14940",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: NULL pointer dereference in the scan_uni"
+  ],
+  [
+    "binutils",
+    "CVE-2017-15020",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Heap-based buffer overflow in parse_die"
+  ],
+  [
+    "binutils",
+    "CVE-2017-15021",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Heap-based buffer over-read in bfd_get_d"
+  ],
+  [
+    "binutils",
+    "CVE-2017-15022",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: NULL pointer dereference in dwarf2.c"
+  ],
+  [
+    "binutils",
+    "CVE-2017-15023",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: NULL pointer dereference in read_formatt"
+  ],
+  [
+    "binutils",
+    "CVE-2017-15024",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Infinite recursion in find_abstract_inst"
+  ],
+  [
+    "binutils",
+    "CVE-2017-15025",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Divide-by-zero in decode_line_info"
+  ],
+  [
+    "binutils",
+    "CVE-2017-15225",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Memory leak in _bfd_dwarf2_cleanup_debug"
+  ],
+  [
+    "binutils",
+    "CVE-2017-15938",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Invalid memory read in find_abstract_ins"
+  ],
+  [
+    "binutils",
+    "CVE-2017-15996",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Excessive memory allocation in elfcomm.c"
+  ],
+  [
+    "binutils",
+    "CVE-2017-16826",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Invalid memory access in the coff_slurp_"
+  ],
+  [
+    "binutils",
+    "CVE-2017-16827",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Invalid free in the aout_get_external_sy"
+  ],
+  [
+    "binutils",
+    "CVE-2017-16828",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Integer overflow in the display_debug_fr"
+  ],
+  [
+    "binutils",
+    "CVE-2017-16829",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Out-of-bounds read in the _bfd_elf_parse"
+  ],
+  [
+    "binutils",
+    "CVE-2017-16830",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Segmentation fault in the print_gnu_prop"
+  ],
+  [
+    "binutils",
+    "CVE-2017-16831",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Integer overflow in coffgen.c"
+  ],
+  [
+    "binutils",
+    "CVE-2017-16832",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Segmentation fault in the pe_bfd_read_bu"
+  ],
+  [
+    "binutils",
+    "CVE-2017-17080",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Heap-based buffer over-read in bfd_getl3"
+  ],
+  [
+    "binutils",
+    "CVE-2017-17121",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Memory access violation via a crafted CO"
+  ],
+  [
+    "binutils",
+    "CVE-2017-17122",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Excessive memory allocation in the dump_"
+  ],
+  [
+    "binutils",
+    "CVE-2017-17123",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: NULL pointer dereference in the coff_slu"
+  ],
+  [
+    "binutils",
+    "CVE-2017-17124",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Heap buffer overflow in the _bfd_coff_re"
+  ],
+  [
+    "binutils",
+    "CVE-2017-17125",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Buffer over-read in the _bfd_elf_get_sym"
+  ],
+  [
+    "binutils",
+    "CVE-2017-17126",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Invalid memory access in the load_debug_"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9038",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Heap-buffer overflow in the byte_get_lit"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9039",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Memory consumption via many program head"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9040",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: NULL pointer dereference in the process_"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9041",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Heap buffer overflow in the process_mips"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9042",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Invalid variable type in readelf.c"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9043",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Shift exponent too large for type unsign"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9044",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Out-of-bounds read in the print_symbol_f"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9742",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Global buffer over-read in print_insn_sc"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9743",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Global buffer over-read in print_insn_sc"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9744",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Address violation in sh_elf_set_mach_fro"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9745",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Heap buffer over-read in _bfd_vms_slurp_"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9746",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Heap buffer over-read in disassemble_byt"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9747",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Stack-based buffer over-read in ieee_arc"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9748",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Stack-based buffer over-read in ieee_obj"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9749",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Global buffer over-read in *regs* macros"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9750",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Global buffer over-read in opcodes/rx-de"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9751",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Stack-based buffer over-read in opcodes/"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9752",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Heap buffer over-read in f_bfd_vms_get_v"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9753",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Address violation in versados_mkobject f"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9754",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Stack-based buffer over-read in process_"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9755",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Global buffer over-read in opcodes/i386-"
+  ],
+  [
+    "binutils",
+    "CVE-2017-9756",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Address violation in aarch64_ext_ldst_re"
+  ],
+  [
+    "binutils",
+    "CVE-2018-8945",
+    "LOW",
+    "2.28-5",
+    "",
+    "binutils: Crash in elf.c:bfd_section_from_shdr() w"
+  ],
+  [
+    "bsdutils",
+    "CVE-2016-2779",
+    "HIGH",
+    "1:2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "bsdutils",
+    "CVE-2021-37600",
+    "LOW",
+    "1:2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "bzip2",
+    "CVE-2019-12900",
+    "CRITICAL",
+    "1.0.6-8.1",
+    "",
+    "bzip2: bzip2: Data integrity error when decompress"
+  ],
+  [
+    "comerr-dev",
+    "CVE-2022-1304",
+    "HIGH",
+    "2.1-1.43.4-2+deb9u2",
+    "",
+    "e2fsprogs: out-of-bounds read/write via crafted fi"
+  ],
+  [
+    "coreutils",
+    "CVE-2016-2781",
+    "LOW",
+    "8.26-3",
+    "",
+    "coreutils: Non-privileged session can escape to th"
+  ],
+  [
+    "cpp-6",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "curl",
+    "CVE-2021-22946",
+    "HIGH",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u16",
+    "curl: Requirement to use TLS not properly enforced"
+  ],
+  [
+    "curl",
+    "CVE-2021-22876",
+    "MEDIUM",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u14",
+    "curl: Leak of authentication credentials in URL vi"
+  ],
+  [
+    "curl",
+    "CVE-2021-22947",
+    "MEDIUM",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u16",
+    "curl: Server responses received before STARTTLS pr"
+  ],
+  [
+    "curl",
+    "CVE-2021-22898",
+    "LOW",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u15",
+    "curl: TELNET stack contents disclosure"
+  ],
+  [
+    "curl",
+    "CVE-2021-22924",
+    "LOW",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u15",
+    "curl: Bad connection reuse due to flawed path name"
+  ],
+  [
+    "debian-archive-keyring",
+    "DLA-2948-1",
+    "UNKNOWN",
+    "2017.5+deb9u1",
+    "2017.5+deb9u2",
+    "debian-archive-keyring - security update"
+  ],
+  [
+    "dirmngr",
+    "CVE-2018-1000858",
+    "HIGH",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: Cross site request forgery in dirmngr resu"
+  ],
+  [
+    "dirmngr",
+    "CVE-2018-9234",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "GnuPG: Unenforced configuration allows for apparen"
+  ],
+  [
+    "dirmngr",
+    "CVE-2019-14855",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: OpenPGP Key Certification Forgeries with S"
+  ],
+  [
+    "dpkg",
+    "CVE-2022-1664",
+    "CRITICAL",
+    "1.18.25",
+    "1.18.26",
+    "Dpkg::Source::Archive in dpkg, the Debian package "
+  ],
+  [
+    "dpkg-dev",
+    "CVE-2022-1664",
+    "CRITICAL",
+    "1.18.25",
+    "1.18.26",
+    "Dpkg::Source::Archive in dpkg, the Debian package "
+  ],
+  [
+    "e2fslibs",
+    "CVE-2022-1304",
+    "HIGH",
+    "1.43.4-2+deb9u2",
+    "",
+    "e2fsprogs: out-of-bounds read/write via crafted fi"
+  ],
+  [
+    "e2fsprogs",
+    "CVE-2022-1304",
+    "HIGH",
+    "1.43.4-2+deb9u2",
+    "",
+    "e2fsprogs: out-of-bounds read/write via crafted fi"
+  ],
+  [
+    "file",
+    "CVE-2019-8907",
+    "HIGH",
+    "1:5.30-1+deb9u3",
+    "",
+    "file: do_core_note in readelf.c allows remote atta"
+  ],
+  [
+    "file",
+    "CVE-2019-8905",
+    "MEDIUM",
+    "1:5.30-1+deb9u3",
+    "",
+    "file: stack-based buffer over-read in do_core_note"
+  ],
+  [
+    "g++-6",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "gcc-6",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "gcc-6-base",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "gir1.2-gdkpixbuf-2.0",
+    "CVE-2017-2870",
+    "LOW",
+    "2.36.5-2+deb9u2",
+    "",
+    "gdk-pixbuf2: Integer overflow in tiff_image_parse "
+  ],
+  [
+    "gir1.2-gdkpixbuf-2.0",
+    "CVE-2017-6311",
+    "LOW",
+    "2.36.5-2+deb9u2",
+    "",
+    "gdk-pixbuf: NULL pointer dereference in gdk-pixbuf"
+  ],
+  [
+    "git",
+    "CVE-2021-21300",
+    "HIGH",
+    "1:2.11.0-3+deb9u7",
+    "",
+    "git: remote code execution during clone operation "
+  ],
+  [
+    "git",
+    "CVE-2021-40330",
+    "HIGH",
+    "1:2.11.0-3+deb9u7",
+    "",
+    "git: unexpected cross-protocol requests via a repo"
+  ],
+  [
+    "git",
+    "CVE-2022-24765",
+    "HIGH",
+    "1:2.11.0-3+deb9u7",
+    "",
+    "git: On multi-user machines Git users might find t"
+  ],
+  [
+    "git-man",
+    "CVE-2021-21300",
+    "HIGH",
+    "1:2.11.0-3+deb9u7",
+    "",
+    "git: remote code execution during clone operation "
+  ],
+  [
+    "git-man",
+    "CVE-2021-40330",
+    "HIGH",
+    "1:2.11.0-3+deb9u7",
+    "",
+    "git: unexpected cross-protocol requests via a repo"
+  ],
+  [
+    "git-man",
+    "CVE-2022-24765",
+    "HIGH",
+    "1:2.11.0-3+deb9u7",
+    "",
+    "git: On multi-user machines Git users might find t"
+  ],
+  [
+    "gnupg",
+    "CVE-2018-1000858",
+    "HIGH",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: Cross site request forgery in dirmngr resu"
+  ],
+  [
+    "gnupg",
+    "CVE-2018-9234",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "GnuPG: Unenforced configuration allows for apparen"
+  ],
+  [
+    "gnupg",
+    "CVE-2019-14855",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: OpenPGP Key Certification Forgeries with S"
+  ],
+  [
+    "gnupg-agent",
+    "CVE-2018-1000858",
+    "HIGH",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: Cross site request forgery in dirmngr resu"
+  ],
+  [
+    "gnupg-agent",
+    "CVE-2018-9234",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "GnuPG: Unenforced configuration allows for apparen"
+  ],
+  [
+    "gnupg-agent",
+    "CVE-2019-14855",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: OpenPGP Key Certification Forgeries with S"
+  ],
+  [
+    "gpgv",
+    "CVE-2018-1000858",
+    "HIGH",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: Cross site request forgery in dirmngr resu"
+  ],
+  [
+    "gpgv",
+    "CVE-2018-9234",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "GnuPG: Unenforced configuration allows for apparen"
+  ],
+  [
+    "gpgv",
+    "CVE-2019-14855",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: OpenPGP Key Certification Forgeries with S"
+  ],
+  [
+    "gzip",
+    "CVE-2022-1271",
+    "HIGH",
+    "1.6-5+b1",
+    "1.6-5+deb9u1",
+    "gzip: arbitrary-file-write vulnerability"
+  ],
+  [
+    "icu-devtools",
+    "CVE-2020-21913",
+    "MEDIUM",
+    "57.1-6+deb9u4",
+    "57.1-6+deb9u5",
+    "icu: Use after free in pkg_createWithAssemblyCode "
+  ],
+  [
+    "imagemagick",
+    "CVE-2020-27752",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "imagemagick",
+    "CVE-2021-20309",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImagemMagick: Division by zero in WaveImage() of M"
+  ],
+  [
+    "imagemagick",
+    "CVE-2021-20312",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Integer overflow in WriteTHUMBNAILIma"
+  ],
+  [
+    "imagemagick",
+    "CVE-2021-20313",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Cipher leak when the calculating sign"
+  ],
+  [
+    "imagemagick",
+    "CVE-2022-28463",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: heap-buffer-overflow in PushLongPixel"
+  ],
+  [
+    "imagemagick",
+    "CVE-2022-32545",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "imagemagick",
+    "CVE-2022-32546",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "imagemagick",
+    "CVE-2022-32547",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: load of misaligned address at MagickC"
+  ],
+  [
+    "imagemagick",
+    "CVE-2020-25664",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "imagemagick",
+    "CVE-2021-20243",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in GetResizeFilterWe"
+  ],
+  [
+    "imagemagick",
+    "CVE-2021-20245",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in WriteAnimatedWEBP"
+  ],
+  [
+    "imagemagick",
+    "CVE-2021-3596",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: NULL pointer dereference in ReadSVGIm"
+  ],
+  [
+    "imagemagick",
+    "CVE-2017-12670",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: Assertion failure in the function Des"
+  ],
+  [
+    "imagemagick",
+    "CVE-2020-27751",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: integer overflow in MagickCore/quantu"
+  ],
+  [
+    "imagemagick",
+    "CVE-2021-39212",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: possible read or write in postscript "
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2020-27752",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2021-20309",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImagemMagick: Division by zero in WaveImage() of M"
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2021-20312",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Integer overflow in WriteTHUMBNAILIma"
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2021-20313",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Cipher leak when the calculating sign"
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2022-28463",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: heap-buffer-overflow in PushLongPixel"
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2022-32545",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2022-32546",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2022-32547",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: load of misaligned address at MagickC"
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2020-25664",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2021-20243",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in GetResizeFilterWe"
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2021-20245",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in WriteAnimatedWEBP"
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2021-3596",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: NULL pointer dereference in ReadSVGIm"
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2017-12670",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: Assertion failure in the function Des"
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2020-27751",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: integer overflow in MagickCore/quantu"
+  ],
+  [
+    "imagemagick-6-common",
+    "CVE-2021-39212",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: possible read or write in postscript "
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2020-27752",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2021-20309",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImagemMagick: Division by zero in WaveImage() of M"
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2021-20312",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Integer overflow in WriteTHUMBNAILIma"
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2021-20313",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Cipher leak when the calculating sign"
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2022-28463",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: heap-buffer-overflow in PushLongPixel"
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2022-32545",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2022-32546",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2022-32547",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: load of misaligned address at MagickC"
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2020-25664",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2021-20243",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in GetResizeFilterWe"
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2021-20245",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in WriteAnimatedWEBP"
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2021-3596",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: NULL pointer dereference in ReadSVGIm"
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2017-12670",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: Assertion failure in the function Des"
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2020-27751",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: integer overflow in MagickCore/quantu"
+  ],
+  [
+    "imagemagick-6.q16",
+    "CVE-2021-39212",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: possible read or write in postscript "
+  ],
+  [
+    "krb5-multidev",
+    "CVE-2018-20217",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: Reachable assertion in the KDC using S4U2Sel"
+  ],
+  [
+    "krb5-multidev",
+    "CVE-2018-5710",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null pointer deference in strlen function in"
+  ],
+  [
+    "krb5-multidev",
+    "CVE-2018-5729",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null dereference in kadmind or DN container "
+  ],
+  [
+    "krb5-multidev",
+    "CVE-2021-37750",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: NULL pointer dereference in process_tgs_req("
+  ],
+  [
+    "krb5-multidev",
+    "CVE-2017-11462",
+    "LOW",
+    "1.15-1+deb9u2",
+    "",
+    "krb5: Automatic sec context deletion could lead to"
+  ],
+  [
+    "krb5-multidev",
+    "CVE-2018-5730",
+    "LOW",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: DN container check bypass by supplying speci"
+  ],
+  [
+    "libapr1",
+    "CVE-2017-12613",
+    "HIGH",
+    "1.5.2-5",
+    "1.5.2-5+deb9u1",
+    "apr: Out-of-bounds array deref in apr_time_exp*() "
+  ],
+  [
+    "libaprutil1",
+    "CVE-2017-12618",
+    "LOW",
+    "1.5.4-3",
+    "",
+    "apr-util: Out-of-bounds access in corrupted SDBM d"
+  ],
+  [
+    "libasan3",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libatomic1",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libavahi-client3",
+    "CVE-2021-26720",
+    "HIGH",
+    "0.6.32-2",
+    "0.6.32-2+deb9u1",
+    "avahi-daemon-check-dns.sh in the Debian avahi pack"
+  ],
+  [
+    "libavahi-client3",
+    "CVE-2021-3468",
+    "MEDIUM",
+    "0.6.32-2",
+    "0.6.32-2+deb9u1",
+    "avahi: Local DoS by event-busy-loop from writing l"
+  ],
+  [
+    "libavahi-common-data",
+    "CVE-2021-26720",
+    "HIGH",
+    "0.6.32-2",
+    "0.6.32-2+deb9u1",
+    "avahi-daemon-check-dns.sh in the Debian avahi pack"
+  ],
+  [
+    "libavahi-common-data",
+    "CVE-2021-3468",
+    "MEDIUM",
+    "0.6.32-2",
+    "0.6.32-2+deb9u1",
+    "avahi: Local DoS by event-busy-loop from writing l"
+  ],
+  [
+    "libavahi-common3",
+    "CVE-2021-26720",
+    "HIGH",
+    "0.6.32-2",
+    "0.6.32-2+deb9u1",
+    "avahi-daemon-check-dns.sh in the Debian avahi pack"
+  ],
+  [
+    "libavahi-common3",
+    "CVE-2021-3468",
+    "MEDIUM",
+    "0.6.32-2",
+    "0.6.32-2+deb9u1",
+    "avahi: Local DoS by event-busy-loop from writing l"
+  ],
+  [
+    "libblkid1",
+    "CVE-2016-2779",
+    "HIGH",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "libblkid1",
+    "CVE-2021-37600",
+    "LOW",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "libbz2-1.0",
+    "CVE-2019-12900",
+    "CRITICAL",
+    "1.0.6-8.1",
+    "",
+    "bzip2: bzip2: Data integrity error when decompress"
+  ],
+  [
+    "libbz2-dev",
+    "CVE-2019-12900",
+    "CRITICAL",
+    "1.0.6-8.1",
+    "",
+    "bzip2: bzip2: Data integrity error when decompress"
+  ],
+  [
+    "libcairo-gobject2",
+    "CVE-2017-7475",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: NULL pointer dereference with a crafted fon"
+  ],
+  [
+    "libcairo-gobject2",
+    "CVE-2017-9814",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: Out-of-bounds read due to mishandling of un"
+  ],
+  [
+    "libcairo-gobject2",
+    "CVE-2019-6461",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: assertion problem in _cairo_arc_in_directio"
+  ],
+  [
+    "libcairo-gobject2",
+    "CVE-2019-6462",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: infinite loop in the function _arc_error_no"
+  ],
+  [
+    "libcairo-script-interpreter2",
+    "CVE-2017-7475",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: NULL pointer dereference with a crafted fon"
+  ],
+  [
+    "libcairo-script-interpreter2",
+    "CVE-2017-9814",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: Out-of-bounds read due to mishandling of un"
+  ],
+  [
+    "libcairo-script-interpreter2",
+    "CVE-2019-6461",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: assertion problem in _cairo_arc_in_directio"
+  ],
+  [
+    "libcairo-script-interpreter2",
+    "CVE-2019-6462",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: infinite loop in the function _arc_error_no"
+  ],
+  [
+    "libcairo2",
+    "CVE-2017-7475",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: NULL pointer dereference with a crafted fon"
+  ],
+  [
+    "libcairo2",
+    "CVE-2017-9814",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: Out-of-bounds read due to mishandling of un"
+  ],
+  [
+    "libcairo2",
+    "CVE-2019-6461",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: assertion problem in _cairo_arc_in_directio"
+  ],
+  [
+    "libcairo2",
+    "CVE-2019-6462",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: infinite loop in the function _arc_error_no"
+  ],
+  [
+    "libcairo2-dev",
+    "CVE-2017-7475",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: NULL pointer dereference with a crafted fon"
+  ],
+  [
+    "libcairo2-dev",
+    "CVE-2017-9814",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: Out-of-bounds read due to mishandling of un"
+  ],
+  [
+    "libcairo2-dev",
+    "CVE-2019-6461",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: assertion problem in _cairo_arc_in_directio"
+  ],
+  [
+    "libcairo2-dev",
+    "CVE-2019-6462",
+    "LOW",
+    "1.14.8-1+deb9u1",
+    "",
+    "cairo: infinite loop in the function _arc_error_no"
+  ],
+  [
+    "libcc1-0",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libcdt5",
+    "CVE-2020-18032",
+    "HIGH",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: off-by-one in parse_reclbl() in lib/comm"
+  ],
+  [
+    "libcdt5",
+    "CVE-2018-10196",
+    "MEDIUM",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: NULL pointer dereference in rebuild_vlis"
+  ],
+  [
+    "libcgraph6",
+    "CVE-2020-18032",
+    "HIGH",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: off-by-one in parse_reclbl() in lib/comm"
+  ],
+  [
+    "libcgraph6",
+    "CVE-2018-10196",
+    "MEDIUM",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: NULL pointer dereference in rebuild_vlis"
+  ],
+  [
+    "libcilkrts5",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libcomerr2",
+    "CVE-2022-1304",
+    "HIGH",
+    "1.43.4-2+deb9u2",
+    "",
+    "e2fsprogs: out-of-bounds read/write via crafted fi"
+  ],
+  [
+    "libcroco3",
+    "CVE-2017-8834",
+    "LOW",
+    "0.6.11-3",
+    "",
+    "libcroco: Memory allocation failure in the cr_tknz"
+  ],
+  [
+    "libcroco3",
+    "CVE-2017-8871",
+    "LOW",
+    "0.6.11-3",
+    "",
+    "libcroco: Infinite loop in the cr_parser_parse_sel"
+  ],
+  [
+    "libcroco3",
+    "CVE-2020-12825",
+    "LOW",
+    "0.6.11-3",
+    "",
+    "libcroco: Stack overflow in function cr_parser_par"
+  ],
+  [
+    "libcups2",
+    "CVE-2020-10001",
+    "MEDIUM",
+    "2.2.1-8+deb9u6",
+    "2.2.1-8+deb9u7",
+    "cups: access to uninitialized buffer in ipp.c"
+  ],
+  [
+    "libcups2",
+    "CVE-2022-26691",
+    "MEDIUM",
+    "2.2.1-8+deb9u6",
+    "2.2.1-8+deb9u8",
+    "cups: authorization bypass when using \"local\" auth"
+  ],
+  [
+    "libcurl3",
+    "CVE-2021-22946",
+    "HIGH",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u16",
+    "curl: Requirement to use TLS not properly enforced"
+  ],
+  [
+    "libcurl3",
+    "CVE-2021-22876",
+    "MEDIUM",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u14",
+    "curl: Leak of authentication credentials in URL vi"
+  ],
+  [
+    "libcurl3",
+    "CVE-2021-22947",
+    "MEDIUM",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u16",
+    "curl: Server responses received before STARTTLS pr"
+  ],
+  [
+    "libcurl3",
+    "CVE-2021-22898",
+    "LOW",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u15",
+    "curl: TELNET stack contents disclosure"
+  ],
+  [
+    "libcurl3",
+    "CVE-2021-22924",
+    "LOW",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u15",
+    "curl: Bad connection reuse due to flawed path name"
+  ],
+  [
+    "libcurl3-gnutls",
+    "CVE-2021-22946",
+    "HIGH",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u16",
+    "curl: Requirement to use TLS not properly enforced"
+  ],
+  [
+    "libcurl3-gnutls",
+    "CVE-2021-22876",
+    "MEDIUM",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u14",
+    "curl: Leak of authentication credentials in URL vi"
+  ],
+  [
+    "libcurl3-gnutls",
+    "CVE-2021-22947",
+    "MEDIUM",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u16",
+    "curl: Server responses received before STARTTLS pr"
+  ],
+  [
+    "libcurl3-gnutls",
+    "CVE-2021-22898",
+    "LOW",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u15",
+    "curl: TELNET stack contents disclosure"
+  ],
+  [
+    "libcurl3-gnutls",
+    "CVE-2021-22924",
+    "LOW",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u15",
+    "curl: Bad connection reuse due to flawed path name"
+  ],
+  [
+    "libcurl4-openssl-dev",
+    "CVE-2021-22946",
+    "HIGH",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u16",
+    "curl: Requirement to use TLS not properly enforced"
+  ],
+  [
+    "libcurl4-openssl-dev",
+    "CVE-2021-22876",
+    "MEDIUM",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u14",
+    "curl: Leak of authentication credentials in URL vi"
+  ],
+  [
+    "libcurl4-openssl-dev",
+    "CVE-2021-22947",
+    "MEDIUM",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u16",
+    "curl: Server responses received before STARTTLS pr"
+  ],
+  [
+    "libcurl4-openssl-dev",
+    "CVE-2021-22898",
+    "LOW",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u15",
+    "curl: TELNET stack contents disclosure"
+  ],
+  [
+    "libcurl4-openssl-dev",
+    "CVE-2021-22924",
+    "LOW",
+    "7.52.1-5+deb9u13",
+    "7.52.1-5+deb9u15",
+    "curl: Bad connection reuse due to flawed path name"
+  ],
+  [
+    "libdb5.3",
+    "CVE-2019-8457",
+    "CRITICAL",
+    "5.3.28-12+deb9u1",
+    "",
+    "sqlite: heap out-of-bound read in function rtreeno"
+  ],
+  [
+    "libdb5.3-dev",
+    "CVE-2019-8457",
+    "CRITICAL",
+    "5.3.28-12+deb9u1",
+    "",
+    "sqlite: heap out-of-bound read in function rtreeno"
+  ],
+  [
+    "libdjvulibre-dev",
+    "CVE-2019-18804",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "DjVuLibre 3.5.27 has a NULL pointer dereference in"
+  ],
+  [
+    "libdjvulibre-dev",
+    "CVE-2021-32490",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre-dev",
+    "CVE-2021-32491",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre-dev",
+    "CVE-2021-32492",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre-dev",
+    "CVE-2021-32493",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre-dev",
+    "CVE-2021-3500",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre-dev",
+    "CVE-2019-15142",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "In DjVuLibre 3.5.27, DjVmDir.cpp in the DJVU reade"
+  ],
+  [
+    "libdjvulibre-dev",
+    "CVE-2019-15143",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "In DjVuLibre 3.5.27, the bitmap reader component a"
+  ],
+  [
+    "libdjvulibre-dev",
+    "CVE-2019-15144",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "In DjVuLibre 3.5.27, the sorting functionality (ak"
+  ],
+  [
+    "libdjvulibre-dev",
+    "CVE-2019-15145",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "DjVuLibre 3.5.27 allows attackers to cause a denia"
+  ],
+  [
+    "libdjvulibre-dev",
+    "CVE-2021-3630",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u2",
+    "An out-of-bounds write vulnerability was found in "
+  ],
+  [
+    "libdjvulibre-text",
+    "CVE-2019-18804",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "DjVuLibre 3.5.27 has a NULL pointer dereference in"
+  ],
+  [
+    "libdjvulibre-text",
+    "CVE-2021-32490",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre-text",
+    "CVE-2021-32491",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre-text",
+    "CVE-2021-32492",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre-text",
+    "CVE-2021-32493",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre-text",
+    "CVE-2021-3500",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre-text",
+    "CVE-2019-15142",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "In DjVuLibre 3.5.27, DjVmDir.cpp in the DJVU reade"
+  ],
+  [
+    "libdjvulibre-text",
+    "CVE-2019-15143",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "In DjVuLibre 3.5.27, the bitmap reader component a"
+  ],
+  [
+    "libdjvulibre-text",
+    "CVE-2019-15144",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "In DjVuLibre 3.5.27, the sorting functionality (ak"
+  ],
+  [
+    "libdjvulibre-text",
+    "CVE-2019-15145",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "DjVuLibre 3.5.27 allows attackers to cause a denia"
+  ],
+  [
+    "libdjvulibre-text",
+    "CVE-2021-3630",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u2",
+    "An out-of-bounds write vulnerability was found in "
+  ],
+  [
+    "libdjvulibre21",
+    "CVE-2019-18804",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "DjVuLibre 3.5.27 has a NULL pointer dereference in"
+  ],
+  [
+    "libdjvulibre21",
+    "CVE-2021-32490",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre21",
+    "CVE-2021-32491",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre21",
+    "CVE-2021-32492",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre21",
+    "CVE-2021-32493",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre21",
+    "CVE-2021-3500",
+    "HIGH",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "A flaw was found in djvulibre-3.5.28 and earlier. "
+  ],
+  [
+    "libdjvulibre21",
+    "CVE-2019-15142",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "In DjVuLibre 3.5.27, DjVmDir.cpp in the DJVU reade"
+  ],
+  [
+    "libdjvulibre21",
+    "CVE-2019-15143",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "In DjVuLibre 3.5.27, the bitmap reader component a"
+  ],
+  [
+    "libdjvulibre21",
+    "CVE-2019-15144",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "In DjVuLibre 3.5.27, the sorting functionality (ak"
+  ],
+  [
+    "libdjvulibre21",
+    "CVE-2019-15145",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u1",
+    "DjVuLibre 3.5.27 allows attackers to cause a denia"
+  ],
+  [
+    "libdjvulibre21",
+    "CVE-2021-3630",
+    "MEDIUM",
+    "3.5.27.1-7",
+    "3.5.27.1-7+deb9u2",
+    "An out-of-bounds write vulnerability was found in "
+  ],
+  [
+    "libdpkg-perl",
+    "CVE-2022-1664",
+    "CRITICAL",
+    "1.18.25",
+    "1.18.26",
+    "Dpkg::Source::Archive in dpkg, the Debian package "
+  ],
+  [
+    "libelf1",
+    "CVE-2018-16402",
+    "CRITICAL",
+    "0.168-1",
+    "0.168-1+deb9u1",
+    "elfutils: Double-free due to double decompression "
+  ],
+  [
+    "libelf1",
+    "CVE-2018-16062",
+    "MEDIUM",
+    "0.168-1",
+    "0.168-1+deb9u1",
+    "elfutils: Heap-based buffer over-read in libdw/dwa"
+  ],
+  [
+    "libelf1",
+    "CVE-2018-18310",
+    "MEDIUM",
+    "0.168-1",
+    "0.168-1+deb9u1",
+    "elfutils: invalid memory address dereference was d"
+  ],
+  [
+    "libelf1",
+    "CVE-2018-18520",
+    "MEDIUM",
+    "0.168-1",
+    "0.168-1+deb9u1",
+    "elfutils: eu-size cannot handle recursive ar files"
+  ],
+  [
+    "libelf1",
+    "CVE-2018-18521",
+    "MEDIUM",
+    "0.168-1",
+    "0.168-1+deb9u1",
+    "elfutils: Divide-by-zero in arlib_add_symbols func"
+  ],
+  [
+    "libelf1",
+    "CVE-2019-7150",
+    "MEDIUM",
+    "0.168-1",
+    "0.168-1+deb9u1",
+    "elfutils: segmentation fault in elf64_xlatetom in "
+  ],
+  [
+    "libelf1",
+    "CVE-2019-7665",
+    "MEDIUM",
+    "0.168-1",
+    "0.168-1+deb9u1",
+    "elfutils: heap-based buffer over-read in function "
+  ],
+  [
+    "libelf1",
+    "CVE-2018-16403",
+    "LOW",
+    "0.168-1",
+    "",
+    "elfutils: Heap-based buffer over-read in libdw/dwa"
+  ],
+  [
+    "libelf1",
+    "CVE-2019-7149",
+    "LOW",
+    "0.168-1",
+    "",
+    "elfutils: heap-based buffer over-read in read_srcl"
+  ],
+  [
+    "libexpat1",
+    "CVE-2022-22822",
+    "CRITICAL",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Integer overflow in addBinding in xmlparse."
+  ],
+  [
+    "libexpat1",
+    "CVE-2022-22823",
+    "CRITICAL",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Integer overflow in build_model in xmlparse"
+  ],
+  [
+    "libexpat1",
+    "CVE-2022-22824",
+    "CRITICAL",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Integer overflow in defineAttribute in xmlp"
+  ],
+  [
+    "libexpat1",
+    "CVE-2022-23852",
+    "CRITICAL",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u5",
+    "expat: Integer overflow in function XML_GetBuffer"
+  ],
+  [
+    "libexpat1",
+    "CVE-2022-25235",
+    "CRITICAL",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u5",
+    "expat: Malformed 2- and 3-byte UTF-8 sequences can"
+  ],
+  [
+    "libexpat1",
+    "CVE-2022-25236",
+    "CRITICAL",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u5",
+    "expat: Namespace-separator characters in \"xmlns[:p"
+  ],
+  [
+    "libexpat1",
+    "CVE-2022-25315",
+    "CRITICAL",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u5",
+    "expat: Integer overflow in storeRawNames()"
+  ],
+  [
+    "libexpat1",
+    "CVE-2021-45960",
+    "HIGH",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Large number of prefixed XML attributes on "
+  ],
+  [
+    "libexpat1",
+    "CVE-2021-46143",
+    "HIGH",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Integer overflow in doProlog in xmlparse.c"
+  ],
+  [
+    "libexpat1",
+    "CVE-2022-22825",
+    "HIGH",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Integer overflow in lookup in xmlparse.c"
+  ],
+  [
+    "libexpat1",
+    "CVE-2022-22826",
+    "HIGH",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Integer overflow in nextScaffoldPart in xml"
+  ],
+  [
+    "libexpat1",
+    "CVE-2022-22827",
+    "HIGH",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Integer overflow in storeAtts in xmlparse.c"
+  ],
+  [
+    "libexpat1",
+    "CVE-2022-23990",
+    "HIGH",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: integer overflow in the doProlog function"
+  ],
+  [
+    "libexpat1",
+    "CVE-2022-25313",
+    "MEDIUM",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u5",
+    "expat: Stack exhaustion in doctype parsing"
+  ],
+  [
+    "libexpat1-dev",
+    "CVE-2022-22822",
+    "CRITICAL",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Integer overflow in addBinding in xmlparse."
+  ],
+  [
+    "libexpat1-dev",
+    "CVE-2022-22823",
+    "CRITICAL",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Integer overflow in build_model in xmlparse"
+  ],
+  [
+    "libexpat1-dev",
+    "CVE-2022-22824",
+    "CRITICAL",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Integer overflow in defineAttribute in xmlp"
+  ],
+  [
+    "libexpat1-dev",
+    "CVE-2022-23852",
+    "CRITICAL",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u5",
+    "expat: Integer overflow in function XML_GetBuffer"
+  ],
+  [
+    "libexpat1-dev",
+    "CVE-2022-25235",
+    "CRITICAL",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u5",
+    "expat: Malformed 2- and 3-byte UTF-8 sequences can"
+  ],
+  [
+    "libexpat1-dev",
+    "CVE-2022-25236",
+    "CRITICAL",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u5",
+    "expat: Namespace-separator characters in \"xmlns[:p"
+  ],
+  [
+    "libexpat1-dev",
+    "CVE-2022-25315",
+    "CRITICAL",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u5",
+    "expat: Integer overflow in storeRawNames()"
+  ],
+  [
+    "libexpat1-dev",
+    "CVE-2021-45960",
+    "HIGH",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Large number of prefixed XML attributes on "
+  ],
+  [
+    "libexpat1-dev",
+    "CVE-2021-46143",
+    "HIGH",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Integer overflow in doProlog in xmlparse.c"
+  ],
+  [
+    "libexpat1-dev",
+    "CVE-2022-22825",
+    "HIGH",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Integer overflow in lookup in xmlparse.c"
+  ],
+  [
+    "libexpat1-dev",
+    "CVE-2022-22826",
+    "HIGH",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Integer overflow in nextScaffoldPart in xml"
+  ],
+  [
+    "libexpat1-dev",
+    "CVE-2022-22827",
+    "HIGH",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: Integer overflow in storeAtts in xmlparse.c"
+  ],
+  [
+    "libexpat1-dev",
+    "CVE-2022-23990",
+    "HIGH",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u4",
+    "expat: integer overflow in the doProlog function"
+  ],
+  [
+    "libexpat1-dev",
+    "CVE-2022-25313",
+    "MEDIUM",
+    "2.2.0-2+deb9u3",
+    "2.2.0-2+deb9u5",
+    "expat: Stack exhaustion in doctype parsing"
+  ],
+  [
+    "libfdisk1",
+    "CVE-2016-2779",
+    "HIGH",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "libfdisk1",
+    "CVE-2021-37600",
+    "LOW",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "libfreetype6",
+    "CVE-2022-27404",
+    "CRITICAL",
+    "2.6.3-3.2+deb9u2",
+    "",
+    "FreeType: Buffer overflow in sfnt_init_face"
+  ],
+  [
+    "libfreetype6",
+    "CVE-2022-27405",
+    "HIGH",
+    "2.6.3-3.2+deb9u2",
+    "",
+    "FreeType: Segmentation violation via FNT_Size_Requ"
+  ],
+  [
+    "libfreetype6",
+    "CVE-2022-27406",
+    "HIGH",
+    "2.6.3-3.2+deb9u2",
+    "",
+    "Freetype: Segmentation violation via FT_Request_Si"
+  ],
+  [
+    "libfreetype6-dev",
+    "CVE-2022-27404",
+    "CRITICAL",
+    "2.6.3-3.2+deb9u2",
+    "",
+    "FreeType: Buffer overflow in sfnt_init_face"
+  ],
+  [
+    "libfreetype6-dev",
+    "CVE-2022-27405",
+    "HIGH",
+    "2.6.3-3.2+deb9u2",
+    "",
+    "FreeType: Segmentation violation via FNT_Size_Requ"
+  ],
+  [
+    "libfreetype6-dev",
+    "CVE-2022-27406",
+    "HIGH",
+    "2.6.3-3.2+deb9u2",
+    "",
+    "Freetype: Segmentation violation via FT_Request_Si"
+  ],
+  [
+    "libgcc-6-dev",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libgcc1",
+    "CVE-2018-12886",
+    "HIGH",
+    "1:6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libgcrypt20",
+    "CVE-2021-33560",
+    "HIGH",
+    "1.7.6-2+deb9u3",
+    "",
+    "libgcrypt: mishandles ElGamal encryption because i"
+  ],
+  [
+    "libgcrypt20",
+    "CVE-2019-13627",
+    "MEDIUM",
+    "1.7.6-2+deb9u3",
+    "",
+    "libgcrypt: ECDSA timing attack allowing private ke"
+  ],
+  [
+    "libgcrypt20",
+    "CVE-2021-40528",
+    "MEDIUM",
+    "1.7.6-2+deb9u3",
+    "1.7.6-2+deb9u4",
+    "libgcrypt: ElGamal implementation allows plaintext"
+  ],
+  [
+    "libgd3",
+    "CVE-2017-6363",
+    "HIGH",
+    "2.2.4-2+deb9u5",
+    "",
+    "In the GD Graphics Library (aka LibGD) through 2.2"
+  ],
+  [
+    "libgd3",
+    "CVE-2021-38115",
+    "MEDIUM",
+    "2.2.4-2+deb9u5",
+    "",
+    "read_header_tga in gd_tga.c in the GD Graphics Lib"
+  ],
+  [
+    "libgd3",
+    "CVE-2021-40812",
+    "MEDIUM",
+    "2.2.4-2+deb9u5",
+    "",
+    "The GD Graphics Library (aka LibGD) through 2.3.2 "
+  ],
+  [
+    "libgd3",
+    "CVE-2018-14553",
+    "LOW",
+    "2.2.4-2+deb9u5",
+    "",
+    "gd: NULL pointer dereference in gdImageClone"
+  ],
+  [
+    "libgdk-pixbuf2.0-0",
+    "CVE-2017-2870",
+    "LOW",
+    "2.36.5-2+deb9u2",
+    "",
+    "gdk-pixbuf2: Integer overflow in tiff_image_parse "
+  ],
+  [
+    "libgdk-pixbuf2.0-0",
+    "CVE-2017-6311",
+    "LOW",
+    "2.36.5-2+deb9u2",
+    "",
+    "gdk-pixbuf: NULL pointer dereference in gdk-pixbuf"
+  ],
+  [
+    "libgdk-pixbuf2.0-common",
+    "CVE-2017-2870",
+    "LOW",
+    "2.36.5-2+deb9u2",
+    "",
+    "gdk-pixbuf2: Integer overflow in tiff_image_parse "
+  ],
+  [
+    "libgdk-pixbuf2.0-common",
+    "CVE-2017-6311",
+    "LOW",
+    "2.36.5-2+deb9u2",
+    "",
+    "gdk-pixbuf: NULL pointer dereference in gdk-pixbuf"
+  ],
+  [
+    "libgdk-pixbuf2.0-dev",
+    "CVE-2017-2870",
+    "LOW",
+    "2.36.5-2+deb9u2",
+    "",
+    "gdk-pixbuf2: Integer overflow in tiff_image_parse "
+  ],
+  [
+    "libgdk-pixbuf2.0-dev",
+    "CVE-2017-6311",
+    "LOW",
+    "2.36.5-2+deb9u2",
+    "",
+    "gdk-pixbuf: NULL pointer dereference in gdk-pixbuf"
+  ],
+  [
+    "libglib2.0-0",
+    "CVE-2021-27218",
+    "HIGH",
+    "2.50.3-2+deb9u2",
+    "2.50.3-2+deb9u3",
+    "glib: integer overflow in g_byte_array_new_take fu"
+  ],
+  [
+    "libglib2.0-0",
+    "CVE-2021-27219",
+    "HIGH",
+    "2.50.3-2+deb9u2",
+    "2.50.3-2+deb9u3",
+    "glib: integer overflow in g_bytes_new function on "
+  ],
+  [
+    "libglib2.0-0",
+    "CVE-2021-28153",
+    "MEDIUM",
+    "2.50.3-2+deb9u2",
+    "2.50.3-2+deb9u3",
+    "glib: g_file_replace() with G_FILE_CREATE_REPLACE_"
+  ],
+  [
+    "libglib2.0-bin",
+    "CVE-2021-27218",
+    "HIGH",
+    "2.50.3-2+deb9u2",
+    "2.50.3-2+deb9u3",
+    "glib: integer overflow in g_byte_array_new_take fu"
+  ],
+  [
+    "libglib2.0-bin",
+    "CVE-2021-27219",
+    "HIGH",
+    "2.50.3-2+deb9u2",
+    "2.50.3-2+deb9u3",
+    "glib: integer overflow in g_bytes_new function on "
+  ],
+  [
+    "libglib2.0-bin",
+    "CVE-2021-28153",
+    "MEDIUM",
+    "2.50.3-2+deb9u2",
+    "2.50.3-2+deb9u3",
+    "glib: g_file_replace() with G_FILE_CREATE_REPLACE_"
+  ],
+  [
+    "libglib2.0-data",
+    "CVE-2021-27218",
+    "HIGH",
+    "2.50.3-2+deb9u2",
+    "2.50.3-2+deb9u3",
+    "glib: integer overflow in g_byte_array_new_take fu"
+  ],
+  [
+    "libglib2.0-data",
+    "CVE-2021-27219",
+    "HIGH",
+    "2.50.3-2+deb9u2",
+    "2.50.3-2+deb9u3",
+    "glib: integer overflow in g_bytes_new function on "
+  ],
+  [
+    "libglib2.0-data",
+    "CVE-2021-28153",
+    "MEDIUM",
+    "2.50.3-2+deb9u2",
+    "2.50.3-2+deb9u3",
+    "glib: g_file_replace() with G_FILE_CREATE_REPLACE_"
+  ],
+  [
+    "libglib2.0-dev",
+    "CVE-2021-27218",
+    "HIGH",
+    "2.50.3-2+deb9u2",
+    "2.50.3-2+deb9u3",
+    "glib: integer overflow in g_byte_array_new_take fu"
+  ],
+  [
+    "libglib2.0-dev",
+    "CVE-2021-27219",
+    "HIGH",
+    "2.50.3-2+deb9u2",
+    "2.50.3-2+deb9u3",
+    "glib: integer overflow in g_bytes_new function on "
+  ],
+  [
+    "libglib2.0-dev",
+    "CVE-2021-28153",
+    "MEDIUM",
+    "2.50.3-2+deb9u2",
+    "2.50.3-2+deb9u3",
+    "glib: g_file_replace() with G_FILE_CREATE_REPLACE_"
+  ],
+  [
+    "libgmp-dev",
+    "CVE-2021-43618",
+    "HIGH",
+    "2:6.1.2+dfsg-1",
+    "2:6.1.2+dfsg-1+deb9u1",
+    "gmp: Integer overflow and resultant buffer overflo"
+  ],
+  [
+    "libgmp10",
+    "CVE-2021-43618",
+    "HIGH",
+    "2:6.1.2+dfsg-1",
+    "2:6.1.2+dfsg-1+deb9u1",
+    "gmp: Integer overflow and resultant buffer overflo"
+  ],
+  [
+    "libgmpxx4ldbl",
+    "CVE-2021-43618",
+    "HIGH",
+    "2:6.1.2+dfsg-1",
+    "2:6.1.2+dfsg-1+deb9u1",
+    "gmp: Integer overflow and resultant buffer overflo"
+  ],
+  [
+    "libgnutls30",
+    "CVE-2018-16868",
+    "MEDIUM",
+    "3.5.8-5+deb9u5",
+    "",
+    "gnutls: Bleichenbacher-like side channel leakage i"
+  ],
+  [
+    "libgnutls30",
+    "CVE-2021-4209",
+    "MEDIUM",
+    "3.5.8-5+deb9u5",
+    "",
+    "GnuTLS: Null pointer dereference in MD_UPDATE"
+  ],
+  [
+    "libgnutls30",
+    "DLA-2759-1",
+    "UNKNOWN",
+    "3.5.8-5+deb9u5",
+    "3.5.8-5+deb9u6",
+    "gnutls28 - security update"
+  ],
+  [
+    "libgomp1",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libgraphite2-3",
+    "CVE-2018-7999",
+    "HIGH",
+    "1.3.10-1",
+    "",
+    "graphite2: NULL pointer dereference in Segment.cpp"
+  ],
+  [
+    "libgraphviz-dev",
+    "CVE-2020-18032",
+    "HIGH",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: off-by-one in parse_reclbl() in lib/comm"
+  ],
+  [
+    "libgraphviz-dev",
+    "CVE-2018-10196",
+    "MEDIUM",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: NULL pointer dereference in rebuild_vlis"
+  ],
+  [
+    "libgssapi-krb5-2",
+    "CVE-2018-20217",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: Reachable assertion in the KDC using S4U2Sel"
+  ],
+  [
+    "libgssapi-krb5-2",
+    "CVE-2018-5710",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null pointer deference in strlen function in"
+  ],
+  [
+    "libgssapi-krb5-2",
+    "CVE-2018-5729",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null dereference in kadmind or DN container "
+  ],
+  [
+    "libgssapi-krb5-2",
+    "CVE-2021-37750",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: NULL pointer dereference in process_tgs_req("
+  ],
+  [
+    "libgssapi-krb5-2",
+    "CVE-2017-11462",
+    "LOW",
+    "1.15-1+deb9u2",
+    "",
+    "krb5: Automatic sec context deletion could lead to"
+  ],
+  [
+    "libgssapi-krb5-2",
+    "CVE-2018-5730",
+    "LOW",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: DN container check bypass by supplying speci"
+  ],
+  [
+    "libgssrpc4",
+    "CVE-2018-20217",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: Reachable assertion in the KDC using S4U2Sel"
+  ],
+  [
+    "libgssrpc4",
+    "CVE-2018-5710",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null pointer deference in strlen function in"
+  ],
+  [
+    "libgssrpc4",
+    "CVE-2018-5729",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null dereference in kadmind or DN container "
+  ],
+  [
+    "libgssrpc4",
+    "CVE-2021-37750",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: NULL pointer dereference in process_tgs_req("
+  ],
+  [
+    "libgssrpc4",
+    "CVE-2017-11462",
+    "LOW",
+    "1.15-1+deb9u2",
+    "",
+    "krb5: Automatic sec context deletion could lead to"
+  ],
+  [
+    "libgssrpc4",
+    "CVE-2018-5730",
+    "LOW",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: DN container check bypass by supplying speci"
+  ],
+  [
+    "libgvc6",
+    "CVE-2020-18032",
+    "HIGH",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: off-by-one in parse_reclbl() in lib/comm"
+  ],
+  [
+    "libgvc6",
+    "CVE-2018-10196",
+    "MEDIUM",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: NULL pointer dereference in rebuild_vlis"
+  ],
+  [
+    "libgvc6-plugins-gtk",
+    "CVE-2020-18032",
+    "HIGH",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: off-by-one in parse_reclbl() in lib/comm"
+  ],
+  [
+    "libgvc6-plugins-gtk",
+    "CVE-2018-10196",
+    "MEDIUM",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: NULL pointer dereference in rebuild_vlis"
+  ],
+  [
+    "libgvpr2",
+    "CVE-2020-18032",
+    "HIGH",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: off-by-one in parse_reclbl() in lib/comm"
+  ],
+  [
+    "libgvpr2",
+    "CVE-2018-10196",
+    "MEDIUM",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: NULL pointer dereference in rebuild_vlis"
+  ],
+  [
+    "libharfbuzz0b",
+    "CVE-2022-33068",
+    "MEDIUM",
+    "1.4.2-1",
+    "",
+    "harfbuzz: integer overflow in the component hb-ot-"
+  ],
+  [
+    "libhogweed4",
+    "CVE-2021-20305",
+    "HIGH",
+    "3.3-1+b2",
+    "3.3-1+deb9u1",
+    "nettle: Out of bounds memory access in signature v"
+  ],
+  [
+    "libhogweed4",
+    "CVE-2021-3580",
+    "HIGH",
+    "3.3-1+b2",
+    "3.3-1+deb9u1",
+    "nettle: Remote crash in RSA decryption via manipul"
+  ],
+  [
+    "libhogweed4",
+    "CVE-2018-16869",
+    "MEDIUM",
+    "3.3-1+b2",
+    "",
+    "nettle: Leaky data conversion exposing a manager o"
+  ],
+  [
+    "libicu-dev",
+    "CVE-2020-21913",
+    "MEDIUM",
+    "57.1-6+deb9u4",
+    "57.1-6+deb9u5",
+    "icu: Use after free in pkg_createWithAssemblyCode "
+  ],
+  [
+    "libicu57",
+    "CVE-2020-21913",
+    "MEDIUM",
+    "57.1-6+deb9u4",
+    "57.1-6+deb9u5",
+    "icu: Use after free in pkg_createWithAssemblyCode "
+  ],
+  [
+    "libitm1",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libjpeg-dev",
+    "CVE-2019-2201",
+    "HIGH",
+    "1:1.5.1-2+deb9u1",
+    "1:1.5.1-2+deb9u2",
+    "libjpeg-turbo: several integer overflows and subse"
+  ],
+  [
+    "libjpeg62-turbo",
+    "CVE-2019-2201",
+    "HIGH",
+    "1:1.5.1-2+deb9u1",
+    "1:1.5.1-2+deb9u2",
+    "libjpeg-turbo: several integer overflows and subse"
+  ],
+  [
+    "libjpeg62-turbo-dev",
+    "CVE-2019-2201",
+    "HIGH",
+    "1:1.5.1-2+deb9u1",
+    "1:1.5.1-2+deb9u2",
+    "libjpeg-turbo: several integer overflows and subse"
+  ],
+  [
+    "libk5crypto3",
+    "CVE-2018-20217",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: Reachable assertion in the KDC using S4U2Sel"
+  ],
+  [
+    "libk5crypto3",
+    "CVE-2018-5710",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null pointer deference in strlen function in"
+  ],
+  [
+    "libk5crypto3",
+    "CVE-2018-5729",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null dereference in kadmind or DN container "
+  ],
+  [
+    "libk5crypto3",
+    "CVE-2021-37750",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: NULL pointer dereference in process_tgs_req("
+  ],
+  [
+    "libk5crypto3",
+    "CVE-2017-11462",
+    "LOW",
+    "1.15-1+deb9u2",
+    "",
+    "krb5: Automatic sec context deletion could lead to"
+  ],
+  [
+    "libk5crypto3",
+    "CVE-2018-5730",
+    "LOW",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: DN container check bypass by supplying speci"
+  ],
+  [
+    "libkadm5clnt-mit11",
+    "CVE-2018-20217",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: Reachable assertion in the KDC using S4U2Sel"
+  ],
+  [
+    "libkadm5clnt-mit11",
+    "CVE-2018-5710",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null pointer deference in strlen function in"
+  ],
+  [
+    "libkadm5clnt-mit11",
+    "CVE-2018-5729",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null dereference in kadmind or DN container "
+  ],
+  [
+    "libkadm5clnt-mit11",
+    "CVE-2021-37750",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: NULL pointer dereference in process_tgs_req("
+  ],
+  [
+    "libkadm5clnt-mit11",
+    "CVE-2017-11462",
+    "LOW",
+    "1.15-1+deb9u2",
+    "",
+    "krb5: Automatic sec context deletion could lead to"
+  ],
+  [
+    "libkadm5clnt-mit11",
+    "CVE-2018-5730",
+    "LOW",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: DN container check bypass by supplying speci"
+  ],
+  [
+    "libkadm5srv-mit11",
+    "CVE-2018-20217",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: Reachable assertion in the KDC using S4U2Sel"
+  ],
+  [
+    "libkadm5srv-mit11",
+    "CVE-2018-5710",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null pointer deference in strlen function in"
+  ],
+  [
+    "libkadm5srv-mit11",
+    "CVE-2018-5729",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null dereference in kadmind or DN container "
+  ],
+  [
+    "libkadm5srv-mit11",
+    "CVE-2021-37750",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: NULL pointer dereference in process_tgs_req("
+  ],
+  [
+    "libkadm5srv-mit11",
+    "CVE-2017-11462",
+    "LOW",
+    "1.15-1+deb9u2",
+    "",
+    "krb5: Automatic sec context deletion could lead to"
+  ],
+  [
+    "libkadm5srv-mit11",
+    "CVE-2018-5730",
+    "LOW",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: DN container check bypass by supplying speci"
+  ],
+  [
+    "libkdb5-8",
+    "CVE-2018-20217",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: Reachable assertion in the KDC using S4U2Sel"
+  ],
+  [
+    "libkdb5-8",
+    "CVE-2018-5710",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null pointer deference in strlen function in"
+  ],
+  [
+    "libkdb5-8",
+    "CVE-2018-5729",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null dereference in kadmind or DN container "
+  ],
+  [
+    "libkdb5-8",
+    "CVE-2021-37750",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: NULL pointer dereference in process_tgs_req("
+  ],
+  [
+    "libkdb5-8",
+    "CVE-2017-11462",
+    "LOW",
+    "1.15-1+deb9u2",
+    "",
+    "krb5: Automatic sec context deletion could lead to"
+  ],
+  [
+    "libkdb5-8",
+    "CVE-2018-5730",
+    "LOW",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: DN container check bypass by supplying speci"
+  ],
+  [
+    "libkrb5-3",
+    "CVE-2018-20217",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: Reachable assertion in the KDC using S4U2Sel"
+  ],
+  [
+    "libkrb5-3",
+    "CVE-2018-5710",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null pointer deference in strlen function in"
+  ],
+  [
+    "libkrb5-3",
+    "CVE-2018-5729",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null dereference in kadmind or DN container "
+  ],
+  [
+    "libkrb5-3",
+    "CVE-2021-37750",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: NULL pointer dereference in process_tgs_req("
+  ],
+  [
+    "libkrb5-3",
+    "CVE-2017-11462",
+    "LOW",
+    "1.15-1+deb9u2",
+    "",
+    "krb5: Automatic sec context deletion could lead to"
+  ],
+  [
+    "libkrb5-3",
+    "CVE-2018-5730",
+    "LOW",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: DN container check bypass by supplying speci"
+  ],
+  [
+    "libkrb5-dev",
+    "CVE-2018-20217",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: Reachable assertion in the KDC using S4U2Sel"
+  ],
+  [
+    "libkrb5-dev",
+    "CVE-2018-5710",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null pointer deference in strlen function in"
+  ],
+  [
+    "libkrb5-dev",
+    "CVE-2018-5729",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null dereference in kadmind or DN container "
+  ],
+  [
+    "libkrb5-dev",
+    "CVE-2021-37750",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: NULL pointer dereference in process_tgs_req("
+  ],
+  [
+    "libkrb5-dev",
+    "CVE-2017-11462",
+    "LOW",
+    "1.15-1+deb9u2",
+    "",
+    "krb5: Automatic sec context deletion could lead to"
+  ],
+  [
+    "libkrb5-dev",
+    "CVE-2018-5730",
+    "LOW",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: DN container check bypass by supplying speci"
+  ],
+  [
+    "libkrb5support0",
+    "CVE-2018-20217",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: Reachable assertion in the KDC using S4U2Sel"
+  ],
+  [
+    "libkrb5support0",
+    "CVE-2018-5710",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null pointer deference in strlen function in"
+  ],
+  [
+    "libkrb5support0",
+    "CVE-2018-5729",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: null dereference in kadmind or DN container "
+  ],
+  [
+    "libkrb5support0",
+    "CVE-2021-37750",
+    "MEDIUM",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: NULL pointer dereference in process_tgs_req("
+  ],
+  [
+    "libkrb5support0",
+    "CVE-2017-11462",
+    "LOW",
+    "1.15-1+deb9u2",
+    "",
+    "krb5: Automatic sec context deletion could lead to"
+  ],
+  [
+    "libkrb5support0",
+    "CVE-2018-5730",
+    "LOW",
+    "1.15-1+deb9u2",
+    "1.15-1+deb9u3",
+    "krb5: DN container check bypass by supplying speci"
+  ],
+  [
+    "libldap-2.4-2",
+    "CVE-2022-29155",
+    "CRITICAL",
+    "2.4.44+dfsg-5+deb9u8",
+    "2.4.44+dfsg-5+deb9u9",
+    "openldap: OpenLDAP SQL injection"
+  ],
+  [
+    "libldap-common",
+    "CVE-2022-29155",
+    "CRITICAL",
+    "2.4.44+dfsg-5+deb9u8",
+    "2.4.44+dfsg-5+deb9u9",
+    "openldap: OpenLDAP SQL injection"
+  ],
+  [
+    "liblsan0",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "liblz4-1",
+    "CVE-2021-3520",
+    "CRITICAL",
+    "0.0~r131-2+b1",
+    "0.0~r131-2+deb9u1",
+    "lz4: memory corruption due to an integer overflow "
+  ],
+  [
+    "liblz4-1",
+    "CVE-2019-17543",
+    "LOW",
+    "0.0~r131-2+b1",
+    "",
+    "lz4: heap-based buffer overflow in LZ4_write32"
+  ],
+  [
+    "liblzma-dev",
+    "CVE-2022-1271",
+    "HIGH",
+    "5.2.2-1.2+b1",
+    "5.2.2-1.2+deb9u1",
+    "gzip: arbitrary-file-write vulnerability"
+  ],
+  [
+    "liblzma5",
+    "CVE-2022-1271",
+    "HIGH",
+    "5.2.2-1.2+b1",
+    "5.2.2-1.2+deb9u1",
+    "gzip: arbitrary-file-write vulnerability"
+  ],
+  [
+    "libmagic-mgc",
+    "CVE-2019-8907",
+    "HIGH",
+    "1:5.30-1+deb9u3",
+    "",
+    "file: do_core_note in readelf.c allows remote atta"
+  ],
+  [
+    "libmagic-mgc",
+    "CVE-2019-8905",
+    "MEDIUM",
+    "1:5.30-1+deb9u3",
+    "",
+    "file: stack-based buffer over-read in do_core_note"
+  ],
+  [
+    "libmagic1",
+    "CVE-2019-8907",
+    "HIGH",
+    "1:5.30-1+deb9u3",
+    "",
+    "file: do_core_note in readelf.c allows remote atta"
+  ],
+  [
+    "libmagic1",
+    "CVE-2019-8905",
+    "MEDIUM",
+    "1:5.30-1+deb9u3",
+    "",
+    "file: stack-based buffer over-read in do_core_note"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2020-27752",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2021-20309",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImagemMagick: Division by zero in WaveImage() of M"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2021-20312",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Integer overflow in WriteTHUMBNAILIma"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2021-20313",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Cipher leak when the calculating sign"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2022-28463",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: heap-buffer-overflow in PushLongPixel"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2022-32545",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2022-32546",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2022-32547",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: load of misaligned address at MagickC"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2020-25664",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2021-20243",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in GetResizeFilterWe"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2021-20245",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in WriteAnimatedWEBP"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2021-3596",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: NULL pointer dereference in ReadSVGIm"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2017-12670",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: Assertion failure in the function Des"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2020-27751",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: integer overflow in MagickCore/quantu"
+  ],
+  [
+    "libmagickcore-6-arch-config",
+    "CVE-2021-39212",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: possible read or write in postscript "
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2020-27752",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2021-20309",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImagemMagick: Division by zero in WaveImage() of M"
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2021-20312",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Integer overflow in WriteTHUMBNAILIma"
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2021-20313",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Cipher leak when the calculating sign"
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2022-28463",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: heap-buffer-overflow in PushLongPixel"
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2022-32545",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2022-32546",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2022-32547",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: load of misaligned address at MagickC"
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2020-25664",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2021-20243",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in GetResizeFilterWe"
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2021-20245",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in WriteAnimatedWEBP"
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2021-3596",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: NULL pointer dereference in ReadSVGIm"
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2017-12670",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: Assertion failure in the function Des"
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2020-27751",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: integer overflow in MagickCore/quantu"
+  ],
+  [
+    "libmagickcore-6-headers",
+    "CVE-2021-39212",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: possible read or write in postscript "
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2020-27752",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2021-20309",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImagemMagick: Division by zero in WaveImage() of M"
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2021-20312",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Integer overflow in WriteTHUMBNAILIma"
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2021-20313",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Cipher leak when the calculating sign"
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2022-28463",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: heap-buffer-overflow in PushLongPixel"
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2022-32545",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2022-32546",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2022-32547",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: load of misaligned address at MagickC"
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2020-25664",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2021-20243",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in GetResizeFilterWe"
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2021-20245",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in WriteAnimatedWEBP"
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2021-3596",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: NULL pointer dereference in ReadSVGIm"
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2017-12670",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: Assertion failure in the function Des"
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2020-27751",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: integer overflow in MagickCore/quantu"
+  ],
+  [
+    "libmagickcore-6.q16-3",
+    "CVE-2021-39212",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: possible read or write in postscript "
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2020-27752",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2021-20309",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImagemMagick: Division by zero in WaveImage() of M"
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2021-20312",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Integer overflow in WriteTHUMBNAILIma"
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2021-20313",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Cipher leak when the calculating sign"
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2022-28463",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: heap-buffer-overflow in PushLongPixel"
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2022-32545",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2022-32546",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2022-32547",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: load of misaligned address at MagickC"
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2020-25664",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2021-20243",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in GetResizeFilterWe"
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2021-20245",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in WriteAnimatedWEBP"
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2021-3596",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: NULL pointer dereference in ReadSVGIm"
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2017-12670",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: Assertion failure in the function Des"
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2020-27751",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: integer overflow in MagickCore/quantu"
+  ],
+  [
+    "libmagickcore-6.q16-3-extra",
+    "CVE-2021-39212",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: possible read or write in postscript "
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2020-27752",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2021-20309",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImagemMagick: Division by zero in WaveImage() of M"
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2021-20312",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Integer overflow in WriteTHUMBNAILIma"
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2021-20313",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Cipher leak when the calculating sign"
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2022-28463",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: heap-buffer-overflow in PushLongPixel"
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2022-32545",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2022-32546",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2022-32547",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: load of misaligned address at MagickC"
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2020-25664",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2021-20243",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in GetResizeFilterWe"
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2021-20245",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in WriteAnimatedWEBP"
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2021-3596",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: NULL pointer dereference in ReadSVGIm"
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2017-12670",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: Assertion failure in the function Des"
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2020-27751",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: integer overflow in MagickCore/quantu"
+  ],
+  [
+    "libmagickcore-6.q16-dev",
+    "CVE-2021-39212",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: possible read or write in postscript "
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2020-27752",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2021-20309",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImagemMagick: Division by zero in WaveImage() of M"
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2021-20312",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Integer overflow in WriteTHUMBNAILIma"
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2021-20313",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Cipher leak when the calculating sign"
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2022-28463",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: heap-buffer-overflow in PushLongPixel"
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2022-32545",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2022-32546",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2022-32547",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: load of misaligned address at MagickC"
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2020-25664",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2021-20243",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in GetResizeFilterWe"
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2021-20245",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in WriteAnimatedWEBP"
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2021-3596",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: NULL pointer dereference in ReadSVGIm"
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2017-12670",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: Assertion failure in the function Des"
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2020-27751",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: integer overflow in MagickCore/quantu"
+  ],
+  [
+    "libmagickcore-dev",
+    "CVE-2021-39212",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: possible read or write in postscript "
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2020-27752",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2021-20309",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImagemMagick: Division by zero in WaveImage() of M"
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2021-20312",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Integer overflow in WriteTHUMBNAILIma"
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2021-20313",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Cipher leak when the calculating sign"
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2022-28463",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: heap-buffer-overflow in PushLongPixel"
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2022-32545",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2022-32546",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2022-32547",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: load of misaligned address at MagickC"
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2020-25664",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2021-20243",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in GetResizeFilterWe"
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2021-20245",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in WriteAnimatedWEBP"
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2021-3596",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: NULL pointer dereference in ReadSVGIm"
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2017-12670",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: Assertion failure in the function Des"
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2020-27751",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: integer overflow in MagickCore/quantu"
+  ],
+  [
+    "libmagickwand-6-headers",
+    "CVE-2021-39212",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: possible read or write in postscript "
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2020-27752",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2021-20309",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImagemMagick: Division by zero in WaveImage() of M"
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2021-20312",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Integer overflow in WriteTHUMBNAILIma"
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2021-20313",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Cipher leak when the calculating sign"
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2022-28463",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: heap-buffer-overflow in PushLongPixel"
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2022-32545",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2022-32546",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2022-32547",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: load of misaligned address at MagickC"
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2020-25664",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2021-20243",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in GetResizeFilterWe"
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2021-20245",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in WriteAnimatedWEBP"
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2021-3596",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: NULL pointer dereference in ReadSVGIm"
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2017-12670",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: Assertion failure in the function Des"
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2020-27751",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: integer overflow in MagickCore/quantu"
+  ],
+  [
+    "libmagickwand-6.q16-3",
+    "CVE-2021-39212",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: possible read or write in postscript "
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2020-27752",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2021-20309",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImagemMagick: Division by zero in WaveImage() of M"
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2021-20312",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Integer overflow in WriteTHUMBNAILIma"
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2021-20313",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Cipher leak when the calculating sign"
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2022-28463",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: heap-buffer-overflow in PushLongPixel"
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2022-32545",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2022-32546",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2022-32547",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: load of misaligned address at MagickC"
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2020-25664",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2021-20243",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in GetResizeFilterWe"
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2021-20245",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in WriteAnimatedWEBP"
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2021-3596",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: NULL pointer dereference in ReadSVGIm"
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2017-12670",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: Assertion failure in the function Des"
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2020-27751",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: integer overflow in MagickCore/quantu"
+  ],
+  [
+    "libmagickwand-6.q16-dev",
+    "CVE-2021-39212",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: possible read or write in postscript "
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2020-27752",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2021-20309",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImagemMagick: Division by zero in WaveImage() of M"
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2021-20312",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Integer overflow in WriteTHUMBNAILIma"
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2021-20313",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Cipher leak when the calculating sign"
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2022-28463",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: heap-buffer-overflow in PushLongPixel"
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2022-32545",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2022-32546",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: outside the range of representable va"
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2022-32547",
+    "HIGH",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: load of misaligned address at MagickC"
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2020-25664",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: heap-based buffer overflow in PopShor"
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2021-20243",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in GetResizeFilterWe"
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2021-20245",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: Division by zero in WriteAnimatedWEBP"
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2021-3596",
+    "MEDIUM",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u14",
+    "ImageMagick: NULL pointer dereference in ReadSVGIm"
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2017-12670",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: Assertion failure in the function Des"
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2020-27751",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "8:6.9.7.4+dfsg-11+deb9u13",
+    "ImageMagick: integer overflow in MagickCore/quantu"
+  ],
+  [
+    "libmagickwand-dev",
+    "CVE-2021-39212",
+    "LOW",
+    "8:6.9.7.4+dfsg-11+deb9u12",
+    "",
+    "ImageMagick: possible read or write in postscript "
+  ],
+  [
+    "libmount1",
+    "CVE-2016-2779",
+    "HIGH",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "libmount1",
+    "CVE-2021-37600",
+    "LOW",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "libmpx2",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libncurses5",
+    "CVE-2022-29458",
+    "HIGH",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libncurses5",
+    "CVE-2018-19211",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: Null pointer dereference at function _nc_"
+  ],
+  [
+    "libncurses5",
+    "CVE-2019-17594",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libncurses5",
+    "CVE-2019-17595",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libncurses5-dev",
+    "CVE-2022-29458",
+    "HIGH",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libncurses5-dev",
+    "CVE-2018-19211",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: Null pointer dereference at function _nc_"
+  ],
+  [
+    "libncurses5-dev",
+    "CVE-2019-17594",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libncurses5-dev",
+    "CVE-2019-17595",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2022-29458",
+    "HIGH",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2018-19211",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: Null pointer dereference at function _nc_"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2019-17594",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2019-17595",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libncursesw5-dev",
+    "CVE-2022-29458",
+    "HIGH",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libncursesw5-dev",
+    "CVE-2018-19211",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: Null pointer dereference at function _nc_"
+  ],
+  [
+    "libncursesw5-dev",
+    "CVE-2019-17594",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libncursesw5-dev",
+    "CVE-2019-17595",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libnettle6",
+    "CVE-2021-20305",
+    "HIGH",
+    "3.3-1+b2",
+    "3.3-1+deb9u1",
+    "nettle: Out of bounds memory access in signature v"
+  ],
+  [
+    "libnettle6",
+    "CVE-2021-3580",
+    "HIGH",
+    "3.3-1+b2",
+    "3.3-1+deb9u1",
+    "nettle: Remote crash in RSA decryption via manipul"
+  ],
+  [
+    "libnettle6",
+    "CVE-2018-16869",
+    "MEDIUM",
+    "3.3-1+b2",
+    "",
+    "nettle: Leaky data conversion exposing a manager o"
+  ],
+  [
+    "libnghttp2-14",
+    "CVE-2018-1000168",
+    "HIGH",
+    "1.18.1-1+deb9u1",
+    "1.18.1-1+deb9u2",
+    "nghttp2: Null pointer dereference when too large A"
+  ],
+  [
+    "libnghttp2-14",
+    "CVE-2020-11080",
+    "HIGH",
+    "1.18.1-1+deb9u1",
+    "1.18.1-1+deb9u2",
+    "nghttp2: overly large SETTINGS frames can lead to "
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-20298",
+    "HIGH",
+    "2.2.0-11+deb9u2",
+    "",
+    "OpenEXR: Out-of-memory in B44Compressor"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-20299",
+    "HIGH",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u4",
+    "OpenEXR: Null-dereference READ in Imf_2_5::Header:"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2020-16587",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: A heap-based buffer overflow in chunkOffs"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-20296",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Segv on unknown address in Imf_2_5::hufUn"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-20300",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u4",
+    "OpenEXR: Integer-overflow in Imf_2_5::hufUncompres"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-20302",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u4",
+    "OpenEXR: Floating-point-exception in Imf_2_5::prec"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-20303",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u4",
+    "OpenEXR: Heap-buffer-overflow in Imf_2_5::copyInto"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-23215",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Integer-overflow in Imf_2_5::DwaCompresso"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-26260",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Integer-overflow in Imf_2_5::DwaCompresso"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-3474",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Undefined-shift in Imf_2_5::FastHufDecode"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-3475",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Integer-overflow in Imf_2_5::calculateNum"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-3476",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Undefined-shift in Imf_2_5::unpack14"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-3477",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Heap-buffer-overflow in Imf_2_5::DeepTile"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-3478",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Out-of-memory in ScanLineInputFile"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-3479",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Out-of-memory caused by allocation of a v"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-3598",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Heap buffer overflow in Imf_3_1::CharPtrI"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-3605",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u4",
+    "OpenEXR: Heap buffer overflow in the rleUncompress"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-3941",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "",
+    "openexr: Divide-by-zero in Imf_3_1::RGBtoXYZ"
+  ],
+  [
+    "libopenexr-dev",
+    "CVE-2021-45942",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "",
+    "OpenEXR: heap-based buffer overflow in Imf_3_1:Lin"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-20298",
+    "HIGH",
+    "2.2.0-11+deb9u2",
+    "",
+    "OpenEXR: Out-of-memory in B44Compressor"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-20299",
+    "HIGH",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u4",
+    "OpenEXR: Null-dereference READ in Imf_2_5::Header:"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2020-16587",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: A heap-based buffer overflow in chunkOffs"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-20296",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Segv on unknown address in Imf_2_5::hufUn"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-20300",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u4",
+    "OpenEXR: Integer-overflow in Imf_2_5::hufUncompres"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-20302",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u4",
+    "OpenEXR: Floating-point-exception in Imf_2_5::prec"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-20303",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u4",
+    "OpenEXR: Heap-buffer-overflow in Imf_2_5::copyInto"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-23215",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Integer-overflow in Imf_2_5::DwaCompresso"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-26260",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Integer-overflow in Imf_2_5::DwaCompresso"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-3474",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Undefined-shift in Imf_2_5::FastHufDecode"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-3475",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Integer-overflow in Imf_2_5::calculateNum"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-3476",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Undefined-shift in Imf_2_5::unpack14"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-3477",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Heap-buffer-overflow in Imf_2_5::DeepTile"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-3478",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Out-of-memory in ScanLineInputFile"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-3479",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Out-of-memory caused by allocation of a v"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-3598",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u3",
+    "OpenEXR: Heap buffer overflow in Imf_3_1::CharPtrI"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-3605",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "2.2.0-11+deb9u4",
+    "OpenEXR: Heap buffer overflow in the rleUncompress"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-3941",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "",
+    "openexr: Divide-by-zero in Imf_3_1::RGBtoXYZ"
+  ],
+  [
+    "libopenexr22",
+    "CVE-2021-45942",
+    "MEDIUM",
+    "2.2.0-11+deb9u2",
+    "",
+    "OpenEXR: heap-based buffer overflow in Imf_3_1:Lin"
+  ],
+  [
+    "libopenjp2-7",
+    "CVE-2021-3575",
+    "HIGH",
+    "2.1.2-1.1+deb9u6",
+    "",
+    "openjpeg: heap-buffer-overflow in color.c may lead"
+  ],
+  [
+    "libopenjp2-7",
+    "CVE-2020-27842",
+    "MEDIUM",
+    "2.1.2-1.1+deb9u6",
+    "2.1.2-1.1+deb9u7",
+    "openjpeg: null pointer dereference in opj_tgt_rese"
+  ],
+  [
+    "libopenjp2-7",
+    "CVE-2020-27843",
+    "MEDIUM",
+    "2.1.2-1.1+deb9u6",
+    "2.1.2-1.1+deb9u7",
+    "openjpeg: out-of-bounds read in opj_t2_encode_pack"
+  ],
+  [
+    "libopenjp2-7",
+    "CVE-2021-29338",
+    "MEDIUM",
+    "2.1.2-1.1+deb9u6",
+    "2.1.2-1.1+deb9u7",
+    "openjpeg: out-of-bounds write due to an integer ov"
+  ],
+  [
+    "libopenjp2-7",
+    "CVE-2022-1122",
+    "MEDIUM",
+    "2.1.2-1.1+deb9u6",
+    "2.1.2-1.1+deb9u7",
+    "openjpeg: segmentation fault in opj2_decompress du"
+  ],
+  [
+    "libopenjp2-7",
+    "CVE-2019-6988",
+    "LOW",
+    "2.1.2-1.1+deb9u6",
+    "",
+    "openjpeg: DoS via memory exhaustion in opj_decompr"
+  ],
+  [
+    "libopenjp2-7-dev",
+    "CVE-2021-3575",
+    "HIGH",
+    "2.1.2-1.1+deb9u6",
+    "",
+    "openjpeg: heap-buffer-overflow in color.c may lead"
+  ],
+  [
+    "libopenjp2-7-dev",
+    "CVE-2020-27842",
+    "MEDIUM",
+    "2.1.2-1.1+deb9u6",
+    "2.1.2-1.1+deb9u7",
+    "openjpeg: null pointer dereference in opj_tgt_rese"
+  ],
+  [
+    "libopenjp2-7-dev",
+    "CVE-2020-27843",
+    "MEDIUM",
+    "2.1.2-1.1+deb9u6",
+    "2.1.2-1.1+deb9u7",
+    "openjpeg: out-of-bounds read in opj_t2_encode_pack"
+  ],
+  [
+    "libopenjp2-7-dev",
+    "CVE-2021-29338",
+    "MEDIUM",
+    "2.1.2-1.1+deb9u6",
+    "2.1.2-1.1+deb9u7",
+    "openjpeg: out-of-bounds write due to an integer ov"
+  ],
+  [
+    "libopenjp2-7-dev",
+    "CVE-2022-1122",
+    "MEDIUM",
+    "2.1.2-1.1+deb9u6",
+    "2.1.2-1.1+deb9u7",
+    "openjpeg: segmentation fault in opj2_decompress du"
+  ],
+  [
+    "libopenjp2-7-dev",
+    "CVE-2019-6988",
+    "LOW",
+    "2.1.2-1.1+deb9u6",
+    "",
+    "openjpeg: DoS via memory exhaustion in opj_decompr"
+  ],
+  [
+    "libpathplan4",
+    "CVE-2020-18032",
+    "HIGH",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: off-by-one in parse_reclbl() in lib/comm"
+  ],
+  [
+    "libpathplan4",
+    "CVE-2018-10196",
+    "MEDIUM",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: NULL pointer dereference in rebuild_vlis"
+  ],
+  [
+    "libpcre16-3",
+    "CVE-2020-14155",
+    "MEDIUM",
+    "2:8.39-3",
+    "",
+    "pcre: Integer overflow when parsing callout numeri"
+  ],
+  [
+    "libpcre3",
+    "CVE-2020-14155",
+    "MEDIUM",
+    "2:8.39-3",
+    "",
+    "pcre: Integer overflow when parsing callout numeri"
+  ],
+  [
+    "libpcre3-dev",
+    "CVE-2020-14155",
+    "MEDIUM",
+    "2:8.39-3",
+    "",
+    "pcre: Integer overflow when parsing callout numeri"
+  ],
+  [
+    "libpcre32-3",
+    "CVE-2020-14155",
+    "MEDIUM",
+    "2:8.39-3",
+    "",
+    "pcre: Integer overflow when parsing callout numeri"
+  ],
+  [
+    "libpcrecpp0v5",
+    "CVE-2020-14155",
+    "MEDIUM",
+    "2:8.39-3",
+    "",
+    "pcre: Integer overflow when parsing callout numeri"
+  ],
+  [
+    "libperl5.24",
+    "CVE-2020-16156",
+    "HIGH",
+    "5.24.1-3+deb9u7",
+    "",
+    "perl-CPAN: Bypass of verification of signatures in"
+  ],
+  [
+    "libpng-dev",
+    "CVE-2017-12652",
+    "CRITICAL",
+    "1.6.28-1+deb9u1",
+    "",
+    "libpng: does not check length of chunks against us"
+  ],
+  [
+    "libpng16-16",
+    "CVE-2017-12652",
+    "CRITICAL",
+    "1.6.28-1+deb9u1",
+    "",
+    "libpng: does not check length of chunks against us"
+  ],
+  [
+    "libpq-dev",
+    "CVE-2021-23214",
+    "HIGH",
+    "9.6.20-0+deb9u1",
+    "9.6.24-0+deb9u1",
+    "postgresql: server processes unencrypted bytes fro"
+  ],
+  [
+    "libpq-dev",
+    "CVE-2021-32027",
+    "HIGH",
+    "9.6.20-0+deb9u1",
+    "9.6.22-0+deb9u1",
+    "postgresql: Buffer overrun from integer overflow i"
+  ],
+  [
+    "libpq-dev",
+    "CVE-2021-23222",
+    "MEDIUM",
+    "9.6.20-0+deb9u1",
+    "9.6.24-0+deb9u1",
+    "postgresql: libpq processes unencrypted bytes from"
+  ],
+  [
+    "libpq-dev",
+    "CVE-2021-32028",
+    "MEDIUM",
+    "9.6.20-0+deb9u1",
+    "9.6.22-0+deb9u1",
+    "postgresql: Memory disclosure in INSERT ... ON CON"
+  ],
+  [
+    "libpq-dev",
+    "DLA-2751-1",
+    "UNKNOWN",
+    "9.6.20-0+deb9u1",
+    "9.6.23-0+deb9u1",
+    "postgresql-9.6 - security update"
+  ],
+  [
+    "libpq5",
+    "CVE-2021-23214",
+    "HIGH",
+    "9.6.20-0+deb9u1",
+    "9.6.24-0+deb9u1",
+    "postgresql: server processes unencrypted bytes fro"
+  ],
+  [
+    "libpq5",
+    "CVE-2021-32027",
+    "HIGH",
+    "9.6.20-0+deb9u1",
+    "9.6.22-0+deb9u1",
+    "postgresql: Buffer overrun from integer overflow i"
+  ],
+  [
+    "libpq5",
+    "CVE-2021-23222",
+    "MEDIUM",
+    "9.6.20-0+deb9u1",
+    "9.6.24-0+deb9u1",
+    "postgresql: libpq processes unencrypted bytes from"
+  ],
+  [
+    "libpq5",
+    "CVE-2021-32028",
+    "MEDIUM",
+    "9.6.20-0+deb9u1",
+    "9.6.22-0+deb9u1",
+    "postgresql: Memory disclosure in INSERT ... ON CON"
+  ],
+  [
+    "libpq5",
+    "DLA-2751-1",
+    "UNKNOWN",
+    "9.6.20-0+deb9u1",
+    "9.6.23-0+deb9u1",
+    "postgresql-9.6 - security update"
+  ],
+  [
+    "libpython2.7-minimal",
+    "CVE-2021-3177",
+    "CRITICAL",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u6",
+    "python: Stack-based buffer overflow in PyCArg_repr"
+  ],
+  [
+    "libpython2.7-minimal",
+    "CVE-2015-20107",
+    "HIGH",
+    "2.7.13-2+deb9u4",
+    "",
+    "python: mailcap: findmatch() function does not san"
+  ],
+  [
+    "libpython2.7-minimal",
+    "CVE-2019-16935",
+    "MEDIUM",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u5",
+    "python: XSS vulnerability in the documentation XML"
+  ],
+  [
+    "libpython2.7-minimal",
+    "CVE-2021-23336",
+    "MEDIUM",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u5",
+    "python: Web cache poisoning via urllib.parse.parse"
+  ],
+  [
+    "libpython2.7-minimal",
+    "CVE-2021-4189",
+    "MEDIUM",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u6",
+    "python: ftplib should not use the host from the PA"
+  ],
+  [
+    "libpython2.7-stdlib",
+    "CVE-2021-3177",
+    "CRITICAL",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u6",
+    "python: Stack-based buffer overflow in PyCArg_repr"
+  ],
+  [
+    "libpython2.7-stdlib",
+    "CVE-2015-20107",
+    "HIGH",
+    "2.7.13-2+deb9u4",
+    "",
+    "python: mailcap: findmatch() function does not san"
+  ],
+  [
+    "libpython2.7-stdlib",
+    "CVE-2019-16935",
+    "MEDIUM",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u5",
+    "python: XSS vulnerability in the documentation XML"
+  ],
+  [
+    "libpython2.7-stdlib",
+    "CVE-2021-23336",
+    "MEDIUM",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u5",
+    "python: Web cache poisoning via urllib.parse.parse"
+  ],
+  [
+    "libpython2.7-stdlib",
+    "CVE-2021-4189",
+    "MEDIUM",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u6",
+    "python: ftplib should not use the host from the PA"
+  ],
+  [
+    "libpython3.5-minimal",
+    "CVE-2015-20107",
+    "HIGH",
+    "3.5.3-1+deb9u4",
+    "",
+    "python: mailcap: findmatch() function does not san"
+  ],
+  [
+    "libpython3.5-minimal",
+    "CVE-2021-3737",
+    "HIGH",
+    "3.5.3-1+deb9u4",
+    "3.5.3-1+deb9u5",
+    "python: urllib: HTTP client possible infinite loop"
+  ],
+  [
+    "libpython3.5-minimal",
+    "CVE-2021-3733",
+    "MEDIUM",
+    "3.5.3-1+deb9u4",
+    "3.5.3-1+deb9u5",
+    "python: urllib: Regular expression DoS in Abstract"
+  ],
+  [
+    "libpython3.5-minimal",
+    "CVE-2021-4189",
+    "MEDIUM",
+    "3.5.3-1+deb9u4",
+    "",
+    "python: ftplib should not use the host from the PA"
+  ],
+  [
+    "libpython3.5-stdlib",
+    "CVE-2015-20107",
+    "HIGH",
+    "3.5.3-1+deb9u4",
+    "",
+    "python: mailcap: findmatch() function does not san"
+  ],
+  [
+    "libpython3.5-stdlib",
+    "CVE-2021-3737",
+    "HIGH",
+    "3.5.3-1+deb9u4",
+    "3.5.3-1+deb9u5",
+    "python: urllib: HTTP client possible infinite loop"
+  ],
+  [
+    "libpython3.5-stdlib",
+    "CVE-2021-3733",
+    "MEDIUM",
+    "3.5.3-1+deb9u4",
+    "3.5.3-1+deb9u5",
+    "python: urllib: Regular expression DoS in Abstract"
+  ],
+  [
+    "libpython3.5-stdlib",
+    "CVE-2021-4189",
+    "MEDIUM",
+    "3.5.3-1+deb9u4",
+    "",
+    "python: ftplib should not use the host from the PA"
+  ],
+  [
+    "libquadmath0",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libsasl2-2",
+    "CVE-2022-24407",
+    "HIGH",
+    "2.1.27~101-g0780600+dfsg-3+deb9u1",
+    "2.1.27~101-g0780600+dfsg-3+deb9u2",
+    "cyrus-sasl: failure to properly escape SQL input a"
+  ],
+  [
+    "libsasl2-modules-db",
+    "CVE-2022-24407",
+    "HIGH",
+    "2.1.27~101-g0780600+dfsg-3+deb9u1",
+    "2.1.27~101-g0780600+dfsg-3+deb9u2",
+    "cyrus-sasl: failure to properly escape SQL input a"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36084",
+    "LOW",
+    "2.6-2",
+    "",
+    "libsepol: use-after-free in __cil_verify_classperm"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36085",
+    "LOW",
+    "2.6-2",
+    "",
+    "libsepol: use-after-free in __cil_verify_classperm"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36086",
+    "LOW",
+    "2.6-2",
+    "",
+    "libsepol: use-after-free in cil_reset_classpermiss"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36087",
+    "LOW",
+    "2.6-2",
+    "",
+    "libsepol: heap-based buffer overflow in ebitmap_ma"
+  ],
+  [
+    "libsmartcols1",
+    "CVE-2016-2779",
+    "HIGH",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "libsmartcols1",
+    "CVE-2021-37600",
+    "LOW",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "libsqlite3-0",
+    "CVE-2019-8457",
+    "CRITICAL",
+    "3.16.2-5+deb9u3",
+    "",
+    "sqlite: heap out-of-bound read in function rtreeno"
+  ],
+  [
+    "libsqlite3-0",
+    "CVE-2019-19645",
+    "MEDIUM",
+    "3.16.2-5+deb9u3",
+    "",
+    "sqlite: infinite recursion via certain types of se"
+  ],
+  [
+    "libsqlite3-0",
+    "CVE-2020-13631",
+    "MEDIUM",
+    "3.16.2-5+deb9u3",
+    "",
+    "sqlite: Virtual table can be renamed into the name"
+  ],
+  [
+    "libsqlite3-dev",
+    "CVE-2019-8457",
+    "CRITICAL",
+    "3.16.2-5+deb9u3",
+    "",
+    "sqlite: heap out-of-bound read in function rtreeno"
+  ],
+  [
+    "libsqlite3-dev",
+    "CVE-2019-19645",
+    "MEDIUM",
+    "3.16.2-5+deb9u3",
+    "",
+    "sqlite: infinite recursion via certain types of se"
+  ],
+  [
+    "libsqlite3-dev",
+    "CVE-2020-13631",
+    "MEDIUM",
+    "3.16.2-5+deb9u3",
+    "",
+    "sqlite: Virtual table can be renamed into the name"
+  ],
+  [
+    "libss2",
+    "CVE-2022-1304",
+    "HIGH",
+    "1.43.4-2+deb9u2",
+    "",
+    "e2fsprogs: out-of-bounds read/write via crafted fi"
+  ],
+  [
+    "libssh2-1",
+    "CVE-2019-13115",
+    "HIGH",
+    "1.7.0-1+deb9u1",
+    "1.7.0-1+deb9u2",
+    "libssh2: integer overflow in kex_method_diffie_hel"
+  ],
+  [
+    "libssh2-1",
+    "CVE-2019-17498",
+    "HIGH",
+    "1.7.0-1+deb9u1",
+    "1.7.0-1+deb9u2",
+    "libssh2: integer overflow in SSH_MSG_DISCONNECT lo"
+  ],
+  [
+    "libssl-dev",
+    "CVE-2021-3712",
+    "HIGH",
+    "1.1.0l-1~deb9u3",
+    "1.1.0l-1~deb9u4",
+    "openssl: Read buffer overruns processing ASN.1 str"
+  ],
+  [
+    "libssl-dev",
+    "CVE-2022-0778",
+    "HIGH",
+    "1.1.0l-1~deb9u3",
+    "1.1.0l-1~deb9u5",
+    "openssl: Infinite loop in BN_mod_sqrt() reachable "
+  ],
+  [
+    "libssl-dev",
+    "CVE-2022-1292",
+    "HIGH",
+    "1.1.0l-1~deb9u3",
+    "1.1.0l-1~deb9u6",
+    "openssl: c_rehash script allows command injection"
+  ],
+  [
+    "libssl-dev",
+    "CVE-2019-1551",
+    "MEDIUM",
+    "1.1.0l-1~deb9u3",
+    "1.1.0l-1~deb9u5",
+    "openssl: Integer overflow in RSAZ modular exponent"
+  ],
+  [
+    "libssl-dev",
+    "CVE-2021-4160",
+    "MEDIUM",
+    "1.1.0l-1~deb9u3",
+    "",
+    "openssl: Carry propagation bug in the MIPS32 and M"
+  ],
+  [
+    "libssl1.0.2",
+    "CVE-2021-3712",
+    "HIGH",
+    "1.0.2u-1~deb9u4",
+    "1.0.2u-1~deb9u6",
+    "openssl: Read buffer overruns processing ASN.1 str"
+  ],
+  [
+    "libssl1.0.2",
+    "CVE-2022-0778",
+    "HIGH",
+    "1.0.2u-1~deb9u4",
+    "1.0.2u-1~deb9u7",
+    "openssl: Infinite loop in BN_mod_sqrt() reachable "
+  ],
+  [
+    "libssl1.0.2",
+    "DLA-2761-1",
+    "UNKNOWN",
+    "1.0.2u-1~deb9u4",
+    "1.0.2u-1~deb9u5",
+    "openssl1.0 - security update"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2021-3712",
+    "HIGH",
+    "1.1.0l-1~deb9u3",
+    "1.1.0l-1~deb9u4",
+    "openssl: Read buffer overruns processing ASN.1 str"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2022-0778",
+    "HIGH",
+    "1.1.0l-1~deb9u3",
+    "1.1.0l-1~deb9u5",
+    "openssl: Infinite loop in BN_mod_sqrt() reachable "
+  ],
+  [
+    "libssl1.1",
+    "CVE-2022-1292",
+    "HIGH",
+    "1.1.0l-1~deb9u3",
+    "1.1.0l-1~deb9u6",
+    "openssl: c_rehash script allows command injection"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2019-1551",
+    "MEDIUM",
+    "1.1.0l-1~deb9u3",
+    "1.1.0l-1~deb9u5",
+    "openssl: Integer overflow in RSAZ modular exponent"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2021-4160",
+    "MEDIUM",
+    "1.1.0l-1~deb9u3",
+    "",
+    "openssl: Carry propagation bug in the MIPS32 and M"
+  ],
+  [
+    "libstdc++-6-dev",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libstdc++6",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libsvn1",
+    "CVE-2020-17525",
+    "HIGH",
+    "1.9.5-1+deb9u5",
+    "1.9.5-1+deb9u6",
+    "subversion: Remote unauthenticated denial of servi"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2019-3843",
+    "HIGH",
+    "232-25+deb9u12",
+    "",
+    "systemd: services with DynamicUser can create SUID"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2019-3844",
+    "HIGH",
+    "232-25+deb9u12",
+    "",
+    "systemd: services with DynamicUser can get new pri"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2020-1712",
+    "HIGH",
+    "232-25+deb9u12",
+    "232-25+deb9u14",
+    "systemd: use-after-free when asynchronous polkit q"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2021-33910",
+    "MEDIUM",
+    "232-25+deb9u12",
+    "232-25+deb9u13",
+    "systemd: uncontrolled allocation on the stack in f"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2021-3997",
+    "MEDIUM",
+    "232-25+deb9u12",
+    "",
+    "systemd: Uncontrolled recursion in systemd-tmpfile"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2018-16888",
+    "LOW",
+    "232-25+deb9u12",
+    "",
+    "systemd: kills privileged process if unprivileged "
+  ],
+  [
+    "libsystemd0",
+    "CVE-2018-6954",
+    "LOW",
+    "232-25+deb9u12",
+    "",
+    "systemd: Mishandled symlinks in systemd-tmpfiles a"
+  ],
+  [
+    "libtiff5",
+    "CVE-2020-19131",
+    "HIGH",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u7",
+    "libtiff: a buffer overflow via the \"invertImage()\""
+  ],
+  [
+    "libtiff5",
+    "CVE-2020-35523",
+    "HIGH",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u6",
+    "libtiff: Integer overflow in tif_getimage.c"
+  ],
+  [
+    "libtiff5",
+    "CVE-2020-35524",
+    "HIGH",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u6",
+    "libtiff: Heap-based buffer overflow in TIFF2PDF to"
+  ],
+  [
+    "libtiff5",
+    "CVE-2020-18768",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u7",
+    "libtiff: heap-based buffer overflow in _TIFFmemcpy"
+  ],
+  [
+    "libtiff5",
+    "CVE-2020-19144",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u7",
+    "libtiff: heap-based buffer overflow in _TIFFmemcpy"
+  ],
+  [
+    "libtiff5",
+    "CVE-2022-0561",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u8",
+    "libtiff: Denial of Service via crafted TIFF file"
+  ],
+  [
+    "libtiff5",
+    "CVE-2022-0562",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u8",
+    "libtiff: Null source pointer lead to Denial of Ser"
+  ],
+  [
+    "libtiff5",
+    "CVE-2022-22844",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u8",
+    "libtiff: out-of-bounds read in _TIFFmemcpy() in ti"
+  ],
+  [
+    "libtiff5-dev",
+    "CVE-2020-19131",
+    "HIGH",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u7",
+    "libtiff: a buffer overflow via the \"invertImage()\""
+  ],
+  [
+    "libtiff5-dev",
+    "CVE-2020-35523",
+    "HIGH",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u6",
+    "libtiff: Integer overflow in tif_getimage.c"
+  ],
+  [
+    "libtiff5-dev",
+    "CVE-2020-35524",
+    "HIGH",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u6",
+    "libtiff: Heap-based buffer overflow in TIFF2PDF to"
+  ],
+  [
+    "libtiff5-dev",
+    "CVE-2020-18768",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u7",
+    "libtiff: heap-based buffer overflow in _TIFFmemcpy"
+  ],
+  [
+    "libtiff5-dev",
+    "CVE-2020-19144",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u7",
+    "libtiff: heap-based buffer overflow in _TIFFmemcpy"
+  ],
+  [
+    "libtiff5-dev",
+    "CVE-2022-0561",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u8",
+    "libtiff: Denial of Service via crafted TIFF file"
+  ],
+  [
+    "libtiff5-dev",
+    "CVE-2022-0562",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u8",
+    "libtiff: Null source pointer lead to Denial of Ser"
+  ],
+  [
+    "libtiff5-dev",
+    "CVE-2022-22844",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u8",
+    "libtiff: out-of-bounds read in _TIFFmemcpy() in ti"
+  ],
+  [
+    "libtiffxx5",
+    "CVE-2020-19131",
+    "HIGH",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u7",
+    "libtiff: a buffer overflow via the \"invertImage()\""
+  ],
+  [
+    "libtiffxx5",
+    "CVE-2020-35523",
+    "HIGH",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u6",
+    "libtiff: Integer overflow in tif_getimage.c"
+  ],
+  [
+    "libtiffxx5",
+    "CVE-2020-35524",
+    "HIGH",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u6",
+    "libtiff: Heap-based buffer overflow in TIFF2PDF to"
+  ],
+  [
+    "libtiffxx5",
+    "CVE-2020-18768",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u7",
+    "libtiff: heap-based buffer overflow in _TIFFmemcpy"
+  ],
+  [
+    "libtiffxx5",
+    "CVE-2020-19144",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u7",
+    "libtiff: heap-based buffer overflow in _TIFFmemcpy"
+  ],
+  [
+    "libtiffxx5",
+    "CVE-2022-0561",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u8",
+    "libtiff: Denial of Service via crafted TIFF file"
+  ],
+  [
+    "libtiffxx5",
+    "CVE-2022-0562",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u8",
+    "libtiff: Null source pointer lead to Denial of Ser"
+  ],
+  [
+    "libtiffxx5",
+    "CVE-2022-22844",
+    "MEDIUM",
+    "4.0.8-2+deb9u5",
+    "4.0.8-2+deb9u8",
+    "libtiff: out-of-bounds read in _TIFFmemcpy() in ti"
+  ],
+  [
+    "libtinfo-dev",
+    "CVE-2022-29458",
+    "HIGH",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libtinfo-dev",
+    "CVE-2018-19211",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: Null pointer dereference at function _nc_"
+  ],
+  [
+    "libtinfo-dev",
+    "CVE-2019-17594",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libtinfo-dev",
+    "CVE-2019-17595",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2022-29458",
+    "HIGH",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2018-19211",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: Null pointer dereference at function _nc_"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2019-17594",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2019-17595",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libtsan0",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libubsan0",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libudev1",
+    "CVE-2019-3843",
+    "HIGH",
+    "232-25+deb9u12",
+    "",
+    "systemd: services with DynamicUser can create SUID"
+  ],
+  [
+    "libudev1",
+    "CVE-2019-3844",
+    "HIGH",
+    "232-25+deb9u12",
+    "",
+    "systemd: services with DynamicUser can get new pri"
+  ],
+  [
+    "libudev1",
+    "CVE-2020-1712",
+    "HIGH",
+    "232-25+deb9u12",
+    "232-25+deb9u14",
+    "systemd: use-after-free when asynchronous polkit q"
+  ],
+  [
+    "libudev1",
+    "CVE-2021-33910",
+    "MEDIUM",
+    "232-25+deb9u12",
+    "232-25+deb9u13",
+    "systemd: uncontrolled allocation on the stack in f"
+  ],
+  [
+    "libudev1",
+    "CVE-2021-3997",
+    "MEDIUM",
+    "232-25+deb9u12",
+    "",
+    "systemd: Uncontrolled recursion in systemd-tmpfile"
+  ],
+  [
+    "libudev1",
+    "CVE-2018-16888",
+    "LOW",
+    "232-25+deb9u12",
+    "",
+    "systemd: kills privileged process if unprivileged "
+  ],
+  [
+    "libudev1",
+    "CVE-2018-6954",
+    "LOW",
+    "232-25+deb9u12",
+    "",
+    "systemd: Mishandled symlinks in systemd-tmpfiles a"
+  ],
+  [
+    "libuuid1",
+    "CVE-2016-2779",
+    "HIGH",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "libuuid1",
+    "CVE-2021-37600",
+    "LOW",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "libwebp-dev",
+    "CVE-2018-25009",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in WebPMuxCreateIntern"
+  ],
+  [
+    "libwebp-dev",
+    "CVE-2018-25010",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ApplyFilter()"
+  ],
+  [
+    "libwebp-dev",
+    "CVE-2018-25011",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: heap-based buffer overflow in PutLE16()"
+  ],
+  [
+    "libwebp-dev",
+    "CVE-2018-25012",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in WebPMuxCreateIntern"
+  ],
+  [
+    "libwebp-dev",
+    "CVE-2018-25013",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ShiftBytes()"
+  ],
+  [
+    "libwebp-dev",
+    "CVE-2018-25014",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: use of uninitialized value in ReadSymbol("
+  ],
+  [
+    "libwebp-dev",
+    "CVE-2020-36328",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: heap-based buffer overflow in WebPDecode*"
+  ],
+  [
+    "libwebp-dev",
+    "CVE-2020-36329",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: use-after-free in EmitFancyRGB() in dec/i"
+  ],
+  [
+    "libwebp-dev",
+    "CVE-2020-36330",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ChunkVerifyAndAssig"
+  ],
+  [
+    "libwebp-dev",
+    "CVE-2020-36331",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ChunkAssignData() i"
+  ],
+  [
+    "libwebp-dev",
+    "CVE-2020-36332",
+    "HIGH",
+    "0.5.2-1",
+    "",
+    "libwebp: excessive memory allocation when reading "
+  ],
+  [
+    "libwebp6",
+    "CVE-2018-25009",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in WebPMuxCreateIntern"
+  ],
+  [
+    "libwebp6",
+    "CVE-2018-25010",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ApplyFilter()"
+  ],
+  [
+    "libwebp6",
+    "CVE-2018-25011",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: heap-based buffer overflow in PutLE16()"
+  ],
+  [
+    "libwebp6",
+    "CVE-2018-25012",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in WebPMuxCreateIntern"
+  ],
+  [
+    "libwebp6",
+    "CVE-2018-25013",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ShiftBytes()"
+  ],
+  [
+    "libwebp6",
+    "CVE-2018-25014",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: use of uninitialized value in ReadSymbol("
+  ],
+  [
+    "libwebp6",
+    "CVE-2020-36328",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: heap-based buffer overflow in WebPDecode*"
+  ],
+  [
+    "libwebp6",
+    "CVE-2020-36329",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: use-after-free in EmitFancyRGB() in dec/i"
+  ],
+  [
+    "libwebp6",
+    "CVE-2020-36330",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ChunkVerifyAndAssig"
+  ],
+  [
+    "libwebp6",
+    "CVE-2020-36331",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ChunkAssignData() i"
+  ],
+  [
+    "libwebp6",
+    "CVE-2020-36332",
+    "HIGH",
+    "0.5.2-1",
+    "",
+    "libwebp: excessive memory allocation when reading "
+  ],
+  [
+    "libwebpdemux2",
+    "CVE-2018-25009",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in WebPMuxCreateIntern"
+  ],
+  [
+    "libwebpdemux2",
+    "CVE-2018-25010",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ApplyFilter()"
+  ],
+  [
+    "libwebpdemux2",
+    "CVE-2018-25011",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: heap-based buffer overflow in PutLE16()"
+  ],
+  [
+    "libwebpdemux2",
+    "CVE-2018-25012",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in WebPMuxCreateIntern"
+  ],
+  [
+    "libwebpdemux2",
+    "CVE-2018-25013",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ShiftBytes()"
+  ],
+  [
+    "libwebpdemux2",
+    "CVE-2018-25014",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: use of uninitialized value in ReadSymbol("
+  ],
+  [
+    "libwebpdemux2",
+    "CVE-2020-36328",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: heap-based buffer overflow in WebPDecode*"
+  ],
+  [
+    "libwebpdemux2",
+    "CVE-2020-36329",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: use-after-free in EmitFancyRGB() in dec/i"
+  ],
+  [
+    "libwebpdemux2",
+    "CVE-2020-36330",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ChunkVerifyAndAssig"
+  ],
+  [
+    "libwebpdemux2",
+    "CVE-2020-36331",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ChunkAssignData() i"
+  ],
+  [
+    "libwebpdemux2",
+    "CVE-2020-36332",
+    "HIGH",
+    "0.5.2-1",
+    "",
+    "libwebp: excessive memory allocation when reading "
+  ],
+  [
+    "libwebpmux2",
+    "CVE-2018-25009",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in WebPMuxCreateIntern"
+  ],
+  [
+    "libwebpmux2",
+    "CVE-2018-25010",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ApplyFilter()"
+  ],
+  [
+    "libwebpmux2",
+    "CVE-2018-25011",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: heap-based buffer overflow in PutLE16()"
+  ],
+  [
+    "libwebpmux2",
+    "CVE-2018-25012",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in WebPMuxCreateIntern"
+  ],
+  [
+    "libwebpmux2",
+    "CVE-2018-25013",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ShiftBytes()"
+  ],
+  [
+    "libwebpmux2",
+    "CVE-2018-25014",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: use of uninitialized value in ReadSymbol("
+  ],
+  [
+    "libwebpmux2",
+    "CVE-2020-36328",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: heap-based buffer overflow in WebPDecode*"
+  ],
+  [
+    "libwebpmux2",
+    "CVE-2020-36329",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: use-after-free in EmitFancyRGB() in dec/i"
+  ],
+  [
+    "libwebpmux2",
+    "CVE-2020-36330",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ChunkVerifyAndAssig"
+  ],
+  [
+    "libwebpmux2",
+    "CVE-2020-36331",
+    "CRITICAL",
+    "0.5.2-1",
+    "0.5.2-1+deb9u1",
+    "libwebp: out-of-bounds read in ChunkAssignData() i"
+  ],
+  [
+    "libwebpmux2",
+    "CVE-2020-36332",
+    "HIGH",
+    "0.5.2-1",
+    "",
+    "libwebp: excessive memory allocation when reading "
+  ],
+  [
+    "libx11-6",
+    "CVE-2021-31535",
+    "CRITICAL",
+    "2:1.6.4-3+deb9u3",
+    "2:1.6.4-3+deb9u4",
+    "libX11: missing request length checks"
+  ],
+  [
+    "libx11-data",
+    "CVE-2021-31535",
+    "CRITICAL",
+    "2:1.6.4-3+deb9u3",
+    "2:1.6.4-3+deb9u4",
+    "libX11: missing request length checks"
+  ],
+  [
+    "libx11-dev",
+    "CVE-2021-31535",
+    "CRITICAL",
+    "2:1.6.4-3+deb9u3",
+    "2:1.6.4-3+deb9u4",
+    "libX11: missing request length checks"
+  ],
+  [
+    "libxdot4",
+    "CVE-2020-18032",
+    "HIGH",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: off-by-one in parse_reclbl() in lib/comm"
+  ],
+  [
+    "libxdot4",
+    "CVE-2018-10196",
+    "MEDIUM",
+    "2.38.0-17",
+    "2.38.0-17+deb9u1",
+    "graphviz: NULL pointer dereference in rebuild_vlis"
+  ],
+  [
+    "libxml2",
+    "CVE-2017-16932",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "libxml2: Infinite recursion in parameter entities"
+  ],
+  [
+    "libxml2",
+    "CVE-2017-5130",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "chromium-browser: heap overflow in libxml2"
+  ],
+  [
+    "libxml2",
+    "CVE-2021-3516",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u4",
+    "libxml2: Use-after-free in xmlEncodeEntitiesIntern"
+  ],
+  [
+    "libxml2",
+    "CVE-2021-3517",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u4",
+    "libxml2: Heap-based buffer overflow in xmlEncodeEn"
+  ],
+  [
+    "libxml2",
+    "CVE-2021-3518",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u4",
+    "libxml2: Use-after-free in xmlXIncludeDoProcess() "
+  ],
+  [
+    "libxml2",
+    "CVE-2022-23308",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "libxml2: Use-after-free of ID and IDREF attributes"
+  ],
+  [
+    "libxml2",
+    "CVE-2016-9318",
+    "MEDIUM",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "libxml2: XML External Entity vulnerability"
+  ],
+  [
+    "libxml2",
+    "CVE-2017-5969",
+    "MEDIUM",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "libxml2: Null pointer dereference in xmlSaveDoc im"
+  ],
+  [
+    "libxml2",
+    "CVE-2021-3537",
+    "MEDIUM",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u4",
+    "libxml2: NULL pointer dereference when post-valida"
+  ],
+  [
+    "libxml2",
+    "CVE-2021-3541",
+    "MEDIUM",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u5",
+    "libxml2: Exponential entity expansion attack bypas"
+  ],
+  [
+    "libxml2",
+    "CVE-2022-29824",
+    "MEDIUM",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u7",
+    "libxml2: integer overflows in xmlBuf and xmlBuffer"
+  ],
+  [
+    "libxml2-dev",
+    "CVE-2017-16932",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "libxml2: Infinite recursion in parameter entities"
+  ],
+  [
+    "libxml2-dev",
+    "CVE-2017-5130",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "chromium-browser: heap overflow in libxml2"
+  ],
+  [
+    "libxml2-dev",
+    "CVE-2021-3516",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u4",
+    "libxml2: Use-after-free in xmlEncodeEntitiesIntern"
+  ],
+  [
+    "libxml2-dev",
+    "CVE-2021-3517",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u4",
+    "libxml2: Heap-based buffer overflow in xmlEncodeEn"
+  ],
+  [
+    "libxml2-dev",
+    "CVE-2021-3518",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u4",
+    "libxml2: Use-after-free in xmlXIncludeDoProcess() "
+  ],
+  [
+    "libxml2-dev",
+    "CVE-2022-23308",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "libxml2: Use-after-free of ID and IDREF attributes"
+  ],
+  [
+    "libxml2-dev",
+    "CVE-2016-9318",
+    "MEDIUM",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "libxml2: XML External Entity vulnerability"
+  ],
+  [
+    "libxml2-dev",
+    "CVE-2017-5969",
+    "MEDIUM",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "libxml2: Null pointer dereference in xmlSaveDoc im"
+  ],
+  [
+    "libxml2-dev",
+    "CVE-2021-3537",
+    "MEDIUM",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u4",
+    "libxml2: NULL pointer dereference when post-valida"
+  ],
+  [
+    "libxml2-dev",
+    "CVE-2021-3541",
+    "MEDIUM",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u5",
+    "libxml2: Exponential entity expansion attack bypas"
+  ],
+  [
+    "libxml2-dev",
+    "CVE-2022-29824",
+    "MEDIUM",
+    "2.9.4+dfsg1-2.2+deb9u3",
+    "2.9.4+dfsg1-2.2+deb9u7",
+    "libxml2: integer overflows in xmlBuf and xmlBuffer"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2013-7445",
+    "HIGH",
+    "4.9.258-1",
+    "",
+    "kernel: memory exhaustion via crafted Graphics Exe"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2019-19449",
+    "HIGH",
+    "4.9.258-1",
+    "",
+    "kernel: mounting a crafted f2fs filesystem image c"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2019-19814",
+    "HIGH",
+    "4.9.258-1",
+    "",
+    "kernel: out-of-bounds write in __remove_dirty_segm"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-16119",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: DCCP CCID structure use-after-free may lea"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-25670",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: refcount leak in llcp_sock_bind()"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-25671",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: refcount leak in llcp_sock_connect()"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-25672",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: memory leak in llcp_sock_connect()"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-0512",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: out-of-bounds write due to a heap buffer o"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-20322",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: new DNS Cache Poisoning Attack based on IC"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-22543",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: Improper handling of VM_IO|VM_PFNMAP vmas "
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-22555",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: out-of-bounds write in xt_compat_target_fr"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-23133",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: Race condition in sctp_destroy_sock list_d"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-28660",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: buffer overflow in rtw_wx_set_scan functio"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-29154",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: Local privilege escalation due to incorrec"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-32399",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: race condition for removal of the HCI cont"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-33033",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: use-after-free in cipso_v4_genopt in net/i"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-33034",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: use-after-free in net/bluetooth/hci_event."
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-33909",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.272-2",
+    "kernel: size_t-to-int conversion vulnerability in "
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3483",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: use-after-free in nosy driver in nosy_ioct"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3506",
+    "HIGH",
+    "4.9.258-1",
+    "",
+    "kernel: Out of bounds memory access bug in get_nex"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3609",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.272-2",
+    "kernel: race condition in net/can/bcm.c leads to l"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3612",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: joydev: zero size passed to joydev_handle_"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3640",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: use-after-free vulnerability in function s"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3653",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: SVM nested virtualization issue in KVM (AV"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3752",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: possible use-after-free in bluetooth modul"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-37576",
+    "HIGH",
+    "4.9.258-1",
+    "",
+    "kernel: powerpc: KVM guest OS users can cause host"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3760",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: nfc: Use-After-Free vulnerability of ndev-"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-38160",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: data corruption or loss can be triggered b"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-38207",
+    "HIGH",
+    "4.9.258-1",
+    "",
+    "kernel: buffer overflow in drivers/net/ethernet/xi"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-38300",
+    "HIGH",
+    "4.9.258-1",
+    "",
+    "kernel: crafting anomalous machine code may lead t"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-39685",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: USB gadget buffer overflow"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-39686",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: race condition in the Android binder drive"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-39698",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: use-after-free in the file polling impleme"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-39713",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: race condition in the network scheduling s"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-39714",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: use-after-free due to an integer overflow "
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-40490",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: race condition was discovered in ext4_writ"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-4083",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: fget: check that the fd still exists after"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-4157",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: Buffer overwrite in decode_nfs_fh function"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-41864",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: eBPF multiplication integer overflow in pr"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-42008",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: slab out-of-bounds write in decode_data() "
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-4202",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: Race condition in nci_request() leads to u"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-45469",
+    "HIGH",
+    "4.9.258-1",
+    "",
+    "kernel: out-of-bounds memory access in __f2fs_setx"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-45485",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: information leak in the IPv6 implementatio"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-0330",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: possible privileges escalation due to miss"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-0435",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: remote stack overflow via kernel panic on "
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-0492",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: cgroups v1 release_agent feature may allow"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-0850",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: information leak in copy_page_to_iter() in"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-1011",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: FUSE allows UAF reads of write() buffers, "
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-1012",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: Small table perturb size in the TCP source"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-1199",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: Null pointer dereference and use after fre"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-1353",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: kernel info leak issue in pfkey_register"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-1729",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: race condition in perf_event_open leads to"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-1734",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: Use-After-Free in NFC driver in nfcmrvl_nc"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-20141",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: igmp: use-after-free in ip_check_mc_rcu wh"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-23036",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "Linux PV device frontends vulnerable to attacks by"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-23037",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "Linux PV device frontends vulnerable to attacks by"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-23038",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "Linux PV device frontends vulnerable to attacks by"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-23039",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "Linux PV device frontends vulnerable to attacks by"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-23040",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "Linux PV device frontends vulnerable to attacks by"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-23041",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "Linux PV device frontends vulnerable to attacks by"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-23042",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "Linux PV device frontends vulnerable to attacks by"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-24958",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: use-after-free in dev->buf release in driv"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-26490",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: potential buffer overflows in EVT_TRANSACT"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-27223",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: In drivers/usb/gadget/udc/udc-xilinx.c the"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-28390",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: double free in ems_usb_start_xmit in drive"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-30594",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: Unprivileged users may use PTRACE_SEIZE to"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-32250",
+    "HIGH",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: a use-after-free write in the netfilter su"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2017-18232",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: Mishandling mutex within libsas allowing l"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2018-1108",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: drivers: getrandom(2) unblocks too early a"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2018-20449",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: reading \"callback=\" lines in a debugfs fil"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2018-7273",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: Kernel address information leak in drivers"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2018-7754",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: Information Exposure in aoedisk_debugfs_sh"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2019-20908",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: lockdown: bypass through ACPI write via ef"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2019-3874",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: SCTP socket buffer memory leak leading to "
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2019-9245",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: out of bounds read due to a missing bounds"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2019-9444",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: kernel pointer leak in sync debug fs drive"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2019-9453",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: out of bounds read in F2FS touch driver le"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-0067",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: out of bounds read due to a missing bounds"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-15780",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: lockdown: bypass through ACPI write via ac"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-25673",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: non-blocking socket in llcp_sock_connect()"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-26139",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: Forwarding EAPOL from unauthenticated wifi"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-26147",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: reassembling mixed encrypted/plaintext fra"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-26558",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "bluez: Passkey Entry protocol of the Bluetooth Cor"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-27777",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: powerpc: RTAS calls can be used to comprom"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-36322",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: fuse: fuse_do_getattr() calls make_bad_ino"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-3702",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: ath9k: information disclosure via specific"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-4788",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: speculation on incompletely validated data"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-0129",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: Improper access control in BlueZ may allow"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-0920",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: Use After Free in unix_gc() which could re"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-0941",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: out-of-bounds read in bpf_skb_change_head("
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-20292",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: DRM Memory Management Double Free Privileg"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-20317",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: timer tree corruption leads to missing wak"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-20320",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: s390 eBPF JIT miscompilation issues fixes"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-20321",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: In Overlayfs missing a check for a negativ"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-23134",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: use-after-free in nfc sockets"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-26401",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "hw: cpu: LFENCE/JMP Mitigation Update for CVE-2017"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-28688",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "The fix for XSA-365 includes initialization of poi"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-28711",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "xen: rogue backends can cause DoS of guests via hi"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-28712",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "xen: rogue backends can cause DoS of guests via hi"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-28713",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "xen: rogue backends can cause DoS of guests via hi"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-28714",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "Guest can force Linux netback driver to hog large "
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-28715",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "Guest can force Linux netback driver to hog large "
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-28950",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: fuse: stall on CPU can occur because a ret"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-28964",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: race condition in get_old_root function in"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-28971",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: System crash in intel_pmu_drain_pebs_nhm i"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-28972",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: Buffer overflow in hotplug/rpadlpar_sysfs."
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-29264",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: DoS due to negative fragment size calculat"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-29265",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: race conditions in usbip_sockfd_store func"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-29647",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: information disclosure due to uninitialize"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-29650",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: lack a full memory barrier upon the assign"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-30002",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: memory leak for large arguments in video_u"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-31916",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: out of bounds array access in drivers/md/d"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-33624",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: Linux kernel BPF protection against specul"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3428",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: integer overflow in ext4_es_cache_extent"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-34556",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: BPF program can obtain sensitive informati"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-34693",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-2",
+    "kernel: allows local users to obtain sensitive inf"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-34981",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: Bluetooth CMTP Module Double Free Privileg"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-35477",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: BPF program can obtain sensitive informati"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3564",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: double free in bluetooth subsystem when th"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3573",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: use-after-free in function hci_sock_bound_"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3659",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: NULL pointer dereference in llsec_key_allo"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3679",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: DoS in rb_per_cpu_empty()"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-37159",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: use-after-free in hso_free_net_device() in"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3732",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: overlayfs: Mounting overlayfs inside an un"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3753",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: a race out-of-bound read in vt"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-38198",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: arch/x86/kvm/mmu/paging_tmpl.h incorrectly"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-38199",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: incorrect connection-setup ordering allows"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-38204",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: use-after-free and panic in drivers/usb/ho"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-38208",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: NULL pointer dereference in net/nfc/llcp_s"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-39633",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "In gre_handle_offloads of ip_gre.c, there is a pos"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-39656",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.272-1",
+    "In __configfs_open_file of file.c, there is a poss"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-4002",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: possible leak or coruption of data residin"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-4149",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: Improper lock operation in btrfs"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-4155",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: xfs: raw block device data leak in XFS_IOC"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-4159",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: another kernel ptr leak vulnerability via "
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-4203",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: Race condition in races in sk_peer_pid and"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-42739",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: Heap buffer overflow in firedtv driver"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-43389",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: an array-index-out-bounds in detach_capi_c"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-43976",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: mwifiex_usb_recv() in drivers/net/wireless"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-44879",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: NULL pointer dereference in folio_mark_dir"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-45095",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: refcount leak in pep_sock_accept() in net/"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-45868",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: fs/quota/quota_tree.c does not validate th"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-0001",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "hw: cpu: intel: Branch History Injection (BHI)"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-0002",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "hw: cpu: intel: Intra-Mode BTI"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-0480",
+    "MEDIUM",
+    "4.9.258-1",
+    "",
+    "kernel: memcg does not limit the number of POSIX f"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-0487",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: use after free in moxart_remove"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-0494",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: information leak in scsi_ioctl()"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-0617",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: NULL pointer dereference in udf_expand_fil"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-0812",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: NFS over RDMA random memory leakage"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-0854",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: swiotlb information leak with DMA_FROM_DEV"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-1016",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: uninitialized registers on stack in nft_do"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-1195",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: A possible race condition (use-after-free)"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-1198",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: use-after-free in drivers/net/hamradio/6pa"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-1516",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: null-ptr-deref caused by x25_disconnect"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-1974",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: use-after-free in /net/nfc/core.c causes k"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-1975",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: sleep in atomic bug when firmware download"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-20132",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: Out of bounds read in lg_probe and related"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-21123",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "hw: cpu: incomplete clean-up of multi-core shared "
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-21125",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "hw: cpu: incomplete clean-up of microarchitectural"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-21166",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "hw: cpu: incomplete clean-up in specific special r"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-2153",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: KVM: NULL pointer dereference in kvm_irq_d"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-23960",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "hw: cpu: arm64: Spectre-BHB"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-25258",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: security issues in the OS descriptor handl"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-25375",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: information disclosure in drivers/usb/gadg"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-26966",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: heap memory leak in drivers/net/usb/sr9700"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-28356",
+    "MEDIUM",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: refcount leak in llc_ui_bind and llc_ui_au"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2018-12928",
+    "LOW",
+    "4.9.258-1",
+    "",
+    "kernel: NULL pointer dereference in hfs_ext_read_e"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-24586",
+    "LOW",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: Fragmentation cache not cleared on reconne"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-24587",
+    "LOW",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: Reassembling fragments encrypted under dif"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-24588",
+    "LOW",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: wifi frame payload being parsed incorrectl"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2020-29374",
+    "LOW",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: the get_user_pages implementation when use"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-21781",
+    "LOW",
+    "4.9.258-1",
+    "4.9.272-2",
+    "kernel: arm: SIGPAGE information disclosure vulner"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-3655",
+    "LOW",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: missing size validations on inbound SCTP p"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-38205",
+    "LOW",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: drivers/net/ethernet/xilinx/xilinx_emaclit"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-38209",
+    "LOW",
+    "4.9.258-1",
+    "4.9.272-1",
+    "kernel: net/netfilter/nf_conntrack_standalone.c al"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2021-45486",
+    "LOW",
+    "4.9.258-1",
+    "4.9.290-1",
+    "kernel: information leak in the IPv4 implementatio"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-24448",
+    "LOW",
+    "4.9.258-1",
+    "4.9.303-1",
+    "kernel: nfs_atomic_open() returns uninitialized da"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-32296",
+    "LOW",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: insufficient TCP source port randomness le"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-32981",
+    "LOW",
+    "4.9.258-1",
+    "",
+    "kernel: Linux kernel for powerpc 32-bit buffer ove"
+  ],
+  [
+    "linux-libc-dev",
+    "CVE-2022-33981",
+    "LOW",
+    "4.9.258-1",
+    "4.9.320-2",
+    "kernel: use-after-free in floppy driver may lead t"
+  ],
+  [
+    "login",
+    "CVE-2018-7169",
+    "LOW",
+    "1:4.4-4.1+deb9u1",
+    "",
+    "shadow-utils: newgidmap allows unprivileged user t"
+  ],
+  [
+    "mount",
+    "CVE-2016-2779",
+    "HIGH",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "mount",
+    "CVE-2021-37600",
+    "LOW",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2022-29458",
+    "HIGH",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2018-19211",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: Null pointer dereference at function _nc_"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2019-17594",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2019-17595",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2022-29458",
+    "HIGH",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2018-19211",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: Null pointer dereference at function _nc_"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2019-17594",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2019-17595",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "openssh-client",
+    "CVE-2021-41617",
+    "HIGH",
+    "1:7.4p1-10+deb9u7",
+    "",
+    "openssh: privilege escalation when AuthorizedKeysC"
+  ],
+  [
+    "openssl",
+    "CVE-2021-3712",
+    "HIGH",
+    "1.1.0l-1~deb9u3",
+    "1.1.0l-1~deb9u4",
+    "openssl: Read buffer overruns processing ASN.1 str"
+  ],
+  [
+    "openssl",
+    "CVE-2022-0778",
+    "HIGH",
+    "1.1.0l-1~deb9u3",
+    "1.1.0l-1~deb9u5",
+    "openssl: Infinite loop in BN_mod_sqrt() reachable "
+  ],
+  [
+    "openssl",
+    "CVE-2022-1292",
+    "HIGH",
+    "1.1.0l-1~deb9u3",
+    "1.1.0l-1~deb9u6",
+    "openssl: c_rehash script allows command injection"
+  ],
+  [
+    "openssl",
+    "CVE-2019-1551",
+    "MEDIUM",
+    "1.1.0l-1~deb9u3",
+    "1.1.0l-1~deb9u5",
+    "openssl: Integer overflow in RSAZ modular exponent"
+  ],
+  [
+    "openssl",
+    "CVE-2021-4160",
+    "MEDIUM",
+    "1.1.0l-1~deb9u3",
+    "",
+    "openssl: Carry propagation bug in the MIPS32 and M"
+  ],
+  [
+    "passwd",
+    "CVE-2018-7169",
+    "LOW",
+    "1:4.4-4.1+deb9u1",
+    "",
+    "shadow-utils: newgidmap allows unprivileged user t"
+  ],
+  [
+    "perl",
+    "CVE-2020-16156",
+    "HIGH",
+    "5.24.1-3+deb9u7",
+    "",
+    "perl-CPAN: Bypass of verification of signatures in"
+  ],
+  [
+    "perl-base",
+    "CVE-2020-16156",
+    "HIGH",
+    "5.24.1-3+deb9u7",
+    "",
+    "perl-CPAN: Bypass of verification of signatures in"
+  ],
+  [
+    "perl-modules-5.24",
+    "CVE-2020-16156",
+    "HIGH",
+    "5.24.1-3+deb9u7",
+    "",
+    "perl-CPAN: Bypass of verification of signatures in"
+  ],
+  [
+    "python2.7",
+    "CVE-2021-3177",
+    "CRITICAL",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u6",
+    "python: Stack-based buffer overflow in PyCArg_repr"
+  ],
+  [
+    "python2.7",
+    "CVE-2015-20107",
+    "HIGH",
+    "2.7.13-2+deb9u4",
+    "",
+    "python: mailcap: findmatch() function does not san"
+  ],
+  [
+    "python2.7",
+    "CVE-2019-16935",
+    "MEDIUM",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u5",
+    "python: XSS vulnerability in the documentation XML"
+  ],
+  [
+    "python2.7",
+    "CVE-2021-23336",
+    "MEDIUM",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u5",
+    "python: Web cache poisoning via urllib.parse.parse"
+  ],
+  [
+    "python2.7",
+    "CVE-2021-4189",
+    "MEDIUM",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u6",
+    "python: ftplib should not use the host from the PA"
+  ],
+  [
+    "python2.7-minimal",
+    "CVE-2021-3177",
+    "CRITICAL",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u6",
+    "python: Stack-based buffer overflow in PyCArg_repr"
+  ],
+  [
+    "python2.7-minimal",
+    "CVE-2015-20107",
+    "HIGH",
+    "2.7.13-2+deb9u4",
+    "",
+    "python: mailcap: findmatch() function does not san"
+  ],
+  [
+    "python2.7-minimal",
+    "CVE-2019-16935",
+    "MEDIUM",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u5",
+    "python: XSS vulnerability in the documentation XML"
+  ],
+  [
+    "python2.7-minimal",
+    "CVE-2021-23336",
+    "MEDIUM",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u5",
+    "python: Web cache poisoning via urllib.parse.parse"
+  ],
+  [
+    "python2.7-minimal",
+    "CVE-2021-4189",
+    "MEDIUM",
+    "2.7.13-2+deb9u4",
+    "2.7.13-2+deb9u6",
+    "python: ftplib should not use the host from the PA"
+  ],
+  [
+    "python3.5",
+    "CVE-2015-20107",
+    "HIGH",
+    "3.5.3-1+deb9u4",
+    "",
+    "python: mailcap: findmatch() function does not san"
+  ],
+  [
+    "python3.5",
+    "CVE-2021-3737",
+    "HIGH",
+    "3.5.3-1+deb9u4",
+    "3.5.3-1+deb9u5",
+    "python: urllib: HTTP client possible infinite loop"
+  ],
+  [
+    "python3.5",
+    "CVE-2021-3733",
+    "MEDIUM",
+    "3.5.3-1+deb9u4",
+    "3.5.3-1+deb9u5",
+    "python: urllib: Regular expression DoS in Abstract"
+  ],
+  [
+    "python3.5",
+    "CVE-2021-4189",
+    "MEDIUM",
+    "3.5.3-1+deb9u4",
+    "",
+    "python: ftplib should not use the host from the PA"
+  ],
+  [
+    "python3.5-minimal",
+    "CVE-2015-20107",
+    "HIGH",
+    "3.5.3-1+deb9u4",
+    "",
+    "python: mailcap: findmatch() function does not san"
+  ],
+  [
+    "python3.5-minimal",
+    "CVE-2021-3737",
+    "HIGH",
+    "3.5.3-1+deb9u4",
+    "3.5.3-1+deb9u5",
+    "python: urllib: HTTP client possible infinite loop"
+  ],
+  [
+    "python3.5-minimal",
+    "CVE-2021-3733",
+    "MEDIUM",
+    "3.5.3-1+deb9u4",
+    "3.5.3-1+deb9u5",
+    "python: urllib: Regular expression DoS in Abstract"
+  ],
+  [
+    "python3.5-minimal",
+    "CVE-2021-4189",
+    "MEDIUM",
+    "3.5.3-1+deb9u4",
+    "",
+    "python: ftplib should not use the host from the PA"
+  ],
+  [
+    "subversion",
+    "CVE-2020-17525",
+    "HIGH",
+    "1.9.5-1+deb9u5",
+    "1.9.5-1+deb9u6",
+    "subversion: Remote unauthenticated denial of servi"
+  ],
+  [
+    "tar",
+    "CVE-2018-20482",
+    "MEDIUM",
+    "1.29b-1.1",
+    "1.29b-1.1+deb9u1",
+    "tar: Infinite read loop in sparse_dump_region func"
+  ],
+  [
+    "tzdata",
+    "DLA-2797-1",
+    "UNKNOWN",
+    "2021a-0+deb9u1",
+    "2021a-0+deb9u2",
+    "tzdata - new upstream version"
+  ],
+  [
+    "tzdata",
+    "DLA-2963-1",
+    "UNKNOWN",
+    "2021a-0+deb9u1",
+    "2021a-0+deb9u3",
+    "tzdata - new timezone database"
+  ],
+  [
+    "tzdata",
+    "DLA-3051-1",
+    "UNKNOWN",
+    "2021a-0+deb9u1",
+    "2021a-0+deb9u4",
+    "tzdata - new timezone database"
+  ],
+  [
+    "util-linux",
+    "CVE-2016-2779",
+    "HIGH",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "util-linux",
+    "CVE-2021-37600",
+    "LOW",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "wget",
+    "CVE-2021-31879",
+    "MEDIUM",
+    "1.18-5+deb9u3",
+    "",
+    "wget: authorization header disclosure on redirect"
+  ],
+  [
+    "xz-utils",
+    "CVE-2022-1271",
+    "HIGH",
+    "5.2.2-1.2+b1",
+    "5.2.2-1.2+deb9u1",
+    "gzip: arbitrary-file-write vulnerability"
+  ],
+  [
+    "zlib1g",
+    "CVE-2018-25032",
+    "HIGH",
+    "1:1.2.8.dfsg-5",
+    "1:1.2.8.dfsg-5+deb9u1",
+    "zlib: A flaw found in zlib when compressing (not d"
+  ],
+  [
+    "zlib1g-dev",
+    "CVE-2018-25032",
+    "HIGH",
+    "1:1.2.8.dfsg-5",
+    "1:1.2.8.dfsg-5+deb9u1",
+    "zlib: A flaw found in zlib when compressing (not d"
+  ],
+  [
+    "ansi-regex",
+    "CVE-2021-3807",
+    "HIGH",
+    "3.0.0",
+    "6.0.1, 5.0.1, 4.1.1, 3.0.1",
+    "nodejs-ansi-regex: Regular expression denial of se"
+  ],
+  [
+    "ansi-regex",
+    "CVE-2021-3807",
+    "HIGH",
+    "4.1.0",
+    "6.0.1, 5.0.1, 4.1.1, 3.0.1",
+    "nodejs-ansi-regex: Regular expression denial of se"
+  ],
+  [
+    "ansi-regex",
+    "CVE-2021-3807",
+    "HIGH",
+    "4.1.0",
+    "6.0.1, 5.0.1, 4.1.1, 3.0.1",
+    "nodejs-ansi-regex: Regular expression denial of se"
+  ],
+  [
+    "ansi-regex",
+    "CVE-2021-3807",
+    "HIGH",
+    "4.1.0",
+    "6.0.1, 5.0.1, 4.1.1, 3.0.1",
+    "nodejs-ansi-regex: Regular expression denial of se"
+  ],
+  [
+    "brace-expansion",
+    "CVE-2025-5889",
+    "LOW",
+    "1.1.11",
+    "2.0.2, 1.1.12, 3.0.1, 4.0.1",
+    "brace-expansion: juliangruber brace-expansion inde"
+  ],
+  [
+    "cross-spawn",
+    "CVE-2024-21538",
+    "HIGH",
+    "5.1.0",
+    "7.0.5, 6.0.6",
+    "cross-spawn: regular expression denial of service"
+  ],
+  [
+    "decode-uri-component",
+    "CVE-2022-38900",
+    "HIGH",
+    "0.2.0",
+    "0.2.1",
+    "decode-uri-component: improper input validation re"
+  ],
+  [
+    "form-data",
+    "CVE-2025-7783",
+    "CRITICAL",
+    "2.3.2",
+    "2.5.4, 3.0.4, 4.0.4",
+    "form-data: Unsafe random function in form-data"
+  ],
+  [
+    "got",
+    "CVE-2022-33987",
+    "MEDIUM",
+    "6.7.1",
+    "12.1.0, 11.8.5",
+    "nodejs-got: missing verification of requested URLs"
+  ],
+  [
+    "hosted-git-info",
+    "CVE-2021-23362",
+    "MEDIUM",
+    "2.8.8",
+    "2.8.9, 3.0.8",
+    "nodejs-hosted-git-info: Regular Expression denial "
+  ],
+  [
+    "http-cache-semantics",
+    "CVE-2022-25881",
+    "HIGH",
+    "3.8.1",
+    "4.1.1",
+    "http-cache-semantics: Regular Expression Denial of"
+  ],
+  [
+    "ip",
+    "CVE-2024-29415",
+    "HIGH",
+    "1.1.5",
+    "",
+    "node-ip: Incomplete fix for CVE-2023-42282"
+  ],
+  [
+    "ip",
+    "CVE-2023-42282",
+    "LOW",
+    "1.1.5",
+    "2.0.1, 1.1.9",
+    "nodejs-ip: arbitrary code execution via the isPubl"
+  ],
+  [
+    "json-schema",
+    "CVE-2021-3918",
+    "CRITICAL",
+    "0.2.3",
+    "0.4.0",
+    "nodejs-json-schema: Prototype pollution vulnerabil"
+  ],
+  [
+    "minimatch",
+    "CVE-2022-3517",
+    "HIGH",
+    "3.0.4",
+    "3.0.5",
+    "nodejs-minimatch: ReDoS via the braceExpand functi"
+  ],
+  [
+    "minimist",
+    "CVE-2021-44906",
+    "CRITICAL",
+    "1.2.5",
+    "1.2.6, 0.2.4",
+    "minimist: prototype pollution"
+  ],
+  [
+    "minimist",
+    "CVE-2021-44906",
+    "CRITICAL",
+    "1.2.5",
+    "1.2.6, 0.2.4",
+    "minimist: prototype pollution"
+  ],
+  [
+    "path-parse",
+    "CVE-2021-23343",
+    "MEDIUM",
+    "1.0.6",
+    "1.0.7",
+    "nodejs-path-parse: ReDoS via splitDeviceRe, splitT"
+  ],
+  [
+    "qs",
+    "CVE-2022-24999",
+    "HIGH",
+    "6.5.2",
+    "6.10.3, 6.9.7, 6.8.3, 6.7.3, 6.6.1, 6.5.3, 6.4.1, 6.3.3, 6.2.4",
+    "express: \"qs\" prototype poisoning causes the hang "
+  ],
+  [
+    "request",
+    "CVE-2023-28155",
+    "MEDIUM",
+    "2.88.0",
+    "",
+    "request: bypass of SSRF mitigations when following"
+  ],
+  [
+    "semver",
+    "CVE-2022-25883",
+    "HIGH",
+    "5.7.1",
+    "7.5.2, 6.3.1, 5.7.2",
+    "nodejs-semver: Regular expression denial of servic"
+  ],
+  [
+    "ssri",
+    "CVE-2021-27290",
+    "HIGH",
+    "6.0.1",
+    "6.0.2, 7.1.1, 8.0.1",
+    "nodejs-ssri: Regular expression DoS (ReDoS) when p"
+  ],
+  [
+    "tar",
+    "CVE-2021-32803",
+    "HIGH",
+    "4.4.13",
+    "3.2.3, 4.4.15, 5.0.7, 6.1.2",
+    "nodejs-tar: Insufficient symlink protection allowi"
+  ],
+  [
+    "tar",
+    "CVE-2021-32804",
+    "HIGH",
+    "4.4.13",
+    "3.2.2, 4.4.14, 5.0.6, 6.1.1",
+    "nodejs-tar: Insufficient absolute path sanitizatio"
+  ],
+  [
+    "tar",
+    "CVE-2021-37701",
+    "HIGH",
+    "4.4.13",
+    "4.4.16, 5.0.8, 6.1.7",
+    "nodejs-tar: Insufficient symlink protection due to"
+  ],
+  [
+    "tar",
+    "CVE-2021-37712",
+    "HIGH",
+    "4.4.13",
+    "4.4.18, 5.0.10, 6.1.9",
+    "nodejs-tar: Insufficient symlink protection due to"
+  ],
+  [
+    "tar",
+    "CVE-2021-37713",
+    "HIGH",
+    "4.4.13",
+    "4.4.18, 5.0.10, 6.1.9",
+    "nodejs-tar: Arbitrary File Creation/Overwrite on W"
+  ],
+  [
+    "tar",
+    "CVE-2024-28863",
+    "MEDIUM",
+    "4.4.13",
+    "6.2.1",
+    "node-tar: denial of service while parsing a tar fi"
+  ],
+  [
+    "tough-cookie",
+    "CVE-2023-26136",
+    "MEDIUM",
+    "2.4.3",
+    "4.1.3",
+    "tough-cookie: prototype pollution in cookie memsto"
+  ],
+  [
+    "yarn",
+    "CVE-2021-4435",
+    "HIGH",
+    "1.22.5",
+    "1.22.13",
+    "yarn: untrusted search path"
+  ]
+]

@@ -1,0 +1,786 @@
+[
+  [
+    "bash",
+    "CVE-2019-18276",
+    "LOW",
+    "4.4.18-2ubuntu1.2",
+    "4.4.18-2ubuntu1.3",
+    "bash: when effective UID is not equal to its real "
+  ],
+  [
+    "dirmngr",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gnupg",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gnupg-l10n",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gnupg-utils",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gpg",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gpg-agent",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gpg-wks-client",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gpg-wks-server",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gpgconf",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gpgsm",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "gpgv",
+    "CVE-2019-13050",
+    "LOW",
+    "2.2.4-1ubuntu1.4",
+    "2.2.4-1ubuntu1.5",
+    "GnuPG: interaction between the sks-keyserver code "
+  ],
+  [
+    "libasn1-8-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libasn1-8-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libc-bin",
+    "CVE-2016-10228",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: iconv program can hang when invoked with th"
+  ],
+  [
+    "libc-bin",
+    "CVE-2019-25013",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: buffer over-read in iconv when processing i"
+  ],
+  [
+    "libc-bin",
+    "CVE-2020-27618",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: iconv when processing invalid multi-byte in"
+  ],
+  [
+    "libc-bin",
+    "CVE-2020-29562",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: assertion failure in iconv when converting "
+  ],
+  [
+    "libc-bin",
+    "CVE-2020-6096",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: signed comparison vulnerability in the ARMv"
+  ],
+  [
+    "libc-bin",
+    "CVE-2021-3326",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Assertion failure in ISO-2022-JP-3 gconv mo"
+  ],
+  [
+    "libc-bin",
+    "CVE-2021-35942",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Arbitrary read in wordexp()"
+  ],
+  [
+    "libc-bin",
+    "CVE-2022-23218",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Stack-based buffer overflow in svcunix_crea"
+  ],
+  [
+    "libc-bin",
+    "CVE-2022-23219",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Stack-based buffer overflow in sunrpc clnt_"
+  ],
+  [
+    "libc6",
+    "CVE-2016-10228",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: iconv program can hang when invoked with th"
+  ],
+  [
+    "libc6",
+    "CVE-2019-25013",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: buffer over-read in iconv when processing i"
+  ],
+  [
+    "libc6",
+    "CVE-2020-27618",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: iconv when processing invalid multi-byte in"
+  ],
+  [
+    "libc6",
+    "CVE-2020-29562",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: assertion failure in iconv when converting "
+  ],
+  [
+    "libc6",
+    "CVE-2020-6096",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: signed comparison vulnerability in the ARMv"
+  ],
+  [
+    "libc6",
+    "CVE-2021-3326",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Assertion failure in ISO-2022-JP-3 gconv mo"
+  ],
+  [
+    "libc6",
+    "CVE-2021-35942",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Arbitrary read in wordexp()"
+  ],
+  [
+    "libc6",
+    "CVE-2022-23218",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Stack-based buffer overflow in svcunix_crea"
+  ],
+  [
+    "libc6",
+    "CVE-2022-23219",
+    "LOW",
+    "2.27-3ubuntu1.4",
+    "2.27-3ubuntu1.5",
+    "glibc: Stack-based buffer overflow in sunrpc clnt_"
+  ],
+  [
+    "libdbi-perl",
+    "CVE-2020-14393",
+    "LOW",
+    "1.640-1ubuntu0.2",
+    "1.640-1ubuntu0.3",
+    "perl-dbi: Buffer overflow on an overlong DBD class"
+  ],
+  [
+    "libgcrypt20",
+    "CVE-2021-33560",
+    "LOW",
+    "1.8.1-4ubuntu1.2",
+    "1.8.1-4ubuntu1.3",
+    "libgcrypt: mishandles ElGamal encryption because i"
+  ],
+  [
+    "libgmp10",
+    "CVE-2021-43618",
+    "LOW",
+    "2:6.1.2+dfsg-2",
+    "2:6.1.2+dfsg-2ubuntu0.1",
+    "gmp: Integer overflow and resultant buffer overflo"
+  ],
+  [
+    "libgnutls30",
+    "CVE-2021-4209",
+    "LOW",
+    "3.5.18-1ubuntu1.4",
+    "3.5.18-1ubuntu1.6",
+    "GnuTLS: Null pointer dereference in MD_UPDATE"
+  ],
+  [
+    "libgssapi3-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libgssapi3-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libhcrypto4-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libhcrypto4-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libheimbase1-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libheimbase1-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libheimntlm0-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libheimntlm0-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libhogweed4",
+    "CVE-2018-16869",
+    "LOW",
+    "3.4-1ubuntu0.1",
+    "3.4.1-0ubuntu0.18.04.1",
+    "nettle: Leaky data conversion exposing a manager o"
+  ],
+  [
+    "libhx509-5-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libhx509-5-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libkrb5-26-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libkrb5-26-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libmysqlclient20",
+    "CVE-2022-21515",
+    "LOW",
+    "5.7.33-0ubuntu0.18.04.1",
+    "5.7.39-0ubuntu0.18.04.2",
+    "mysql: Server: Options unspecified vulnerability ("
+  ],
+  [
+    "libncurses5",
+    "CVE-2019-17594",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libncurses5",
+    "CVE-2019-17595",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libncurses5",
+    "CVE-2021-39537",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in _nc_captoin"
+  ],
+  [
+    "libncurses5",
+    "CVE-2022-29458",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2019-17594",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2019-17595",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2021-39537",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in _nc_captoin"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2022-29458",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libnettle6",
+    "CVE-2018-16869",
+    "LOW",
+    "3.4-1ubuntu0.1",
+    "3.4.1-0ubuntu0.18.04.1",
+    "nettle: Leaky data conversion exposing a manager o"
+  ],
+  [
+    "libpam-modules",
+    "CVE-2022-28321",
+    "LOW",
+    "1.1.8-3.6ubuntu2.18.04.2",
+    "1.1.8-3.6ubuntu2.18.04.4",
+    "pam: authentication bypass for SSH logins"
+  ],
+  [
+    "libpam-modules-bin",
+    "CVE-2022-28321",
+    "LOW",
+    "1.1.8-3.6ubuntu2.18.04.2",
+    "1.1.8-3.6ubuntu2.18.04.4",
+    "pam: authentication bypass for SSH logins"
+  ],
+  [
+    "libpam-runtime",
+    "CVE-2022-28321",
+    "LOW",
+    "1.1.8-3.6ubuntu2.18.04.2",
+    "1.1.8-3.6ubuntu2.18.04.4",
+    "pam: authentication bypass for SSH logins"
+  ],
+  [
+    "libpam0g",
+    "CVE-2022-28321",
+    "LOW",
+    "1.1.8-3.6ubuntu2.18.04.2",
+    "1.1.8-3.6ubuntu2.18.04.4",
+    "pam: authentication bypass for SSH logins"
+  ],
+  [
+    "libpcre3",
+    "CVE-2019-20838",
+    "LOW",
+    "2:8.39-9",
+    "2:8.39-9ubuntu0.1",
+    "pcre: Buffer over-read in JIT when UTF is disabled"
+  ],
+  [
+    "libpcre3",
+    "CVE-2020-14155",
+    "LOW",
+    "2:8.39-9",
+    "2:8.39-9ubuntu0.1",
+    "pcre: Integer overflow when parsing callout numeri"
+  ],
+  [
+    "libroken18-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libroken18-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36084",
+    "LOW",
+    "2.7-1",
+    "2.7-1ubuntu0.1",
+    "libsepol: use-after-free in __cil_verify_classperm"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36085",
+    "LOW",
+    "2.7-1",
+    "2.7-1ubuntu0.1",
+    "libsepol: use-after-free in __cil_verify_classperm"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36086",
+    "LOW",
+    "2.7-1",
+    "2.7-1ubuntu0.1",
+    "libsepol: use-after-free in cil_reset_classpermiss"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36087",
+    "LOW",
+    "2.7-1",
+    "2.7-1ubuntu0.1",
+    "libsepol: heap-based buffer overflow in ebitmap_ma"
+  ],
+  [
+    "libsqlite3-0",
+    "CVE-2021-36690",
+    "LOW",
+    "3.22.0-1ubuntu0.4",
+    "3.22.0-1ubuntu0.5",
+    "A segmentation fault can occur in the sqlite3.exe "
+  ],
+  [
+    "libssl1.0.0",
+    "CVE-2023-0464",
+    "LOW",
+    "1.0.2n-1ubuntu5.6",
+    "1.0.2n-1ubuntu5.12",
+    "openssl: Denial of service by excessive resource u"
+  ],
+  [
+    "libssl1.0.0",
+    "CVE-2023-0465",
+    "LOW",
+    "1.0.2n-1ubuntu5.6",
+    "1.0.2n-1ubuntu5.12",
+    "openssl: Invalid certificate policies in leaf cert"
+  ],
+  [
+    "libssl1.0.0",
+    "CVE-2023-0466",
+    "LOW",
+    "1.0.2n-1ubuntu5.6",
+    "1.0.2n-1ubuntu5.12",
+    "openssl: Certificate policy check not enabled"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2023-0464",
+    "LOW",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.22",
+    "openssl: Denial of service by excessive resource u"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2023-0465",
+    "LOW",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.22",
+    "openssl: Invalid certificate policies in leaf cert"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2023-0466",
+    "LOW",
+    "1.1.1-1ubuntu2.1~18.04.9",
+    "1.1.1-1ubuntu2.1~18.04.22",
+    "openssl: Certificate policy check not enabled"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2020-13529",
+    "LOW",
+    "237-3ubuntu10.46",
+    "237-3ubuntu10.49",
+    "systemd: DHCP FORCERENEW authentication not implem"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2019-17594",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2019-17595",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2021-39537",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in _nc_captoin"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2022-29458",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libudev1",
+    "CVE-2020-13529",
+    "LOW",
+    "237-3ubuntu10.46",
+    "237-3ubuntu10.49",
+    "systemd: DHCP FORCERENEW authentication not implem"
+  ],
+  [
+    "libwind0-heimdal",
+    "CVE-2019-12098",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "In the client side of Heimdal before 7.6.0, failur"
+  ],
+  [
+    "libwind0-heimdal",
+    "CVE-2021-3671",
+    "LOW",
+    "7.5.0+dfsg-1",
+    "7.5.0+dfsg-1ubuntu0.1",
+    "samba: Null pointer dereference on missing sname i"
+  ],
+  [
+    "login",
+    "CVE-2018-7169",
+    "LOW",
+    "1:4.5-1ubuntu2",
+    "1:4.5-1ubuntu2.2",
+    "shadow-utils: newgidmap allows unprivileged user t"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2019-17594",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2019-17595",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2021-39537",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in _nc_captoin"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2022-29458",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2019-17594",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2019-17595",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2021-39537",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: heap-based buffer overflow in _nc_captoin"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2022-29458",
+    "LOW",
+    "6.1-1ubuntu1.18.04",
+    "6.1-1ubuntu1.18.04.1",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "passwd",
+    "CVE-2018-7169",
+    "LOW",
+    "1:4.5-1ubuntu2",
+    "1:4.5-1ubuntu2.2",
+    "shadow-utils: newgidmap allows unprivileged user t"
+  ],
+  [
+    "tar",
+    "CVE-2021-20193",
+    "LOW",
+    "1.29b-2ubuntu0.2",
+    "1.29b-2ubuntu0.3",
+    "tar: Memory leak in read_header() in list.c"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30629",
+    "LOW",
+    "v1.13.10",
+    "1.17.11, 1.18.3",
+    "golang: crypto/tls: session tickets lack random ti"
+  ]
+]
