@@ -1,36 +1,65 @@
 import subprocess
 import json
+import os
 import hashlib
+
+TRIVY_DB_PATH = r"C:\Users\hieu\AppData\Local\trivy\db\metadata.json"
+
+def get_trivy_db_timestamp():
+    """
+    Return Trivy vulnerability DB timestamp (UpdatedAt).
+    """
+    try:
+        if not os.path.exists(TRIVY_DB_PATH):
+            print(f"Warning: Trivy DB metadata not found at {TRIVY_DB_PATH}")
+            return None
+
+        with open(TRIVY_DB_PATH, "r", encoding="utf-8") as f:
+            meta = json.load(f)
+
+        ts = meta.get("UpdatedAt") or meta.get("DownloadedAt")
+        if not ts:
+            print("Warning: UpdatedAt not found in metadata.json")
+        return ts
+
+    except Exception as e:
+        print(f"Error reading Trivy DB metadata: {e}")
+        return None
+
 
 def get_image_digest(image_name):
     """
-    Get Docker image digest (SHA256 ID).
-    Returns digest string (e.g., "sha256:abc123...") or None if not found.
+    Get Docker image digest: sha256:xxxxxx
     """
     try:
-        # docker inspect --format='{{.Id}}'
         result = subprocess.run(
             ["docker", "inspect", "--format={{.Id}}", image_name],
             capture_output=True,
             text=True,
             timeout=10
         )
+
         if result.returncode == 0:
-            digest = result.stdout.strip()
-            return digest
-        else:
-            print(f"Warning: docker inspect failed for {image_name}: {result.stderr}")
-            return None
-    except FileNotFoundError:
-        print("Warning: docker command not found")
+            return result.stdout.strip()
+
+        print(f"Warning: docker inspect failed for {image_name}: {result.stderr}")
         return None
+
     except Exception as e:
         print(f"Error getting image digest: {e}")
         return None
 
-def hash_trivy_output(trivy_json_str):
+
+def get_cache_key(image_name):
     """
-    Hash Trivy JSON output to detect changes.
-    Returns SHA256 hash of the output.
+    Generate cache key based on image digest + Trivy DB timestamp.
     """
-    return hashlib.sha256(trivy_json_str.encode()).hexdigest()
+    digest = get_image_digest(image_name)
+    ts = get_trivy_db_timestamp()
+
+    if not digest or not ts:
+        print("Warning: Cannot generate cache key (missing digest or timestamp)")
+        return None
+
+    raw = f"{digest}|{ts}"
+    return hashlib.sha256(raw.encode()).hexdigest()
