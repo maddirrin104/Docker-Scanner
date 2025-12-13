@@ -1,0 +1,1746 @@
+[
+  [
+    "bsdutils",
+    "CVE-2016-2779",
+    "HIGH",
+    "1:2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "bsdutils",
+    "CVE-2021-37600",
+    "LOW",
+    "1:2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "coreutils",
+    "CVE-2016-2781",
+    "LOW",
+    "8.26-3",
+    "",
+    "coreutils: Non-privileged session can escape to th"
+  ],
+  [
+    "debian-archive-keyring",
+    "DLA-2948-1",
+    "UNKNOWN",
+    "2017.5+deb9u1",
+    "2017.5+deb9u2",
+    "debian-archive-keyring - security update"
+  ],
+  [
+    "dirmngr",
+    "CVE-2018-1000858",
+    "HIGH",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: Cross site request forgery in dirmngr resu"
+  ],
+  [
+    "dirmngr",
+    "CVE-2018-9234",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "GnuPG: Unenforced configuration allows for apparen"
+  ],
+  [
+    "dirmngr",
+    "CVE-2019-14855",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: OpenPGP Key Certification Forgeries with S"
+  ],
+  [
+    "dpkg",
+    "CVE-2022-1664",
+    "CRITICAL",
+    "1.18.25",
+    "1.18.26",
+    "Dpkg::Source::Archive in dpkg, the Debian package "
+  ],
+  [
+    "e2fslibs",
+    "CVE-2022-1304",
+    "HIGH",
+    "1.43.4-2+deb9u2",
+    "",
+    "e2fsprogs: out-of-bounds read/write via crafted fi"
+  ],
+  [
+    "e2fsprogs",
+    "CVE-2022-1304",
+    "HIGH",
+    "1.43.4-2+deb9u2",
+    "",
+    "e2fsprogs: out-of-bounds read/write via crafted fi"
+  ],
+  [
+    "gcc-6-base",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "gnupg",
+    "CVE-2018-1000858",
+    "HIGH",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: Cross site request forgery in dirmngr resu"
+  ],
+  [
+    "gnupg",
+    "CVE-2018-9234",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "GnuPG: Unenforced configuration allows for apparen"
+  ],
+  [
+    "gnupg",
+    "CVE-2019-14855",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: OpenPGP Key Certification Forgeries with S"
+  ],
+  [
+    "gnupg-agent",
+    "CVE-2018-1000858",
+    "HIGH",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: Cross site request forgery in dirmngr resu"
+  ],
+  [
+    "gnupg-agent",
+    "CVE-2018-9234",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "GnuPG: Unenforced configuration allows for apparen"
+  ],
+  [
+    "gnupg-agent",
+    "CVE-2019-14855",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: OpenPGP Key Certification Forgeries with S"
+  ],
+  [
+    "gpgv",
+    "CVE-2018-1000858",
+    "HIGH",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: Cross site request forgery in dirmngr resu"
+  ],
+  [
+    "gpgv",
+    "CVE-2018-9234",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "GnuPG: Unenforced configuration allows for apparen"
+  ],
+  [
+    "gpgv",
+    "CVE-2019-14855",
+    "LOW",
+    "2.1.18-8~deb9u4",
+    "",
+    "gnupg2: OpenPGP Key Certification Forgeries with S"
+  ],
+  [
+    "gzip",
+    "CVE-2022-1271",
+    "HIGH",
+    "1.6-5+b1",
+    "1.6-5+deb9u1",
+    "gzip: arbitrary-file-write vulnerability"
+  ],
+  [
+    "libblkid1",
+    "CVE-2016-2779",
+    "HIGH",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "libblkid1",
+    "CVE-2021-37600",
+    "LOW",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "libbz2-1.0",
+    "CVE-2019-12900",
+    "CRITICAL",
+    "1.0.6-8.1",
+    "",
+    "bzip2: bzip2: Data integrity error when decompress"
+  ],
+  [
+    "libcomerr2",
+    "CVE-2022-1304",
+    "HIGH",
+    "1.43.4-2+deb9u2",
+    "",
+    "e2fsprogs: out-of-bounds read/write via crafted fi"
+  ],
+  [
+    "libdb5.3",
+    "CVE-2019-8457",
+    "CRITICAL",
+    "5.3.28-12+deb9u1",
+    "",
+    "sqlite: heap out-of-bound read in function rtreeno"
+  ],
+  [
+    "libfdisk1",
+    "CVE-2016-2779",
+    "HIGH",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "libfdisk1",
+    "CVE-2021-37600",
+    "LOW",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "libgcc1",
+    "CVE-2018-12886",
+    "HIGH",
+    "1:6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libgcrypt20",
+    "CVE-2021-33560",
+    "HIGH",
+    "1.7.6-2+deb9u4",
+    "",
+    "libgcrypt: mishandles ElGamal encryption because i"
+  ],
+  [
+    "libgcrypt20",
+    "CVE-2019-13627",
+    "MEDIUM",
+    "1.7.6-2+deb9u4",
+    "",
+    "libgcrypt: ECDSA timing attack allowing private ke"
+  ],
+  [
+    "libgnutls30",
+    "CVE-2018-16868",
+    "MEDIUM",
+    "3.5.8-5+deb9u6",
+    "",
+    "gnutls: Bleichenbacher-like side channel leakage i"
+  ],
+  [
+    "libgnutls30",
+    "CVE-2021-4209",
+    "MEDIUM",
+    "3.5.8-5+deb9u6",
+    "",
+    "GnuTLS: Null pointer dereference in MD_UPDATE"
+  ],
+  [
+    "libgssapi-krb5-2",
+    "CVE-2017-11462",
+    "LOW",
+    "1.15-1+deb9u3",
+    "",
+    "krb5: Automatic sec context deletion could lead to"
+  ],
+  [
+    "libhogweed4",
+    "CVE-2018-16869",
+    "MEDIUM",
+    "3.3-1+deb9u1",
+    "",
+    "nettle: Leaky data conversion exposing a manager o"
+  ],
+  [
+    "libk5crypto3",
+    "CVE-2017-11462",
+    "LOW",
+    "1.15-1+deb9u3",
+    "",
+    "krb5: Automatic sec context deletion could lead to"
+  ],
+  [
+    "libkrb5-3",
+    "CVE-2017-11462",
+    "LOW",
+    "1.15-1+deb9u3",
+    "",
+    "krb5: Automatic sec context deletion could lead to"
+  ],
+  [
+    "libkrb5support0",
+    "CVE-2017-11462",
+    "LOW",
+    "1.15-1+deb9u3",
+    "",
+    "krb5: Automatic sec context deletion could lead to"
+  ],
+  [
+    "libldap-2.4-2",
+    "CVE-2022-29155",
+    "CRITICAL",
+    "2.4.44+dfsg-5+deb9u8",
+    "2.4.44+dfsg-5+deb9u9",
+    "openldap: OpenLDAP SQL injection"
+  ],
+  [
+    "libldap-common",
+    "CVE-2022-29155",
+    "CRITICAL",
+    "2.4.44+dfsg-5+deb9u8",
+    "2.4.44+dfsg-5+deb9u9",
+    "openldap: OpenLDAP SQL injection"
+  ],
+  [
+    "liblz4-1",
+    "CVE-2019-17543",
+    "LOW",
+    "0.0~r131-2+deb9u1",
+    "",
+    "lz4: heap-based buffer overflow in LZ4_write32"
+  ],
+  [
+    "liblzma5",
+    "CVE-2022-1271",
+    "HIGH",
+    "5.2.2-1.2+b1",
+    "5.2.2-1.2+deb9u1",
+    "gzip: arbitrary-file-write vulnerability"
+  ],
+  [
+    "libmount1",
+    "CVE-2016-2779",
+    "HIGH",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "libmount1",
+    "CVE-2021-37600",
+    "LOW",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "libncurses5",
+    "CVE-2022-29458",
+    "HIGH",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libncurses5",
+    "CVE-2018-19211",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: Null pointer dereference at function _nc_"
+  ],
+  [
+    "libncurses5",
+    "CVE-2019-17594",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libncurses5",
+    "CVE-2019-17595",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2022-29458",
+    "HIGH",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2018-19211",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: Null pointer dereference at function _nc_"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2019-17594",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libncursesw5",
+    "CVE-2019-17595",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libnettle6",
+    "CVE-2018-16869",
+    "MEDIUM",
+    "3.3-1+deb9u1",
+    "",
+    "nettle: Leaky data conversion exposing a manager o"
+  ],
+  [
+    "libpcre3",
+    "CVE-2020-14155",
+    "MEDIUM",
+    "2:8.39-3",
+    "",
+    "pcre: Integer overflow when parsing callout numeri"
+  ],
+  [
+    "libperl5.24",
+    "CVE-2020-16156",
+    "HIGH",
+    "5.24.1-3+deb9u7",
+    "",
+    "perl-CPAN: Bypass of verification of signatures in"
+  ],
+  [
+    "libsasl2-2",
+    "CVE-2022-24407",
+    "HIGH",
+    "2.1.27~101-g0780600+dfsg-3+deb9u1",
+    "2.1.27~101-g0780600+dfsg-3+deb9u2",
+    "cyrus-sasl: failure to properly escape SQL input a"
+  ],
+  [
+    "libsasl2-modules-db",
+    "CVE-2022-24407",
+    "HIGH",
+    "2.1.27~101-g0780600+dfsg-3+deb9u1",
+    "2.1.27~101-g0780600+dfsg-3+deb9u2",
+    "cyrus-sasl: failure to properly escape SQL input a"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36084",
+    "LOW",
+    "2.6-2",
+    "",
+    "libsepol: use-after-free in __cil_verify_classperm"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36085",
+    "LOW",
+    "2.6-2",
+    "",
+    "libsepol: use-after-free in __cil_verify_classperm"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36086",
+    "LOW",
+    "2.6-2",
+    "",
+    "libsepol: use-after-free in cil_reset_classpermiss"
+  ],
+  [
+    "libsepol1",
+    "CVE-2021-36087",
+    "LOW",
+    "2.6-2",
+    "",
+    "libsepol: heap-based buffer overflow in ebitmap_ma"
+  ],
+  [
+    "libsmartcols1",
+    "CVE-2016-2779",
+    "HIGH",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "libsmartcols1",
+    "CVE-2021-37600",
+    "LOW",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "libsqlite3-0",
+    "CVE-2019-8457",
+    "CRITICAL",
+    "3.16.2-5+deb9u3",
+    "",
+    "sqlite: heap out-of-bound read in function rtreeno"
+  ],
+  [
+    "libsqlite3-0",
+    "CVE-2019-19645",
+    "MEDIUM",
+    "3.16.2-5+deb9u3",
+    "",
+    "sqlite: infinite recursion via certain types of se"
+  ],
+  [
+    "libsqlite3-0",
+    "CVE-2020-13631",
+    "MEDIUM",
+    "3.16.2-5+deb9u3",
+    "",
+    "sqlite: Virtual table can be renamed into the name"
+  ],
+  [
+    "libss2",
+    "CVE-2022-1304",
+    "HIGH",
+    "1.43.4-2+deb9u2",
+    "",
+    "e2fsprogs: out-of-bounds read/write via crafted fi"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2022-0778",
+    "HIGH",
+    "1.1.0l-1~deb9u4",
+    "1.1.0l-1~deb9u5",
+    "openssl: Infinite loop in BN_mod_sqrt() reachable "
+  ],
+  [
+    "libssl1.1",
+    "CVE-2022-1292",
+    "HIGH",
+    "1.1.0l-1~deb9u4",
+    "1.1.0l-1~deb9u6",
+    "openssl: c_rehash script allows command injection"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2019-1551",
+    "MEDIUM",
+    "1.1.0l-1~deb9u4",
+    "1.1.0l-1~deb9u5",
+    "openssl: Integer overflow in RSAZ modular exponent"
+  ],
+  [
+    "libssl1.1",
+    "CVE-2021-4160",
+    "MEDIUM",
+    "1.1.0l-1~deb9u4",
+    "",
+    "openssl: Carry propagation bug in the MIPS32 and M"
+  ],
+  [
+    "libstdc++6",
+    "CVE-2018-12886",
+    "HIGH",
+    "6.3.0-18+deb9u1",
+    "",
+    "gcc: spilling of stack protection address in cfgex"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2019-3843",
+    "HIGH",
+    "232-25+deb9u13",
+    "",
+    "systemd: services with DynamicUser can create SUID"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2019-3844",
+    "HIGH",
+    "232-25+deb9u13",
+    "",
+    "systemd: services with DynamicUser can get new pri"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2020-1712",
+    "HIGH",
+    "232-25+deb9u13",
+    "232-25+deb9u14",
+    "systemd: use-after-free when asynchronous polkit q"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2021-3997",
+    "MEDIUM",
+    "232-25+deb9u13",
+    "",
+    "systemd: Uncontrolled recursion in systemd-tmpfile"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2018-16888",
+    "LOW",
+    "232-25+deb9u13",
+    "",
+    "systemd: kills privileged process if unprivileged "
+  ],
+  [
+    "libsystemd0",
+    "CVE-2018-6954",
+    "LOW",
+    "232-25+deb9u13",
+    "",
+    "systemd: Mishandled symlinks in systemd-tmpfiles a"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2022-29458",
+    "HIGH",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2018-19211",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: Null pointer dereference at function _nc_"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2019-17594",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "libtinfo5",
+    "CVE-2019-17595",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "libudev1",
+    "CVE-2019-3843",
+    "HIGH",
+    "232-25+deb9u13",
+    "",
+    "systemd: services with DynamicUser can create SUID"
+  ],
+  [
+    "libudev1",
+    "CVE-2019-3844",
+    "HIGH",
+    "232-25+deb9u13",
+    "",
+    "systemd: services with DynamicUser can get new pri"
+  ],
+  [
+    "libudev1",
+    "CVE-2020-1712",
+    "HIGH",
+    "232-25+deb9u13",
+    "232-25+deb9u14",
+    "systemd: use-after-free when asynchronous polkit q"
+  ],
+  [
+    "libudev1",
+    "CVE-2021-3997",
+    "MEDIUM",
+    "232-25+deb9u13",
+    "",
+    "systemd: Uncontrolled recursion in systemd-tmpfile"
+  ],
+  [
+    "libudev1",
+    "CVE-2018-16888",
+    "LOW",
+    "232-25+deb9u13",
+    "",
+    "systemd: kills privileged process if unprivileged "
+  ],
+  [
+    "libudev1",
+    "CVE-2018-6954",
+    "LOW",
+    "232-25+deb9u13",
+    "",
+    "systemd: Mishandled symlinks in systemd-tmpfiles a"
+  ],
+  [
+    "libuuid1",
+    "CVE-2016-2779",
+    "HIGH",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "libuuid1",
+    "CVE-2021-37600",
+    "LOW",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "libxml2",
+    "CVE-2017-16932",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u5",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "libxml2: Infinite recursion in parameter entities"
+  ],
+  [
+    "libxml2",
+    "CVE-2017-5130",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u5",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "chromium-browser: heap overflow in libxml2"
+  ],
+  [
+    "libxml2",
+    "CVE-2022-23308",
+    "HIGH",
+    "2.9.4+dfsg1-2.2+deb9u5",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "libxml2: Use-after-free of ID and IDREF attributes"
+  ],
+  [
+    "libxml2",
+    "CVE-2016-9318",
+    "MEDIUM",
+    "2.9.4+dfsg1-2.2+deb9u5",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "libxml2: XML External Entity vulnerability"
+  ],
+  [
+    "libxml2",
+    "CVE-2017-5969",
+    "MEDIUM",
+    "2.9.4+dfsg1-2.2+deb9u5",
+    "2.9.4+dfsg1-2.2+deb9u6",
+    "libxml2: Null pointer dereference in xmlSaveDoc im"
+  ],
+  [
+    "libxml2",
+    "CVE-2022-29824",
+    "MEDIUM",
+    "2.9.4+dfsg1-2.2+deb9u5",
+    "2.9.4+dfsg1-2.2+deb9u7",
+    "libxml2: integer overflows in xmlBuf and xmlBuffer"
+  ],
+  [
+    "login",
+    "CVE-2018-7169",
+    "LOW",
+    "1:4.4-4.1+deb9u1",
+    "",
+    "shadow-utils: newgidmap allows unprivileged user t"
+  ],
+  [
+    "mount",
+    "CVE-2016-2779",
+    "HIGH",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "mount",
+    "CVE-2021-37600",
+    "LOW",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2022-29458",
+    "HIGH",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2018-19211",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: Null pointer dereference at function _nc_"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2019-17594",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2019-17595",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2022-29458",
+    "HIGH",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: segfaulting OOB read"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2018-19211",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: Null pointer dereference at function _nc_"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2019-17594",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the _nc_fin"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2019-17595",
+    "LOW",
+    "6.0+20161126-1+deb9u2",
+    "",
+    "ncurses: heap-based buffer overflow in the fmt_ent"
+  ],
+  [
+    "openssl",
+    "CVE-2022-0778",
+    "HIGH",
+    "1.1.0l-1~deb9u4",
+    "1.1.0l-1~deb9u5",
+    "openssl: Infinite loop in BN_mod_sqrt() reachable "
+  ],
+  [
+    "openssl",
+    "CVE-2022-1292",
+    "HIGH",
+    "1.1.0l-1~deb9u4",
+    "1.1.0l-1~deb9u6",
+    "openssl: c_rehash script allows command injection"
+  ],
+  [
+    "openssl",
+    "CVE-2019-1551",
+    "MEDIUM",
+    "1.1.0l-1~deb9u4",
+    "1.1.0l-1~deb9u5",
+    "openssl: Integer overflow in RSAZ modular exponent"
+  ],
+  [
+    "openssl",
+    "CVE-2021-4160",
+    "MEDIUM",
+    "1.1.0l-1~deb9u4",
+    "",
+    "openssl: Carry propagation bug in the MIPS32 and M"
+  ],
+  [
+    "passwd",
+    "CVE-2018-7169",
+    "LOW",
+    "1:4.4-4.1+deb9u1",
+    "",
+    "shadow-utils: newgidmap allows unprivileged user t"
+  ],
+  [
+    "perl",
+    "CVE-2020-16156",
+    "HIGH",
+    "5.24.1-3+deb9u7",
+    "",
+    "perl-CPAN: Bypass of verification of signatures in"
+  ],
+  [
+    "perl-base",
+    "CVE-2020-16156",
+    "HIGH",
+    "5.24.1-3+deb9u7",
+    "",
+    "perl-CPAN: Bypass of verification of signatures in"
+  ],
+  [
+    "perl-modules-5.24",
+    "CVE-2020-16156",
+    "HIGH",
+    "5.24.1-3+deb9u7",
+    "",
+    "perl-CPAN: Bypass of verification of signatures in"
+  ],
+  [
+    "tzdata",
+    "DLA-2963-1",
+    "UNKNOWN",
+    "2021a-0+deb9u2",
+    "2021a-0+deb9u3",
+    "tzdata - new timezone database"
+  ],
+  [
+    "tzdata",
+    "DLA-3051-1",
+    "UNKNOWN",
+    "2021a-0+deb9u2",
+    "2021a-0+deb9u4",
+    "tzdata - new timezone database"
+  ],
+  [
+    "util-linux",
+    "CVE-2016-2779",
+    "HIGH",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: runuser tty hijack via TIOCSTI ioctl"
+  ],
+  [
+    "util-linux",
+    "CVE-2021-37600",
+    "LOW",
+    "2.29.2-1+deb9u1",
+    "",
+    "util-linux: integer overflow can lead to buffer ov"
+  ],
+  [
+    "xz-utils",
+    "CVE-2022-1271",
+    "HIGH",
+    "5.2.2-1.2+b1",
+    "5.2.2-1.2+deb9u1",
+    "gzip: arbitrary-file-write vulnerability"
+  ],
+  [
+    "zlib1g",
+    "CVE-2018-25032",
+    "HIGH",
+    "1:1.2.8.dfsg-5",
+    "1:1.2.8.dfsg-5+deb9u1",
+    "zlib: A flaw found in zlib when compressing (not d"
+  ],
+  [
+    "github.com/opencontainers/runc",
+    "CVE-2023-27561",
+    "HIGH",
+    "v1.0.1",
+    "1.1.5",
+    "runc: volume mount race condition (regression of C"
+  ],
+  [
+    "github.com/opencontainers/runc",
+    "CVE-2024-21626",
+    "HIGH",
+    "v1.0.1",
+    "1.1.12",
+    "runc: file descriptor leak"
+  ],
+  [
+    "github.com/opencontainers/runc",
+    "CVE-2025-31133",
+    "HIGH",
+    "v1.0.1",
+    "1.2.8, 1.3.3, 1.4.0-rc.3",
+    "runc: container escape via 'masked path' abuse due"
+  ],
+  [
+    "github.com/opencontainers/runc",
+    "CVE-2025-52565",
+    "HIGH",
+    "v1.0.1",
+    "1.2.8, 1.3.3, 1.4.0-rc.3",
+    "runc: container escape with malicious config due t"
+  ],
+  [
+    "github.com/opencontainers/runc",
+    "CVE-2025-52881",
+    "HIGH",
+    "v1.0.1",
+    "1.2.8, 1.3.3, 1.4.0-rc.3",
+    "runc: opencontainers/selinux: container escape and"
+  ],
+  [
+    "github.com/opencontainers/runc",
+    "CVE-2021-43784",
+    "MEDIUM",
+    "v1.0.1",
+    "1.0.3",
+    "runc: integer overflow in netlink bytemsg length f"
+  ],
+  [
+    "github.com/opencontainers/runc",
+    "CVE-2022-29162",
+    "MEDIUM",
+    "v1.0.1",
+    "1.1.2",
+    "runc: incorrect handling of inheritable capabiliti"
+  ],
+  [
+    "github.com/opencontainers/runc",
+    "CVE-2023-28642",
+    "MEDIUM",
+    "v1.0.1",
+    "1.1.5",
+    "runc: AppArmor can be bypassed when `/proc` inside"
+  ],
+  [
+    "github.com/opencontainers/runc",
+    "CVE-2024-45310",
+    "MEDIUM",
+    "v1.0.1",
+    "1.1.14, 1.2.0-rc.3",
+    "runc: runc can be tricked into creating empty file"
+  ],
+  [
+    "github.com/opencontainers/runc",
+    "CVE-2023-25809",
+    "LOW",
+    "v1.0.1",
+    "1.1.5",
+    "runc: Rootless runc makes `/sys/fs/cgroup` writabl"
+  ],
+  [
+    "golang.org/x/sys",
+    "CVE-2022-29526",
+    "MEDIUM",
+    "v0.0.0-20210817142637-7d9622a276b7",
+    "0.0.0-20220412211240-33da011f77ad",
+    "golang: syscall: faccessat checks wrong group"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-23806",
+    "CRITICAL",
+    "v1.16.7",
+    "1.16.14, 1.17.7",
+    "golang: crypto/elliptic: IsOnCurve returns true fo"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24538",
+    "CRITICAL",
+    "v1.16.7",
+    "1.19.8, 1.20.3",
+    "golang: html/template: backticks not treated as st"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24540",
+    "CRITICAL",
+    "v1.16.7",
+    "1.19.9, 1.20.4",
+    "golang: html/template: improper handling of JavaSc"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24790",
+    "CRITICAL",
+    "v1.16.7",
+    "1.21.11, 1.22.4",
+    "golang: net/netip: Unexpected behavior from Is met"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-39293",
+    "HIGH",
+    "v1.16.7",
+    "1.16.8, 1.17.1",
+    "golang: archive/zip: malformed archive may cause p"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-41771",
+    "HIGH",
+    "v1.16.7",
+    "1.16.10, 1.17.3",
+    "golang: debug/macho: invalid dynamic symbol table "
+  ],
+  [
+    "stdlib",
+    "CVE-2021-41772",
+    "HIGH",
+    "v1.16.7",
+    "1.16.10, 1.17.3",
+    "golang: archive/zip: Reader.Open panics on empty s"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-44716",
+    "HIGH",
+    "v1.16.7",
+    "1.16.12, 1.17.5",
+    "golang: net/http: limit growth of header canonical"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-23772",
+    "HIGH",
+    "v1.16.7",
+    "1.16.14, 1.17.7",
+    "golang: math/big: uncontrolled memory consumption "
+  ],
+  [
+    "stdlib",
+    "CVE-2022-24675",
+    "HIGH",
+    "v1.16.7",
+    "1.17.9, 1.18.1",
+    "golang: encoding/pem: fix stack overflow in Decode"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-24921",
+    "HIGH",
+    "v1.16.7",
+    "1.16.15, 1.17.8",
+    "golang: regexp: stack exhaustion via a deeply nest"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-27664",
+    "HIGH",
+    "v1.16.7",
+    "1.18.6, 1.19.1",
+    "golang: net/http: handle server errors after sendi"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-28131",
+    "HIGH",
+    "v1.16.7",
+    "1.17.12, 1.18.4",
+    "golang: encoding/xml: stack exhaustion in Decoder."
+  ],
+  [
+    "stdlib",
+    "CVE-2022-28327",
+    "HIGH",
+    "v1.16.7",
+    "1.17.9, 1.18.1",
+    "golang: crypto/elliptic: panic caused by oversized"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-2879",
+    "HIGH",
+    "v1.16.7",
+    "1.18.7, 1.19.2",
+    "golang: archive/tar: github.com/vbatts/tar-split: "
+  ],
+  [
+    "stdlib",
+    "CVE-2022-2880",
+    "HIGH",
+    "v1.16.7",
+    "1.18.7, 1.19.2",
+    "golang: net/http/httputil: ReverseProxy should not"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-29804",
+    "HIGH",
+    "v1.16.7",
+    "1.17.11, 1.18.3",
+    "ELSA-2022-17957: ol8addon security update (IMPORTA"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30580",
+    "HIGH",
+    "v1.16.7",
+    "1.17.11, 1.18.3",
+    "golang: os/exec: Code injection in Cmd.Start"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30630",
+    "HIGH",
+    "v1.16.7",
+    "1.17.12, 1.18.4",
+    "golang: io/fs: stack exhaustion in Glob"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30631",
+    "HIGH",
+    "v1.16.7",
+    "1.17.12, 1.18.4",
+    "golang: compress/gzip: stack exhaustion in Reader."
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30632",
+    "HIGH",
+    "v1.16.7",
+    "1.17.12, 1.18.4",
+    "golang: path/filepath: stack exhaustion in Glob"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30633",
+    "HIGH",
+    "v1.16.7",
+    "1.17.12, 1.18.4",
+    "golang: encoding/xml: stack exhaustion in Unmarsha"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30634",
+    "HIGH",
+    "v1.16.7",
+    "1.17.11, 1.18.3",
+    "ELSA-2022-17957: ol8addon security update (IMPORTA"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30635",
+    "HIGH",
+    "v1.16.7",
+    "1.17.12, 1.18.4",
+    "golang: encoding/gob: stack exhaustion in Decoder."
+  ],
+  [
+    "stdlib",
+    "CVE-2022-32189",
+    "HIGH",
+    "v1.16.7",
+    "1.17.13, 1.18.5",
+    "golang: math/big: decoding big.Float and big.Rat t"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41715",
+    "HIGH",
+    "v1.16.7",
+    "1.18.7, 1.19.2",
+    "golang: regexp/syntax: limit memory used by parsin"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41716",
+    "HIGH",
+    "v1.16.7",
+    "1.18.8, 1.19.3",
+    "Due to unsanitized NUL values, attackers may be ab"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41720",
+    "HIGH",
+    "v1.16.7",
+    "1.18.9, 1.19.4",
+    "golang: os, net/http: avoid escapes from os.DirFS "
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41722",
+    "HIGH",
+    "v1.16.7",
+    "1.19.6, 1.20.1",
+    "golang: path/filepath: path-filepath filepath.Clea"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41723",
+    "HIGH",
+    "v1.16.7",
+    "1.19.6, 1.20.1",
+    "golang.org/x/net/http2: avoid quadratic complexity"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41724",
+    "HIGH",
+    "v1.16.7",
+    "1.19.6, 1.20.1",
+    "golang: crypto/tls: large handshake records may ca"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41725",
+    "HIGH",
+    "v1.16.7",
+    "1.19.6, 1.20.1",
+    "golang: net/http, mime/multipart: denial of servic"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24534",
+    "HIGH",
+    "v1.16.7",
+    "1.19.8, 1.20.3",
+    "golang: net/http, net/textproto: denial of service"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24536",
+    "HIGH",
+    "v1.16.7",
+    "1.19.8, 1.20.3",
+    "golang: net/http, net/textproto, mime/multipart: d"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24537",
+    "HIGH",
+    "v1.16.7",
+    "1.19.8, 1.20.3",
+    "golang: go/parser: Infinite loop in parsing"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24539",
+    "HIGH",
+    "v1.16.7",
+    "1.19.9, 1.20.4",
+    "golang: html/template: improper sanitization of CS"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-29400",
+    "HIGH",
+    "v1.16.7",
+    "1.19.9, 1.20.4",
+    "golang: html/template: improper handling of empty "
+  ],
+  [
+    "stdlib",
+    "CVE-2023-29403",
+    "HIGH",
+    "v1.16.7",
+    "1.19.10, 1.20.5",
+    "golang: runtime: unexpected behavior of setuid/set"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-39325",
+    "HIGH",
+    "v1.16.7",
+    "1.20.10, 1.21.3",
+    "golang: net/http, x/net/http2: rapid stream resets"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45283",
+    "HIGH",
+    "v1.16.7",
+    "1.20.11, 1.21.4, 1.20.12, 1.21.5",
+    "The filepath package does not recognize paths with"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45287",
+    "HIGH",
+    "v1.16.7",
+    "1.20.0",
+    "golang: crypto/tls: Timing Side Channel attack in "
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45288",
+    "HIGH",
+    "v1.16.7",
+    "1.21.9, 1.22.2",
+    "golang: net/http, x/net/http2: unlimited number of"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-34156",
+    "HIGH",
+    "v1.16.7",
+    "1.22.7, 1.23.1",
+    "encoding/gob: golang: Calling Decoder.Decode on a "
+  ],
+  [
+    "stdlib",
+    "CVE-2025-47907",
+    "HIGH",
+    "v1.16.7",
+    "1.23.12, 1.24.6",
+    "database/sql: Postgres Scan Race Condition"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58183",
+    "HIGH",
+    "v1.16.7",
+    "1.24.8, 1.25.2",
+    "golang: archive/tar: Unbounded allocation when par"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58186",
+    "HIGH",
+    "v1.16.7",
+    "1.24.8, 1.25.2",
+    "Despite HTTP headers having a default limit of 1MB"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58187",
+    "HIGH",
+    "v1.16.7",
+    "1.24.9, 1.25.3",
+    "Due to the design of the name constraint checking "
+  ],
+  [
+    "stdlib",
+    "CVE-2025-61729",
+    "HIGH",
+    "v1.16.7",
+    "1.24.11, 1.25.5",
+    "crypto/x509: Excessive resource consumption when p"
+  ],
+  [
+    "stdlib",
+    "CVE-2021-44717",
+    "MEDIUM",
+    "v1.16.7",
+    "1.16.12, 1.17.5",
+    "golang: syscall: don't close fd 0 on ForkExec erro"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-1705",
+    "MEDIUM",
+    "v1.16.7",
+    "1.17.12, 1.18.4",
+    "golang: net/http: improper sanitization of Transfe"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-1962",
+    "MEDIUM",
+    "v1.16.7",
+    "1.17.12, 1.18.4",
+    "golang: go/parser: stack exhaustion in all Parse* "
+  ],
+  [
+    "stdlib",
+    "CVE-2022-29526",
+    "MEDIUM",
+    "v1.16.7",
+    "1.17.10, 1.18.2",
+    "golang: syscall: faccessat checks wrong group"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-32148",
+    "MEDIUM",
+    "v1.16.7",
+    "1.17.12, 1.18.4",
+    "golang: net/http/httputil: NewSingleHostReversePro"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41717",
+    "MEDIUM",
+    "v1.16.7",
+    "1.18.9, 1.19.4",
+    "golang: net/http: excessive memory growth in a Go "
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24532",
+    "MEDIUM",
+    "v1.16.7",
+    "1.19.7, 1.20.2",
+    "golang: crypto/internal/nistec: specific unreduced"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-29406",
+    "MEDIUM",
+    "v1.16.7",
+    "1.19.11, 1.20.6",
+    "golang: net/http: insufficient sanitization of Hos"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-29409",
+    "MEDIUM",
+    "v1.16.7",
+    "1.19.12, 1.20.7, 1.21.0-rc.4",
+    "golang: crypto/tls: slow verification of certifica"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-39318",
+    "MEDIUM",
+    "v1.16.7",
+    "1.20.8, 1.21.1",
+    "golang: html/template: improper handling of HTML-l"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-39319",
+    "MEDIUM",
+    "v1.16.7",
+    "1.20.8, 1.21.1",
+    "golang: html/template: improper handling of specia"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-39326",
+    "MEDIUM",
+    "v1.16.7",
+    "1.20.12, 1.21.5",
+    "golang: net/http/internal: Denial of Service (DoS)"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45284",
+    "MEDIUM",
+    "v1.16.7",
+    "1.20.11, 1.21.4",
+    "On Windows, The IsLocal function does not correctl"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45289",
+    "MEDIUM",
+    "v1.16.7",
+    "1.21.8, 1.22.1",
+    "golang: net/http/cookiejar: incorrect forwarding o"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45290",
+    "MEDIUM",
+    "v1.16.7",
+    "1.21.8, 1.22.1",
+    "golang: net/http: golang: mime/multipart: golang: "
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24783",
+    "MEDIUM",
+    "v1.16.7",
+    "1.21.8, 1.22.1",
+    "golang: crypto/x509: Verify panics on certificates"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24784",
+    "MEDIUM",
+    "v1.16.7",
+    "1.21.8, 1.22.1",
+    "golang: net/mail: comments in display names are in"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24785",
+    "MEDIUM",
+    "v1.16.7",
+    "1.21.8, 1.22.1",
+    "golang: html/template: errors returned from Marsha"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24789",
+    "MEDIUM",
+    "v1.16.7",
+    "1.21.11, 1.22.4",
+    "golang: archive/zip: Incorrect handling of certain"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24791",
+    "MEDIUM",
+    "v1.16.7",
+    "1.21.12, 1.22.5",
+    "net/http: Denial of service due to improper 100-co"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-34155",
+    "MEDIUM",
+    "v1.16.7",
+    "1.22.7, 1.23.1",
+    "go/parser: golang: Calling any of the Parse functi"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-34158",
+    "MEDIUM",
+    "v1.16.7",
+    "1.22.7, 1.23.1",
+    "go/build/constraint: golang: Calling Parse on a \"/"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-45336",
+    "MEDIUM",
+    "v1.16.7",
+    "1.22.11, 1.23.5, 1.24.0-rc.2",
+    "golang: net/http: net/http: sensitive headers inco"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-45341",
+    "MEDIUM",
+    "v1.16.7",
+    "1.22.11, 1.23.5, 1.24.0-rc.2",
+    "golang: crypto/x509: crypto/x509: usage of IPv6 zo"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-0913",
+    "MEDIUM",
+    "v1.16.7",
+    "1.23.10, 1.24.4",
+    "Inconsistent handling of O_CREATE|O_EXCL on Unix a"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-22866",
+    "MEDIUM",
+    "v1.16.7",
+    "1.22.12, 1.23.6, 1.24.0-rc.3",
+    "crypto/internal/nistec: golang: Timing sidechannel"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-22871",
+    "MEDIUM",
+    "v1.16.7",
+    "1.23.8, 1.24.2",
+    "net/http: Request smuggling due to acceptance of i"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-4673",
+    "MEDIUM",
+    "v1.16.7",
+    "1.23.10, 1.24.4",
+    "net/http: Sensitive headers not cleared on cross-o"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-47906",
+    "MEDIUM",
+    "v1.16.7",
+    "1.23.12, 1.24.6",
+    "os/exec: Unexpected paths returned from LookPath i"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-47912",
+    "MEDIUM",
+    "v1.16.7",
+    "1.24.8, 1.25.2",
+    "net/url: Insufficient validation of bracketed IPv6"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58185",
+    "MEDIUM",
+    "v1.16.7",
+    "1.24.8, 1.25.2",
+    "encoding/asn1: Parsing DER payload can cause memor"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58188",
+    "MEDIUM",
+    "v1.16.7",
+    "1.24.8, 1.25.2",
+    "crypto/x509: golang: Panic when validating certifi"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58189",
+    "MEDIUM",
+    "v1.16.7",
+    "1.24.8, 1.25.2",
+    "crypto/tls: go crypto/tls ALPN negotiation error c"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-61723",
+    "MEDIUM",
+    "v1.16.7",
+    "1.24.8, 1.25.2",
+    "encoding/pem: Quadratic complexity when parsing so"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-61724",
+    "MEDIUM",
+    "v1.16.7",
+    "1.24.8, 1.25.2",
+    "net/textproto: Excessive CPU consumption in Reader"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-61725",
+    "MEDIUM",
+    "v1.16.7",
+    "1.24.8, 1.25.2",
+    "net/mail: Excessive CPU consumption in ParseAddres"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-61727",
+    "MEDIUM",
+    "v1.16.7",
+    "1.24.11, 1.25.5",
+    "An excluded subdomain constraint in a certificate "
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30629",
+    "LOW",
+    "v1.16.7",
+    "1.17.11, 1.18.3",
+    "golang: crypto/tls: session tickets lack random ti"
+  ]
+]

@@ -1,0 +1,1282 @@
+[
+  [
+    "apt",
+    "CVE-2011-3374",
+    "LOW",
+    "2.6.1",
+    "",
+    "It was found that apt-key in apt, all versions, do"
+  ],
+  [
+    "bash",
+    "TEMP-0841856-B18BAF",
+    "LOW",
+    "5.2.15-2+b9",
+    "",
+    "[Privilege escalation possible to other user than "
+  ],
+  [
+    "bsdutils",
+    "CVE-2025-14104",
+    "MEDIUM",
+    "1:2.38.1-5+deb12u3",
+    "",
+    "util-linux: util-linux: Heap buffer overread in se"
+  ],
+  [
+    "bsdutils",
+    "CVE-2022-0563",
+    "LOW",
+    "1:2.38.1-5+deb12u3",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "coreutils",
+    "CVE-2016-2781",
+    "LOW",
+    "9.1-1",
+    "",
+    "coreutils: Non-privileged session can escape to th"
+  ],
+  [
+    "coreutils",
+    "CVE-2017-18018",
+    "LOW",
+    "9.1-1",
+    "",
+    "coreutils: race condition vulnerability in chown a"
+  ],
+  [
+    "coreutils",
+    "CVE-2025-5278",
+    "LOW",
+    "9.1-1",
+    "",
+    "coreutils: Heap Buffer Under-Read in GNU Coreutils"
+  ],
+  [
+    "dpkg",
+    "CVE-2025-6297",
+    "LOW",
+    "1.21.22",
+    "",
+    "It was discovered that dpkg-deb does not properly "
+  ],
+  [
+    "gcc-12-base",
+    "CVE-2022-27943",
+    "LOW",
+    "12.2.0-14+deb12u1",
+    "",
+    "binutils: libiberty/rust-demangle.c in GNU GCC 11."
+  ],
+  [
+    "gpgv",
+    "CVE-2025-30258",
+    "MEDIUM",
+    "2.2.40-1.1+deb12u1",
+    "",
+    "gnupg: verification DoS due to a malicious subkey "
+  ],
+  [
+    "gpgv",
+    "CVE-2022-3219",
+    "LOW",
+    "2.2.40-1.1+deb12u1",
+    "",
+    "gnupg: denial of service issue (resource consumpti"
+  ],
+  [
+    "libapt-pkg6.0",
+    "CVE-2011-3374",
+    "LOW",
+    "2.6.1",
+    "",
+    "It was found that apt-key in apt, all versions, do"
+  ],
+  [
+    "libblkid1",
+    "CVE-2025-14104",
+    "MEDIUM",
+    "2.38.1-5+deb12u3",
+    "",
+    "util-linux: util-linux: Heap buffer overread in se"
+  ],
+  [
+    "libblkid1",
+    "CVE-2022-0563",
+    "LOW",
+    "2.38.1-5+deb12u3",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "libc-bin",
+    "CVE-2010-4756",
+    "LOW",
+    "2.36-9+deb12u13",
+    "",
+    "glibc: glob implementation can cause excessive CPU"
+  ],
+  [
+    "libc-bin",
+    "CVE-2018-20796",
+    "LOW",
+    "2.36-9+deb12u13",
+    "",
+    "glibc: uncontrolled recursion in function check_ds"
+  ],
+  [
+    "libc-bin",
+    "CVE-2019-1010022",
+    "LOW",
+    "2.36-9+deb12u13",
+    "",
+    "glibc: stack guard protection bypass"
+  ],
+  [
+    "libc-bin",
+    "CVE-2019-1010023",
+    "LOW",
+    "2.36-9+deb12u13",
+    "",
+    "glibc: running ldd on malicious ELF leads to code "
+  ],
+  [
+    "libc-bin",
+    "CVE-2019-1010024",
+    "LOW",
+    "2.36-9+deb12u13",
+    "",
+    "glibc: ASLR bypass using cache of thread stack and"
+  ],
+  [
+    "libc-bin",
+    "CVE-2019-1010025",
+    "LOW",
+    "2.36-9+deb12u13",
+    "",
+    "glibc: information disclosure of heap addresses of"
+  ],
+  [
+    "libc-bin",
+    "CVE-2019-9192",
+    "LOW",
+    "2.36-9+deb12u13",
+    "",
+    "glibc: uncontrolled recursion in function check_ds"
+  ],
+  [
+    "libc6",
+    "CVE-2010-4756",
+    "LOW",
+    "2.36-9+deb12u13",
+    "",
+    "glibc: glob implementation can cause excessive CPU"
+  ],
+  [
+    "libc6",
+    "CVE-2018-20796",
+    "LOW",
+    "2.36-9+deb12u13",
+    "",
+    "glibc: uncontrolled recursion in function check_ds"
+  ],
+  [
+    "libc6",
+    "CVE-2019-1010022",
+    "LOW",
+    "2.36-9+deb12u13",
+    "",
+    "glibc: stack guard protection bypass"
+  ],
+  [
+    "libc6",
+    "CVE-2019-1010023",
+    "LOW",
+    "2.36-9+deb12u13",
+    "",
+    "glibc: running ldd on malicious ELF leads to code "
+  ],
+  [
+    "libc6",
+    "CVE-2019-1010024",
+    "LOW",
+    "2.36-9+deb12u13",
+    "",
+    "glibc: ASLR bypass using cache of thread stack and"
+  ],
+  [
+    "libc6",
+    "CVE-2019-1010025",
+    "LOW",
+    "2.36-9+deb12u13",
+    "",
+    "glibc: information disclosure of heap addresses of"
+  ],
+  [
+    "libc6",
+    "CVE-2019-9192",
+    "LOW",
+    "2.36-9+deb12u13",
+    "",
+    "glibc: uncontrolled recursion in function check_ds"
+  ],
+  [
+    "libgcc-s1",
+    "CVE-2022-27943",
+    "LOW",
+    "12.2.0-14+deb12u1",
+    "",
+    "binutils: libiberty/rust-demangle.c in GNU GCC 11."
+  ],
+  [
+    "libgcrypt20",
+    "CVE-2018-6829",
+    "LOW",
+    "1.10.1-3",
+    "",
+    "libgcrypt: ElGamal implementation doesn't have sem"
+  ],
+  [
+    "libgcrypt20",
+    "CVE-2024-2236",
+    "LOW",
+    "1.10.1-3",
+    "",
+    "libgcrypt: vulnerable to Marvin Attack"
+  ],
+  [
+    "libgnutls30",
+    "CVE-2011-3389",
+    "LOW",
+    "3.7.9-2+deb12u5",
+    "",
+    "HTTPS: block-wise chosen-plaintext attack against "
+  ],
+  [
+    "libgnutls30",
+    "CVE-2025-9820",
+    "UNKNOWN",
+    "3.7.9-2+deb12u5",
+    "",
+    "[GNUTLS-SA-2025-11-18]"
+  ],
+  [
+    "libmount1",
+    "CVE-2025-14104",
+    "MEDIUM",
+    "2.38.1-5+deb12u3",
+    "",
+    "util-linux: util-linux: Heap buffer overread in se"
+  ],
+  [
+    "libmount1",
+    "CVE-2022-0563",
+    "LOW",
+    "2.38.1-5+deb12u3",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "libpam-modules",
+    "CVE-2025-6020",
+    "HIGH",
+    "1.5.2-6+deb12u1",
+    "",
+    "linux-pam: Linux-pam directory Traversal"
+  ],
+  [
+    "libpam-modules",
+    "CVE-2024-10041",
+    "MEDIUM",
+    "1.5.2-6+deb12u1",
+    "",
+    "pam: libpam: Libpam vulnerable to read hashed pass"
+  ],
+  [
+    "libpam-modules",
+    "CVE-2024-22365",
+    "MEDIUM",
+    "1.5.2-6+deb12u1",
+    "",
+    "pam: allowing unprivileged user to block another u"
+  ],
+  [
+    "libpam-modules-bin",
+    "CVE-2025-6020",
+    "HIGH",
+    "1.5.2-6+deb12u1",
+    "",
+    "linux-pam: Linux-pam directory Traversal"
+  ],
+  [
+    "libpam-modules-bin",
+    "CVE-2024-10041",
+    "MEDIUM",
+    "1.5.2-6+deb12u1",
+    "",
+    "pam: libpam: Libpam vulnerable to read hashed pass"
+  ],
+  [
+    "libpam-modules-bin",
+    "CVE-2024-22365",
+    "MEDIUM",
+    "1.5.2-6+deb12u1",
+    "",
+    "pam: allowing unprivileged user to block another u"
+  ],
+  [
+    "libpam-runtime",
+    "CVE-2025-6020",
+    "HIGH",
+    "1.5.2-6+deb12u1",
+    "",
+    "linux-pam: Linux-pam directory Traversal"
+  ],
+  [
+    "libpam-runtime",
+    "CVE-2024-10041",
+    "MEDIUM",
+    "1.5.2-6+deb12u1",
+    "",
+    "pam: libpam: Libpam vulnerable to read hashed pass"
+  ],
+  [
+    "libpam-runtime",
+    "CVE-2024-22365",
+    "MEDIUM",
+    "1.5.2-6+deb12u1",
+    "",
+    "pam: allowing unprivileged user to block another u"
+  ],
+  [
+    "libpam0g",
+    "CVE-2025-6020",
+    "HIGH",
+    "1.5.2-6+deb12u1",
+    "",
+    "linux-pam: Linux-pam directory Traversal"
+  ],
+  [
+    "libpam0g",
+    "CVE-2024-10041",
+    "MEDIUM",
+    "1.5.2-6+deb12u1",
+    "",
+    "pam: libpam: Libpam vulnerable to read hashed pass"
+  ],
+  [
+    "libpam0g",
+    "CVE-2024-22365",
+    "MEDIUM",
+    "1.5.2-6+deb12u1",
+    "",
+    "pam: allowing unprivileged user to block another u"
+  ],
+  [
+    "libsmartcols1",
+    "CVE-2025-14104",
+    "MEDIUM",
+    "2.38.1-5+deb12u3",
+    "",
+    "util-linux: util-linux: Heap buffer overread in se"
+  ],
+  [
+    "libsmartcols1",
+    "CVE-2022-0563",
+    "LOW",
+    "2.38.1-5+deb12u3",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "libssl3",
+    "CVE-2025-27587",
+    "LOW",
+    "3.0.17-1~deb12u3",
+    "",
+    "OpenSSL 3.0.0 through 3.3.2 on the PowerPC archite"
+  ],
+  [
+    "libstdc++6",
+    "CVE-2022-27943",
+    "LOW",
+    "12.2.0-14+deb12u1",
+    "",
+    "binutils: libiberty/rust-demangle.c in GNU GCC 11."
+  ],
+  [
+    "libsystemd0",
+    "CVE-2013-4392",
+    "LOW",
+    "252.39-1~deb12u1",
+    "",
+    "systemd: TOCTOU race condition when updating file "
+  ],
+  [
+    "libsystemd0",
+    "CVE-2023-31437",
+    "LOW",
+    "252.39-1~deb12u1",
+    "",
+    "An issue was discovered in systemd 253. An attacke"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2023-31438",
+    "LOW",
+    "252.39-1~deb12u1",
+    "",
+    "An issue was discovered in systemd 253. An attacke"
+  ],
+  [
+    "libsystemd0",
+    "CVE-2023-31439",
+    "LOW",
+    "252.39-1~deb12u1",
+    "",
+    "An issue was discovered in systemd 253. An attacke"
+  ],
+  [
+    "libtinfo6",
+    "CVE-2023-50495",
+    "MEDIUM",
+    "6.4-4",
+    "",
+    "ncurses: segmentation fault via _nc_wrap_entry()"
+  ],
+  [
+    "libtinfo6",
+    "CVE-2025-6141",
+    "LOW",
+    "6.4-4",
+    "",
+    "gnu-ncurses: ncurses Stack Buffer Overflow"
+  ],
+  [
+    "libudev1",
+    "CVE-2013-4392",
+    "LOW",
+    "252.39-1~deb12u1",
+    "",
+    "systemd: TOCTOU race condition when updating file "
+  ],
+  [
+    "libudev1",
+    "CVE-2023-31437",
+    "LOW",
+    "252.39-1~deb12u1",
+    "",
+    "An issue was discovered in systemd 253. An attacke"
+  ],
+  [
+    "libudev1",
+    "CVE-2023-31438",
+    "LOW",
+    "252.39-1~deb12u1",
+    "",
+    "An issue was discovered in systemd 253. An attacke"
+  ],
+  [
+    "libudev1",
+    "CVE-2023-31439",
+    "LOW",
+    "252.39-1~deb12u1",
+    "",
+    "An issue was discovered in systemd 253. An attacke"
+  ],
+  [
+    "libuuid1",
+    "CVE-2025-14104",
+    "MEDIUM",
+    "2.38.1-5+deb12u3",
+    "",
+    "util-linux: util-linux: Heap buffer overread in se"
+  ],
+  [
+    "libuuid1",
+    "CVE-2022-0563",
+    "LOW",
+    "2.38.1-5+deb12u3",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "login",
+    "CVE-2007-5686",
+    "LOW",
+    "1:4.13+dfsg1-1+deb12u1",
+    "",
+    "initscripts in rPath Linux 1 sets insecure permiss"
+  ],
+  [
+    "login",
+    "CVE-2024-56433",
+    "LOW",
+    "1:4.13+dfsg1-1+deb12u1",
+    "",
+    "shadow-utils: Default subordinate ID configuration"
+  ],
+  [
+    "login",
+    "TEMP-0628843-DBAD28",
+    "LOW",
+    "1:4.13+dfsg1-1+deb12u1",
+    "",
+    "[more related to CVE-2005-4890]"
+  ],
+  [
+    "mount",
+    "CVE-2025-14104",
+    "MEDIUM",
+    "2.38.1-5+deb12u3",
+    "",
+    "util-linux: util-linux: Heap buffer overread in se"
+  ],
+  [
+    "mount",
+    "CVE-2022-0563",
+    "LOW",
+    "2.38.1-5+deb12u3",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "ncurses-base",
+    "CVE-2023-50495",
+    "MEDIUM",
+    "6.4-4",
+    "",
+    "ncurses: segmentation fault via _nc_wrap_entry()"
+  ],
+  [
+    "ncurses-base",
+    "CVE-2025-6141",
+    "LOW",
+    "6.4-4",
+    "",
+    "gnu-ncurses: ncurses Stack Buffer Overflow"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2023-50495",
+    "MEDIUM",
+    "6.4-4",
+    "",
+    "ncurses: segmentation fault via _nc_wrap_entry()"
+  ],
+  [
+    "ncurses-bin",
+    "CVE-2025-6141",
+    "LOW",
+    "6.4-4",
+    "",
+    "gnu-ncurses: ncurses Stack Buffer Overflow"
+  ],
+  [
+    "passwd",
+    "CVE-2007-5686",
+    "LOW",
+    "1:4.13+dfsg1-1+deb12u1",
+    "",
+    "initscripts in rPath Linux 1 sets insecure permiss"
+  ],
+  [
+    "passwd",
+    "CVE-2024-56433",
+    "LOW",
+    "1:4.13+dfsg1-1+deb12u1",
+    "",
+    "shadow-utils: Default subordinate ID configuration"
+  ],
+  [
+    "passwd",
+    "TEMP-0628843-DBAD28",
+    "LOW",
+    "1:4.13+dfsg1-1+deb12u1",
+    "",
+    "[more related to CVE-2005-4890]"
+  ],
+  [
+    "perl-base",
+    "CVE-2011-4116",
+    "LOW",
+    "5.36.0-7+deb12u3",
+    "",
+    "perl: File:: Temp insecure temporary file handling"
+  ],
+  [
+    "perl-base",
+    "CVE-2023-31486",
+    "LOW",
+    "5.36.0-7+deb12u3",
+    "",
+    "http-tiny: insecure TLS cert default"
+  ],
+  [
+    "sysvinit-utils",
+    "TEMP-0517018-A83CE6",
+    "LOW",
+    "3.06-4",
+    "",
+    "[sysvinit: no-root option in expert installer expo"
+  ],
+  [
+    "tar",
+    "CVE-2005-2541",
+    "LOW",
+    "1.34+dfsg-1.2+deb12u1",
+    "",
+    "tar: does not properly warn the user when extracti"
+  ],
+  [
+    "tar",
+    "TEMP-0290435-0B57B5",
+    "LOW",
+    "1.34+dfsg-1.2+deb12u1",
+    "",
+    "[tar's rmt command may have undesired side effects"
+  ],
+  [
+    "util-linux",
+    "CVE-2025-14104",
+    "MEDIUM",
+    "2.38.1-5+deb12u3",
+    "",
+    "util-linux: util-linux: Heap buffer overread in se"
+  ],
+  [
+    "util-linux",
+    "CVE-2022-0563",
+    "LOW",
+    "2.38.1-5+deb12u3",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "util-linux-extra",
+    "CVE-2025-14104",
+    "MEDIUM",
+    "2.38.1-5+deb12u3",
+    "",
+    "util-linux: util-linux: Heap buffer overread in se"
+  ],
+  [
+    "util-linux-extra",
+    "CVE-2022-0563",
+    "LOW",
+    "2.38.1-5+deb12u3",
+    "",
+    "util-linux: partial disclosure of arbitrary files "
+  ],
+  [
+    "zlib1g",
+    "CVE-2023-45853",
+    "CRITICAL",
+    "1:1.2.13.dfsg-1",
+    "",
+    "zlib: integer overflow and resultant heap-based bu"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24538",
+    "CRITICAL",
+    "v1.18.2",
+    "1.19.8, 1.20.3",
+    "golang: html/template: backticks not treated as st"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24540",
+    "CRITICAL",
+    "v1.18.2",
+    "1.19.9, 1.20.4",
+    "golang: html/template: improper handling of JavaSc"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24790",
+    "CRITICAL",
+    "v1.18.2",
+    "1.21.11, 1.22.4",
+    "golang: net/netip: Unexpected behavior from Is met"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-27664",
+    "HIGH",
+    "v1.18.2",
+    "1.18.6, 1.19.1",
+    "golang: net/http: handle server errors after sendi"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-28131",
+    "HIGH",
+    "v1.18.2",
+    "1.17.12, 1.18.4",
+    "golang: encoding/xml: stack exhaustion in Decoder."
+  ],
+  [
+    "stdlib",
+    "CVE-2022-2879",
+    "HIGH",
+    "v1.18.2",
+    "1.18.7, 1.19.2",
+    "golang: archive/tar: github.com/vbatts/tar-split: "
+  ],
+  [
+    "stdlib",
+    "CVE-2022-2880",
+    "HIGH",
+    "v1.18.2",
+    "1.18.7, 1.19.2",
+    "golang: net/http/httputil: ReverseProxy should not"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-29804",
+    "HIGH",
+    "v1.18.2",
+    "1.17.11, 1.18.3",
+    "ELSA-2022-17957: ol8addon security update (IMPORTA"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30580",
+    "HIGH",
+    "v1.18.2",
+    "1.17.11, 1.18.3",
+    "golang: os/exec: Code injection in Cmd.Start"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30630",
+    "HIGH",
+    "v1.18.2",
+    "1.17.12, 1.18.4",
+    "golang: io/fs: stack exhaustion in Glob"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30631",
+    "HIGH",
+    "v1.18.2",
+    "1.17.12, 1.18.4",
+    "golang: compress/gzip: stack exhaustion in Reader."
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30632",
+    "HIGH",
+    "v1.18.2",
+    "1.17.12, 1.18.4",
+    "golang: path/filepath: stack exhaustion in Glob"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30633",
+    "HIGH",
+    "v1.18.2",
+    "1.17.12, 1.18.4",
+    "golang: encoding/xml: stack exhaustion in Unmarsha"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30634",
+    "HIGH",
+    "v1.18.2",
+    "1.17.11, 1.18.3",
+    "ELSA-2022-17957: ol8addon security update (IMPORTA"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30635",
+    "HIGH",
+    "v1.18.2",
+    "1.17.12, 1.18.4",
+    "golang: encoding/gob: stack exhaustion in Decoder."
+  ],
+  [
+    "stdlib",
+    "CVE-2022-32189",
+    "HIGH",
+    "v1.18.2",
+    "1.17.13, 1.18.5",
+    "golang: math/big: decoding big.Float and big.Rat t"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41715",
+    "HIGH",
+    "v1.18.2",
+    "1.18.7, 1.19.2",
+    "golang: regexp/syntax: limit memory used by parsin"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41716",
+    "HIGH",
+    "v1.18.2",
+    "1.18.8, 1.19.3",
+    "Due to unsanitized NUL values, attackers may be ab"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41720",
+    "HIGH",
+    "v1.18.2",
+    "1.18.9, 1.19.4",
+    "golang: os, net/http: avoid escapes from os.DirFS "
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41722",
+    "HIGH",
+    "v1.18.2",
+    "1.19.6, 1.20.1",
+    "golang: path/filepath: path-filepath filepath.Clea"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41723",
+    "HIGH",
+    "v1.18.2",
+    "1.19.6, 1.20.1",
+    "golang.org/x/net/http2: avoid quadratic complexity"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41724",
+    "HIGH",
+    "v1.18.2",
+    "1.19.6, 1.20.1",
+    "golang: crypto/tls: large handshake records may ca"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41725",
+    "HIGH",
+    "v1.18.2",
+    "1.19.6, 1.20.1",
+    "golang: net/http, mime/multipart: denial of servic"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24534",
+    "HIGH",
+    "v1.18.2",
+    "1.19.8, 1.20.3",
+    "golang: net/http, net/textproto: denial of service"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24536",
+    "HIGH",
+    "v1.18.2",
+    "1.19.8, 1.20.3",
+    "golang: net/http, net/textproto, mime/multipart: d"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24537",
+    "HIGH",
+    "v1.18.2",
+    "1.19.8, 1.20.3",
+    "golang: go/parser: Infinite loop in parsing"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24539",
+    "HIGH",
+    "v1.18.2",
+    "1.19.9, 1.20.4",
+    "golang: html/template: improper sanitization of CS"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-29400",
+    "HIGH",
+    "v1.18.2",
+    "1.19.9, 1.20.4",
+    "golang: html/template: improper handling of empty "
+  ],
+  [
+    "stdlib",
+    "CVE-2023-29403",
+    "HIGH",
+    "v1.18.2",
+    "1.19.10, 1.20.5",
+    "golang: runtime: unexpected behavior of setuid/set"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-39325",
+    "HIGH",
+    "v1.18.2",
+    "1.20.10, 1.21.3",
+    "golang: net/http, x/net/http2: rapid stream resets"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45283",
+    "HIGH",
+    "v1.18.2",
+    "1.20.11, 1.21.4, 1.20.12, 1.21.5",
+    "The filepath package does not recognize paths with"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45287",
+    "HIGH",
+    "v1.18.2",
+    "1.20.0",
+    "golang: crypto/tls: Timing Side Channel attack in "
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45288",
+    "HIGH",
+    "v1.18.2",
+    "1.21.9, 1.22.2",
+    "golang: net/http, x/net/http2: unlimited number of"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-34156",
+    "HIGH",
+    "v1.18.2",
+    "1.22.7, 1.23.1",
+    "encoding/gob: golang: Calling Decoder.Decode on a "
+  ],
+  [
+    "stdlib",
+    "CVE-2025-47907",
+    "HIGH",
+    "v1.18.2",
+    "1.23.12, 1.24.6",
+    "database/sql: Postgres Scan Race Condition"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58183",
+    "HIGH",
+    "v1.18.2",
+    "1.24.8, 1.25.2",
+    "golang: archive/tar: Unbounded allocation when par"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58186",
+    "HIGH",
+    "v1.18.2",
+    "1.24.8, 1.25.2",
+    "Despite HTTP headers having a default limit of 1MB"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58187",
+    "HIGH",
+    "v1.18.2",
+    "1.24.9, 1.25.3",
+    "Due to the design of the name constraint checking "
+  ],
+  [
+    "stdlib",
+    "CVE-2025-61729",
+    "HIGH",
+    "v1.18.2",
+    "1.24.11, 1.25.5",
+    "crypto/x509: Excessive resource consumption when p"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-1705",
+    "MEDIUM",
+    "v1.18.2",
+    "1.17.12, 1.18.4",
+    "golang: net/http: improper sanitization of Transfe"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-1962",
+    "MEDIUM",
+    "v1.18.2",
+    "1.17.12, 1.18.4",
+    "golang: go/parser: stack exhaustion in all Parse* "
+  ],
+  [
+    "stdlib",
+    "CVE-2022-32148",
+    "MEDIUM",
+    "v1.18.2",
+    "1.17.12, 1.18.4",
+    "golang: net/http/httputil: NewSingleHostReversePro"
+  ],
+  [
+    "stdlib",
+    "CVE-2022-41717",
+    "MEDIUM",
+    "v1.18.2",
+    "1.18.9, 1.19.4",
+    "golang: net/http: excessive memory growth in a Go "
+  ],
+  [
+    "stdlib",
+    "CVE-2023-24532",
+    "MEDIUM",
+    "v1.18.2",
+    "1.19.7, 1.20.2",
+    "golang: crypto/internal/nistec: specific unreduced"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-29406",
+    "MEDIUM",
+    "v1.18.2",
+    "1.19.11, 1.20.6",
+    "golang: net/http: insufficient sanitization of Hos"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-29409",
+    "MEDIUM",
+    "v1.18.2",
+    "1.19.12, 1.20.7, 1.21.0-rc.4",
+    "golang: crypto/tls: slow verification of certifica"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-39318",
+    "MEDIUM",
+    "v1.18.2",
+    "1.20.8, 1.21.1",
+    "golang: html/template: improper handling of HTML-l"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-39319",
+    "MEDIUM",
+    "v1.18.2",
+    "1.20.8, 1.21.1",
+    "golang: html/template: improper handling of specia"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-39326",
+    "MEDIUM",
+    "v1.18.2",
+    "1.20.12, 1.21.5",
+    "golang: net/http/internal: Denial of Service (DoS)"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45284",
+    "MEDIUM",
+    "v1.18.2",
+    "1.20.11, 1.21.4",
+    "On Windows, The IsLocal function does not correctl"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45289",
+    "MEDIUM",
+    "v1.18.2",
+    "1.21.8, 1.22.1",
+    "golang: net/http/cookiejar: incorrect forwarding o"
+  ],
+  [
+    "stdlib",
+    "CVE-2023-45290",
+    "MEDIUM",
+    "v1.18.2",
+    "1.21.8, 1.22.1",
+    "golang: net/http: golang: mime/multipart: golang: "
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24783",
+    "MEDIUM",
+    "v1.18.2",
+    "1.21.8, 1.22.1",
+    "golang: crypto/x509: Verify panics on certificates"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24784",
+    "MEDIUM",
+    "v1.18.2",
+    "1.21.8, 1.22.1",
+    "golang: net/mail: comments in display names are in"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24785",
+    "MEDIUM",
+    "v1.18.2",
+    "1.21.8, 1.22.1",
+    "golang: html/template: errors returned from Marsha"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24789",
+    "MEDIUM",
+    "v1.18.2",
+    "1.21.11, 1.22.4",
+    "golang: archive/zip: Incorrect handling of certain"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-24791",
+    "MEDIUM",
+    "v1.18.2",
+    "1.21.12, 1.22.5",
+    "net/http: Denial of service due to improper 100-co"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-34155",
+    "MEDIUM",
+    "v1.18.2",
+    "1.22.7, 1.23.1",
+    "go/parser: golang: Calling any of the Parse functi"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-34158",
+    "MEDIUM",
+    "v1.18.2",
+    "1.22.7, 1.23.1",
+    "go/build/constraint: golang: Calling Parse on a \"/"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-45336",
+    "MEDIUM",
+    "v1.18.2",
+    "1.22.11, 1.23.5, 1.24.0-rc.2",
+    "golang: net/http: net/http: sensitive headers inco"
+  ],
+  [
+    "stdlib",
+    "CVE-2024-45341",
+    "MEDIUM",
+    "v1.18.2",
+    "1.22.11, 1.23.5, 1.24.0-rc.2",
+    "golang: crypto/x509: crypto/x509: usage of IPv6 zo"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-0913",
+    "MEDIUM",
+    "v1.18.2",
+    "1.23.10, 1.24.4",
+    "Inconsistent handling of O_CREATE|O_EXCL on Unix a"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-22866",
+    "MEDIUM",
+    "v1.18.2",
+    "1.22.12, 1.23.6, 1.24.0-rc.3",
+    "crypto/internal/nistec: golang: Timing sidechannel"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-22871",
+    "MEDIUM",
+    "v1.18.2",
+    "1.23.8, 1.24.2",
+    "net/http: Request smuggling due to acceptance of i"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-4673",
+    "MEDIUM",
+    "v1.18.2",
+    "1.23.10, 1.24.4",
+    "net/http: Sensitive headers not cleared on cross-o"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-47906",
+    "MEDIUM",
+    "v1.18.2",
+    "1.23.12, 1.24.6",
+    "os/exec: Unexpected paths returned from LookPath i"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-47912",
+    "MEDIUM",
+    "v1.18.2",
+    "1.24.8, 1.25.2",
+    "net/url: Insufficient validation of bracketed IPv6"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58185",
+    "MEDIUM",
+    "v1.18.2",
+    "1.24.8, 1.25.2",
+    "encoding/asn1: Parsing DER payload can cause memor"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58188",
+    "MEDIUM",
+    "v1.18.2",
+    "1.24.8, 1.25.2",
+    "crypto/x509: golang: Panic when validating certifi"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-58189",
+    "MEDIUM",
+    "v1.18.2",
+    "1.24.8, 1.25.2",
+    "crypto/tls: go crypto/tls ALPN negotiation error c"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-61723",
+    "MEDIUM",
+    "v1.18.2",
+    "1.24.8, 1.25.2",
+    "encoding/pem: Quadratic complexity when parsing so"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-61724",
+    "MEDIUM",
+    "v1.18.2",
+    "1.24.8, 1.25.2",
+    "net/textproto: Excessive CPU consumption in Reader"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-61725",
+    "MEDIUM",
+    "v1.18.2",
+    "1.24.8, 1.25.2",
+    "net/mail: Excessive CPU consumption in ParseAddres"
+  ],
+  [
+    "stdlib",
+    "CVE-2025-61727",
+    "MEDIUM",
+    "v1.18.2",
+    "1.24.11, 1.25.5",
+    "An excluded subdomain constraint in a certificate "
+  ],
+  [
+    "stdlib",
+    "CVE-2022-30629",
+    "LOW",
+    "v1.18.2",
+    "1.17.11, 1.18.3",
+    "golang: crypto/tls: session tickets lack random ti"
+  ]
+]

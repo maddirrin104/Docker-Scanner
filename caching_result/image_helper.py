@@ -2,6 +2,7 @@ import subprocess
 import json
 import os
 import hashlib
+from functools import lru_cache
 
 TRIVY_DB_PATH = r"C:\Users\hieu\AppData\Local\trivy\db\metadata.json"
 
@@ -50,6 +51,7 @@ def get_image_digest(image_name):
         return None
 
 
+@lru_cache(maxsize=128)
 def get_cache_key(image_name):
     """
     Generate cache key based on image digest + Trivy DB timestamp.

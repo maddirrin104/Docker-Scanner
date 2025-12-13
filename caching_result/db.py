@@ -30,6 +30,19 @@ def init_db():
         cache_expire_hours INTEGER DEFAULT 24
     )
     """)
+    
+    # Add indexes for faster queries (ignore if already exists)
+    indexes = [
+        "CREATE INDEX IF NOT EXISTS idx_image_name ON scan_cache(image_name)",
+        "CREATE INDEX IF NOT EXISTS idx_trivy_output_hash ON scan_cache(trivy_output_hash)",
+        "CREATE INDEX IF NOT EXISTS idx_severity_filter ON scan_cache(severity_filter)",
+        "CREATE INDEX IF NOT EXISTS idx_fail_threshold ON scan_cache(fail_threshold)",
+        "CREATE INDEX IF NOT EXISTS idx_fail_severity ON scan_cache(fail_severity)",
+        "CREATE INDEX IF NOT EXISTS idx_scan_time ON scan_cache(scan_time)"
+    ]
+    for idx in indexes:
+        c.execute(idx)
+    
     conn.commit()
     conn.close()
 
